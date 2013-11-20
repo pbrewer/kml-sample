@@ -47,7 +47,7 @@
       </coordinates>
      </Point> 
     </Placemark>
-<Placemark><name>Map CE</name><description>Map CE - Description here</description><styleUrl>#routeLink</styleUrl><LineString><coordinates>-2.04695288598449,52.3199895646342
+<Placemark><name>Map CE</name><description>Map CE - Description here</description><styleUrl>#routeLink</styleUrl><LineString><altitudeMode>relative</altitudeMode><coordinates>-2.04695288598449,52.3199895646342
 52.3586451076832-1.9926572118682</coordinates></LineString></Placemark>
 <Placemark><name>Map CE</name><description>Map CE - Description here</description><styleUrl>#routeLink</styleUrl><LineString><coordinates>-2.04695288598449,52.3199895646342
 51.8939477964377-2.09882854165799</coordinates></LineString></Placemark>
