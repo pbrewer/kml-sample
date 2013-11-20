@@ -35,7 +35,7 @@
      <styleUrl>#Example_Style</styleUrl> 
      <Point>
       <coordinates>
-       51.5958, -0.11862, 0.
+       -0.11862, 51.5958
       </coordinates>
      </Point> 
     </Placemark>
@@ -45,7 +45,7 @@
      <styleUrl>#Example_Style</styleUrl> 
      <Point>
       <coordinates>
-       51.89648, -0.20493, 0.
+       51.89648, -0.20493
       </coordinates>
      </Point> 
     </Placemark>
@@ -57,8 +57,8 @@
       <LineString>
         <altitudeMode>relative</altitudeMode>
         <coordinates>
-51.5958, -0.11862, 0
-51.89648, -0.20493, 0  
+51.5958, -0.11862
+51.89648, -0.20493
         </coordinates>
       </LineString>
     </Placemark>
