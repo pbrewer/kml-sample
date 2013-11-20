@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Routeing Guide Map CE</name>
+    <description>Routeing Guide MAp Publication</description>
+    
+    <Style id="Example_Style">
+
+    <IconStyle> 
+      <Icon> 
+        <href>ball.png</href> 
+      </Icon>
+     </IconStyle>
+
+     <BalloonStyle>
+      <bgColor>00664422</bgColor>
+      <textColor>fffffff</textColor>
+      <text><![CDATA[ $[name] <HR> $[description] <BR>  
+       <A HREF="http://www-step.kugi.kyoto-u.ac.jp/">SPEL Home page</A>
+      ]]> </text>
+     </BalloonStyle>
+    </Style>
+    
+    <Style id="routeLink">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <Placemark>
+     <name>ALEXANDRA PALACE</name> 
+     <description>ALEXANDRA PALACE - Routeing Point AAP</description>
+     <styleUrl>#Example_Style</styleUrl> 
+     <Point>
+      <coordinates>
+       51.5958, -0.11862, 0.
+      </coordinates>
+     </Point> 
+    </Placemark>
+    <Placemark>
+     <name>STEVENAGE</name> 
+     <description>STEVENAGE - Routeing Point SVG</description>
+     <styleUrl>#Example_Style</styleUrl> 
+     <Point>
+      <coordinates>
+       51.89648, -0.20493, 0.
+      </coordinates>
+     </Point> 
+    </Placemark>
+    
+    <Placemark>
+      <name>Map CE</name>
+      <description>Map CE - Description here</description>
+      <styleUrl>#routeLink</styleUrl>
+      <LineString>
+        <altitudeMode>relative</altitudeMode>
+        <coordinates>
+51.5958, -0.11862, 0
+51.89648, -0.20493, 0  
+        </coordinates>
+      </LineString>
+    </Placemark>
+    
+  </Document>
+</kml>
