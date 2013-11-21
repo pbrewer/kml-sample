@@ -6,7 +6,7 @@
       <Style id="locationStyle">
          <IconStyle>
             <Icon>
-               <href>ball.png</href>
+               <href>interchange.gif</href>
             </Icon>
          </IconStyle>
          <BalloonStyle>
