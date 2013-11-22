@@ -45,15 +45,7 @@
             <width>4</width>
          </LineStyle>
       </Style>
-  
-      <Placemark>
-         <name>LONDON GROUP</name>
-         <description>LONDON GROUP - ROUTEING_GROUP</description>
-         <styleUrl>#routingGroupLocationStyle</styleUrl>
-         <Point>
-            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
-         </Point>
-      </Placemark>
+ 
       <Placemark>
          <name>DONCASTER - NEWARK GROUP</name>
          <description>DONCASTER - NEWARK GROUP</description>
@@ -63,14 +55,6 @@
 -0.798130010834015,53.0796689798256</coordinates>
          </LineString>
       </Placemark>
-      <Placemark>
-         <name>NEWARK GROUP - GRANTHAM</name>
-         <description>NEWARK GROUP - GRANTHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.798130010834015,53.0796689798256
--0.64092361498438,52.9036052752164</coordinates>
-         </LineString>
-      </Placemark>
+
    </Document>
 </kml>
