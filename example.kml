@@ -3,18 +3,6 @@
    <Document>
       <name>Map_code</name>
       <description>Routeing Guide Map Publication</description>
-      <Style id="interchangeLocationStyle">
-         <IconStyle>
-            <Icon>
-               <href>interchange.gif</href>
-            </Icon>
-         </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
-      </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
             <Icon>
