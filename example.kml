@@ -41,7 +41,7 @@
       </Style>
       <Style id="linkStyle">
          <LineStyle>
-            <color>#DCBF03</color>
+            <color>7f00ffff</color>
             <width>4</width>
          </LineStyle>
       </Style>
