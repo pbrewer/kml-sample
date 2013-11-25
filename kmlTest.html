@@ -1,11 +1,11 @@
 <html>
-  <head>
-    <!-- May need jquery to ease development - e.g. loading json doc -->
-    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
- 	
- 	
-    <script>
+<head>
+<!-- May need jquery to ease development - e.g. loading json doc -->
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.min.js"></script>
+
+<script>
       var map;
       var pathUrl = 'https://raw.github.com/pbrewer/kml-sample/master/';
       
@@ -27,9 +27,9 @@
         ctaLayer.setMap(map);
 
         $("#mapCodes").change(function(){
-            ctaLayer.setMap(null);
+            /* ctaLayer.setMap(null); */
             ctaLayer.setUrl(pathUrl + $("#mapCodes option:selected").val());
-            ctaLayer.setMap(map); 		
+            /* ctaLayer.setMap(map); */ 		
         });
         
         google.maps.event.addDomListener(document.getElementById('mapCodes'), 'change', loapMap);
@@ -46,23 +46,64 @@
      $(document).ready(function() {
         $.getJSON( "ajax/map_meta_data.json", function(data) {
             $.each(data.maps, function(key, value) {
-            	$("#mapCodes").append('<option value="' + value.kmlUrl + '">' + value.mapName + ', ' + value.mapCode + '</option>');
+            	$("#mapCodes").append('<option value="' + value.kmlUrl + '">' + value.mapCode + ', ' + value.mapName + '</option>');
             });
-    	});
-
-      
-
-    });
+    	});   
+    }); 
     </script>
 
-  </head>
+<!--  	<script type="text/javascript">
+ 	
+  	$.ajaxSetup({
+    	contentType : 'application/json',
+    	processData : false
+  	});
+  	$.ajaxPrefilter( function( options, originalOptions, jqXHR ) {
+    	if (options.data && options.type != 'GET'){
+      		options.data=JSON.stringify(options.data);
+    	}
+  	});
+	</script>
 
-  <body>
-  
-    <!-- TODO populate select with options loaded from json -->
-    <select id="mapCodes">
-    </select>
-    <div style="width: 1500px; height: 800px; margin-top: 20px;" id="map-canvas" />
-    
-  </body>
+	<script type="text/javascript">
+	var url = "https://raw.github.com/pbrewer/kml-sample/master/ajax/map_meta_data.json" ;
+	var result = {success: false} ;
+	var request = {
+    	type: "GET",
+    	async: false,
+    	contentType: "application/json",
+    	dataType: "json",
+    	url: url,
+    	success: function(data, textStatus, jqXHR) {
+      	result.success = true ;
+      	result.message = textStatus ;
+      	result.data = data ;
+      	result.jqXHR = jqXHR ;
+    },
+    error: function(jqXHR, textStatus, errorThrown) {
+      	result.success = true ;
+      	result.message = errorThrown ;
+      	result.jqXHR = jqXHR ;
+      	result.data = data || {} ;
+    }
+	};
+	$.ajax(request);
+	if (result.success) {
+  		alert("Data loaded. TODO: populate a combo based on result.data");
+  		console.log(result.data) ;
+	}
+</script>  -->
+
+
+</head>
+
+<body>
+
+	<!-- TODO populate select with options loaded from json -->
+	<select id="mapCodes">
+	</select>
+	<div style="width: 1500px; height: 800px; margin-top: 20px;"
+		id="map-canvas" />
+
+</body>
 </html>
