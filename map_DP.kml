@@ -46,7 +46,7 @@
          </LineStyle>
          <BalloonStyle>
             <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
+            <textColor>ffe11901</textColor>
             <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
