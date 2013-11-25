@@ -358,15 +358,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LEEDS GROUP - HELLIFIELD GROUP</name>
-         <description>LEEDS GROUP - HELLIFIELD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.54758683544322,53.7922040754631
--2.22585165157831,54.0085463384902</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>LEEDS GROUP - BRADFORD GROUP</name>
          <description>LEEDS GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -454,15 +445,6 @@
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
 -1.30184277248278,53.6885648869916</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HELLIFIELD GROUP - LEEDS GROUP</name>
-         <description>HELLIFIELD GROUP - LEEDS GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.22585165157831,54.0085463384902
--1.54758683544322,53.7922040754631</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

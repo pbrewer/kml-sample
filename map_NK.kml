@@ -555,15 +555,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NUNHEAD - DENMARK HILL</name>
-         <description>NUNHEAD - DENMARK HILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0520373598903545,51.4643809758347
--0.0879714524318652,51.4658714779636</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PECKHAM RYE - DENMARK HILL</name>
          <description>PECKHAM RYE - DENMARK HILL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -588,15 +579,6 @@
          <LineString>
             <coordinates>0.219169461743888,51.4451774699764
 0.191312481797045,51.464578656539</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DENMARK HILL - NUNHEAD</name>
-         <description>DENMARK HILL - NUNHEAD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0879714524318652,51.4658714779636
--0.0520373598903545,51.4643809758347</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

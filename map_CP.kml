@@ -222,15 +222,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LIVERPOOL GROUP - EARLESTOWN GROUP</name>
-         <description>LIVERPOOL GROUP - EARLESTOWN GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.63398486263039,53.448949903018</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>HUNTS CROSS GROUP - AIGBURTH</name>
          <description>HUNTS CROSS GROUP - AIGBURTH</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -330,15 +321,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CHESTER - LIVERPOOL GROUP</name>
-         <description>CHESTER - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.87871506267186,53.1939431401654
--2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>RUNCORN - HUNTS CROSS GROUP</name>
          <description>RUNCORN - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -390,15 +372,6 @@
          <LineString>
             <coordinates>-3.03630325182179,53.2106526120998
 -2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LIVERPOOL GROUP - PRESTON LANCS</name>
-         <description>LIVERPOOL GROUP - PRESTON LANCS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.7067978635424,53.7523272523068</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -465,15 +438,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>PRESTON LANCS - LIVERPOOL GROUP</name>
-         <description>PRESTON LANCS - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.7067978635424,53.7523272523068
--2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>EARLESTOWN GROUP - WIGAN GROUP</name>
          <description>EARLESTOWN GROUP - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -507,15 +471,6 @@
          <LineString>
             <coordinates>-3.80754581249448,53.2805500537438
 -3.03630325182179,53.2106526120998</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>EARLESTOWN GROUP - LIVERPOOL GROUP</name>
-         <description>EARLESTOWN GROUP - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.63398486263039,53.448949903018
--2.97631716943623,53.4043995068628</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -561,15 +516,6 @@
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
 -2.42437676789755,53.571211139824</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LIVERPOOL GROUP - CHESTER</name>
-         <description>LIVERPOOL GROUP - CHESTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.87871506267186,53.1939431401654</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

@@ -438,15 +438,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WOKINGHAM - GUILDFORD</name>
-         <description>WOKINGHAM - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.84100195902129,51.409222906424
--0.578935314413253,51.2346642743648</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GOMSHALL - GUILDFORD</name>
          <description>GOMSHALL - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -516,24 +507,6 @@
          <LineString>
             <coordinates>-1.58069581862525,52.2842031249513
 -1.71470851176188,52.1911321349146</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TYSELEY - LEAMINGTON SPA</name>
-         <description>TYSELEY - LEAMINGTON SPA</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.83812052729701,52.4511062722417
--1.53526711169815,52.2822355714122</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>GUILDFORD - WOKINGHAM</name>
-         <description>GUILDFORD - WOKINGHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.84100195902129,51.409222906424</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -681,15 +654,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LEWES - HASTINGS GROUP</name>
-         <description>LEWES - HASTINGS GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.0139708740923098,50.8682100046315
-0.577630945295527,50.8562183508005</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PRINCES RISBORO - BANBURY GROUP</name>
          <description>PRINCES RISBORO - BANBURY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -714,15 +678,6 @@
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
 -0.15952165755819,51.1542142067235</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LEAMINGTON SPA - TYSELEY</name>
-         <description>LEAMINGTON SPA - TYSELEY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.53526711169815,52.2822355714122
--1.83812052729701,52.4511062722417</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -776,15 +731,6 @@
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.139734374960716,50.827616842405
-0.0139708740923098,50.8682100046315</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HASTINGS GROUP - LEWES</name>
-         <description>HASTINGS GROUP - LEWES</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.577630945295527,50.8562183508005
 0.0139708740923098,50.8682100046315</coordinates>
          </LineString>
       </Placemark>

@@ -272,15 +272,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HAVANT - SOUTHAMPTON GROUP</name>
-         <description>HAVANT - SOUTHAMPTON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.981310197425111,50.8523808477861
--1.41255771562521,50.9056791131306</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GATWICK AIRPORT - REDHILL GROUP</name>
          <description>GATWICK AIRPORT - REDHILL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -323,15 +314,6 @@
          <LineString>
             <coordinates>-0.317257080155847,51.0640099999086
 -0.159664743659514,51.1146668456172</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SOUTHAMPTON GROUP - HAVANT</name>
-         <description>SOUTHAMPTON GROUP - HAVANT</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.41255771562521,50.9056791131306
--0.981310197425111,50.8523808477861</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

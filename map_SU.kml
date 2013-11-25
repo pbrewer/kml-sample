@@ -251,15 +251,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NEW MALDEN - WIMBLEDON</name>
-         <description>NEW MALDEN - WIMBLEDON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.25459071852964,51.4010569843257
--0.204994402252205,51.4191836093249</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>STREATHAM GROUP - TULSE HILL</name>
          <description>STREATHAM GROUP - TULSE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -293,24 +284,6 @@
          <LineString>
             <coordinates>-0.237657435454024,51.3927138624681
 -0.228481680875033,51.4069571028245</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WOKING - SURBITON</name>
-         <description>WOKING - SURBITON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.556326011480579,51.316179942942
--0.302445681710373,51.3900751055431</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SURBITON - WOKING</name>
-         <description>SURBITON - WOKING</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.302445681710373,51.3900751055431
--0.556326011480579,51.316179942942</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -482,15 +455,6 @@
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
 -0.168769712349235,51.4617683410367</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WIMBLEDON - NEW MALDEN</name>
-         <description>WIMBLEDON - NEW MALDEN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.204994402252205,51.4191836093249
--0.25459071852964,51.4010569843257</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

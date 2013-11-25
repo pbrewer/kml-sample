@@ -313,15 +313,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>FAVERSHAM - DOVER PRIORY</name>
-         <description>FAVERSHAM - DOVER PRIORY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.892844957991794,51.3091138912366
-1.30580430019011,51.1237524751162</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>KEARSNEY (KENT) - SELLING</name>
          <description>KEARSNEY (KENT) - SELLING</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -346,15 +337,6 @@
          <LineString>
             <coordinates>6.09091577011303E-4,51.450011083454
 -0.0131893738009627,51.4637289621017</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NUNHEAD - DENMARK HILL</name>
-         <description>NUNHEAD - DENMARK HILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0520373598903545,51.4643809758347
--0.0879714524318652,51.4658714779636</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -430,15 +412,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DENMARK HILL - NUNHEAD</name>
-         <description>DENMARK HILL - NUNHEAD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0879714524318652,51.4658714779636
--0.0520373598903545,51.4643809758347</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CHATHAM GROUP - GRAVESEND</name>
          <description>CHATHAM GROUP - GRAVESEND</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -481,15 +454,6 @@
          <LineString>
             <coordinates>0.368522021932612,51.4386582154852
 0.522093821820727,51.3788192504241</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DOVER PRIORY - FAVERSHAM</name>
-         <description>DOVER PRIORY - FAVERSHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>1.30580430019011,51.1237524751162
-0.892844957991794,51.3091138912366</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

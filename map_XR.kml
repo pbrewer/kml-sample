@@ -149,15 +149,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WOKINGHAM - GUILDFORD</name>
-         <description>WOKINGHAM - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.84100195902129,51.409222906424
--0.578935314413253,51.2346642743648</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PORTSMOUTH GROUP - EASTLEIGH</name>
          <description>PORTSMOUTH GROUP - EASTLEIGH</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -281,15 +272,6 @@
          <LineString>
             <coordinates>-1.34912462799446,50.9664588482129
 -1.08897246877542,50.7957491893797</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>GUILDFORD - WOKINGHAM</name>
-         <description>GUILDFORD - WOKINGHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.84100195902129,51.409222906424</coordinates>
          </LineString>
       </Placemark>
    </Document>

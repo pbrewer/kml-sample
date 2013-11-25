@@ -270,15 +270,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>RICHMOND LONDON - STAINES</name>
-         <description>RICHMOND LONDON - STAINES</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.299846694619959,51.4601472544842
--0.500930451797934,51.4305333094029</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WILLESDEN JN - KEW GARDENS</name>
          <description>WILLESDEN JN - KEW GARDENS</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -294,15 +285,6 @@
          <LineString>
             <coordinates>-0.0242384227113074,51.5412191304147
 -0.00273806485052959,51.5381583521958</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>STAINES - RICHMOND LONDON</name>
-         <description>STAINES - RICHMOND LONDON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.500930451797934,51.4305333094029
--0.299846694619959,51.4601472544842</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -351,15 +333,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CLAPHAM JUNCTION - WILLESDEN JN</name>
-         <description>CLAPHAM JUNCTION - WILLESDEN JN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.168769712349235,51.4617683410367
--0.242510759036517,51.5285132205761</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GOSPEL OAK - CAMDEN ROAD</name>
          <description>GOSPEL OAK - CAMDEN ROAD</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -384,15 +357,6 @@
          <LineString>
             <coordinates>0.0266028349371884,51.5493405403606
 0.0823256310492868,51.5375778573699</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WILLESDEN JN - CLAPHAM JUNCTION</name>
-         <description>WILLESDEN JN - CLAPHAM JUNCTION</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.242510759036517,51.5285132205761
--0.168769712349235,51.4617683410367</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

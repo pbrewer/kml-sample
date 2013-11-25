@@ -299,15 +299,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NEW MALDEN - WIMBLEDON</name>
-         <description>NEW MALDEN - WIMBLEDON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.25459071852964,51.4010569843257
--0.204994402252205,51.4191836093249</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>STREATHAM GROUP - TULSE HILL</name>
          <description>STREATHAM GROUP - TULSE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -323,15 +314,6 @@
          <LineString>
             <coordinates>-0.0662739503044305,51.4682121762183
 -0.103552472423464,51.4373608568023</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>GUILDFORD - SURBITON</name>
-         <description>GUILDFORD - SURBITON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.302445681710373,51.3900751055431</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -362,30 +344,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WOKING - SURBITON</name>
-         <description>WOKING - SURBITON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.556326011480579,51.316179942942
--0.302445681710373,51.3900751055431</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WEYBRIDGE GROUP - VIRGINIA WATER</name>
          <description>WEYBRIDGE GROUP - VIRGINIA WATER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
 -0.56091066988956,51.3989276264035</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SURBITON - WOKING</name>
-         <description>SURBITON - WOKING</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.302445681710373,51.3900751055431
--0.556326011480579,51.316179942942</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -632,30 +596,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WIMBLEDON - NEW MALDEN</name>
-         <description>WIMBLEDON - NEW MALDEN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.204994402252205,51.4191836093249
--0.25459071852964,51.4010569843257</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PORTSMOUTH GROUP - HAVANT</name>
          <description>PORTSMOUTH GROUP - HAVANT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08897246877542,50.7957491893797
 -0.981310197425111,50.8523808477861</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SURBITON - GUILDFORD</name>
-         <description>SURBITON - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.302445681710373,51.3900751055431
--0.578935314413253,51.2346642743648</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

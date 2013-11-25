@@ -132,15 +132,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DONCASTER - NEWARK GROUP</name>
-         <description>DONCASTER - NEWARK GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--0.798130010834015,53.0796689798256</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NEWARK GROUP - GRANTHAM</name>
          <description>NEWARK GROUP - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -264,15 +255,6 @@
          <LineString>
             <coordinates>-0.34565994560554,53.740296854028
 -0.871383236956765,53.7014608402164</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NEWARK GROUP - DONCASTER</name>
-         <description>NEWARK GROUP - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.798130010834015,53.0796689798256
--1.13871721870229,53.5185314624258</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

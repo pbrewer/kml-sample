@@ -291,15 +291,6 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>DONCASTER - NEWARK GROUP</name>
-         <description>DONCASTER - NEWARK GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--0.798130010834015,53.0796689798256</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NEWARK GROUP - GRANTHAM</name>
          <description>NEWARK GROUP - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -369,15 +360,6 @@
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
 -0.539408227391042,53.2241839046206</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HACKNEY DOWNS - TOTTENHAM HALE</name>
-         <description>HACKNEY DOWNS - TOTTENHAM HALE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0586375574298068,51.546287887249
--0.0583956949249829,51.5858343313731</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -612,15 +594,6 @@
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
 -1.09164414482499,53.9549944344078</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TOTTENHAM HALE - HACKNEY DOWNS</name>
-         <description>TOTTENHAM HALE - HACKNEY DOWNS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0583956949249829,51.5858343313731
--0.0586375574298068,51.546287887249</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1044,15 +1017,6 @@
          <LineString>
             <coordinates>0.30340061061354,51.8876210475587
 -0.0216581211012142,51.7002772853904</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NEWARK GROUP - DONCASTER</name>
-         <description>NEWARK GROUP - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.798130010834015,53.0796689798256
--1.13871721870229,53.5185314624258</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

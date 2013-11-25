@@ -391,15 +391,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>REDHILL GROUP - TONBRIDGE</name>
-         <description>REDHILL GROUP - TONBRIDGE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.163348351898478,51.2378679252594
-0.271241048728237,51.1888888580524</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SEVENOAKS - SWANLEY</name>
          <description>SEVENOAKS - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -523,15 +514,6 @@
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
 -0.0879714524318652,51.4658714779636</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>PECKHAM RYE - BROMLEY SOUTH GROUP</name>
-         <description>PECKHAM RYE - BROMLEY SOUTH GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0662739503044305,51.4682121762183
-0.0198851972353429,51.3975453727848</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -661,15 +643,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>GROVE PARK - LEWISHAM</name>
-         <description>GROVE PARK - LEWISHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.0241072147460091,51.4280344664602
--0.0131893738009627,51.4637289621017</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>EDENBRIDGE - REDHILL GROUP</name>
          <description>EDENBRIDGE - REDHILL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -769,15 +742,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LEWISHAM - GROVE PARK</name>
-         <description>LEWISHAM - GROVE PARK</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0131893738009627,51.4637289621017
-0.0241072147460091,51.4280344664602</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CLAPHAM JUNCTION - STREATHAM GROUP</name>
          <description>CLAPHAM JUNCTION - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -859,15 +823,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NUNHEAD - DENMARK HILL</name>
-         <description>NUNHEAD - DENMARK HILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0520373598903545,51.4643809758347
--0.0879714524318652,51.4658714779636</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PECKHAM RYE - DENMARK HILL</name>
          <description>PECKHAM RYE - DENMARK HILL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -922,39 +877,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>TONBRIDGE - REDHILL GROUP</name>
-         <description>TONBRIDGE - REDHILL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.271241048728237,51.1888888580524
--0.163348351898478,51.2378679252594</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>EDENBRIDGE - TONBRIDGE</name>
          <description>EDENBRIDGE - TONBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0616163164544236,51.2062550712968
 0.271241048728237,51.1888888580524</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DENMARK HILL - NUNHEAD</name>
-         <description>DENMARK HILL - NUNHEAD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0879714524318652,51.4658714779636
--0.0520373598903545,51.4643809758347</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>BROMLEY SOUTH GROUP - PECKHAM RYE</name>
-         <description>BROMLEY SOUTH GROUP - PECKHAM RYE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.0198851972353429,51.3975453727848
--0.0662739503044305,51.4682121762183</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

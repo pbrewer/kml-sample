@@ -150,15 +150,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NEW MALDEN - WIMBLEDON</name>
-         <description>NEW MALDEN - WIMBLEDON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.25459071852964,51.4010569843257
--0.204994402252205,51.4191836093249</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GUILDFORD - ASH VALE</name>
          <description>GUILDFORD - ASH VALE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -186,30 +177,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SURBITON - RAYNES PARK</name>
-         <description>SURBITON - RAYNES PARK</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.302445681710373,51.3900751055431
--0.228481680875033,51.4069571028245</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SURBITON - EFFINGHAM JN</name>
          <description>SURBITON - EFFINGHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.302445681710373,51.3900751055431
 -0.418044544892225,51.2892262107591</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>RAYNES PARK - SURBITON</name>
-         <description>RAYNES PARK - SURBITON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.228481680875033,51.4069571028245
--0.302445681710373,51.3900751055431</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -246,15 +219,6 @@
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
 -0.168769712349235,51.4617683410367</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WIMBLEDON - NEW MALDEN</name>
-         <description>WIMBLEDON - NEW MALDEN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.204994402252205,51.4191836093249
--0.25459071852964,51.4010569843257</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

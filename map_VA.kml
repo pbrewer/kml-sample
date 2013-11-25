@@ -166,15 +166,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HASTINGS GROUP - TONBRIDGE</name>
-         <description>HASTINGS GROUP - TONBRIDGE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.577630945295527,50.8562183508005
-0.271241048728237,51.1888888580524</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>HASTINGS GROUP - ASHFORD INTL</name>
          <description>HASTINGS GROUP - ASHFORD INTL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -190,15 +181,6 @@
          <LineString>
             <coordinates>-0.0713862141029046,51.4152630622009
 -0.0256253748578791,51.4091076803144</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TONBRIDGE - HASTINGS GROUP</name>
-         <description>TONBRIDGE - HASTINGS GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.271241048728237,51.1888888580524
-0.577630945295527,50.8562183508005</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

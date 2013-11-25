@@ -217,15 +217,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>YEOVIL PEN MILL - WESTBURY GROUP</name>
-         <description>YEOVIL PEN MILL - WESTBURY GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.61210460405944,50.9424017929649
--2.19781295870281,51.2646940754104</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GLOUCESTER - CHELTENHAM SPA</name>
          <description>GLOUCESTER - CHELTENHAM SPA</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -295,15 +286,6 @@
          <LineString>
             <coordinates>-2.19781295870281,51.2646940754104
 -2.52131224016905,51.0974294858244</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WESTBURY GROUP - YEOVIL PEN MILL</name>
-         <description>WESTBURY GROUP - YEOVIL PEN MILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.19781295870281,51.2646940754104
--2.61210460405944,50.9424017929649</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

@@ -240,15 +240,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SOUTH RUISLP UND - PRINCES RISBORO</name>
-         <description>SOUTH RUISLP UND - PRINCES RISBORO</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.397298632921743,51.5549989051923
--0.8418921414643,51.7148226319012</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>RUGBY - LONG BUCKBY</name>
          <description>RUGBY - LONG BUCKBY</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -309,15 +300,6 @@
          <LineString>
             <coordinates>-1.24177639605164,51.6084332295774
 -0.972242308326233,51.4562854116841</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>PRINCES RISBORO - SOUTH RUISLP UND</name>
-         <description>PRINCES RISBORO - SOUTH RUISLP UND</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.8418921414643,51.7148226319012
--0.397298632921743,51.5549989051923</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

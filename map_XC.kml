@@ -297,15 +297,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LEWES - HASTINGS GROUP</name>
-         <description>LEWES - HASTINGS GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.0139708740923098,50.8682100046315
-0.577630945295527,50.8562183508005</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>THREE BRIDGES - GATWICK AIRPORT</name>
          <description>THREE BRIDGES - GATWICK AIRPORT</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -339,15 +330,6 @@
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
 0.0139708740923098,50.8682100046315</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WOKINGHAM - GUILDFORD</name>
-         <description>WOKINGHAM - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.84100195902129,51.409222906424
--0.578935314413253,51.2346642743648</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -423,15 +405,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HASTINGS GROUP - LEWES</name>
-         <description>HASTINGS GROUP - LEWES</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.577630945295527,50.8562183508005
-0.0139708740923098,50.8682100046315</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>HORSHAM - THREE BRIDGES</name>
          <description>HORSHAM - THREE BRIDGES</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -456,15 +429,6 @@
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
 -0.317257080155847,51.0640099999086</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>GUILDFORD - WOKINGHAM</name>
-         <description>GUILDFORD - WOKINGHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.84100195902129,51.409222906424</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

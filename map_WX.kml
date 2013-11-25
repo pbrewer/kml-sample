@@ -292,15 +292,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NEW MALDEN - WIMBLEDON</name>
-         <description>NEW MALDEN - WIMBLEDON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.25459071852964,51.4010569843257
--0.204994402252205,51.4191836093249</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CLAPHAM JUNCTION - BARNES</name>
          <description>CLAPHAM JUNCTION - BARNES</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -316,24 +307,6 @@
          <LineString>
             <coordinates>-0.327645982918459,51.4479633470328
 -0.408332053159965,51.4454913808552</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WOKING - SURBITON</name>
-         <description>WOKING - SURBITON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.556326011480579,51.316179942942
--0.302445681710373,51.3900751055431</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SURBITON - WOKING</name>
-         <description>SURBITON - WOKING</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.302445681710373,51.3900751055431
--0.556326011480579,51.316179942942</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -568,15 +541,6 @@
          <LineString>
             <coordinates>-0.556326011480579,51.316179942942
 -0.578935314413253,51.2346642743648</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WIMBLEDON - NEW MALDEN</name>
-         <description>WIMBLEDON - NEW MALDEN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.204994402252205,51.4191836093249
--0.25459071852964,51.4010569843257</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

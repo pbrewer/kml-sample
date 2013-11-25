@@ -313,15 +313,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DONCASTER - MEADOWHALL</name>
-         <description>DONCASTER - MEADOWHALL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--1.4101691283604,53.4141240779031</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GOOLE - DONCASTER</name>
          <description>GOOLE - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -355,15 +346,6 @@
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
 -1.12378666494119,52.6286267444856</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>BARNSLEY - HUDDERSFIELD GROUP</name>
-         <description>BARNSLEY - HUDDERSFIELD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.47619600186737,53.5510442770956
--1.78365726682475,53.6454662384722</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -700,15 +682,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>MEADOWHALL - DONCASTER</name>
-         <description>MEADOWHALL - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.4101691283604,53.4141240779031
--1.13871721870229,53.5185314624258</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BEDFORD - LUTON</name>
          <description>BEDFORD - LUTON</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -814,15 +787,6 @@
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
 -0.191364107030493,51.5457128284244</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HUDDERSFIELD GROUP - BARNSLEY</name>
-         <description>HUDDERSFIELD GROUP - BARNSLEY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.78365726682475,53.6454662384722
--1.47619600186737,53.5510442770956</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

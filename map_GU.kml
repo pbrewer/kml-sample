@@ -211,15 +211,6 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>DONCASTER - NEWARK GROUP</name>
-         <description>DONCASTER - NEWARK GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--0.798130010834015,53.0796689798256</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NEWARK GROUP - GRANTHAM</name>
          <description>NEWARK GROUP - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -289,15 +280,6 @@
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
 -0.539408227391042,53.2241839046206</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WAKEFIELD GROUP - HALIFAX GROUP</name>
-         <description>WAKEFIELD GROUP - HALIFAX GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.48675885897802,53.6760184399997
--1.85299957012169,53.7174718790283</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -544,15 +526,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HALIFAX GROUP - WAKEFIELD GROUP</name>
-         <description>HALIFAX GROUP - WAKEFIELD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.85299957012169,53.7174718790283
--1.48675885897802,53.6760184399997</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BRADFORD GROUP - HALIFAX GROUP</name>
          <description>BRADFORD GROUP - HALIFAX GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -694,15 +667,6 @@
          <LineString>
             <coordinates>-0.104129330214378,51.5623127208072
 -0.133035511350118,51.5259228426492</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NEWARK GROUP - DONCASTER</name>
-         <description>NEWARK GROUP - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.798130010834015,53.0796689798256
--1.13871721870229,53.5185314624258</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

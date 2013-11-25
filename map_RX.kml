@@ -782,15 +782,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>GUILDFORD - WOKINGHAM</name>
-         <description>GUILDFORD - WOKINGHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.84100195902129,51.409222906424</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>STOKE ON TRENT - CREWE</name>
          <description>STOKE ON TRENT - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1301,15 +1292,6 @@
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
 -2.59098665939852,53.3889528478108</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WOKINGHAM - GUILDFORD</name>
-         <description>WOKINGHAM - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.84100195902129,51.409222906424
--0.578935314413253,51.2346642743648</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

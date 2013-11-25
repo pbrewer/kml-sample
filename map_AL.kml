@@ -263,15 +263,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HACKNEY DOWNS - TOTTENHAM HALE</name>
-         <description>HACKNEY DOWNS - TOTTENHAM HALE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0586375574298068,51.546287887249
--0.0583956949249829,51.5858343313731</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PETERBOROUGH - LINCOLN</name>
          <description>PETERBOROUGH - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -458,15 +449,6 @@
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
 -1.09164414482499,53.9549944344078</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TOTTENHAM HALE - HACKNEY DOWNS</name>
-         <description>TOTTENHAM HALE - HACKNEY DOWNS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0583956949249829,51.5858343313731
--0.0586375574298068,51.546287887249</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

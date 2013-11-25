@@ -397,15 +397,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>PECKHAM RYE - BROMLEY SOUTH GROUP</name>
-         <description>PECKHAM RYE - BROMLEY SOUTH GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0662739503044305,51.4682121762183
-0.0198851972353429,51.3975453727848</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SEVENOAKS - TONBRIDGE</name>
          <description>SEVENOAKS - TONBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -439,15 +430,6 @@
          <LineString>
             <coordinates>0.0043172178827097,51.4032060195165
 0.0198851972353429,51.3975453727848</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>PECKHAM RYE - CLAPHAM JUNCTION</name>
-         <description>PECKHAM RYE - CLAPHAM JUNCTION</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0662739503044305,51.4682121762183
--0.168769712349235,51.4617683410367</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -559,15 +541,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CLAPHAM JUNCTION - PECKHAM RYE</name>
-         <description>CLAPHAM JUNCTION - PECKHAM RYE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.168769712349235,51.4617683410367
--0.0662739503044305,51.4682121762183</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SWANLEY - SEVENOAKS</name>
          <description>SWANLEY - SEVENOAKS</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -622,15 +595,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NUNHEAD - DENMARK HILL</name>
-         <description>NUNHEAD - DENMARK HILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0520373598903545,51.4643809758347
--0.0879714524318652,51.4658714779636</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PECKHAM RYE - DENMARK HILL</name>
          <description>PECKHAM RYE - DENMARK HILL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -664,24 +628,6 @@
          <LineString>
             <coordinates>-0.0256253748578791,51.4091076803144
 0.0043172178827097,51.4032060195165</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DENMARK HILL - NUNHEAD</name>
-         <description>DENMARK HILL - NUNHEAD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0879714524318652,51.4658714779636
--0.0520373598903545,51.4643809758347</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>BROMLEY SOUTH GROUP - PECKHAM RYE</name>
-         <description>BROMLEY SOUTH GROUP - PECKHAM RYE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.0198851972353429,51.3975453727848
--0.0662739503044305,51.4682121762183</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

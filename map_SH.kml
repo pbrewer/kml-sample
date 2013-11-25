@@ -216,15 +216,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>BARNSLEY - HUDDERSFIELD GROUP</name>
-         <description>BARNSLEY - HUDDERSFIELD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.47619600186737,53.5510442770956
--1.78365726682475,53.6454662384722</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>LINCOLN - RETFORD</name>
          <description>LINCOLN - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -393,15 +384,6 @@
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
 -0.408151827515758,53.5712589689525</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HUDDERSFIELD GROUP - BARNSLEY</name>
-         <description>HUDDERSFIELD GROUP - BARNSLEY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.78365726682475,53.6454662384722
--1.47619600186737,53.5510442770956</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

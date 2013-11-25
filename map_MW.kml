@@ -646,15 +646,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>STAFFORD GROUP - WALSALL GROUP</name>
-         <description>STAFFORD GROUP - WALSALL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.12164188686284,52.801668937545
--1.98376405346226,52.5815353235725</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>STRATFORD U GROUP - WARWICK GROUP</name>
          <description>STRATFORD U GROUP - WARWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -823,15 +814,6 @@
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765
 -1.4101691283604,53.4141240779031</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MANCHESTER GROUP - CREWE</name>
-         <description>MANCHESTER GROUP - CREWE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.22752279914098,53.4737830141426
--2.4315419838315,53.0867528750238</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1006,15 +988,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>GUILDFORD - WOKINGHAM</name>
-         <description>GUILDFORD - WOKINGHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.84100195902129,51.409222906424</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>STOKE ON TRENT - CREWE</name>
          <description>STOKE ON TRENT - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1051,30 +1024,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CREWE - MANCHESTER GROUP</name>
-         <description>CREWE - MANCHESTER GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.4315419838315,53.0867528750238
--2.22752279914098,53.4737830141426</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>AIGBURTH - HUNTS CROSS GROUP</name>
          <description>AIGBURTH - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.92574506214727,53.3616604244271
 -2.85352843794817,53.357704777171</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>PONTEFRACT GROUP - MEADOWHALL</name>
-         <description>PONTEFRACT GROUP - MEADOWHALL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.30184277248278,53.6885648869916
--1.4101691283604,53.4141240779031</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1138,15 +1093,6 @@
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
 -2.43931657824063,52.6759903288674</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MEADOWHALL - WAKEFIELD GROUP</name>
-         <description>MEADOWHALL - WAKEFIELD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.4101691283604,53.4141240779031
--1.48675885897802,53.6760184399997</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1246,15 +1192,6 @@
          <LineString>
             <coordinates>-1.41255771562521,50.9056791131306
 -1.34912462799446,50.9664588482129</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MEADOWHALL - PONTEFRACT GROUP</name>
-         <description>MEADOWHALL - PONTEFRACT GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.4101691283604,53.4141240779031
--1.30184277248278,53.6885648869916</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1438,15 +1375,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WALSALL GROUP - STAFFORD GROUP</name>
-         <description>WALSALL GROUP - STAFFORD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.98376405346226,52.5815353235725
--2.12164188686284,52.801668937545</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
          <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1471,15 +1399,6 @@
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
 -1.24177639605164,51.6084332295774</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SHEFFIELD - WAKEFIELD GROUP</name>
-         <description>SHEFFIELD - WAKEFIELD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--1.48675885897802,53.6760184399997</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1627,15 +1546,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LIVERPOOL GROUP - CREWE</name>
-         <description>LIVERPOOL GROUP - CREWE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.4315419838315,53.0867528750238</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>EASTLEIGH - SOUTHAMPTON GROUP</name>
          <description>EASTLEIGH - SOUTHAMPTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1678,15 +1588,6 @@
          <LineString>
             <coordinates>-2.73894655479018,53.3359997709182
 -2.85352843794817,53.357704777171</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WOLVERHAMPTON - BIRMINGHAM GROUP</name>
-         <description>WOLVERHAMPTON - BIRMINGHAM GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.11808913837316,52.5850725822153
--1.89692899917132,52.4754385160511</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1744,15 +1645,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WOKINGHAM - GUILDFORD</name>
-         <description>WOKINGHAM - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.84100195902129,51.409222906424
--0.578935314413253,51.2346642743648</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
          <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1762,29 +1654,11 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LICHFIELD T V - DERBY GROUP</name>
-         <description>LICHFIELD T V - DERBY GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.79879175484465,52.6847224457417
--1.46160821941454,52.913754524735</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>STAFFORD GROUP - WOLVERHAMPTON</name>
          <description>STAFFORD GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
--2.11808913837316,52.5850725822153</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>BIRMINGHAM GROUP - WOLVERHAMPTON</name>
-         <description>BIRMINGHAM GROUP - WOLVERHAMPTON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.89692899917132,52.4754385160511
 -2.11808913837316,52.5850725822153</coordinates>
          </LineString>
       </Placemark>
@@ -1804,15 +1678,6 @@
          <LineString>
             <coordinates>-0.862420368717771,51.4732471781296
 -0.721546959650751,51.515837329819</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>PONTEFRACT GROUP - SHEFFIELD</name>
-         <description>PONTEFRACT GROUP - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.30184277248278,53.6885648869916
--1.46181308663146,53.375721027765</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1843,24 +1708,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WAKEFIELD GROUP - SHEFFIELD</name>
-         <description>WAKEFIELD GROUP - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.48675885897802,53.6760184399997
--1.46181308663146,53.375721027765</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DERBY GROUP - LICHFIELD T V</name>
-         <description>DERBY GROUP - LICHFIELD T V</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46160821941454,52.913754524735
--1.79879175484465,52.6847224457417</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WARRINGTON GROUP - RUNCORN</name>
          <description>WARRINGTON GROUP - RUNCORN</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1876,15 +1723,6 @@
          <LineString>
             <coordinates>-0.741913906017282,51.2994459413971
 -0.719767243767824,51.2704441615262</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>CREWE - LIVERPOOL GROUP</name>
-         <description>CREWE - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.4315419838315,53.0867528750238
--2.97631716943623,53.4043995068628</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -2077,15 +1915,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WAKEFIELD GROUP - MEADOWHALL</name>
-         <description>WAKEFIELD GROUP - MEADOWHALL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.48675885897802,53.6760184399997
--1.4101691283604,53.4141240779031</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BANBURY GROUP - OXFORD</name>
          <description>BANBURY GROUP - OXFORD</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -2146,15 +1975,6 @@
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
 -2.17885041744102,53.0056140476396</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SHEFFIELD - PONTEFRACT GROUP</name>
-         <description>SHEFFIELD - PONTEFRACT GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--1.30184277248278,53.6885648869916</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

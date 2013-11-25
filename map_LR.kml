@@ -356,15 +356,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>FAVERSHAM - DOVER PRIORY</name>
-         <description>FAVERSHAM - DOVER PRIORY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.892844957991794,51.3091138912366
-1.30580430019011,51.1237524751162</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>KEARSNEY (KENT) - SELLING</name>
          <description>KEARSNEY (KENT) - SELLING</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -505,15 +496,6 @@
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.40741462464778,51.3384161699967
-0.892844957991794,51.3091138912366</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DOVER PRIORY - FAVERSHAM</name>
-         <description>DOVER PRIORY - FAVERSHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>1.30580430019011,51.1237524751162
 0.892844957991794,51.3091138912366</coordinates>
          </LineString>
       </Placemark>

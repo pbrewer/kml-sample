@@ -385,24 +385,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DURHAM - MIDDLESBROUGH GROUP</name>
-         <description>DURHAM - MIDDLESBROUGH GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.58020598133438,54.7764673142649
--1.2310576583881,54.5761261486276</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MIDDLESBROUGH GROUP - DURHAM</name>
-         <description>MIDDLESBROUGH GROUP - DURHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.2310576583881,54.5761261486276
--1.58020598133438,54.7764673142649</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NEWCASTLE - HARTLEPOOL</name>
          <description>NEWCASTLE - HARTLEPOOL</description>
          <styleUrl>#linkStyle</styleUrl>

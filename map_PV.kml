@@ -259,15 +259,6 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>LIVERPOOL GROUP - WREXHAM GROUP</name>
-         <description>LIVERPOOL GROUP - WREXHAM GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--3.00105187330833,53.0473735627572</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SHREWSBURY - WREXHAM GROUP</name>
          <description>SHREWSBURY - WREXHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -391,15 +382,6 @@
          <LineString>
             <coordinates>-2.19781295870281,51.2646940754104
 -2.52131224016905,51.0974294858244</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WREXHAM GROUP - LIVERPOOL GROUP</name>
-         <description>WREXHAM GROUP - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-3.00105187330833,53.0473735627572
--2.97631716943623,53.4043995068628</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

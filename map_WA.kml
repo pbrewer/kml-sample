@@ -182,30 +182,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HACKNEY DOWNS - TOTTENHAM HALE</name>
-         <description>HACKNEY DOWNS - TOTTENHAM HALE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0586375574298068,51.546287887249
--0.0583956949249829,51.5858343313731</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CLAPTON - HACKNEY DOWNS</name>
          <description>CLAPTON - HACKNEY DOWNS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.055180010443115,51.5597137219714
 -0.0586375574298068,51.546287887249</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TOTTENHAM HALE - LONDON GROUP</name>
-         <description>TOTTENHAM HALE - LONDON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0583956949249829,51.5858343313731
--0.133035511350118,51.5259228426492</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -272,15 +254,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LONDON GROUP - WALTHAMSTOW CTL</name>
-         <description>LONDON GROUP - WALTHAMSTOW CTL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.133035511350118,51.5259228426492
--0.0181969039561204,51.5806678709316</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>STANSTED GROUP - CAMBRIDGE</name>
          <description>STANSTED GROUP - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -326,15 +299,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LONDON GROUP - TOTTENHAM HALE</name>
-         <description>LONDON GROUP - TOTTENHAM HALE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.133035511350118,51.5259228426492
--0.0583956949249829,51.5858343313731</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CHESHUNT - TOTTENHAM HALE</name>
          <description>CHESHUNT - TOTTENHAM HALE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -368,15 +332,6 @@
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
 0.139110387067273,52.1918581729905</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TOTTENHAM HALE - HACKNEY DOWNS</name>
-         <description>TOTTENHAM HALE - HACKNEY DOWNS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0583956949249829,51.5858343313731
--0.0586375574298068,51.546287887249</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -440,15 +395,6 @@
          <LineString>
             <coordinates>-0.260991998042183,51.9503505578144
 -0.20492897787444,51.8964761088654</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WALTHAMSTOW CTL - LONDON GROUP</name>
-         <description>WALTHAMSTOW CTL - LONDON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0181969039561204,51.5806678709316
--0.133035511350118,51.5259228426492</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

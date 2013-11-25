@@ -601,15 +601,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DURHAM - MIDDLESBROUGH GROUP</name>
-         <description>DURHAM - MIDDLESBROUGH GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.58020598133438,54.7764673142649
--1.2310576583881,54.5761261486276</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BERWICK ON TWEED - EDINBURGH GROUP</name>
          <description>BERWICK ON TWEED - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -634,15 +625,6 @@
          <LineString>
             <coordinates>-0.0583956949249829,51.5858343313731
 -0.0216581211012142,51.7002772853904</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MIDDLESBROUGH GROUP - DURHAM</name>
-         <description>MIDDLESBROUGH GROUP - DURHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.2310576583881,54.5761261486276
--1.58020598133438,54.7764673142649</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1078,15 +1060,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NEWARK GROUP - DONCASTER</name>
-         <description>NEWARK GROUP - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.798130010834015,53.0796689798256
--1.13871721870229,53.5185314624258</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>DURHAM - NEWCASTLE</name>
          <description>DURHAM - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1141,15 +1114,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DONCASTER - NEWARK GROUP</name>
-         <description>DONCASTER - NEWARK GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--0.798130010834015,53.0796689798256</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NEWARK GROUP - GRANTHAM</name>
          <description>NEWARK GROUP - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1192,15 +1156,6 @@
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
 -0.64092361498438,52.9036052752164</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HACKNEY DOWNS - TOTTENHAM HALE</name>
-         <description>HACKNEY DOWNS - TOTTENHAM HALE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0586375574298068,51.546287887249
--0.0583956949249829,51.5858343313731</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1381,15 +1336,6 @@
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
 -0.798130010834015,53.0796689798256</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TOTTENHAM HALE - HACKNEY DOWNS</name>
-         <description>TOTTENHAM HALE - HACKNEY DOWNS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0583956949249829,51.5858343313731
--0.0586375574298068,51.546287887249</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

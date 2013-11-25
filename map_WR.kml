@@ -487,15 +487,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SLOUGH - STAINES</name>
-         <description>SLOUGH - STAINES</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.590565992879139,51.5098424704067
--0.500930451797934,51.4305333094029</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CHIPPENHAM - SWINDON (WILTS)</name>
          <description>CHIPPENHAM - SWINDON (WILTS)</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -520,15 +511,6 @@
          <LineString>
             <coordinates>-2.04695288598449,52.3199895646342
 -1.9926572118682,52.3586451076832</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>STAINES - SLOUGH</name>
-         <description>STAINES - SLOUGH</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.500930451797934,51.4305333094029
--0.590565992879139,51.5098424704067</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

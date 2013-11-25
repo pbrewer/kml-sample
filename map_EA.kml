@@ -266,15 +266,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>TOTTENHAM HALE - LONDON GROUP</name>
-         <description>TOTTENHAM HALE - LONDON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0583956949249829,51.5858343313731
--0.133035511350118,51.5259228426492</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>TOTTENHAM HALE - STRATFORD LONDON GP</name>
          <description>TOTTENHAM HALE - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -398,15 +389,6 @@
          <LineString>
             <coordinates>1.00223192854285,52.1874255247094
 1.12484126524517,52.3703521427135</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LONDON GROUP - TOTTENHAM HALE</name>
-         <description>LONDON GROUP - TOTTENHAM HALE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.133035511350118,51.5259228426492
--0.0583956949249829,51.5858343313731</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

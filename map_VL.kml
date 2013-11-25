@@ -115,15 +115,6 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>NUNHEAD - DENMARK HILL</name>
-         <description>NUNHEAD - DENMARK HILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0520373598903545,51.4643809758347
--0.0879714524318652,51.4658714779636</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>ELEPHANT &amp; CSTLE - LONDON GROUP</name>
          <description>ELEPHANT &amp; CSTLE - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -220,15 +211,6 @@
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
 -0.0879714524318652,51.4658714779636</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DENMARK HILL - NUNHEAD</name>
-         <description>DENMARK HILL - NUNHEAD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0879714524318652,51.4658714779636
--0.0520373598903545,51.4643809758347</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

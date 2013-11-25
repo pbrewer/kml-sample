@@ -250,15 +250,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DONCASTER - MEADOWHALL</name>
-         <description>DONCASTER - MEADOWHALL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--1.4101691283604,53.4141240779031</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BARNETBY - DONCASTER</name>
          <description>BARNETBY - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -346,15 +337,6 @@
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
 -1.30368986438219,53.4845538752677</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MEADOWHALL - DONCASTER</name>
-         <description>MEADOWHALL - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.4101691283604,53.4141240779031
--1.13871721870229,53.5185314624258</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

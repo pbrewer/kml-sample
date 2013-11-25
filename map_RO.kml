@@ -612,15 +612,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>GUILDFORD - WOKINGHAM</name>
-         <description>GUILDFORD - WOKINGHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.84100195902129,51.409222906424</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>STAFFORD GROUP - RUGELEY TRNT VAL</name>
          <description>STAFFORD GROUP - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -996,15 +987,6 @@
          <LineString>
             <coordinates>-1.08687709589478,51.2657940803547
 -1.31919597477252,51.0651527128949</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WOKINGHAM - GUILDFORD</name>
-         <description>WOKINGHAM - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.84100195902129,51.409222906424
--0.578935314413253,51.2346642743648</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

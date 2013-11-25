@@ -584,15 +584,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LICHFIELD T V - DERBY GROUP</name>
-         <description>LICHFIELD T V - DERBY GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.79879175484465,52.6847224457417
--1.46160821941454,52.913754524735</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>HEREFORD - NEWPORT (S.WALES)</name>
          <description>HEREFORD - NEWPORT (S.WALES)</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -680,15 +671,6 @@
          <LineString>
             <coordinates>-2.09882854165799,51.8939477964377
 -2.04695288598449,52.3199895646342</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DERBY GROUP - LICHFIELD T V</name>
-         <description>DERBY GROUP - LICHFIELD T V</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46160821941454,52.913754524735
--1.79879175484465,52.6847224457417</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

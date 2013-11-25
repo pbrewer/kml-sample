@@ -159,15 +159,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>GREENFORD UND - SOUTH RUISLP UND</name>
-         <description>GREENFORD UND - SOUTH RUISLP UND</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.343027394360147,51.5398635077165
--0.397298632921743,51.5549989051923</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>TWYFORD - READING GROUP</name>
          <description>TWYFORD - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -254,15 +245,6 @@
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299347829081659,51.5122730230576
--0.343027394360147,51.5398635077165</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SOUTH RUISLP UND - GREENFORD UND</name>
-         <description>SOUTH RUISLP UND - GREENFORD UND</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.397298632921743,51.5549989051923
 -0.343027394360147,51.5398635077165</coordinates>
          </LineString>
       </Placemark>

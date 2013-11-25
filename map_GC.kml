@@ -195,15 +195,6 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>SOUTH RUISLP UND - EALING BROADWAY GROUP</name>
-         <description>SOUTH RUISLP UND - EALING BROADWAY GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.397298632921743,51.5549989051923
--0.299347829081659,51.5122730230576</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>COVENTRY - LEAMINGTON SPA</name>
          <description>COVENTRY - LEAMINGTON SPA</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -228,15 +219,6 @@
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
 -1.83812052729701,52.4511062722417</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>GREENFORD UND - SOUTH RUISLP UND</name>
-         <description>GREENFORD UND - SOUTH RUISLP UND</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.343027394360147,51.5398635077165
--0.397298632921743,51.5549989051923</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -276,30 +258,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LONDON GROUP - GREENFORD UND</name>
-         <description>LONDON GROUP - GREENFORD UND</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.133035511350118,51.5259228426492
--0.343027394360147,51.5398635077165</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WARWICK GROUP - TYSELEY</name>
          <description>WARWICK GROUP - TYSELEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58069581862525,52.2842031249513
 -1.83812052729701,52.4511062722417</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>EALING BROADWAY GROUP - SOUTH RUISLP UND</name>
-         <description>EALING BROADWAY GROUP - SOUTH RUISLP UND</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.299347829081659,51.5122730230576
--0.397298632921743,51.5549989051923</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -330,15 +294,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>GREENFORD UND - LONDON GROUP</name>
-         <description>GREENFORD UND - LONDON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.343027394360147,51.5398635077165
--0.133035511350118,51.5259228426492</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WARWICK GROUP - LEAMINGTON SPA</name>
          <description>WARWICK GROUP - LEAMINGTON SPA</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -363,15 +318,6 @@
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
 -1.89692899917132,52.4754385160511</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SOUTH RUISLP UND - GREENFORD UND</name>
-         <description>SOUTH RUISLP UND - GREENFORD UND</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.397298632921743,51.5549989051923
--0.343027394360147,51.5398635077165</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -501,30 +447,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WILLESDEN JN - EALING BROADWAY GROUP</name>
-         <description>WILLESDEN JN - EALING BROADWAY GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.242510759036517,51.5285132205761
--0.299347829081659,51.5122730230576</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BIRMINGHAM GROUP - COVENTRY</name>
          <description>BIRMINGHAM GROUP - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
 -1.51200282653748,52.3980821347103</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>EALING BROADWAY GROUP - WILLESDEN JN</name>
-         <description>EALING BROADWAY GROUP - WILLESDEN JN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.299347829081659,51.5122730230576
--0.242510759036517,51.5285132205761</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

@@ -131,15 +131,6 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>NUNHEAD - DENMARK HILL</name>
-         <description>NUNHEAD - DENMARK HILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0520373598903545,51.4643809758347
--0.0879714524318652,51.4658714779636</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BROMLEY SOUTH GROUP - SWANLEY</name>
          <description>BROMLEY SOUTH GROUP - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -218,15 +209,6 @@
          <LineString>
             <coordinates>0.875193701365457,51.1414352542849
 0.51490194350759,51.273797018873</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DENMARK HILL - NUNHEAD</name>
-         <description>DENMARK HILL - NUNHEAD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0879714524318652,51.4658714779636
--0.0520373598903545,51.4643809758347</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

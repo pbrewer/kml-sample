@@ -475,15 +475,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>EARLESTOWN GROUP - LIVERPOOL GROUP</name>
-         <description>EARLESTOWN GROUP - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.63398486263039,53.448949903018
--2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PONTEFRACT GROUP - LEEDS GROUP</name>
          <description>PONTEFRACT GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -526,15 +517,6 @@
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
 -2.85352843794817,53.357704777171</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LIVERPOOL GROUP - EARLESTOWN GROUP</name>
-         <description>LIVERPOOL GROUP - EARLESTOWN GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.63398486263039,53.448949903018</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

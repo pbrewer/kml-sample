@@ -557,15 +557,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WOKINGHAM - GUILDFORD</name>
-         <description>WOKINGHAM - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.84100195902129,51.409222906424
--0.578935314413253,51.2346642743648</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WALSALL GROUP - RUGELEY TRNT VAL</name>
          <description>WALSALL GROUP - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -680,15 +671,6 @@
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
 -1.98376405346226,52.5815353235725</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>GUILDFORD - WOKINGHAM</name>
-         <description>GUILDFORD - WOKINGHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.84100195902129,51.409222906424</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

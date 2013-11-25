@@ -286,15 +286,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WARRINGTON GROUP - LIVERPOOL GROUP</name>
-         <description>WARRINGTON GROUP - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.59098665939852,53.3889528478108
--2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PRESTON LANCS - WIGAN GROUP</name>
          <description>PRESTON LANCS - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -310,15 +301,6 @@
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018
 -2.84248348710437,53.4072163077818</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>GLASGOW GROUP - CARSTAIRS</name>
-         <description>GLASGOW GROUP - CARSTAIRS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-4.25772518045981,55.8574586971832
--3.66719660940652,55.6879970200404</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -367,15 +349,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WIGAN GROUP - BLACKBURN</name>
-         <description>WIGAN GROUP - BLACKBURN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.63082648852484,53.5406412185915
--2.47766980365798,53.7435728816802</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PAISLEY GIL ST - GLASGOW GROUP</name>
          <description>PAISLEY GIL ST - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -400,15 +373,6 @@
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
 -2.47766980365798,53.7435728816802</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>CARLISLE - KILMARNOCK</name>
-         <description>CARLISLE - KILMARNOCK</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.93233811859765,54.8877581794713
--4.49757948758596,55.6100734945976</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -448,24 +412,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HELLIFIELD GROUP - CARLISLE</name>
-         <description>HELLIFIELD GROUP - CARLISLE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.22585165157831,54.0085463384902
--2.93233811859765,54.8877581794713</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>CARSTAIRS - NEWTON LANARK</name>
-         <description>CARSTAIRS - NEWTON LANARK</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-3.66719660940652,55.6879970200404
--4.13242975572459,55.8165428999123</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>FALKIRK GROUP - MOTHERWELL GROUP</name>
          <description>FALKIRK GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -502,30 +448,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>BLACKBURN - WIGAN GROUP</name>
-         <description>BLACKBURN - WIGAN GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.47766980365798,53.7435728816802
--2.63082648852484,53.5406412185915</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CARSTAIRS - EDINBURGH GROUP</name>
          <description>CARSTAIRS - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
 -3.1867201601368,55.9497469450646</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>CARLISLE - HELLIFIELD GROUP</name>
-         <description>CARLISLE - HELLIFIELD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.93233811859765,54.8877581794713
--2.22585165157831,54.0085463384902</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -655,24 +583,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NEWTON LANARK - CARSTAIRS</name>
-         <description>NEWTON LANARK - CARSTAIRS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-4.13242975572459,55.8165428999123
--3.66719660940652,55.6879970200404</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LIVERPOOL GROUP - WARRINGTON GROUP</name>
-         <description>LIVERPOOL GROUP - WARRINGTON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.59098665939852,53.3889528478108</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>HELLIFIELD GROUP - CLAPHAM YORKS</name>
          <description>HELLIFIELD GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -742,15 +652,6 @@
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
 -4.42317845734824,55.8453202183079</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>KILMARNOCK - CARLISLE</name>
-         <description>KILMARNOCK - CARLISLE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-4.49757948758596,55.6100734945976
--2.93233811859765,54.8877581794713</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -895,15 +796,6 @@
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771
 -2.80646520495794,54.0455998359243</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>CARSTAIRS - GLASGOW GROUP</name>
-         <description>CARSTAIRS - GLASGOW GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-3.66719660940652,55.6879970200404
--4.25772518045981,55.8574586971832</coordinates>
          </LineString>
       </Placemark>
    </Document>

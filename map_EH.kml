@@ -150,15 +150,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>BLACKBURN - HALIFAX GROUP</name>
-         <description>BLACKBURN - HALIFAX GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.47766980365798,53.7435728816802
--1.85299957012169,53.7174718790283</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>EARLESTOWN GROUP - HUYTON</name>
          <description>EARLESTOWN GROUP - HUYTON</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -201,15 +192,6 @@
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
 -2.63082648852484,53.5406412185915</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HALIFAX GROUP - BLACKBURN</name>
-         <description>HALIFAX GROUP - BLACKBURN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.85299957012169,53.7174718790283
--2.47766980365798,53.7435728816802</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

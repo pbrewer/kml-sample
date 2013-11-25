@@ -268,15 +268,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>GLASGOW GROUP - KILWINNING</name>
-         <description>GLASGOW GROUP - KILWINNING</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-4.25772518045981,55.8574586971832
--4.70861104529443,55.653245391913</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>FALKIRK GROUP - SPRINGBURN</name>
          <description>FALKIRK GROUP - SPRINGBURN</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -394,15 +385,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DURHAM - MIDDLESBROUGH GROUP</name>
-         <description>DURHAM - MIDDLESBROUGH GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.58020598133438,54.7764673142649
--1.2310576583881,54.5761261486276</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BERWICK ON TWEED - EDINBURGH GROUP</name>
          <description>BERWICK ON TWEED - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -418,15 +400,6 @@
          <LineString>
             <coordinates>-3.16591335708558,56.1099364212259
 -3.39468834148053,56.0320609246806</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MIDDLESBROUGH GROUP - DURHAM</name>
-         <description>MIDDLESBROUGH GROUP - DURHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.2310576583881,54.5761261486276
--1.58020598133438,54.7764673142649</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -508,15 +481,6 @@
          <LineString>
             <coordinates>-4.42317845734824,55.8453202183079
 -4.68797158009861,55.9315283640005</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>KILWINNING - GLASGOW GROUP</name>
-         <description>KILWINNING - GLASGOW GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-4.70861104529443,55.653245391913
--4.25772518045981,55.8574586971832</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

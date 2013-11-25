@@ -259,15 +259,6 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>DONCASTER - NEWARK GROUP</name>
-         <description>DONCASTER - NEWARK GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--0.798130010834015,53.0796689798256</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>HARTLEPOOL - NEWCASTLE</name>
          <description>HARTLEPOOL - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -376,15 +367,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DURHAM - MIDDLESBROUGH GROUP</name>
-         <description>DURHAM - MIDDLESBROUGH GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.58020598133438,54.7764673142649
--1.2310576583881,54.5761261486276</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BERWICK ON TWEED - EDINBURGH GROUP</name>
          <description>BERWICK ON TWEED - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -409,15 +391,6 @@
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
 -1.09164414482499,53.9549944344078</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MIDDLESBROUGH GROUP - DURHAM</name>
-         <description>MIDDLESBROUGH GROUP - DURHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.2310576583881,54.5761261486276
--1.58020598133438,54.7764673142649</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -913,15 +886,6 @@
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
 -1.44020006264227,54.3301128769982</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NEWARK GROUP - DONCASTER</name>
-         <description>NEWARK GROUP - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.798130010834015,53.0796689798256
--1.13871721870229,53.5185314624258</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

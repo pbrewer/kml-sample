@@ -252,15 +252,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>THREE BRIDGES - REDHILL GROUP</name>
-         <description>THREE BRIDGES - REDHILL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.159664743659514,51.1146668456172
--0.163348351898478,51.2378679252594</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GUILDFORD - GOMSHALL</name>
          <description>GUILDFORD - GOMSHALL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -387,15 +378,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>GUILDFORD - DORKING GROUP</name>
-         <description>GUILDFORD - DORKING GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.32232810917038,51.2393563350226</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SUTTON LONDON - CROYDON GROUP</name>
          <description>SUTTON LONDON - CROYDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -405,30 +387,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DORKING GROUP - GUILDFORD</name>
-         <description>DORKING GROUP - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.32232810917038,51.2393563350226
--0.578935314413253,51.2346642743648</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CROYDON GROUP - SUTTON LONDON</name>
          <description>CROYDON GROUP - SUTTON LONDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0918292948916154,51.3733510137007
 -0.188720543001437,51.3578110208355</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>REDHILL GROUP - THREE BRIDGES</name>
-         <description>REDHILL GROUP - THREE BRIDGES</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.163348351898478,51.2378679252594
--0.159664743659514,51.1146668456172</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

@@ -309,24 +309,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>FAVERSHAM - DOVER PRIORY</name>
-         <description>FAVERSHAM - DOVER PRIORY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.892844957991794,51.3091138912366
-1.30580430019011,51.1237524751162</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DOVER PRIORY - FAVERSHAM</name>
-         <description>DOVER PRIORY - FAVERSHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>1.30580430019011,51.1237524751162
-0.892844957991794,51.3091138912366</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>RAMSGATE GROUP - FAVERSHAM</name>
          <description>RAMSGATE GROUP - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>

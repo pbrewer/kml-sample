@@ -405,15 +405,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LICHFIELD T V - DERBY GROUP</name>
-         <description>LICHFIELD T V - DERBY GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.79879175484465,52.6847224457417
--1.46160821941454,52.913754524735</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>MEADOWHALL - SHEFFIELD</name>
          <description>MEADOWHALL - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -429,15 +420,6 @@
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
 -1.46160821941454,52.913754524735</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DERBY GROUP - LICHFIELD T V</name>
-         <description>DERBY GROUP - LICHFIELD T V</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46160821941454,52.913754524735
--1.79879175484465,52.6847224457417</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

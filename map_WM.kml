@@ -269,15 +269,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>STAFFORD GROUP - WALSALL GROUP</name>
-         <description>STAFFORD GROUP - WALSALL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.12164188686284,52.801668937545
--1.98376405346226,52.5815353235725</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>STRATFORD U GROUP - WARWICK GROUP</name>
          <description>STRATFORD U GROUP - WARWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -566,15 +557,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>RUGBY - BLETCHLEY</name>
-         <description>RUGBY - BLETCHLEY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.24779788512554,52.3760244925185
--0.735694534570948,51.9923580710804</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>COVENTRY - RUGBY</name>
          <description>COVENTRY - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -656,15 +638,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>BLETCHLEY - RUGBY</name>
-         <description>BLETCHLEY - RUGBY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.735694534570948,51.9923580710804
--1.24779788512554,52.3760244925185</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NORTHAMPTON - LONG BUCKBY</name>
          <description>NORTHAMPTON - LONG BUCKBY</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -688,15 +661,6 @@
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
--2.12164188686284,52.801668937545</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>BIRMINGHAM GROUP - STAFFORD GROUP</name>
-         <description>BIRMINGHAM GROUP - STAFFORD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.89692899917132,52.4754385160511
 -2.12164188686284,52.801668937545</coordinates>
          </LineString>
       </Placemark>
@@ -755,15 +719,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>STAFFORD GROUP - BIRMINGHAM GROUP</name>
-         <description>STAFFORD GROUP - BIRMINGHAM GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.12164188686284,52.801668937545
--1.89692899917132,52.4754385160511</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BIRMINGHAM GROUP - COVENTRY</name>
          <description>BIRMINGHAM GROUP - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -779,15 +734,6 @@
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
 -1.68523565193305,52.6341448712012</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WALSALL GROUP - STAFFORD GROUP</name>
-         <description>WALSALL GROUP - STAFFORD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.98376405346226,52.5815353235725
--2.12164188686284,52.801668937545</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

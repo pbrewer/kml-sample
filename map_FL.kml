@@ -536,30 +536,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>FAVERSHAM - DOVER PRIORY</name>
-         <description>FAVERSHAM - DOVER PRIORY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.892844957991794,51.3091138912366
-1.30580430019011,51.1237524751162</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>LEWISHAM - NEW CROSS</name>
          <description>LEWISHAM - NEW CROSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0131893738009627,51.4637289621017
 -0.0314684684072144,51.4739249880263</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NUNHEAD - DENMARK HILL</name>
-         <description>NUNHEAD - DENMARK HILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0520373598903545,51.4643809758347
--0.0879714524318652,51.4658714779636</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -578,15 +560,6 @@
          <LineString>
             <coordinates>0.219169461743888,51.4451774699764
 0.191312481797045,51.464578656539</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DENMARK HILL - NUNHEAD</name>
-         <description>DENMARK HILL - NUNHEAD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0879714524318652,51.4658714779636
--0.0520373598903545,51.4643809758347</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -623,15 +596,6 @@
          <LineString>
             <coordinates>0.368522021932612,51.4386582154852
 0.522093821820727,51.3788192504241</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DOVER PRIORY - FAVERSHAM</name>
-         <description>DOVER PRIORY - FAVERSHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>1.30580430019011,51.1237524751162
-0.892844957991794,51.3091138912366</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

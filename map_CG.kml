@@ -379,15 +379,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>GLASGOW GROUP - CARSTAIRS</name>
-         <description>GLASGOW GROUP - CARSTAIRS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-4.25772518045981,55.8574586971832
--3.66719660940652,55.6879970200404</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BARROW IN FURNSS - SELLAFIELD</name>
          <description>BARROW IN FURNSS - SELLAFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -448,15 +439,6 @@
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
 -2.7067978635424,53.7523272523068</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WIGAN GROUP - BLACKBURN</name>
-         <description>WIGAN GROUP - BLACKBURN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.63082648852484,53.5406412185915
--2.47766980365798,53.7435728816802</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -559,24 +541,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HELLIFIELD GROUP - CARLISLE</name>
-         <description>HELLIFIELD GROUP - CARLISLE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.22585165157831,54.0085463384902
--2.93233811859765,54.8877581794713</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>CARSTAIRS - NEWTON LANARK</name>
-         <description>CARSTAIRS - NEWTON LANARK</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-3.66719660940652,55.6879970200404
--4.13242975572459,55.8165428999123</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>FALKIRK GROUP - MOTHERWELL GROUP</name>
          <description>FALKIRK GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -628,24 +592,6 @@
          <LineString>
             <coordinates>-2.72079672561516,54.3022952619467
 -2.75655145110832,54.6588920507997</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>BLACKBURN - WIGAN GROUP</name>
-         <description>BLACKBURN - WIGAN GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.47766980365798,53.7435728816802
--2.63082648852484,53.5406412185915</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>CARLISLE - HELLIFIELD GROUP</name>
-         <description>CARLISLE - HELLIFIELD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.93233811859765,54.8877581794713
--2.22585165157831,54.0085463384902</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -799,15 +745,6 @@
          <LineString>
             <coordinates>-2.75655145110832,54.6588920507997
 -2.93233811859765,54.8877581794713</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NEWTON LANARK - CARSTAIRS</name>
-         <description>NEWTON LANARK - CARSTAIRS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-4.13242975572459,55.8165428999123
--3.66719660940652,55.6879970200404</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1069,15 +1006,6 @@
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771
 -2.80646520495794,54.0455998359243</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>CARSTAIRS - GLASGOW GROUP</name>
-         <description>CARSTAIRS - GLASGOW GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-3.66719660940652,55.6879970200404
--4.25772518045981,55.8574586971832</coordinates>
          </LineString>
       </Placemark>
    </Document>

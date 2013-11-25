@@ -393,15 +393,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CARLISLE - KILMARNOCK</name>
-         <description>CARLISLE - KILMARNOCK</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.93233811859765,54.8877581794713
--4.49757948758596,55.6100734945976</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WILMSLOW GROUP - MANCHESTER GROUP</name>
          <description>WILMSLOW GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -678,15 +669,6 @@
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
 -2.42437676789755,53.571211139824</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>KILMARNOCK - CARLISLE</name>
-         <description>KILMARNOCK - CARLISLE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-4.49757948758596,55.6100734945976
--2.93233811859765,54.8877581794713</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

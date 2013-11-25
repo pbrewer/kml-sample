@@ -372,15 +372,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DONCASTER - MEADOWHALL</name>
-         <description>DONCASTER - MEADOWHALL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--1.4101691283604,53.4141240779031</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>DONCASTER - YORK</name>
          <description>DONCASTER - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -612,15 +603,6 @@
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
 -1.79879175484465,52.6847224457417</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>YORK - SWINTON  S YORKS</name>
-         <description>YORK - SWINTON  S YORKS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.09164414482499,53.9549944344078
--1.30368986438219,53.4845538752677</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -993,15 +975,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LICHFIELD T V - DERBY GROUP</name>
-         <description>LICHFIELD T V - DERBY GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.79879175484465,52.6847224457417
--1.46160821941454,52.913754524735</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BRIDGWATER - TAUNTON</name>
          <description>BRIDGWATER - TAUNTON</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1017,15 +990,6 @@
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
 -1.30184277248278,53.6885648869916</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DERBY GROUP - LICHFIELD T V</name>
-         <description>DERBY GROUP - LICHFIELD T V</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46160821941454,52.913754524735
--1.79879175484465,52.6847224457417</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1227,15 +1191,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>MEADOWHALL - DONCASTER</name>
-         <description>MEADOWHALL - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.4101691283604,53.4141240779031
--1.13871721870229,53.5185314624258</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>TAUNTON - BRIDGWATER</name>
          <description>TAUNTON - BRIDGWATER</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1269,15 +1224,6 @@
          <LineString>
             <coordinates>-2.97063000675618,51.3417279722431
 -2.98896514462237,51.1258664842373</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SWINTON  S YORKS - YORK</name>
-         <description>SWINTON  S YORKS - YORK</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.30368986438219,53.4845538752677
--1.09164414482499,53.9549944344078</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

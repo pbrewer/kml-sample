@@ -428,15 +428,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NEW MALDEN - WIMBLEDON</name>
-         <description>NEW MALDEN - WIMBLEDON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.25459071852964,51.4010569843257
--0.204994402252205,51.4191836093249</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BRIDGEND - BARRY</name>
          <description>BRIDGEND - BARRY</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -482,15 +473,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WOKING - SURBITON</name>
-         <description>WOKING - SURBITON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.556326011480579,51.316179942942
--0.302445681710373,51.3900751055431</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>FARNBOROUGH MAIN - BASINGSTOKE</name>
          <description>FARNBOROUGH MAIN - BASINGSTOKE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -515,15 +497,6 @@
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
 -0.56091066988956,51.3989276264035</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SURBITON - WOKING</name>
-         <description>SURBITON - WOKING</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.302445681710373,51.3900751055431
--0.556326011480579,51.316179942942</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1019,15 +992,6 @@
          <LineString>
             <coordinates>-0.103552472423464,51.4373608568023
 -0.0662739503044305,51.4682121762183</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WIMBLEDON - NEW MALDEN</name>
-         <description>WIMBLEDON - NEW MALDEN</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.204994402252205,51.4191836093249
--0.25459071852964,51.4010569843257</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

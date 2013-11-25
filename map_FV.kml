@@ -391,15 +391,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>FAVERSHAM - DOVER PRIORY</name>
-         <description>FAVERSHAM - DOVER PRIORY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.892844957991794,51.3091138912366
-1.30580430019011,51.1237524751162</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>KEARSNEY (KENT) - SELLING</name>
          <description>KEARSNEY (KENT) - SELLING</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -460,15 +451,6 @@
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
 -0.112655764191948,51.4608783058262</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NUNHEAD - DENMARK HILL</name>
-         <description>NUNHEAD - DENMARK HILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0520373598903545,51.4643809758347
--0.0879714524318652,51.4658714779636</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -544,15 +526,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>DENMARK HILL - NUNHEAD</name>
-         <description>DENMARK HILL - NUNHEAD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0879714524318652,51.4658714779636
--0.0520373598903545,51.4643809758347</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NEW CROSS - LONDON GROUP</name>
          <description>NEW CROSS - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -604,15 +577,6 @@
          <LineString>
             <coordinates>0.0043172178827097,51.4032060195165
 0.0198851972353429,51.3975453727848</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DOVER PRIORY - FAVERSHAM</name>
-         <description>DOVER PRIORY - FAVERSHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>1.30580430019011,51.1237524751162
-0.892844957991794,51.3091138912366</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

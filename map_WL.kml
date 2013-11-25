@@ -450,15 +450,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CHESTER - LIVERPOOL GROUP</name>
-         <description>CHESTER - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.87871506267186,53.1939431401654
--2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>PORTSMOUTH GROUP - SOUTHAMPTON GROUP</name>
          <description>PORTSMOUTH GROUP - SOUTHAMPTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -621,15 +612,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>BATH SPA - NEWPORT (S.WALES)</name>
-         <description>BATH SPA - NEWPORT (S.WALES)</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.35491303257205,51.3757692670053
--2.99751869673671,51.5877692937142</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BARRY - CARDIFF CENTRAL</name>
          <description>BARRY - CARDIFF CENTRAL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -753,15 +735,6 @@
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
 -2.59098665939852,53.3889528478108</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NEWPORT (S.WALES) - BATH SPA</name>
-         <description>NEWPORT (S.WALES) - BATH SPA</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.99751869673671,51.5877692937142
--2.35491303257205,51.3757692670053</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -972,15 +945,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LIVERPOOL GROUP - CREWE</name>
-         <description>LIVERPOOL GROUP - CREWE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.4315419838315,53.0867528750238</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BATH SPA - CHIPPENHAM</name>
          <description>BATH SPA - CHIPPENHAM</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1080,15 +1044,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CASTLE CARY - WEYMOUTH GROUP</name>
-         <description>CASTLE CARY - WEYMOUTH GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.52131224016905,51.0974294858244
--2.45374638413658,50.6132794256376</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>LIVERPOOL GROUP - HOOTON</name>
          <description>LIVERPOOL GROUP - HOOTON</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1125,15 +1080,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CREWE - LIVERPOOL GROUP</name>
-         <description>CREWE - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.4315419838315,53.0867528750238
--2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>BRISTOL GROUP - BATH SPA</name>
          <description>BRISTOL GROUP - BATH SPA</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1149,15 +1095,6 @@
          <LineString>
             <coordinates>-3.00105187330833,53.0473735627572
 -2.7475465595177,52.7086006455055</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LIVERPOOL GROUP - CHESTER</name>
-         <description>LIVERPOOL GROUP - CHESTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.87871506267186,53.1939431401654</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1251,24 +1188,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SWANSEA GROUP - CARDIFF CENTRAL</name>
-         <description>SWANSEA GROUP - CARDIFF CENTRAL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-3.94028860334008,51.6227099416963
--3.17645026760644,51.4728636340219</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>STAFFORD GROUP - SHREWSBURY</name>
-         <description>STAFFORD GROUP - SHREWSBURY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.12164188686284,52.801668937545
--2.7475465595177,52.7086006455055</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WREXHAM GROUP - SHOTTON</name>
          <description>WREXHAM GROUP - SHOTTON</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1305,24 +1224,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SHREWSBURY - STAFFORD GROUP</name>
-         <description>SHREWSBURY - STAFFORD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.7475465595177,52.7086006455055
--2.12164188686284,52.801668937545</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>CARDIFF CENTRAL - SWANSEA GROUP</name>
-         <description>CARDIFF CENTRAL - SWANSEA GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-3.17645026760644,51.4728636340219
--3.94028860334008,51.6227099416963</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CREWE - WILMSLOW GROUP</name>
          <description>CREWE - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1338,15 +1239,6 @@
          <LineString>
             <coordinates>-2.57996766294555,51.4467726886349
 -1.78502451282572,51.5630507679151</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WEYMOUTH GROUP - CASTLE CARY</name>
-         <description>WEYMOUTH GROUP - CASTLE CARY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.45374638413658,50.6132794256376
--2.52131224016905,51.0974294858244</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

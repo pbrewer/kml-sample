@@ -366,15 +366,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WARRINGTON GROUP - LIVERPOOL GROUP</name>
-         <description>WARRINGTON GROUP - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.59098665939852,53.3889528478108
--2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CAMBRIDGE - KENNETT</name>
          <description>CAMBRIDGE - KENNETT</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -555,15 +546,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>STOCKPORT - SHEFFIELD</name>
-         <description>STOCKPORT - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.16095318791928,53.4019907710042
--1.46181308663146,53.375721027765</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
          <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -672,15 +654,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LIVERPOOL GROUP - WARRINGTON GROUP</name>
-         <description>LIVERPOOL GROUP - WARRINGTON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.59098665939852,53.3889528478108</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>DERBY GROUP - LOUGHBORO LEICS</name>
          <description>DERBY GROUP - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -777,15 +750,6 @@
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
 -2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SHEFFIELD - NOTTINGHAM GROUP</name>
-         <description>SHEFFIELD - NOTTINGHAM GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--1.14419550451195,52.9451470971285</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -969,15 +933,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>BARNSLEY - SHEFFIELD</name>
-         <description>BARNSLEY - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.47619600186737,53.5510442770956
--1.46181308663146,53.375721027765</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>LIVERPOOL GROUP - HOOTON</name>
          <description>LIVERPOOL GROUP - HOOTON</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1104,15 +1059,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SHEFFIELD - MANCHESTER GROUP</name>
-         <description>SHEFFIELD - MANCHESTER GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--2.22752279914098,53.4737830141426</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GRANTHAM - PETERBOROUGH</name>
          <description>GRANTHAM - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1140,30 +1086,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NOTTINGHAM GROUP - SHEFFIELD</name>
-         <description>NOTTINGHAM GROUP - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.14419550451195,52.9451470971285
--1.46181308663146,53.375721027765</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>MANNINGTREE - IPSWICH</name>
          <description>MANNINGTREE - IPSWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.04721808895052,51.9462194112542
 1.14604543460463,52.0479119603784</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SHEFFIELD - BARNSLEY</name>
-         <description>SHEFFIELD - BARNSLEY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--1.47619600186737,53.5510442770956</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1185,30 +1113,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SHEFFIELD - STOCKPORT</name>
-         <description>SHEFFIELD - STOCKPORT</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--2.16095318791928,53.4019907710042</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CHESTERFIELD - NOTTINGHAM GROUP</name>
          <description>CHESTERFIELD - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
 -1.14419550451195,52.9451470971285</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MANCHESTER GROUP - SHEFFIELD</name>
-         <description>MANCHESTER GROUP - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.22752279914098,53.4737830141426
--1.46181308663146,53.375721027765</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

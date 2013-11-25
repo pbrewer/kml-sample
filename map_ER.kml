@@ -323,15 +323,6 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>DONCASTER - NEWARK GROUP</name>
-         <description>DONCASTER - NEWARK GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--0.798130010834015,53.0796689798256</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NEWARK GROUP - GRANTHAM</name>
          <description>NEWARK GROUP - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -356,15 +347,6 @@
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
 -1.47619600186737,53.5510442770956</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LEEDS GROUP - DONCASTER</name>
-         <description>LEEDS GROUP - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.54758683544322,53.7922040754631
--1.13871721870229,53.5185314624258</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -401,15 +383,6 @@
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
 -0.104129330214378,51.5623127208072</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HACKNEY DOWNS - TOTTENHAM HALE</name>
-         <description>HACKNEY DOWNS - TOTTENHAM HALE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0586375574298068,51.546287887249
--0.0583956949249829,51.5858343313731</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -689,15 +662,6 @@
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
 -1.13871721870229,53.5185314624258</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TOTTENHAM HALE - HACKNEY DOWNS</name>
-         <description>TOTTENHAM HALE - HACKNEY DOWNS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0583956949249829,51.5858343313731
--0.0586375574298068,51.546287887249</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1097,15 +1061,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NEWARK GROUP - DONCASTER</name>
-         <description>NEWARK GROUP - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.798130010834015,53.0796689798256
--1.13871721870229,53.5185314624258</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>RETFORD - BARNETBY</name>
          <description>RETFORD - BARNETBY</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1121,15 +1076,6 @@
          <LineString>
             <coordinates>-0.0586375574298068,51.546287887249
 -0.055180010443115,51.5597137219714</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DONCASTER - LEEDS GROUP</name>
-         <description>DONCASTER - LEEDS GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--1.54758683544322,53.7922040754631</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

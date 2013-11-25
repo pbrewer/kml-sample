@@ -220,15 +220,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HALIFAX GROUP - WAKEFIELD GROUP</name>
-         <description>HALIFAX GROUP - WAKEFIELD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.85299957012169,53.7174718790283
--1.48675885897802,53.6760184399997</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>KIRKHAM &amp; WESHAM - PRESTON LANCS</name>
          <description>KIRKHAM &amp; WESHAM - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -280,15 +271,6 @@
          <LineString>
             <coordinates>-1.85299957012169,53.7174718790283
 -2.00758042613385,53.7346381410441</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WAKEFIELD GROUP - HALIFAX GROUP</name>
-         <description>WAKEFIELD GROUP - HALIFAX GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.48675885897802,53.6760184399997
--1.85299957012169,53.7174718790283</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

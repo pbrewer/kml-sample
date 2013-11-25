@@ -436,15 +436,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>HAVANT - FORD GROUP</name>
-         <description>HAVANT - FORD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.981310197425111,50.8523808477861
--0.577134842260158,50.8274799070745</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>ROMSEY - SOUTHAMPTON GROUP</name>
          <description>ROMSEY - SOUTHAMPTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -478,15 +469,6 @@
          <LineString>
             <coordinates>-3.17645026760644,51.4728636340219
 -3.57497724700083,51.5041409019868</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>FORD GROUP - HAVANT</name>
-         <description>FORD GROUP - HAVANT</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.577134842260158,50.8274799070745
--0.981310197425111,50.8523808477861</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

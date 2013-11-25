@@ -246,29 +246,11 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>TONBRIDGE - REDHILL GROUP</name>
-         <description>TONBRIDGE - REDHILL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.271241048728237,51.1888888580524
--0.163348351898478,51.2378679252594</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>EDENBRIDGE - TONBRIDGE</name>
          <description>EDENBRIDGE - TONBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0616163164544236,51.2062550712968
-0.271241048728237,51.1888888580524</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>REDHILL GROUP - TONBRIDGE</name>
-         <description>REDHILL GROUP - TONBRIDGE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.163348351898478,51.2378679252594
 0.271241048728237,51.1888888580524</coordinates>
          </LineString>
       </Placemark>

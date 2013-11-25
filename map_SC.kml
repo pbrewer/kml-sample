@@ -514,15 +514,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CROYDON GROUP - LONDON GROUP</name>
-         <description>CROYDON GROUP - LONDON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0918292948916154,51.3733510137007
--0.133035511350118,51.5259228426492</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NEW CROSS GATE - CRYSTAL PALACE</name>
          <description>NEW CROSS GATE - CRYSTAL PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -672,15 +663,6 @@
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594
--0.0918292948916154,51.3733510137007</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LONDON GROUP - CROYDON GROUP</name>
-         <description>LONDON GROUP - CROYDON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.133035511350118,51.5259228426492
 -0.0918292948916154,51.3733510137007</coordinates>
          </LineString>
       </Placemark>

@@ -357,15 +357,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WARRINGTON GROUP - LIVERPOOL GROUP</name>
-         <description>WARRINGTON GROUP - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.59098665939852,53.3889528478108
--2.97631716943623,53.4043995068628</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>DERBY GROUP - CHESTERFIELD</name>
          <description>DERBY GROUP - CHESTERFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -384,30 +375,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SHEFFIELD - DERBY GROUP</name>
-         <description>SHEFFIELD - DERBY GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--1.46160821941454,52.913754524735</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
          <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
 -2.27428439903141,53.4817736575281</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DONCASTER - MEADOWHALL</name>
-         <description>DONCASTER - MEADOWHALL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--1.4101691283604,53.4141240779031</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -528,15 +501,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>MANCHESTER GROUP - CREWE</name>
-         <description>MANCHESTER GROUP - CREWE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.22752279914098,53.4737830141426
--2.4315419838315,53.0867528750238</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>MANCHESTER GROUP - STOCKPORT</name>
          <description>MANCHESTER GROUP - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -600,30 +564,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>STOCKPORT - SHEFFIELD</name>
-         <description>STOCKPORT - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.16095318791928,53.4019907710042
--1.46181308663146,53.375721027765</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
          <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
 -2.22752279914098,53.4737830141426</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>EARLESTOWN GROUP - LIVERPOOL GROUP</name>
-         <description>EARLESTOWN GROUP - LIVERPOOL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.63398486263039,53.448949903018
--2.97631716943623,53.4043995068628</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -642,15 +588,6 @@
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
 -1.46160821941454,52.913754524735</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SHEFFIELD - RETFORD</name>
-         <description>SHEFFIELD - RETFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--0.946208578834308,53.3129622458949</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -717,38 +654,11 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CREWE - MANCHESTER GROUP</name>
-         <description>CREWE - MANCHESTER GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.4315419838315,53.0867528750238
--2.22752279914098,53.4737830141426</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>HUNTS CROSS GROUP - WARRINGTON GROUP</name>
          <description>HUNTS CROSS GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
--2.59098665939852,53.3889528478108</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SHEFFIELD - DONCASTER</name>
-         <description>SHEFFIELD - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--1.13871721870229,53.5185314624258</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LIVERPOOL GROUP - WARRINGTON GROUP</name>
-         <description>LIVERPOOL GROUP - WARRINGTON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
 -2.59098665939852,53.3889528478108</coordinates>
          </LineString>
       </Placemark>
@@ -825,15 +735,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>CREWE - STOCKPORT</name>
-         <description>CREWE - STOCKPORT</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.4315419838315,53.0867528750238
--2.16095318791928,53.4019907710042</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>HUNTS CROSS GROUP - LIVERPOOL GROUP</name>
          <description>HUNTS CROSS GROUP - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -849,15 +750,6 @@
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
 -0.408151827515758,53.5712589689525</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SHEFFIELD - NOTTINGHAM GROUP</name>
-         <description>SHEFFIELD - NOTTINGHAM GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--1.14419550451195,52.9451470971285</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1050,15 +942,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>STOCKPORT - CREWE</name>
-         <description>STOCKPORT - CREWE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.16095318791928,53.4019907710042
--2.4315419838315,53.0867528750238</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>MELTON MOWBRAY - OAKHAM</name>
          <description>MELTON MOWBRAY - OAKHAM</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1068,30 +951,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>BARNSLEY - SHEFFIELD</name>
-         <description>BARNSLEY - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.47619600186737,53.5510442770956
--1.46181308663146,53.375721027765</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>LIVERPOOL GROUP - HOOTON</name>
          <description>LIVERPOOL GROUP - HOOTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
 -2.9752950896166,53.2938563998056</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DONCASTER - SHEFFIELD</name>
-         <description>DONCASTER - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--1.46181308663146,53.375721027765</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1131,15 +996,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LIVERPOOL GROUP - EARLESTOWN GROUP</name>
-         <description>LIVERPOOL GROUP - EARLESTOWN GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.97631716943623,53.4043995068628
--2.63398486263039,53.448949903018</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
          <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1176,15 +1032,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>RETFORD - SHEFFIELD</name>
-         <description>RETFORD - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.946208578834308,53.3129622458949
--1.46181308663146,53.375721027765</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>MEADOWHALL - BARNSLEY</name>
          <description>MEADOWHALL - BARNSLEY</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1212,15 +1059,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SHEFFIELD - MANCHESTER GROUP</name>
-         <description>SHEFFIELD - MANCHESTER GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--2.22752279914098,53.4737830141426</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GRANTHAM - PETERBOROUGH</name>
          <description>GRANTHAM - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1239,30 +1077,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>MEADOWHALL - DONCASTER</name>
-         <description>MEADOWHALL - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.4101691283604,53.4141240779031
--1.13871721870229,53.5185314624258</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GUIDE BRIDGE - CHINLEY</name>
          <description>GUIDE BRIDGE - CHINLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
 -1.94292550574056,53.3373752706342</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>NOTTINGHAM GROUP - SHEFFIELD</name>
-         <description>NOTTINGHAM GROUP - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.14419550451195,52.9451470971285
--1.46181308663146,53.375721027765</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -1284,24 +1104,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SHEFFIELD - BARNSLEY</name>
-         <description>SHEFFIELD - BARNSLEY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--1.47619600186737,53.5510442770956</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DERBY GROUP - SHEFFIELD</name>
-         <description>DERBY GROUP - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46160821941454,52.913754524735
--1.46181308663146,53.375721027765</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>HOOTON - LIVERPOOL GROUP</name>
          <description>HOOTON - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -1311,30 +1113,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SHEFFIELD - STOCKPORT</name>
-         <description>SHEFFIELD - STOCKPORT</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.46181308663146,53.375721027765
--2.16095318791928,53.4019907710042</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CHESTERFIELD - NOTTINGHAM GROUP</name>
          <description>CHESTERFIELD - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
 -1.14419550451195,52.9451470971285</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>MANCHESTER GROUP - SHEFFIELD</name>
-         <description>MANCHESTER GROUP - SHEFFIELD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.22752279914098,53.4737830141426
--1.46181308663146,53.375721027765</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

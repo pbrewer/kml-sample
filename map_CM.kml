@@ -220,15 +220,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>STAFFORD GROUP - WALSALL GROUP</name>
-         <description>STAFFORD GROUP - WALSALL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.12164188686284,52.801668937545
--1.98376405346226,52.5815353235725</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
          <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -604,15 +595,6 @@
          <LineString>
             <coordinates>-2.12176621514136,53.3750745073095
 -2.16095318791928,53.4019907710042</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WALSALL GROUP - STAFFORD GROUP</name>
-         <description>WALSALL GROUP - STAFFORD GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.98376405346226,52.5815353235725
--2.12164188686284,52.801668937545</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

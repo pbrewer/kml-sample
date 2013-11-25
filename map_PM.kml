@@ -719,15 +719,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>TAUNTON - PAR</name>
-         <description>TAUNTON - PAR</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-3.10082010093475,51.0215061746061
--4.70355987074813,50.3535492327742</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>CASTLE CARY - TAUNTON</name>
          <description>CASTLE CARY - TAUNTON</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -824,15 +815,6 @@
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
 -2.12164188686284,52.801668937545</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>PAR - TAUNTON</name>
-         <description>PAR - TAUNTON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-4.70355987074813,50.3535492327742
--3.10082010093475,51.0215061746061</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

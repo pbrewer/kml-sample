@@ -156,30 +156,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>NUNHEAD - DENMARK HILL</name>
-         <description>NUNHEAD - DENMARK HILL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0520373598903545,51.4643809758347
--0.0879714524318652,51.4658714779636</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SEVENOAKS - BROMLEY SOUTH GROUP</name>
          <description>SEVENOAKS - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183714070842441,51.2750523303078
 0.0198851972353429,51.3975453727848</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HASTINGS GROUP - TONBRIDGE</name>
-         <description>HASTINGS GROUP - TONBRIDGE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.577630945295527,50.8562183508005
-0.271241048728237,51.1888888580524</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -198,15 +180,6 @@
          <LineString>
             <coordinates>1.40741462464778,51.3384161699967
 0.875193701365457,51.1414352542849</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TONBRIDGE - HASTINGS GROUP</name>
-         <description>TONBRIDGE - HASTINGS GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.271241048728237,51.1888888580524
-0.577630945295527,50.8562183508005</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -243,15 +216,6 @@
          <LineString>
             <coordinates>-0.0879714524318652,51.4658714779636
 -0.0662739503044305,51.4682121762183</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DENMARK HILL - NUNHEAD</name>
-         <description>DENMARK HILL - NUNHEAD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0879714524318652,51.4658714779636
--0.0520373598903545,51.4643809758347</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

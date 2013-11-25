@@ -201,15 +201,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>TONBRIDGE - REDHILL GROUP</name>
-         <description>TONBRIDGE - REDHILL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.271241048728237,51.1888888580524
--0.163348351898478,51.2378679252594</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>SUTTON LONDON - CROYDON GROUP</name>
          <description>SUTTON LONDON - CROYDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -225,15 +216,6 @@
          <LineString>
             <coordinates>-0.0918292948916154,51.3733510137007
 -0.188720543001437,51.3578110208355</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>REDHILL GROUP - TONBRIDGE</name>
-         <description>REDHILL GROUP - TONBRIDGE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.163348351898478,51.2378679252594
-0.271241048728237,51.1888888580524</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -288,24 +270,6 @@
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594
 -0.15952165755819,51.1542142067235</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HASTINGS GROUP - LEWES</name>
-         <description>HASTINGS GROUP - LEWES</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.577630945295527,50.8562183508005
-0.0139708740923098,50.8682100046315</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>LEWES - HASTINGS GROUP</name>
-         <description>LEWES - HASTINGS GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.0139708740923098,50.8682100046315
-0.577630945295527,50.8562183508005</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

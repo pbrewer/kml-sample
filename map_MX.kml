@@ -244,15 +244,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>MANCHESTER GROUP - HAZEL GROVE</name>
-         <description>MANCHESTER GROUP - HAZEL GROVE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.22752279914098,53.4737830141426
--2.12176621514136,53.3750745073095</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>LANCASTER GROUP - PRESTON LANCS</name>
          <description>LANCASTER GROUP - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -268,15 +259,6 @@
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
 -2.40836909508231,54.102434872771</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HAZEL GROVE - MANCHESTER GROUP</name>
-         <description>HAZEL GROVE - MANCHESTER GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.12176621514136,53.3750745073095
--2.22752279914098,53.4737830141426</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

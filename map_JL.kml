@@ -147,15 +147,6 @@
          </Point>
       </Placemark>
       <Placemark>
-         <name>MEADOWHALL - DONCASTER</name>
-         <description>MEADOWHALL - DONCASTER</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.4101691283604,53.4141240779031
--1.13871721870229,53.5185314624258</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WORKSOP - RETFORD</name>
          <description>WORKSOP - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -207,15 +198,6 @@
          <LineString>
             <coordinates>-0.408151827515758,53.5712589689525
 -1.13871721870229,53.5185314624258</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DONCASTER - MEADOWHALL</name>
-         <description>DONCASTER - MEADOWHALL</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-1.13871721870229,53.5185314624258
--1.4101691283604,53.4141240779031</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

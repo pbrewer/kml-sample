@@ -303,15 +303,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>REDHILL GROUP - TONBRIDGE</name>
-         <description>REDHILL GROUP - TONBRIDGE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.163348351898478,51.2378679252594
-0.271241048728237,51.1888888580524</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>DOVER PRIORY - ASHFORD INTL</name>
          <description>DOVER PRIORY - ASHFORD INTL</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -384,57 +375,12 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>EPSOM - DORKING GROUP</name>
-         <description>EPSOM - DORKING GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.26726318438557,51.3320338775324
--0.32232810917038,51.2393563350226</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>REDHILL GROUP - EDENBRIDGE</name>
          <description>REDHILL GROUP - EDENBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594
 0.0616163164544236,51.2062550712968</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HASTINGS GROUP - TONBRIDGE</name>
-         <description>HASTINGS GROUP - TONBRIDGE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.577630945295527,50.8562183508005
-0.271241048728237,51.1888888580524</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>WOKINGHAM - GUILDFORD</name>
-         <description>WOKINGHAM - GUILDFORD</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.84100195902129,51.409222906424
--0.578935314413253,51.2346642743648</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>DORKING GROUP - EPSOM</name>
-         <description>DORKING GROUP - EPSOM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.32232810917038,51.2393563350226
--0.26726318438557,51.3320338775324</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TONBRIDGE - HASTINGS GROUP</name>
-         <description>TONBRIDGE - HASTINGS GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.271241048728237,51.1888888580524
-0.577630945295527,50.8562183508005</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -462,15 +408,6 @@
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
 -0.741913906017282,51.2994459413971</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>TONBRIDGE - REDHILL GROUP</name>
-         <description>TONBRIDGE - REDHILL GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.271241048728237,51.1888888580524
--0.163348351898478,51.2378679252594</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
@@ -516,15 +453,6 @@
          <LineString>
             <coordinates>-0.317257080155847,51.0640099999086
 -0.32232810917038,51.2393563350226</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>GUILDFORD - WOKINGHAM</name>
-         <description>GUILDFORD - WOKINGHAM</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.578935314413253,51.2346642743648
--0.84100195902129,51.409222906424</coordinates>
          </LineString>
       </Placemark>
       <Placemark>

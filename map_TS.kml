@@ -205,15 +205,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>LONDON GROUP - BARKING</name>
-         <description>LONDON GROUP - BARKING</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.133035511350118,51.5259228426492
-0.0823256310492868,51.5375778573699</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GRAYS - BARKING</name>
          <description>GRAYS - BARKING</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -301,15 +292,6 @@
          <LineString>
             <coordinates>0.253461201092809,51.5568872968332
 0.183514650133649,51.5725927113854</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>BARKING - LONDON GROUP</name>
-         <description>BARKING - LONDON GROUP</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>0.0823256310492868,51.5375778573699
--0.133035511350118,51.5259228426492</coordinates>
          </LineString>
       </Placemark>
    </Document>

@@ -289,15 +289,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>SURREY QUAYS - HIGHBURY &amp; I UND</name>
-         <description>SURREY QUAYS - HIGHBURY &amp; I UND</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0466080587220225,51.4903579634564
--0.102030856310921,51.5434025567242</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>NEW CROSS GATE - SURREY QUAYS</name>
          <description>NEW CROSS GATE - SURREY QUAYS</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -334,24 +325,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>PECKHAM RYE - SURREY QUAYS</name>
-         <description>PECKHAM RYE - SURREY QUAYS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0662739503044305,51.4682121762183
--0.0466080587220225,51.4903579634564</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SURREY QUAYS - PECKHAM RYE</name>
-         <description>SURREY QUAYS - PECKHAM RYE</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.0466080587220225,51.4903579634564
--0.0662739503044305,51.4682121762183</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>GOSPEL OAK - CAMDEN ROAD</name>
          <description>GOSPEL OAK - CAMDEN ROAD</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -385,15 +358,6 @@
          <LineString>
             <coordinates>-0.149232687522671,51.5531454292835
 -0.242510759036517,51.5285132205761</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>HIGHBURY &amp; I UND - SURREY QUAYS</name>
-         <description>HIGHBURY &amp; I UND - SURREY QUAYS</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-0.102030856310921,51.5434025567242
--0.0466080587220225,51.4903579634564</coordinates>
          </LineString>
       </Placemark>
    </Document>

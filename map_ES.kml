@@ -337,15 +337,6 @@
          </LineString>
       </Placemark>
       <Placemark>
-         <name>WOLVERHAMPTON - SHREWSBURY</name>
-         <description>WOLVERHAMPTON - SHREWSBURY</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.11808913837316,52.5850725822153
--2.7475465595177,52.7086006455055</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
          <name>WILLESDEN JN - LONDON GROUP</name>
          <description>WILLESDEN JN - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
@@ -514,15 +505,6 @@
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
 -1.51200282653748,52.3980821347103</coordinates>
-         </LineString>
-      </Placemark>
-      <Placemark>
-         <name>SHREWSBURY - WOLVERHAMPTON</name>
-         <description>SHREWSBURY - WOLVERHAMPTON</description>
-         <styleUrl>#linkStyle</styleUrl>
-         <LineString>
-            <coordinates>-2.7475465595177,52.7086006455055
--2.11808913837316,52.5850725822153</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
