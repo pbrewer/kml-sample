@@ -44,6 +44,11 @@
             <color>ff50F902</color>
             <width>4</width>
          </LineStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Placemark>
          <name>COVENTRY</name>

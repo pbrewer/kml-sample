@@ -5,1772 +5,2480 @@
 				{
 	  			  "mapName" : "EAST ANGLIA TO SCOTLAND",
  				  "mapCode" : "AA",
- 				  "kmlUrl" : "map_AA.kml"
+ 				  "kmlUrl" : "map_AA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO BIRMINGHAM VIA PETERBOROUGH AND LEICESTER",
  				  "mapCode" : "AB",
- 				  "kmlUrl" : "map_AB.kml"
+ 				  "kmlUrl" : "map_AB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO CREWE VIA DERBY",
  				  "mapCode" : "AC",
- 				  "kmlUrl" : "map_AC.kml"
+ 				  "kmlUrl" : "map_AC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO DONCASTER",
  				  "mapCode" : "AD",
- 				  "kmlUrl" : "map_AD.kml"
+ 				  "kmlUrl" : "map_AD.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO ASHFORD INTERNATIONAL",
  				  "mapCode" : "AF",
- 				  "kmlUrl" : "map_AF.kml"
+ 				  "kmlUrl" : "map_AF.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "AYRSHIRE COAST TO GLASGOW",
  				  "mapCode" : "AG",
- 				  "kmlUrl" : "map_AG.kml"
+ 				  "kmlUrl" : "map_AG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO HULL",
  				  "mapCode" : "AH",
- 				  "kmlUrl" : "map_AH.kml"
+ 				  "kmlUrl" : "map_AH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO LEEDS",
  				  "mapCode" : "AL",
- 				  "kmlUrl" : "map_AL.kml"
+ 				  "kmlUrl" : "map_AL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO MANCHESTER VIA PETERBOROUGH AND SHEFFIELD",
  				  "mapCode" : "AM",
- 				  "kmlUrl" : "map_AM.kml"
+ 				  "kmlUrl" : "map_AM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO NOTTINGHAM AND DERBY VIA PETERBOROUGH AND GRANTHAM",
  				  "mapCode" : "AN",
- 				  "kmlUrl" : "map_AN.kml"
+ 				  "kmlUrl" : "map_AN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO PETERBOROUGH",
  				  "mapCode" : "AP",
- 				  "kmlUrl" : "map_AP.kml"
+ 				  "kmlUrl" : "map_AP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ASHFORD INTERNTIONAL TO READING VIA REDHILL",
  				  "mapCode" : "AR",
- 				  "kmlUrl" : "map_AR.kml"
+ 				  "kmlUrl" : "map_AR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO STOKE ON TRENT AND CREWE VIA DERBY",
  				  "mapCode" : "AS",
- 				  "kmlUrl" : "map_AS.kml"
+ 				  "kmlUrl" : "map_AS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO TEESIDE",
  				  "mapCode" : "AT",
- 				  "kmlUrl" : "map_AT.kml"
+ 				  "kmlUrl" : "map_AT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO NORTH WALES",
  				  "mapCode" : "AW",
- 				  "kmlUrl" : "map_AW.kml"
+ 				  "kmlUrl" : "map_AW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST ANGLIA TO YORK",
  				  "mapCode" : "AY",
- 				  "kmlUrl" : "map_AY.kml"
+ 				  "kmlUrl" : "map_AY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "???",
  				  "mapCode" : "BB",
- 				  "kmlUrl" : "map_BB.kml"
+ 				  "kmlUrl" : "map_BB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO NORTH WALES AND CHESTER VIA SHREWSBURY",
  				  "mapCode" : "BC",
- 				  "kmlUrl" : "map_BC.kml"
+ 				  "kmlUrl" : "map_BC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WEST AND WEST TO THE NORTH WEST",
  				  "mapCode" : "BD",
- 				  "kmlUrl" : "map_BD.kml"
+ 				  "kmlUrl" : "map_BD.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO EDINBURGH VIA WEST COAST ",
  				  "mapCode" : "BE",
- 				  "kmlUrl" : "map_BE.kml"
+ 				  "kmlUrl" : "map_BE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO GRIMSBY VIA LEICESTER",
  				  "mapCode" : "BG",
- 				  "kmlUrl" : "map_BG.kml"
+ 				  "kmlUrl" : "map_BG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO HULL",
  				  "mapCode" : "BH",
- 				  "kmlUrl" : "map_BH.kml"
+ 				  "kmlUrl" : "map_BH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM LOCAL ROUTES",
  				  "mapCode" : "BI",
- 				  "kmlUrl" : "map_BI.kml"
+ 				  "kmlUrl" : "map_BI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO NORTH WALES",
  				  "mapCode" : "BJ",
- 				  "kmlUrl" : "map_BJ.kml"
+ 				  "kmlUrl" : "map_BJ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO PRESTON VIA WEST COAST ",
  				  "mapCode" : "BK",
- 				  "kmlUrl" : "map_BK.kml"
+ 				  "kmlUrl" : "map_BK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO LONDON VIA SWINDON",
  				  "mapCode" : "BL",
- 				  "kmlUrl" : "map_BL.kml"
+ 				  "kmlUrl" : "map_BL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO MANCHESTER",
  				  "mapCode" : "BM",
- 				  "kmlUrl" : "map_BM.kml"
+ 				  "kmlUrl" : "map_BM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO STOCKPORT",
  				  "mapCode" : "BO",
- 				  "kmlUrl" : "map_BO.kml"
+ 				  "kmlUrl" : "map_BO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO PETERBOROUGH",
  				  "mapCode" : "BP",
- 				  "kmlUrl" : "map_BP.kml"
+ 				  "kmlUrl" : "map_BP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON BRIDGE - LOCAL ROUTES",
  				  "mapCode" : "BR",
- 				  "kmlUrl" : "map_BR.kml"
+ 				  "kmlUrl" : "map_BR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM AND THE WEST MIDLANDS TO SCOTLAND",
  				  "mapCode" : "BS",
- 				  "kmlUrl" : "map_BS.kml"
+ 				  "kmlUrl" : "map_BS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES AND BRISTOL VIA WESTBURY AND WOKING TO SURBITON AND SW LONDON",
  				  "mapCode" : "BU",
- 				  "kmlUrl" : "map_BU.kml"
+ 				  "kmlUrl" : "map_BU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO LIVERPOOL",
  				  "mapCode" : "BV",
- 				  "kmlUrl" : "map_BV.kml"
+ 				  "kmlUrl" : "map_BV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO WEYMOUTH VIA BRISTOL",
  				  "mapCode" : "BW",
- 				  "kmlUrl" : "map_BW.kml"
+ 				  "kmlUrl" : "map_BW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO OXENHOLME VIA WEST COAST",
  				  "mapCode" : "BX",
- 				  "kmlUrl" : "map_BX.kml"
+ 				  "kmlUrl" : "map_BX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BIRMINGHAM TO YORK",
  				  "mapCode" : "BY",
- 				  "kmlUrl" : "map_BY.kml"
+ 				  "kmlUrl" : "map_BY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NUNEATON TO THE CAMBRIAN COAST",
  				  "mapCode" : "CA",
- 				  "kmlUrl" : "map_CA.kml"
+ 				  "kmlUrl" : "map_CA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SWANSEA AND CARDIFF TO WEST MIDLANDS VIA NEWPORT AND HEREFORD",
  				  "mapCode" : "CB",
- 				  "kmlUrl" : "map_CB.kml"
+ 				  "kmlUrl" : "map_CB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "COVENTRY TO WARRINGTON, LIVERPOOL AND NORTH WALES",
  				  "mapCode" : "CC",
- 				  "kmlUrl" : "map_CC.kml"
+ 				  "kmlUrl" : "map_CC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES AND WEST TO YORKSHIRE VIA BRISTOL",
  				  "mapCode" : "CE",
- 				  "kmlUrl" : "map_CE.kml"
+ 				  "kmlUrl" : "map_CE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CREWE TO GLASGOW AND EDINBURGH",
  				  "mapCode" : "CG",
- 				  "kmlUrl" : "map_CG.kml"
+ 				  "kmlUrl" : "map_CG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CREWE AND CHESTER TO NORTH WALES",
  				  "mapCode" : "CH",
- 				  "kmlUrl" : "map_CH.kml"
+ 				  "kmlUrl" : "map_CH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON MARYLEBONE TO AYLESBURY - (CHILTERN LINE)",
  				  "mapCode" : "CI",
- 				  "kmlUrl" : "map_CI.kml"
+ 				  "kmlUrl" : "map_CI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO PRESTON & KIRKHAM & WESHAM",
  				  "mapCode" : "CK",
- 				  "kmlUrl" : "map_CK.kml"
+ 				  "kmlUrl" : "map_CK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CHESHIRE TO LANCASHIRE LOCAL ROUTES",
  				  "mapCode" : "CL",
- 				  "kmlUrl" : "map_CL.kml"
+ 				  "kmlUrl" : "map_CL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "COVENTRY TO MANCHESTER VIA BIRMINGHAM",
  				  "mapCode" : "CM",
- 				  "kmlUrl" : "map_CM.kml"
+ 				  "kmlUrl" : "map_CM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CENTRAL WALES AND THE NORTH WEST TO EAST ANGLIA VIA BIRMINGHAM",
  				  "mapCode" : "CN",
- 				  "kmlUrl" : "map_CN.kml"
+ 				  "kmlUrl" : "map_CN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "??",
  				  "mapCode" : "CO",
- 				  "kmlUrl" : "map_CO.kml"
+ 				  "kmlUrl" : "map_CO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CHESTER TO PRESTON VIA LIVERPOOL",
  				  "mapCode" : "CP",
- 				  "kmlUrl" : "map_CP.kml"
+ 				  "kmlUrl" : "map_CP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH EAST TO THE NORTH WEST AND LINCOLNSHIRE VIA BIRMINGHAM",
  				  "mapCode" : "CS",
- 				  "kmlUrl" : "map_CS.kml"
+ 				  "kmlUrl" : "map_CS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO CHATHAM",
  				  "mapCode" : "CT",
- 				  "kmlUrl" : "map_CT.kml"
+ 				  "kmlUrl" : "map_CT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CREWE TO CUMBRIA",
  				  "mapCode" : "CU",
- 				  "kmlUrl" : "map_CU.kml"
+ 				  "kmlUrl" : "map_CU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CREWE TO LIVERPOOL",
  				  "mapCode" : "CV",
- 				  "kmlUrl" : "map_CV.kml"
+ 				  "kmlUrl" : "map_CV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "KENT AND SUSSEX COAST TO HAMPSHIRE AND DORSET",
  				  "mapCode" : "CW",
- 				  "kmlUrl" : "map_CW.kml"
+ 				  "kmlUrl" : "map_CW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CARDIFF TO YORK",
  				  "mapCode" : "CY",
- 				  "kmlUrl" : "map_CY.kml"
+ 				  "kmlUrl" : "map_CY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CHIPPENHAM TO PLYMOUTH AND PENZANCE",
  				  "mapCode" : "CZ",
- 				  "kmlUrl" : "map_CZ.kml"
+ 				  "kmlUrl" : "map_CZ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "DARLINGTON TO ABERDEEN",
  				  "mapCode" : "DA",
- 				  "kmlUrl" : "map_DA.kml"
+ 				  "kmlUrl" : "map_DA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "DONCASTER TO BLACKPOOL",
  				  "mapCode" : "DB",
- 				  "kmlUrl" : "map_DB.kml"
+ 				  "kmlUrl" : "map_DB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "DERBY TO GRIMSBY VIA NOTTINGHAM",
  				  "mapCode" : "DG",
- 				  "kmlUrl" : "map_DG.kml"
+ 				  "kmlUrl" : "map_DG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "DONCASTER TO HALIFAX",
  				  "mapCode" : "DH",
- 				  "kmlUrl" : "map_DH.kml"
+ 				  "kmlUrl" : "map_DH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO DORKING AND GUILDFORD VIA EPSOM",
  				  "mapCode" : "DK",
- 				  "kmlUrl" : "map_DK.kml"
+ 				  "kmlUrl" : "map_DK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "DERBY TO LINCOLNSHIRE VIA NOTTINGHAM",
  				  "mapCode" : "DL",
- 				  "kmlUrl" : "map_DL.kml"
+ 				  "kmlUrl" : "map_DL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "???",
  				  "mapCode" : "DO",
- 				  "kmlUrl" : "map_DO.kml"
+ 				  "kmlUrl" : "map_DO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "DONCASTER TO PRESTON",
  				  "mapCode" : "DP",
- 				  "kmlUrl" : "map_DP.kml"
+ 				  "kmlUrl" : "map_DP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA DONCASTER TO SCOTLAND",
  				  "mapCode" : "DS",
- 				  "kmlUrl" : "map_DS.kml"
+ 				  "kmlUrl" : "map_DS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA DONCASTER TO TEESIDE",
  				  "mapCode" : "DT",
- 				  "kmlUrl" : "map_DT.kml"
+ 				  "kmlUrl" : "map_DT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES FROM DOVER",
  				  "mapCode" : "DV",
- 				  "kmlUrl" : "map_DV.kml"
+ 				  "kmlUrl" : "map_DV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "DONCASTER TO WARRINGTON",
  				  "mapCode" : "DW",
- 				  "kmlUrl" : "map_DW.kml"
+ 				  "kmlUrl" : "map_DW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "DERBY TO YORK",
  				  "mapCode" : "DY",
- 				  "kmlUrl" : "map_DY.kml"
+ 				  "kmlUrl" : "map_DY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO ESSEX AND EAST ANGLIA",
  				  "mapCode" : "EA",
- 				  "kmlUrl" : "map_EA.kml"
+ 				  "kmlUrl" : "map_EA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON EUSTON TO BIRMINGHAM AND WOLVERHAMPTON",
  				  "mapCode" : "EB",
- 				  "kmlUrl" : "map_EB.kml"
+ 				  "kmlUrl" : "map_EB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST COAST - LONDON TO SCOTLAND",
  				  "mapCode" : "EC",
- 				  "kmlUrl" : "map_EC.kml"
+ 				  "kmlUrl" : "map_EC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST COAST LOCAL ROUTES VIA DONCASTER",
  				  "mapCode" : "ED",
- 				  "kmlUrl" : "map_ED.kml"
+ 				  "kmlUrl" : "map_ED.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO THE NORTH EAST VIA EASTERN COUNTIES",
  				  "mapCode" : "EE",
- 				  "kmlUrl" : "map_EE.kml"
+ 				  "kmlUrl" : "map_EE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO EFFINGHAM JUNCTION AND GUILDFORD",
  				  "mapCode" : "EF",
- 				  "kmlUrl" : "map_EF.kml"
+ 				  "kmlUrl" : "map_EF.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EDINBURGH TO GLASGOW LOCAL ROUTES",
  				  "mapCode" : "EG",
- 				  "kmlUrl" : "map_EG.kml"
+ 				  "kmlUrl" : "map_EG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EARLESTOWN TO HELLIFIELD",
  				  "mapCode" : "EH",
- 				  "kmlUrl" : "map_EH.kml"
+ 				  "kmlUrl" : "map_EH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "????",
  				  "mapCode" : "EI",
- 				  "kmlUrl" : "map_EI.kml"
+ 				  "kmlUrl" : "map_EI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON EUSTON TO NORTH WALES",
  				  "mapCode" : "EJ",
- 				  "kmlUrl" : "map_EJ.kml"
+ 				  "kmlUrl" : "map_EJ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST LONDON LINE",
  				  "mapCode" : "EL",
- 				  "kmlUrl" : "map_EL.kml"
+ 				  "kmlUrl" : "map_EL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST MIDLANDS LOCAL ROUTES",
  				  "mapCode" : "EM",
- 				  "kmlUrl" : "map_EM.kml"
+ 				  "kmlUrl" : "map_EM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON EUSTON TO NORTHAMPTON AND RUGBY",
  				  "mapCode" : "EN",
- 				  "kmlUrl" : "map_EN.kml"
+ 				  "kmlUrl" : "map_EN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON EUSTON TO STOCKPORT",
  				  "mapCode" : "EO",
- 				  "kmlUrl" : "map_EO.kml"
+ 				  "kmlUrl" : "map_EO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON EUSTON TO PRESTON",
  				  "mapCode" : "EP",
- 				  "kmlUrl" : "map_EP.kml"
+ 				  "kmlUrl" : "map_EP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO YORKSHIRE HUMBERSIDE THE NORTH EAST AND SCOTLAND",
  				  "mapCode" : "ER",
- 				  "kmlUrl" : "map_ER.kml"
+ 				  "kmlUrl" : "map_ER.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON EUSTON TO SHREWSBURY VIA STAFFORD",
  				  "mapCode" : "ES",
- 				  "kmlUrl" : "map_ES.kml"
+ 				  "kmlUrl" : "map_ES.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WEST VIA EXETER AND WOKING TO SURBITON AND SOUTH WEST LONDON",
  				  "mapCode" : "EU",
- 				  "kmlUrl" : "map_EU.kml"
+ 				  "kmlUrl" : "map_EU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON EUSTON TO WIGAN",
  				  "mapCode" : "EW",
- 				  "kmlUrl" : "map_EW.kml"
+ 				  "kmlUrl" : "map_EW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON EUSTON TO LANCASTER AND OXENHOLME",
  				  "mapCode" : "EX",
- 				  "kmlUrl" : "map_EX.kml"
+ 				  "kmlUrl" : "map_EX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EAST MIDLANDS  TO YORK",
  				  "mapCode" : "EY",
- 				  "kmlUrl" : "map_EY.kml"
+ 				  "kmlUrl" : "map_EY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM VIA BROMLEY SOUTH TO LONDON",
  				  "mapCode" : "FA",
- 				  "kmlUrl" : "map_FA.kml"
+ 				  "kmlUrl" : "map_FA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM TO LONDON BRIDGE VIA DARTFORD AND HITHER GREEN",
  				  "mapCode" : "FB",
- 				  "kmlUrl" : "map_FB.kml"
+ 				  "kmlUrl" : "map_FB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM TO CLAPHAM JUNCTION AND LONDON VICTORIA",
  				  "mapCode" : "FC",
- 				  "kmlUrl" : "map_FC.kml"
+ 				  "kmlUrl" : "map_FC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SCOTTISH INTERNAL ROUTES",
  				  "mapCode" : "FD",
- 				  "kmlUrl" : "map_FD.kml"
+ 				  "kmlUrl" : "map_FD.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM VIA HERNE HILL TO LONDON",
  				  "mapCode" : "FH",
- 				  "kmlUrl" : "map_FH.kml"
+ 				  "kmlUrl" : "map_FH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ABERDEEN TO KILMARNOCK AND CARSTAIRS VIA EDINBURGH AND GLASGOW",
  				  "mapCode" : "FK",
- 				  "kmlUrl" : "map_FK.kml"
+ 				  "kmlUrl" : "map_FK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM TO LONDON BRIDGE VIA DARTFORD AND BLACKHEATH",
  				  "mapCode" : "FL",
- 				  "kmlUrl" : "map_FL.kml"
+ 				  "kmlUrl" : "map_FL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM TO LONDON VIA NUNHEAD",
  				  "mapCode" : "FN",
- 				  "kmlUrl" : "map_FN.kml"
+ 				  "kmlUrl" : "map_FN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM TO TONBRIDGE VIA OXTED",
  				  "mapCode" : "FO",
- 				  "kmlUrl" : "map_FO.kml"
+ 				  "kmlUrl" : "map_FO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM TO TONBRIDGE VIA BROMLEY SOUTH AND SEVENOAKS",
  				  "mapCode" : "FS",
- 				  "kmlUrl" : "map_FS.kml"
+ 				  "kmlUrl" : "map_FS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM VIA TULSE HILL TO LONDON",
  				  "mapCode" : "FT",
- 				  "kmlUrl" : "map_FT.kml"
+ 				  "kmlUrl" : "map_FT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "FAVERSHAM TO LONDON BRIDGE VIA HITHER GREEN",
  				  "mapCode" : "FV",
- 				  "kmlUrl" : "map_FV.kml"
+ 				  "kmlUrl" : "map_FV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW AREA TO FORT WILLIAM",
  				  "mapCode" : "FW",
- 				  "kmlUrl" : "map_FW.kml"
+ 				  "kmlUrl" : "map_FW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "STIRLING AND INVERKEITHING TO INVERNESS AND ABERDEEN VIA INVERGOWRIE",
  				  "mapCode" : "GA",
- 				  "kmlUrl" : "map_GA.kml"
+ 				  "kmlUrl" : "map_GA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO BRADFORD VIA HELLIFIELD",
  				  "mapCode" : "GB",
- 				  "kmlUrl" : "map_GB.kml"
+ 				  "kmlUrl" : "map_GB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO WORCESTER VIA HIGH WYCOMBE AND BIRMINGHAM",
  				  "mapCode" : "GC",
- 				  "kmlUrl" : "map_GC.kml"
+ 				  "kmlUrl" : "map_GC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO DONCASTER",
  				  "mapCode" : "GD",
- 				  "kmlUrl" : "map_GD.kml"
+ 				  "kmlUrl" : "map_GD.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES BETWEEN GLASGOW AND FALKIRK",
  				  "mapCode" : "GF",
- 				  "kmlUrl" : "map_GF.kml"
+ 				  "kmlUrl" : "map_GF.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GRANTHAM TO GLASGOW",
  				  "mapCode" : "GG",
- 				  "kmlUrl" : "map_GG.kml"
+ 				  "kmlUrl" : "map_GG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GRANTHAM TO HULL",
  				  "mapCode" : "GH",
- 				  "kmlUrl" : "map_GH.kml"
+ 				  "kmlUrl" : "map_GH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO INVERNESS",
  				  "mapCode" : "GI",
- 				  "kmlUrl" : "map_GI.kml"
+ 				  "kmlUrl" : "map_GI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO NORTH WALES",
  				  "mapCode" : "GJ",
- 				  "kmlUrl" : "map_GJ.kml"
+ 				  "kmlUrl" : "map_GJ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO KILMARNOCK",
  				  "mapCode" : "GK",
- 				  "kmlUrl" : "map_GK.kml"
+ 				  "kmlUrl" : "map_GK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GREATER MANCHESTER",
  				  "mapCode" : "GM",
- 				  "kmlUrl" : "map_GM.kml"
+ 				  "kmlUrl" : "map_GM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO NEWCASTLE VIA CARLISLE",
  				  "mapCode" : "GN",
- 				  "kmlUrl" : "map_GN.kml"
+ 				  "kmlUrl" : "map_GN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW - LOCAL ROUTES",
  				  "mapCode" : "GO",
- 				  "kmlUrl" : "map_GO.kml"
+ 				  "kmlUrl" : "map_GO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO PRESTON",
  				  "mapCode" : "GP",
- 				  "kmlUrl" : "map_GP.kml"
+ 				  "kmlUrl" : "map_GP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO GRAYS",
  				  "mapCode" : "GR",
- 				  "kmlUrl" : "map_GR.kml"
+ 				  "kmlUrl" : "map_GR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GRANTHAM TO SCOTLAND",
  				  "mapCode" : "GS",
- 				  "kmlUrl" : "map_GS.kml"
+ 				  "kmlUrl" : "map_GS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GRANTHAM TO TEESIDE",
  				  "mapCode" : "GT",
- 				  "kmlUrl" : "map_GT.kml"
+ 				  "kmlUrl" : "map_GT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GRAND CENTRAL SERVICES - LONDON TO BRADFORD",
  				  "mapCode" : "GU",
- 				  "kmlUrl" : "map_GU.kml"
+ 				  "kmlUrl" : "map_GU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO LIVERPOOL",
  				  "mapCode" : "GV",
- 				  "kmlUrl" : "map_GV.kml"
+ 				  "kmlUrl" : "map_GV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO THE SOUTH WEST",
  				  "mapCode" : "GW",
- 				  "kmlUrl" : "map_GW.kml"
+ 				  "kmlUrl" : "map_GW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO OXENHOLME",
  				  "mapCode" : "GX",
- 				  "kmlUrl" : "map_GX.kml"
+ 				  "kmlUrl" : "map_GX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW TO YORKSHIRE VIA HELLIFIELD",
  				  "mapCode" : "GY",
- 				  "kmlUrl" : "map_GY.kml"
+ 				  "kmlUrl" : "map_GY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HULL TO ABERDEEN",
  				  "mapCode" : "HA",
- 				  "kmlUrl" : "map_HA.kml"
+ 				  "kmlUrl" : "map_HA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HEREFORD TO BIRMINGHAM",
  				  "mapCode" : "HB",
- 				  "kmlUrl" : "map_HB.kml"
+ 				  "kmlUrl" : "map_HB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HASTINGS TO CHATHAM VIA SEVENOAKS",
  				  "mapCode" : "HC",
- 				  "kmlUrl" : "map_HC.kml"
+ 				  "kmlUrl" : "map_HC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HULL TO STOCKPORT AND MANCHESTER VIA SELBY AND DONCASTER",
  				  "mapCode" : "HD",
- 				  "kmlUrl" : "map_HD.kml"
+ 				  "kmlUrl" : "map_HD.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PORTSMOUTH & HAVANT TO EPSOM VIA GUILDFORD",
  				  "mapCode" : "HE",
- 				  "kmlUrl" : "map_HE.kml"
+ 				  "kmlUrl" : "map_HE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HEREFORD TO GLASGOW VIA BIRMINGHAM AND WEST COAST",
  				  "mapCode" : "HG",
- 				  "kmlUrl" : "map_HG.kml"
+ 				  "kmlUrl" : "map_HG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HEREFORD TO HULL",
  				  "mapCode" : "HH",
- 				  "kmlUrl" : "map_HH.kml"
+ 				  "kmlUrl" : "map_HH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO HIGHBURY & ISLINGTON AND GOSPEL OAK",
  				  "mapCode" : "HI",
- 				  "kmlUrl" : "map_HI.kml"
+ 				  "kmlUrl" : "map_HI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "???",
  				  "mapCode" : "HK",
- 				  "kmlUrl" : "map_HK.kml"
+ 				  "kmlUrl" : "map_HK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HULL TO LEEDS",
  				  "mapCode" : "HL",
- 				  "kmlUrl" : "map_HL.kml"
+ 				  "kmlUrl" : "map_HL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HULL TO MANCHESTER",
  				  "mapCode" : "HM",
- 				  "kmlUrl" : "map_HM.kml"
+ 				  "kmlUrl" : "map_HM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HULL TO STOCKPORT AND MANCHESTER",
  				  "mapCode" : "HO",
- 				  "kmlUrl" : "map_HO.kml"
+ 				  "kmlUrl" : "map_HO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HEREFORD TO PADDINGTON VIA STROUD",
  				  "mapCode" : "HP",
- 				  "kmlUrl" : "map_HP.kml"
+ 				  "kmlUrl" : "map_HP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO HORSHAM AND GUILDFORD",
  				  "mapCode" : "HR",
- 				  "kmlUrl" : "map_HR.kml"
+ 				  "kmlUrl" : "map_HR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "??",
  				  "mapCode" : "HS",
- 				  "kmlUrl" : "map_HS.kml"
+ 				  "kmlUrl" : "map_HS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HULL TO TEESIDE",
  				  "mapCode" : "HT",
- 				  "kmlUrl" : "map_HT.kml"
+ 				  "kmlUrl" : "map_HT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO HUMBERSIDE",
  				  "mapCode" : "HU",
- 				  "kmlUrl" : "map_HU.kml"
+ 				  "kmlUrl" : "map_HU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BARNETBY TO LIVERPOOL VIA SHEFFIELD & HOPE VALLEY LINE",
  				  "mapCode" : "HV",
- 				  "kmlUrl" : "map_HV.kml"
+ 				  "kmlUrl" : "map_HV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SWANSEA TO CREWE - HEART OF WALES LINE",
  				  "mapCode" : "HW",
- 				  "kmlUrl" : "map_HW.kml"
+ 				  "kmlUrl" : "map_HW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "YORK TO CARLISLE VIA HEXHAM",
  				  "mapCode" : "HX",
- 				  "kmlUrl" : "map_HX.kml"
+ 				  "kmlUrl" : "map_HX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HEREFORD TO YORK",
  				  "mapCode" : "HY",
- 				  "kmlUrl" : "map_HY.kml"
+ 				  "kmlUrl" : "map_HY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "INVERKEITHING TO CARSTAIRS VIA EDINBURGH",
  				  "mapCode" : "IC",
- 				  "kmlUrl" : "map_IC.kml"
+ 				  "kmlUrl" : "map_IC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "INVERNESS TO EDINBURGH VIA ABERDEEN",
  				  "mapCode" : "IE",
- 				  "kmlUrl" : "map_IE.kml"
+ 				  "kmlUrl" : "map_IE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "INVERKEITHING TO NEWTON LANARK VIA CARSTAIRS",
  				  "mapCode" : "IN",
- 				  "kmlUrl" : "map_IN.kml"
+ 				  "kmlUrl" : "map_IN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "INVERNESS TO PERTH  VIA ABERDEEN ",
  				  "mapCode" : "IP",
- 				  "kmlUrl" : "map_IP.kml"
+ 				  "kmlUrl" : "map_IP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LLANDUDNO JUNCTION TO MANCHESTER AND GUIDE BRIDGE",
  				  "mapCode" : "JG",
- 				  "kmlUrl" : "map_JG.kml"
+ 				  "kmlUrl" : "map_JG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NORTH WALES TO PRESTON AND KIRKHAM & WESHAM",
  				  "mapCode" : "JK",
- 				  "kmlUrl" : "map_JK.kml"
+ 				  "kmlUrl" : "map_JK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PETERBOROUGH TO DONCASTER VIA SLEAFORD AND LINCOLN",
  				  "mapCode" : "JL",
- 				  "kmlUrl" : "map_JL.kml"
+ 				  "kmlUrl" : "map_JL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LLANDUDNO JUNCTION TO STOCKPORT VIA MANCHESTER",
  				  "mapCode" : "JO",
- 				  "kmlUrl" : "map_JO.kml"
+ 				  "kmlUrl" : "map_JO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NORTH WALES TO PRESTON VIA LIVERPOOL",
  				  "mapCode" : "JP",
- 				  "kmlUrl" : "map_JP.kml"
+ 				  "kmlUrl" : "map_JP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NORTH KENT TO ASHFORD VIA DOVER",
  				  "mapCode" : "KA",
- 				  "kmlUrl" : "map_KA.kml"
+ 				  "kmlUrl" : "map_KA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON KINGS X TO ELY",
  				  "mapCode" : "KE",
- 				  "kmlUrl" : "map_KE.kml"
+ 				  "kmlUrl" : "map_KE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON KINGS X TO GLASGOW",
  				  "mapCode" : "KG",
- 				  "kmlUrl" : "map_KG.kml"
+ 				  "kmlUrl" : "map_KG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "KIRKHAM & WESHAM TO HEREFORD VIA WEST COAST",
  				  "mapCode" : "KH",
- 				  "kmlUrl" : "map_KH.kml"
+ 				  "kmlUrl" : "map_KH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EDINBURGH TO INVERNESS VIA KIRKCALDY",
  				  "mapCode" : "KI",
- 				  "kmlUrl" : "map_KI.kml"
+ 				  "kmlUrl" : "map_KI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "KILMARNOCK AREA - LOCAL ROUTES",
  				  "mapCode" : "KK",
- 				  "kmlUrl" : "map_KK.kml"
+ 				  "kmlUrl" : "map_KK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "KENT LOCAL SERVICES",
  				  "mapCode" : "KL",
- 				  "kmlUrl" : "map_KL.kml"
+ 				  "kmlUrl" : "map_KL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "KIRKHAM & WESHAM TO MANCHESTER VIA PRESTON",
  				  "mapCode" : "KM",
- 				  "kmlUrl" : "map_KM.kml"
+ 				  "kmlUrl" : "map_KM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "KIRKHAM & WESHAM TO NUNEATON VIA CREWE",
  				  "mapCode" : "KN",
- 				  "kmlUrl" : "map_KN.kml"
+ 				  "kmlUrl" : "map_KN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON KINGS X TO PETERBOROUGH & GRANTHAM",
  				  "mapCode" : "KP",
- 				  "kmlUrl" : "map_KP.kml"
+ 				  "kmlUrl" : "map_KP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON KINGS X TO SLEAFORD AND NOTTINGHAM",
  				  "mapCode" : "KS",
- 				  "kmlUrl" : "map_KS.kml"
+ 				  "kmlUrl" : "map_KS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "KIRKHAM & WESHAM TO WARRINGTON AND LIVERPOOL",
  				  "mapCode" : "KW",
- 				  "kmlUrl" : "map_KW.kml"
+ 				  "kmlUrl" : "map_KW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON KINGS X TO YORK",
  				  "mapCode" : "KY",
- 				  "kmlUrl" : "map_KY.kml"
+ 				  "kmlUrl" : "map_KY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO AVON STATIONS VIA WESTBURY",
  				  "mapCode" : "LA",
- 				  "kmlUrl" : "map_LA.kml"
+ 				  "kmlUrl" : "map_LA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BEDFORD AND LONDON TO CENTRAL SUSSEX AND BRIGHTON",
  				  "mapCode" : "LB",
- 				  "kmlUrl" : "map_LB.kml"
+ 				  "kmlUrl" : "map_LB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON EUSTON TO CHESHIRE",
  				  "mapCode" : "LC",
- 				  "kmlUrl" : "map_LC.kml"
+ 				  "kmlUrl" : "map_LC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO RAMSGATE VIA DOVER AND MARGATE",
  				  "mapCode" : "LD",
- 				  "kmlUrl" : "map_LD.kml"
+ 				  "kmlUrl" : "map_LD.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO EXETER AND PLYMOUTH VIA SALISBURY",
  				  "mapCode" : "LE",
- 				  "kmlUrl" : "map_LE.kml"
+ 				  "kmlUrl" : "map_LE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO FORD",
  				  "mapCode" : "LF",
- 				  "kmlUrl" : "map_LF.kml"
+ 				  "kmlUrl" : "map_LF.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO GLOUCESTER AND CHELTENHAM SPA VIA BRISTOL STATIONS",
  				  "mapCode" : "LG",
- 				  "kmlUrl" : "map_LG.kml"
+ 				  "kmlUrl" : "map_LG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO HEREFORD",
  				  "mapCode" : "LH",
- 				  "kmlUrl" : "map_LH.kml"
+ 				  "kmlUrl" : "map_LH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON LIVERPOOL STREET LOCAL SERVICES",
  				  "mapCode" : "LI",
- 				  "kmlUrl" : "map_LI.kml"
+ 				  "kmlUrl" : "map_LI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO MID KENT AND DOVER",
  				  "mapCode" : "LK",
- 				  "kmlUrl" : "map_LK.kml"
+ 				  "kmlUrl" : "map_LK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO EAST KENT",
  				  "mapCode" : "LL",
- 				  "kmlUrl" : "map_LL.kml"
+ 				  "kmlUrl" : "map_LL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEST COAST MAIN LINE TO SCOTLAND",
  				  "mapCode" : "LM",
- 				  "kmlUrl" : "map_LM.kml"
+ 				  "kmlUrl" : "map_LM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON KINGS X TO LINCOLN",
  				  "mapCode" : "LN",
- 				  "kmlUrl" : "map_LN.kml"
+ 				  "kmlUrl" : "map_LN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON",
  				  "mapCode" : "LO",
- 				  "kmlUrl" : "map_LO.kml"
+ 				  "kmlUrl" : "map_LO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "???",
  				  "mapCode" : "LP",
- 				  "kmlUrl" : "map_LP.kml"
+ 				  "kmlUrl" : "map_LP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO RAMSGATE VIA CHATHAM AND MAIDSTONE",
  				  "mapCode" : "LR",
- 				  "kmlUrl" : "map_LR.kml"
+ 				  "kmlUrl" : "map_LR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "???",
  				  "mapCode" : "LS",
- 				  "kmlUrl" : "map_LS.kml"
+ 				  "kmlUrl" : "map_LS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO SOUTH WALES",
  				  "mapCode" : "LW",
- 				  "kmlUrl" : "map_LW.kml"
+ 				  "kmlUrl" : "map_LW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LEEDS TO OXENHOLME VIA HELLIFIELD",
  				  "mapCode" : "LX",
- 				  "kmlUrl" : "map_LX.kml"
+ 				  "kmlUrl" : "map_LX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LANCASHIRE-YORKSHIRE ROUTES",
  				  "mapCode" : "LY",
- 				  "kmlUrl" : "map_LY.kml"
+ 				  "kmlUrl" : "map_LY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO GREATER MANCHESTER",
  				  "mapCode" : "MA",
- 				  "kmlUrl" : "map_MA.kml"
+ 				  "kmlUrl" : "map_MA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER TO BARNSLEY VIA HUDDERSFIELD",
  				  "mapCode" : "MB",
- 				  "kmlUrl" : "map_MB.kml"
+ 				  "kmlUrl" : "map_MB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER TO CARDIFF VIA SHREWSBURY",
  				  "mapCode" : "MC",
- 				  "kmlUrl" : "map_MC.kml"
+ 				  "kmlUrl" : "map_MC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEST MIDLANDS TO MERSEYSIDE",
  				  "mapCode" : "ME",
- 				  "kmlUrl" : "map_ME.kml"
+ 				  "kmlUrl" : "map_ME.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER STATIONS TO GLASGOW",
  				  "mapCode" : "MG",
- 				  "kmlUrl" : "map_MG.kml"
+ 				  "kmlUrl" : "map_MG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER TO HELLIFIELD VIA BOLTON",
  				  "mapCode" : "MH",
- 				  "kmlUrl" : "map_MH.kml"
+ 				  "kmlUrl" : "map_MH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MIDLAND MAIN LINE - LOCAL ROUTES",
  				  "mapCode" : "MI",
- 				  "kmlUrl" : "map_MI.kml"
+ 				  "kmlUrl" : "map_MI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER TO NORTH WALES",
  				  "mapCode" : "MJ",
- 				  "kmlUrl" : "map_MJ.kml"
+ 				  "kmlUrl" : "map_MJ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER TO WAKEFIELD AND PONTEFRACT",
  				  "mapCode" : "MK",
- 				  "kmlUrl" : "map_MK.kml"
+ 				  "kmlUrl" : "map_MK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MERSEYSIDE LOCAL SERVICES",
  				  "mapCode" : "ML",
- 				  "kmlUrl" : "map_ML.kml"
+ 				  "kmlUrl" : "map_ML.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO THE EAST MIDLANDS AND SCOTLAND VIA THE PENNINES",
  				  "mapCode" : "MM",
- 				  "kmlUrl" : "map_MM.kml"
+ 				  "kmlUrl" : "map_MM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER TO NEWCASTLE",
  				  "mapCode" : "MN",
- 				  "kmlUrl" : "map_MN.kml"
+ 				  "kmlUrl" : "map_MN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MIDLAND MAIN LINE LOCAL ROUTES VIA MELTON MOWBRAY",
  				  "mapCode" : "MO",
- 				  "kmlUrl" : "map_MO.kml"
+ 				  "kmlUrl" : "map_MO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER TO PLYMOUTH VIA SHREWSBURY",
  				  "mapCode" : "MP",
- 				  "kmlUrl" : "map_MP.kml"
+ 				  "kmlUrl" : "map_MP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GREATER MANCHESTER LOCAL ROUTES",
  				  "mapCode" : "MR",
- 				  "kmlUrl" : "map_MR.kml"
+ 				  "kmlUrl" : "map_MR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA MANCHESTER AND STOCKPORT",
  				  "mapCode" : "MS",
- 				  "kmlUrl" : "map_MS.kml"
+ 				  "kmlUrl" : "map_MS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER TO TEESIDE",
  				  "mapCode" : "MT",
- 				  "kmlUrl" : "map_MT.kml"
+ 				  "kmlUrl" : "map_MT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CENTRAL SOUTHERN ENGLAND TO THE NORTH WEST AND YORKSHIRE",
  				  "mapCode" : "MW",
- 				  "kmlUrl" : "map_MW.kml"
+ 				  "kmlUrl" : "map_MW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MANCHESTER TO OXENHOLME",
  				  "mapCode" : "MX",
- 				  "kmlUrl" : "map_MX.kml"
+ 				  "kmlUrl" : "map_MX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA MEADOWHALL TO YORK",
  				  "mapCode" : "MY",
- 				  "kmlUrl" : "map_MY.kml"
+ 				  "kmlUrl" : "map_MY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NORTH OF CREWE - LOCAL SERVICES",
  				  "mapCode" : "NC",
- 				  "kmlUrl" : "map_NC.kml"
+ 				  "kmlUrl" : "map_NC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NORTH EAST ENGLAND TO SCOTLAND",
  				  "mapCode" : "NE",
- 				  "kmlUrl" : "map_NE.kml"
+ 				  "kmlUrl" : "map_NE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NEWARK TO GLASGOW",
  				  "mapCode" : "NG",
- 				  "kmlUrl" : "map_NG.kml"
+ 				  "kmlUrl" : "map_NG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NEWARK TO HULL",
  				  "mapCode" : "NH",
- 				  "kmlUrl" : "map_NH.kml"
+ 				  "kmlUrl" : "map_NH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NUNEATON TO NORTH WALES",
  				  "mapCode" : "NJ",
- 				  "kmlUrl" : "map_NJ.kml"
+ 				  "kmlUrl" : "map_NJ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO NORTH KENT",
  				  "mapCode" : "NK",
- 				  "kmlUrl" : "map_NK.kml"
+ 				  "kmlUrl" : "map_NK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NORWICH AND CAMBRIDGE TO LIVERPOOL VIA PETERBOROUGH AND MANCHESTER",
  				  "mapCode" : "NL",
- 				  "kmlUrl" : "map_NL.kml"
+ 				  "kmlUrl" : "map_NL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO NOTTINGHAM AND DERBY",
  				  "mapCode" : "NM",
- 				  "kmlUrl" : "map_NM.kml"
+ 				  "kmlUrl" : "map_NM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NORTHERN - LOCAL ROUTES NORTH OF MANCHESTER",
  				  "mapCode" : "NN",
- 				  "kmlUrl" : "map_NN.kml"
+ 				  "kmlUrl" : "map_NN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LIVERPOOL TO MANCHESTER VIA EARLESTOWN",
  				  "mapCode" : "NO",
- 				  "kmlUrl" : "map_NO.kml"
+ 				  "kmlUrl" : "map_NO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NORTH PENNINES ROUTE",
  				  "mapCode" : "NP",
- 				  "kmlUrl" : "map_NP.kml"
+ 				  "kmlUrl" : "map_NP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LIVERPOOL TO MANCHESTER VIA WARRINGTON",
  				  "mapCode" : "NR",
- 				  "kmlUrl" : "map_NR.kml"
+ 				  "kmlUrl" : "map_NR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NEWARK TO SCOTLAND",
  				  "mapCode" : "NS",
- 				  "kmlUrl" : "map_NS.kml"
+ 				  "kmlUrl" : "map_NS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NEWARK TO TEESIDE",
  				  "mapCode" : "NT",
- 				  "kmlUrl" : "map_NT.kml"
+ 				  "kmlUrl" : "map_NT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NUNEATON TO LIVERPOOL",
  				  "mapCode" : "NV",
- 				  "kmlUrl" : "map_NV.kml"
+ 				  "kmlUrl" : "map_NV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NUNEATON TO WIGAN",
  				  "mapCode" : "NW",
- 				  "kmlUrl" : "map_NW.kml"
+ 				  "kmlUrl" : "map_NW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEST MIDLANDS TO OXENHOLME VIA WEST COAST",
  				  "mapCode" : "NX",
- 				  "kmlUrl" : "map_NX.kml"
+ 				  "kmlUrl" : "map_NX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "STOCKPORT TO CARDIFF VIA SHREWSBURY",
  				  "mapCode" : "OC",
- 				  "kmlUrl" : "map_OC.kml"
+ 				  "kmlUrl" : "map_OC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "STOCKPORT TO PLYMOUTH VIA SHREWSBURY",
  				  "mapCode" : "OP",
- 				  "kmlUrl" : "map_OP.kml"
+ 				  "kmlUrl" : "map_OP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON VICTORIA TO OTFORD AND ASHFORD INTERNATIONAL",
  				  "mapCode" : "OT",
- 				  "kmlUrl" : "map_OT.kml"
+ 				  "kmlUrl" : "map_OT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON OVERGROUND ROUTES",
  				  "mapCode" : "OV",
- 				  "kmlUrl" : "map_OV.kml"
+ 				  "kmlUrl" : "map_OV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PERTH TO ABERDEEN VIA INVERNESS",
  				  "mapCode" : "PA",
- 				  "kmlUrl" : "map_PA.kml"
+ 				  "kmlUrl" : "map_PA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO BIRMINGHAM",
  				  "mapCode" : "PB",
- 				  "kmlUrl" : "map_PB.kml"
+ 				  "kmlUrl" : "map_PB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON PADDINGTON TO CASTLE CARY VIA BATH AND WESTBURY",
  				  "mapCode" : "PC",
- 				  "kmlUrl" : "map_PC.kml"
+ 				  "kmlUrl" : "map_PC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO SURREY EAST HAMPSHIRE AND PORTSMOUTH",
  				  "mapCode" : "PD",
- 				  "kmlUrl" : "map_PD.kml"
+ 				  "kmlUrl" : "map_PD.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO EDINBURGH VIA BIRMINGHAM AND WEST COAST",
  				  "mapCode" : "PE",
- 				  "kmlUrl" : "map_PE.kml"
+ 				  "kmlUrl" : "map_PE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON PADDINGTON TO GLASGOW",
  				  "mapCode" : "PG",
- 				  "kmlUrl" : "map_PG.kml"
+ 				  "kmlUrl" : "map_PG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO HULL",
  				  "mapCode" : "PH",
- 				  "kmlUrl" : "map_PH.kml"
+ 				  "kmlUrl" : "map_PH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PETERBOROUGH TO IPSWICH VIA NORWICH",
  				  "mapCode" : "PI",
- 				  "kmlUrl" : "map_PI.kml"
+ 				  "kmlUrl" : "map_PI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO NORTH WALES",
  				  "mapCode" : "PJ",
- 				  "kmlUrl" : "map_PJ.kml"
+ 				  "kmlUrl" : "map_PJ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO LEEDS",
  				  "mapCode" : "PL",
- 				  "kmlUrl" : "map_PL.kml"
+ 				  "kmlUrl" : "map_PL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO MANCHESTER VIA BIRMINGHAM AND WEST COAST",
  				  "mapCode" : "PM",
- 				  "kmlUrl" : "map_PM.kml"
+ 				  "kmlUrl" : "map_PM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PETERBOROUGH TO NOTTINGHAM VIA LOUGHBOROUGH",
  				  "mapCode" : "PN",
- 				  "kmlUrl" : "map_PN.kml"
+ 				  "kmlUrl" : "map_PN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO STOKE ON TRENT VIA BIRMINGHAM AND WEST COAST",
  				  "mapCode" : "PO",
- 				  "kmlUrl" : "map_PO.kml"
+ 				  "kmlUrl" : "map_PO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO PRESTON VIA BIRMINGHAM AND WEST COAST",
  				  "mapCode" : "PP",
- 				  "kmlUrl" : "map_PP.kml"
+ 				  "kmlUrl" : "map_PP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "MIDLAND MAIN LINE ROUTES TO MANCHESTER AND PRESTON VIA SHEFFIELD",
  				  "mapCode" : "PR",
- 				  "kmlUrl" : "map_PR.kml"
+ 				  "kmlUrl" : "map_PR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LANCASHIRE AND CHESHIRE TO LINCOLNSHIRE AND THE EAST MIDLANDS",
  				  "mapCode" : "PS",
- 				  "kmlUrl" : "map_PS.kml"
+ 				  "kmlUrl" : "map_PS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PORTSMOUTH VIA WOKING TO SURBITON AND SW LONDON",
  				  "mapCode" : "PU",
- 				  "kmlUrl" : "map_PU.kml"
+ 				  "kmlUrl" : "map_PU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO LIVERPOOL",
  				  "mapCode" : "PV",
- 				  "kmlUrl" : "map_PV.kml"
+ 				  "kmlUrl" : "map_PV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO WORCESTER",
  				  "mapCode" : "PW",
- 				  "kmlUrl" : "map_PW.kml"
+ 				  "kmlUrl" : "map_PW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO OXENHOLME VIA BIRMINGHAM AND WEST COAST",
  				  "mapCode" : "PX",
- 				  "kmlUrl" : "map_PX.kml"
+ 				  "kmlUrl" : "map_PX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "PLYMOUTH TO YORK",
  				  "mapCode" : "PY",
- 				  "kmlUrl" : "map_PY.kml"
+ 				  "kmlUrl" : "map_PY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO BIRMINGHAM",
  				  "mapCode" : "RB",
- 				  "kmlUrl" : "map_RB.kml"
+ 				  "kmlUrl" : "map_RB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO EDINBURGH VIA WEST COAST",
  				  "mapCode" : "RE",
- 				  "kmlUrl" : "map_RE.kml"
+ 				  "kmlUrl" : "map_RE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO STAFFORD",
  				  "mapCode" : "RF",
- 				  "kmlUrl" : "map_RF.kml"
+ 				  "kmlUrl" : "map_RF.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO READING",
  				  "mapCode" : "RG",
- 				  "kmlUrl" : "map_RG.kml"
+ 				  "kmlUrl" : "map_RG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO HULL",
  				  "mapCode" : "RH",
- 				  "kmlUrl" : "map_RH.kml"
+ 				  "kmlUrl" : "map_RH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO NORTH WALES",
  				  "mapCode" : "RJ",
- 				  "kmlUrl" : "map_RJ.kml"
+ 				  "kmlUrl" : "map_RJ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "READING TO LEEDS",
  				  "mapCode" : "RL",
- 				  "kmlUrl" : "map_RL.kml"
+ 				  "kmlUrl" : "map_RL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO MANCHESTER",
  				  "mapCode" : "RM",
- 				  "kmlUrl" : "map_RM.kml"
+ 				  "kmlUrl" : "map_RM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO STOCKPORT",
  				  "mapCode" : "RO",
- 				  "kmlUrl" : "map_RO.kml"
+ 				  "kmlUrl" : "map_RO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO PRESTON",
  				  "mapCode" : "RP",
- 				  "kmlUrl" : "map_RP.kml"
+ 				  "kmlUrl" : "map_RP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "READING VIA WOKING TO SURBITON AND SW LONDON",
  				  "mapCode" : "RU",
- 				  "kmlUrl" : "map_RU.kml"
+ 				  "kmlUrl" : "map_RU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO LIVERPOOL",
  				  "mapCode" : "RV",
- 				  "kmlUrl" : "map_RV.kml"
+ 				  "kmlUrl" : "map_RV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "READING TO WIGAN",
  				  "mapCode" : "RW",
- 				  "kmlUrl" : "map_RW.kml"
+ 				  "kmlUrl" : "map_RW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "READING TO LANCASTER AND OXENHOLME",
  				  "mapCode" : "RX",
- 				  "kmlUrl" : "map_RX.kml"
+ 				  "kmlUrl" : "map_RX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO YORK",
  				  "mapCode" : "RY",
- 				  "kmlUrl" : "map_RY.kml"
+ 				  "kmlUrl" : "map_RY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BRISTOL TO SWINDON",
  				  "mapCode" : "SB",
- 				  "kmlUrl" : "map_SB.kml"
+ 				  "kmlUrl" : "map_SB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO WEST SUSSEX",
  				  "mapCode" : "SC",
- 				  "kmlUrl" : "map_SC.kml"
+ 				  "kmlUrl" : "map_SC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO WEST SUSSEX",
  				  "mapCode" : "SD",
- 				  "kmlUrl" : "map_SD.kml"
+ 				  "kmlUrl" : "map_SD.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO SCOTLAND VIA BIRMINGHAM AND WEST COAST",
  				  "mapCode" : "SE",
- 				  "kmlUrl" : "map_SE.kml"
+ 				  "kmlUrl" : "map_SE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "STAFFORD TO LONDON EUSTON",
  				  "mapCode" : "SF",
- 				  "kmlUrl" : "map_SF.kml"
+ 				  "kmlUrl" : "map_SF.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES BETWEEN GLASGOW AND STIRLING AND FALKIRK",
  				  "mapCode" : "SG",
- 				  "kmlUrl" : "map_SG.kml"
+ 				  "kmlUrl" : "map_SG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SHEFFIELD TO GRIMSBY AND LINCOLN VIA RETFORD",
  				  "mapCode" : "SH",
- 				  "kmlUrl" : "map_SH.kml"
+ 				  "kmlUrl" : "map_SH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "STOKE ON TRENT TO MANCHESTER - LOCAL ROUTES",
  				  "mapCode" : "SK",
- 				  "kmlUrl" : "map_SK.kml"
+ 				  "kmlUrl" : "map_SK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO LEEDS",
  				  "mapCode" : "SL",
- 				  "kmlUrl" : "map_SL.kml"
+ 				  "kmlUrl" : "map_SL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH MIDLANDS LOCAL ROUTES",
  				  "mapCode" : "SM",
- 				  "kmlUrl" : "map_SM.kml"
+ 				  "kmlUrl" : "map_SM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO SOUTHAMPTON AND BRIGHTON",
  				  "mapCode" : "SN",
- 				  "kmlUrl" : "map_SN.kml"
+ 				  "kmlUrl" : "map_SN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO STOCKPORT",
  				  "mapCode" : "SO",
- 				  "kmlUrl" : "map_SO.kml"
+ 				  "kmlUrl" : "map_SO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SWANSEA TO PLYMOUTH VIA BRISTOL",
  				  "mapCode" : "SP",
- 				  "kmlUrl" : "map_SP.kml"
+ 				  "kmlUrl" : "map_SP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SURREY QUAYS LOCAL ROUTES",
  				  "mapCode" : "SQ",
- 				  "kmlUrl" : "map_SQ.kml"
+ 				  "kmlUrl" : "map_SQ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "STRATHCLYDE LOCAL SERVICES",
  				  "mapCode" : "SR",
- 				  "kmlUrl" : "map_SR.kml"
+ 				  "kmlUrl" : "map_SR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH COAST TO SOUTH WEST VIA WESTBURY",
  				  "mapCode" : "SS",
- 				  "kmlUrl" : "map_SS.kml"
+ 				  "kmlUrl" : "map_SS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "??",
  				  "mapCode" : "ST",
- 				  "kmlUrl" : "map_ST.kml"
+ 				  "kmlUrl" : "map_ST.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA SURBITON TO LONDON TERMINALS",
  				  "mapCode" : "SU",
- 				  "kmlUrl" : "map_SU.kml"
+ 				  "kmlUrl" : "map_SU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LOCAL SOUTH EASTERN ROUTES VIA SEVENOAKS",
  				  "mapCode" : "SV",
- 				  "kmlUrl" : "map_SV.kml"
+ 				  "kmlUrl" : "map_SV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON WATERLOO TO WEYMOUTH - SOUTH WEST",
  				  "mapCode" : "SW",
- 				  "kmlUrl" : "map_SW.kml"
+ 				  "kmlUrl" : "map_SW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO OXENHOLME VIA BIRMINGHAM AND WEST COAST",
  				  "mapCode" : "SX",
- 				  "kmlUrl" : "map_SX.kml"
+ 				  "kmlUrl" : "map_SX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH YORKSHIRE LOCAL ROUTES",
  				  "mapCode" : "SY",
- 				  "kmlUrl" : "map_SY.kml"
+ 				  "kmlUrl" : "map_SY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO GLASGOW 'THAMES CLYDE' ROUTE",
  				  "mapCode" : "TC",
- 				  "kmlUrl" : "map_TC.kml"
+ 				  "kmlUrl" : "map_TC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO TEESIDE",
  				  "mapCode" : "TE",
- 				  "kmlUrl" : "map_TE.kml"
+ 				  "kmlUrl" : "map_TE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO TOTTENHAM HALE",
  				  "mapCode" : "TH",
- 				  "kmlUrl" : "map_TH.kml"
+ 				  "kmlUrl" : "map_TH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "BEDFORD TO WIMBLEDON AND SUTTON",
  				  "mapCode" : "TK",
- 				  "kmlUrl" : "map_TK.kml"
+ 				  "kmlUrl" : "map_TK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "TRENT VALLEY LOCAL SERVICES",
  				  "mapCode" : "TL",
- 				  "kmlUrl" : "map_TL.kml"
+ 				  "kmlUrl" : "map_TL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NUNEATON VIA TAMWORTH TO MANCHESTER",
  				  "mapCode" : "TM",
- 				  "kmlUrl" : "map_TM.kml"
+ 				  "kmlUrl" : "map_TM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO TONBRIDGE AND ASHFORD  VIA REDHILL",
  				  "mapCode" : "TN",
- 				  "kmlUrl" : "map_TN.kml"
+ 				  "kmlUrl" : "map_TN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NUNEATON VIA TAMWORTH TO STOCKPORT",
  				  "mapCode" : "TO",
- 				  "kmlUrl" : "map_TO.kml"
+ 				  "kmlUrl" : "map_TO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "TRANSPENNINE ROUTES",
  				  "mapCode" : "TP",
- 				  "kmlUrl" : "map_TP.kml"
+ 				  "kmlUrl" : "map_TP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "NORTH AND WEST LONDON TO SOUTH SUSSEX",
  				  "mapCode" : "TS",
- 				  "kmlUrl" : "map_TS.kml"
+ 				  "kmlUrl" : "map_TS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON BRIDGE TO TUNBRIDGE WELLS VIA NEW BECKENHAM AND ORPINGTON",
  				  "mapCode" : "TU",
- 				  "kmlUrl" : "map_TU.kml"
+ 				  "kmlUrl" : "map_TU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO CREWE AND MANCHESTER VIA THE TRENT VALLEY",
  				  "mapCode" : "TV",
- 				  "kmlUrl" : "map_TV.kml"
+ 				  "kmlUrl" : "map_TV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "???",
  				  "mapCode" : "TW",
- 				  "kmlUrl" : "map_TW.kml"
+ 				  "kmlUrl" : "map_TW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO TYNESIDE (NEWCASTLE)",
  				  "mapCode" : "TY",
- 				  "kmlUrl" : "map_TY.kml"
+ 				  "kmlUrl" : "map_TY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO UPMINSTER AND PITSEA",
  				  "mapCode" : "UP",
- 				  "kmlUrl" : "map_UP.kml"
+ 				  "kmlUrl" : "map_UP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON VICTORIA TO ASHFORD INTERNATIONAL VIA HASTINGS",
  				  "mapCode" : "VA",
- 				  "kmlUrl" : "map_VA.kml"
+ 				  "kmlUrl" : "map_VA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "VICTORIA TO CHATHAM VIA BROMLEY SOUTH AND SWANLEY",
  				  "mapCode" : "VC",
- 				  "kmlUrl" : "map_VC.kml"
+ 				  "kmlUrl" : "map_VC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON VICTORIA TO HASTINGS VIA TONBRIDGE",
  				  "mapCode" : "VH",
- 				  "kmlUrl" : "map_VH.kml"
+ 				  "kmlUrl" : "map_VH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LIVERPOOL TO WAKEFIELD AND PONTEFRACT",
  				  "mapCode" : "VK",
- 				  "kmlUrl" : "map_VK.kml"
+ 				  "kmlUrl" : "map_VK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON VICTORIA AND BLACKFRIARS TO LEWISHAM",
  				  "mapCode" : "VL",
- 				  "kmlUrl" : "map_VL.kml"
+ 				  "kmlUrl" : "map_VL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LIVERPOOL TO NEWCASTLE",
  				  "mapCode" : "VN",
- 				  "kmlUrl" : "map_VN.kml"
+ 				  "kmlUrl" : "map_VN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON VICTORIA TO RAMSGATE VIA TONBRIDGE",
  				  "mapCode" : "VR",
- 				  "kmlUrl" : "map_VR.kml"
+ 				  "kmlUrl" : "map_VR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LIVERPOOL TO TEESIDE",
  				  "mapCode" : "VT",
- 				  "kmlUrl" : "map_VT.kml"
+ 				  "kmlUrl" : "map_VT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO EAST HERTFORDSHIRE AND WEST ANGLIA",
  				  "mapCode" : "WA",
- 				  "kmlUrl" : "map_WA.kml"
+ 				  "kmlUrl" : "map_WA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO BIRMINGHAM VIA BRISTOL",
  				  "mapCode" : "WB",
- 				  "kmlUrl" : "map_WB.kml"
+ 				  "kmlUrl" : "map_WB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "???",
  				  "mapCode" : "WC",
- 				  "kmlUrl" : "map_WC.kml"
+ 				  "kmlUrl" : "map_WC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEST WALES TO DORCHESTER AND WEYMOUTH",
  				  "mapCode" : "WD",
- 				  "kmlUrl" : "map_WD.kml"
+ 				  "kmlUrl" : "map_WD.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO THE WEST OF ENGLAND",
  				  "mapCode" : "WE",
- 				  "kmlUrl" : "map_WE.kml"
+ 				  "kmlUrl" : "map_WE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WARRINGTON TO GLASGOW AND EDINBURGH",
  				  "mapCode" : "WG",
- 				  "kmlUrl" : "map_WG.kml"
+ 				  "kmlUrl" : "map_WG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO HULL",
  				  "mapCode" : "WH",
- 				  "kmlUrl" : "map_WH.kml"
+ 				  "kmlUrl" : "map_WH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO BARNT GREEN VIA NEWPORT & HEREFORD",
  				  "mapCode" : "WI",
- 				  "kmlUrl" : "map_WI.kml"
+ 				  "kmlUrl" : "map_WI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LOCAL ROUTES ROUND WAKEFIELD",
  				  "mapCode" : "WK",
- 				  "kmlUrl" : "map_WK.kml"
+ 				  "kmlUrl" : "map_WK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "???",
  				  "mapCode" : "WL",
- 				  "kmlUrl" : "map_WL.kml"
+ 				  "kmlUrl" : "map_WL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEST MIDLANDS LOCAL ROUTES",
  				  "mapCode" : "WM",
- 				  "kmlUrl" : "map_WM.kml"
+ 				  "kmlUrl" : "map_WM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "GLASGOW AREA - WESTERTON LOCAL ROUTES",
  				  "mapCode" : "WN",
- 				  "kmlUrl" : "map_WN.kml"
+ 				  "kmlUrl" : "map_WN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEYMOUTH TO BROMSGROVE AND BARNT GREEN VIA BRISTOL",
  				  "mapCode" : "WO",
- 				  "kmlUrl" : "map_WO.kml"
+ 				  "kmlUrl" : "map_WO.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "HEREFORD & WORCESTER TO PADDINGTON VIA BRISTOL & NEWBURY",
  				  "mapCode" : "WP",
- 				  "kmlUrl" : "map_WP.kml"
+ 				  "kmlUrl" : "map_WP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON TO THE SOUTH WEST AND SOUTH WALES",
  				  "mapCode" : "WR",
- 				  "kmlUrl" : "map_WR.kml"
+ 				  "kmlUrl" : "map_WR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEST MIDLANDS TO SCOTLAND VIA WEST COAST",
  				  "mapCode" : "WS",
- 				  "kmlUrl" : "map_WS.kml"
+ 				  "kmlUrl" : "map_WS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES TO BARNT GREEN VIA NEWPORT & CHELTENHAM",
  				  "mapCode" : "WT",
- 				  "kmlUrl" : "map_WT.kml"
+ 				  "kmlUrl" : "map_WT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEYMOUTH VIA WOKING TO SURBITON AND SOUTH WEST LONDON",
  				  "mapCode" : "WU",
- 				  "kmlUrl" : "map_WU.kml"
+ 				  "kmlUrl" : "map_WU.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "READING TO LONDON VIA SURBITON",
  				  "mapCode" : "WV",
- 				  "kmlUrl" : "map_WV.kml"
+ 				  "kmlUrl" : "map_WV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH WALES, PORTSMOUTH AND WEYMOUTH TO LONDON",
  				  "mapCode" : "WW",
- 				  "kmlUrl" : "map_WW.kml"
+ 				  "kmlUrl" : "map_WW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LONDON AND SOUTHERN HOME COUNTIES TO THE SOUTH WEST AND SE WALES",
  				  "mapCode" : "WX",
- 				  "kmlUrl" : "map_WX.kml"
+ 				  "kmlUrl" : "map_WX.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "LOCAL ROUTES IN WEST YORKSHIRE",
  				  "mapCode" : "WY",
- 				  "kmlUrl" : "map_WY.kml"
+ 				  "kmlUrl" : "map_WY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CROSS COUNTRY ROUTES FROM SOUTH COAST TO BIRMINGHAM",
  				  "mapCode" : "XB",
- 				  "kmlUrl" : "map_XB.kml"
+ 				  "kmlUrl" : "map_XB.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CROSS COUNTRY ROUTES FROM SOUTH COAST VIA BIRMINGHAM",
  				  "mapCode" : "XC",
- 				  "kmlUrl" : "map_XC.kml"
+ 				  "kmlUrl" : "map_XC.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "EPSOM TO EASTBOURNE AND HASTINGS VIA CROYDON AND BRIGHTON",
  				  "mapCode" : "XE",
- 				  "kmlUrl" : "map_XE.kml"
+ 				  "kmlUrl" : "map_XE.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "OXENHOLME TO HEREFORD VIA WEST COAST",
  				  "mapCode" : "XH",
- 				  "kmlUrl" : "map_XH.kml"
+ 				  "kmlUrl" : "map_XH.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "OXENHOLME TO NORTH WALES",
  				  "mapCode" : "XJ",
- 				  "kmlUrl" : "map_XJ.kml"
+ 				  "kmlUrl" : "map_XJ.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CROSS COUNTRY ROUTES FROM BIRMINGHAM TO LEEDS",
  				  "mapCode" : "XL",
- 				  "kmlUrl" : "map_XL.kml"
+ 				  "kmlUrl" : "map_XL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "OXENHOLME TO PRESTON",
  				  "mapCode" : "XP",
- 				  "kmlUrl" : "map_XP.kml"
+ 				  "kmlUrl" : "map_XP.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "CROSS COUNTRY ROUTES FROM SOUTH COAST TO READING",
  				  "mapCode" : "XR",
- 				  "kmlUrl" : "map_XR.kml"
+ 				  "kmlUrl" : "map_XR.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "ROUTES VIA READING TO PORTSMOUTH AND SOUTH COAST",
  				  "mapCode" : "XS",
- 				  "kmlUrl" : "map_XS.kml"
+ 				  "kmlUrl" : "map_XS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "OXENHOLME TO LIVERPOOL",
  				  "mapCode" : "XV",
- 				  "kmlUrl" : "map_XV.kml"
+ 				  "kmlUrl" : "map_XV.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "OXENHOLME TO WARRINGTON AND LIVERPOOL",
  				  "mapCode" : "XW",
- 				  "kmlUrl" : "map_XW.kml"
+ 				  "kmlUrl" : "map_XW.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "OXENHOLME TO YORKSHIRE VIA HELLIFIELD",
  				  "mapCode" : "XY",
- 				  "kmlUrl" : "map_XY.kml"
+ 				  "kmlUrl" : "map_XY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "YORK TO ABERDEEN",
  				  "mapCode" : "YA",
- 				  "kmlUrl" : "map_YA.kml"
+ 				  "kmlUrl" : "map_YA.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "YORK TO GLASGOW",
  				  "mapCode" : "YG",
- 				  "kmlUrl" : "map_YG.kml"
+ 				  "kmlUrl" : "map_YG.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "YORK TO INVERNESS VIA KIRKCALDY",
  				  "mapCode" : "YI",
- 				  "kmlUrl" : "map_YI.kml"
+ 				  "kmlUrl" : "map_YI.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "SOUTH & WEST YORKSHIRE LOCAL ROUTES",
  				  "mapCode" : "YK",
- 				  "kmlUrl" : "map_YK.kml"
+ 				  "kmlUrl" : "map_YK.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "???",
  				  "mapCode" : "YL",
- 				  "kmlUrl" : "map_YL.kml"
+ 				  "kmlUrl" : "map_YL.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "YORK TO MIDDLESBROUGH",
  				  "mapCode" : "YM",
- 				  "kmlUrl" : "map_YM.kml"
+ 				  "kmlUrl" : "map_YM.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEST YORKSHIRE TO NEWCASTLE",
  				  "mapCode" : "YN",
- 				  "kmlUrl" : "map_YN.kml"
+ 				  "kmlUrl" : "map_YN.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEST YORKSHIRE TO SCOTLAND VIA YORK",
  				  "mapCode" : "YS",
- 				  "kmlUrl" : "map_YS.kml"
+ 				  "kmlUrl" : "map_YS.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WEST YORKSHIRE TO TEESIDE",
  				  "mapCode" : "YT",
- 				  "kmlUrl" : "map_YT.kml"
+ 				  "kmlUrl" : "map_YT.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}, 
 				{
 	  			  "mapName" : "WAKEFIELD TO YORK VIA LEEDS AND PONTEFRACT",
  				  "mapCode" : "YY",
- 				  "kmlUrl" : "map_YY.kml"
+ 				  "kmlUrl" : "map_YY.kml",
+ 				  "publishDate" : "",
+ 				  "datasetName" : ""
  				}
  				]		 	
 	}
