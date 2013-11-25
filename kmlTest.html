@@ -1,8 +1,10 @@
 <html>
   <head>
     <!-- May need jquery to ease development - e.g. loading json doc -->
+    <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
- 
+ 	
+ 	
     <script>
       var map ;
       function initialize() {
@@ -16,7 +18,7 @@
 
         var ctaLayer = new google.maps.KmlLayer({
           // MUST BE PUBLIC URL!!! 
-          url: 'https://raw.github.com/pbrewer/kml-sample/0aa7263721a8e01d1ccc1156bd04bba4fa6b0583/example.kml'
+          url: 'https://raw.github.com/pbrewer/kml-sample/master/example.kml'
         });
         // set map to null to remove this kml from map
         ctaLayer.setMap(map);
@@ -29,16 +31,32 @@
       }
 
       google.maps.event.addDomListener(window, 'load', initialize);
-      
+    </script>
+    
+    <script>
+    $(document).ready(function() {
+        $.getJSON( "ajax/map_meta_data.json", function(data) {
+            $.each(data.maps, function(key, value) {
+            	$("#mapCodes").append('<option value="' + value.mapName + '">' + value.mapName + ', ' + value.mapCode + '</option>');
+            });
+    	});
+
+        $("#mapCodes").change(function(){
+            ctaLayer.setUrl(); 
+			alert($("#mapCodes option:selected").val());
+        });
+    });
+
     </script>
 
   </head>
 
   <body>
+  
     <!-- TODO populate select with options loaded from json -->
     <select id="mapCodes">
-      <option value="CE">Map CE</option>
     </select>
-    <div style="width: 500px; height: 500px; margin-top: 20px;" id="map-canvas" />
+    <div style="width: 1500px; height: 800px; margin-top: 20px;" id="map-canvas" />
+    
   </body>
 </html>
