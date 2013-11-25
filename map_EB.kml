@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>EB</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff509A42</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>TELFORD</name>
+         <description>TELFORD - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.43931657824063,52.6759903288674</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY</name>
+         <description>SHREWSBURY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.7475465595177,52.7086006455055</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN</name>
+         <description>WILLESDEN JN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.242510759036517,51.5285132205761</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KENSNGTN OLYMPIA</name>
+         <description>KENSNGTN OLYMPIA - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.207790989883325,51.4947301900618</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WALSALL GROUP</name>
+         <description>WALSALL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.98376405346226,52.5815353235725</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP</name>
+         <description>BIRMINGHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.89692899917132,52.4754385160511</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION</name>
+         <description>CLAPHAM JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.168769712349235,51.4617683410367</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WATFORD JUNCTION</name>
+         <description>WATFORD JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.395005816943682,51.6610302646915</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MILTON KEYNES C</name>
+         <description>MILTON KEYNES C - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.773956414418963,52.0314112191844</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY</name>
+         <description>RUGBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.24779788512554,52.3760244925185</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WOLVERHAMPTON</name>
+         <description>WOLVERHAMPTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.11808913837316,52.5850725822153</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP</name>
+         <description>SMETHWICK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.97790163064984,52.4988489648427</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONG BUCKBY</name>
+         <description>LONG BUCKBY - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.0850008276296,52.2912893998626</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY</name>
+         <description>COVENTRY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.51200282653748,52.3980821347103</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON</name>
+         <description>NUNEATON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.46196766120402,52.5236920836025</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BEDFORD</name>
+         <description>BEDFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.477427294975053,52.1340143383127</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BLETCHLEY</name>
+         <description>BLETCHLEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.735694534570948,51.9923580710804</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NORTHAMPTON</name>
+         <description>NORTHAMPTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.906045206063134,52.2340419154024</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MACHYNLLETH GROUP</name>
+         <description>MACHYNLLETH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.85294612804162,52.5931050319326</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TELFORD - SHREWSBURY</name>
+         <description>TELFORD - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.43931657824063,52.6759903288674
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - KENSNGTN OLYMPIA</name>
+         <description>WILLESDEN JN - KENSNGTN OLYMPIA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.207790989883325,51.4947301900618</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
+         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.98376405346226,52.5815353235725
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KENSNGTN OLYMPIA - CLAPHAM JUNCTION</name>
+         <description>KENSNGTN OLYMPIA - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.207790989883325,51.4947301900618
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WATFORD JUNCTION - WILLESDEN JN</name>
+         <description>WATFORD JUNCTION - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.395005816943682,51.6610302646915
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MILTON KEYNES C - RUGBY</name>
+         <description>MILTON KEYNES C - RUGBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.773956414418963,52.0314112191844
+-1.24779788512554,52.3760244925185</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOLVERHAMPTON - SMETHWICK GROUP</name>
+         <description>WOLVERHAMPTON - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11808913837316,52.5850725822153
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - TELFORD</name>
+         <description>SHREWSBURY - TELFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-2.43931657824063,52.6759903288674</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - KENSNGTN OLYMPIA</name>
+         <description>CLAPHAM JUNCTION - KENSNGTN OLYMPIA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.207790989883325,51.4947301900618</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - WILLESDEN JN</name>
+         <description>LONDON GROUP - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
+         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.98376405346226,52.5815353235725</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONG BUCKBY - RUGBY</name>
+         <description>LONG BUCKBY - RUGBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.0850008276296,52.2912893998626
+-1.24779788512554,52.3760244925185</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY - LONG BUCKBY</name>
+         <description>RUGBY - LONG BUCKBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24779788512554,52.3760244925185
+-1.0850008276296,52.2912893998626</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - WOLVERHAMPTON</name>
+         <description>SMETHWICK GROUP - WOLVERHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-2.11808913837316,52.5850725822153</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - RUGBY</name>
+         <description>COVENTRY - RUGBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.24779788512554,52.3760244925185</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOLVERHAMPTON - TELFORD</name>
+         <description>WOLVERHAMPTON - TELFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11808913837316,52.5850725822153
+-2.43931657824063,52.6759903288674</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - NUNEATON</name>
+         <description>BIRMINGHAM GROUP - NUNEATON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.46196766120402,52.5236920836025</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BEDFORD - BLETCHLEY</name>
+         <description>BEDFORD - BLETCHLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.477427294975053,52.1340143383127
+-0.735694534570948,51.9923580710804</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLETCHLEY - BEDFORD</name>
+         <description>BLETCHLEY - BEDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.735694534570948,51.9923580710804
+-0.477427294975053,52.1340143383127</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NORTHAMPTON - RUGBY</name>
+         <description>NORTHAMPTON - RUGBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.906045206063134,52.2340419154024
+-1.24779788512554,52.3760244925185</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - LONDON GROUP</name>
+         <description>WILLESDEN JN - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY - NORTHAMPTON</name>
+         <description>RUGBY - NORTHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24779788512554,52.3760244925185
+-0.906045206063134,52.2340419154024</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON - BIRMINGHAM GROUP</name>
+         <description>NUNEATON - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46196766120402,52.5236920836025
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - BIRMINGHAM GROUP</name>
+         <description>COVENTRY - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MILTON KEYNES C - BLETCHLEY</name>
+         <description>MILTON KEYNES C - BLETCHLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.773956414418963,52.0314112191844
+-0.735694534570948,51.9923580710804</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONG BUCKBY - NORTHAMPTON</name>
+         <description>LONG BUCKBY - NORTHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.0850008276296,52.2912893998626
+-0.906045206063134,52.2340419154024</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NORTHAMPTON - LONG BUCKBY</name>
+         <description>NORTHAMPTON - LONG BUCKBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.906045206063134,52.2340419154024
+-1.0850008276296,52.2912893998626</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WATFORD JUNCTION - BLETCHLEY</name>
+         <description>WATFORD JUNCTION - BLETCHLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.395005816943682,51.6610302646915
+-0.735694534570948,51.9923580710804</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - WATFORD JUNCTION</name>
+         <description>WILLESDEN JN - WATFORD JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.395005816943682,51.6610302646915</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MILTON KEYNES C - NORTHAMPTON</name>
+         <description>MILTON KEYNES C - NORTHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.773956414418963,52.0314112191844
+-0.906045206063134,52.2340419154024</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY - COVENTRY</name>
+         <description>RUGBY - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24779788512554,52.3760244925185
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON - RUGBY</name>
+         <description>NUNEATON - RUGBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46196766120402,52.5236920836025
+-1.24779788512554,52.3760244925185</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
+         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KENSNGTN OLYMPIA - WILLESDEN JN</name>
+         <description>KENSNGTN OLYMPIA - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.207790989883325,51.4947301900618
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - MACHYNLLETH GROUP</name>
+         <description>SHREWSBURY - MACHYNLLETH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-3.85294612804162,52.5931050319326</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TELFORD - WOLVERHAMPTON</name>
+         <description>TELFORD - WOLVERHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.43931657824063,52.6759903288674
+-2.11808913837316,52.5850725822153</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
+         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MACHYNLLETH GROUP - SHREWSBURY</name>
+         <description>MACHYNLLETH GROUP - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.85294612804162,52.5931050319326
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLETCHLEY - MILTON KEYNES C</name>
+         <description>BLETCHLEY - MILTON KEYNES C</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.735694534570948,51.9923580710804
+-0.773956414418963,52.0314112191844</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - COVENTRY</name>
+         <description>BIRMINGHAM GROUP - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY - MILTON KEYNES C</name>
+         <description>RUGBY - MILTON KEYNES C</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24779788512554,52.3760244925185
+-0.773956414418963,52.0314112191844</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NORTHAMPTON - MILTON KEYNES C</name>
+         <description>NORTHAMPTON - MILTON KEYNES C</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.906045206063134,52.2340419154024
+-0.773956414418963,52.0314112191844</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLETCHLEY - WATFORD JUNCTION</name>
+         <description>BLETCHLEY - WATFORD JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.735694534570948,51.9923580710804
+-0.395005816943682,51.6610302646915</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY - NUNEATON</name>
+         <description>RUGBY - NUNEATON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24779788512554,52.3760244925185
+-1.46196766120402,52.5236920836025</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

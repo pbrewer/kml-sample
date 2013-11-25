@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>CI</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff465628</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>CHALFONT &amp; L UND</name>
+         <description>CHALFONT &amp; L UND - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.558252665094148,51.6658444590262</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>AYLESBURY</name>
+         <description>AYLESBURY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.814772685792515,51.8107238089355</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND</name>
+         <description>SOUTH RUISLP UND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.397298632921743,51.5549989051923</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HIGH WYCOMBE</name>
+         <description>HIGH WYCOMBE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.744442579009597,51.626637576763</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO</name>
+         <description>PRINCES RISBORO - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.8418921414643,51.7148226319012</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HARROW-HILL UND</name>
+         <description>HARROW-HILL UND - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.334474944460743,51.5765949181077</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHALFONT &amp; L UND - AYLESBURY</name>
+         <description>CHALFONT &amp; L UND - AYLESBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.558252665094148,51.6658444590262
+-0.814772685792515,51.8107238089355</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - SOUTH RUISLP UND</name>
+         <description>LONDON GROUP - SOUTH RUISLP UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.397298632921743,51.5549989051923</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND - HIGH WYCOMBE</name>
+         <description>SOUTH RUISLP UND - HIGH WYCOMBE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.397298632921743,51.5549989051923
+-0.744442579009597,51.626637576763</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO - AYLESBURY</name>
+         <description>PRINCES RISBORO - AYLESBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.8418921414643,51.7148226319012
+-0.814772685792515,51.8107238089355</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>AYLESBURY - PRINCES RISBORO</name>
+         <description>AYLESBURY - PRINCES RISBORO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.814772685792515,51.8107238089355
+-0.8418921414643,51.7148226319012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND - LONDON GROUP</name>
+         <description>SOUTH RUISLP UND - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.397298632921743,51.5549989051923
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HARROW-HILL UND - CHALFONT &amp; L UND</name>
+         <description>HARROW-HILL UND - CHALFONT &amp; L UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.334474944460743,51.5765949181077
+-0.558252665094148,51.6658444590262</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - HARROW-HILL UND</name>
+         <description>LONDON GROUP - HARROW-HILL UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.334474944460743,51.5765949181077</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>AYLESBURY - CHALFONT &amp; L UND</name>
+         <description>AYLESBURY - CHALFONT &amp; L UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.814772685792515,51.8107238089355
+-0.558252665094148,51.6658444590262</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HARROW-HILL UND - LONDON GROUP</name>
+         <description>HARROW-HILL UND - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.334474944460743,51.5765949181077
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGH WYCOMBE - PRINCES RISBORO</name>
+         <description>HIGH WYCOMBE - PRINCES RISBORO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.744442579009597,51.626637576763
+-0.8418921414643,51.7148226319012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO - HIGH WYCOMBE</name>
+         <description>PRINCES RISBORO - HIGH WYCOMBE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.8418921414643,51.7148226319012
+-0.744442579009597,51.626637576763</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHALFONT &amp; L UND - HARROW-HILL UND</name>
+         <description>CHALFONT &amp; L UND - HARROW-HILL UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.558252665094148,51.6658444590262
+-0.334474944460743,51.5765949181077</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGH WYCOMBE - SOUTH RUISLP UND</name>
+         <description>HIGH WYCOMBE - SOUTH RUISLP UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.744442579009597,51.626637576763
+-0.397298632921743,51.5549989051923</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

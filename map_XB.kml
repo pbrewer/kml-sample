@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>XB</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffD26239</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>COVENTRY</name>
+         <description>COVENTRY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.51200282653748,52.3980821347103</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA</name>
+         <description>LEAMINGTON SPA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.53526711169815,52.2822355714122</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FARNBOROUGH N</name>
+         <description>FARNBOROUGH N - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.741913906017282,51.2994459413971</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD</name>
+         <description>GUILDFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.578935314413253,51.2346642743648</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WALSALL GROUP</name>
+         <description>WALSALL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.98376405346226,52.5815353235725</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP</name>
+         <description>BIRMINGHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.89692899917132,52.4754385160511</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD U GROUP</name>
+         <description>STRATFORD U GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.71470851176188,52.1911321349146</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP</name>
+         <description>WARWICK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.58069581862525,52.2842031249513</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP</name>
+         <description>READING GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.972242308326233,51.4562854116841</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DIDCOT PARKWAY</name>
+         <description>DIDCOT PARKWAY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.24177639605164,51.6084332295774</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FORD GROUP</name>
+         <description>FORD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.577134842260158,50.8274799070745</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM</name>
+         <description>HORSHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.317257080155847,51.0640099999086</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM</name>
+         <description>WOKINGHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.84100195902129,51.409222906424</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DORKING GROUP</name>
+         <description>DORKING GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.32232810917038,51.2393563350226</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GOMSHALL</name>
+         <description>GOMSHALL - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.440579888231119,51.2167234969664</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TYSELEY</name>
+         <description>TYSELEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.83812052729701,52.4511062722417</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEWES</name>
+         <description>LEWES - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0139708740923098,50.8682100046315</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES</name>
+         <description>THREE BRIDGES - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.159664743659514,51.1146668456172</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP</name>
+         <description>REDHILL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.163348351898478,51.2378679252594</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT</name>
+         <description>GATWICK AIRPORT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.15952165755819,51.1542142067235</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP</name>
+         <description>BANBURY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.32608171738474,52.0583321271333</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>OXFORD</name>
+         <description>OXFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.2698223826342,51.7506169249712</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>POLEGATE</name>
+         <description>POLEGATE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.253236488543737,50.8188895282876</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP</name>
+         <description>BRIGHTON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.139734374960716,50.827616842405</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO</name>
+         <description>PRINCES RISBORO - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.8418921414643,51.7148226319012</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH</name>
+         <description>TAMWORTH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.68523565193305,52.6341448712012</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP</name>
+         <description>HASTINGS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.577630945295527,50.8562183508005</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - LEAMINGTON SPA</name>
+         <description>COVENTRY - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FARNBOROUGH N - GUILDFORD</name>
+         <description>FARNBOROUGH N - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.741913906017282,51.2994459413971
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
+         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.98376405346226,52.5815353235725
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD U GROUP - WARWICK GROUP</name>
+         <description>STRATFORD U GROUP - WARWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.71470851176188,52.1911321349146
+-1.58069581862525,52.2842031249513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - DIDCOT PARKWAY</name>
+         <description>READING GROUP - DIDCOT PARKWAY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-1.24177639605164,51.6084332295774</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FORD GROUP - HORSHAM</name>
+         <description>FORD GROUP - HORSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.577134842260158,50.8274799070745
+-0.317257080155847,51.0640099999086</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM - READING GROUP</name>
+         <description>WOKINGHAM - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.84100195902129,51.409222906424
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DORKING GROUP - GOMSHALL</name>
+         <description>DORKING GROUP - GOMSHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.32232810917038,51.2393563350226
+-0.440579888231119,51.2167234969664</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - FARNBOROUGH N</name>
+         <description>GUILDFORD - FARNBOROUGH N</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.741913906017282,51.2994459413971</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP - TYSELEY</name>
+         <description>WARWICK GROUP - TYSELEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58069581862525,52.2842031249513
+-1.83812052729701,52.4511062722417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - THREE BRIDGES</name>
+         <description>LEWES - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TYSELEY - WARWICK GROUP</name>
+         <description>TYSELEY - WARWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.83812052729701,52.4511062722417
+-1.58069581862525,52.2842031249513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - GATWICK AIRPORT</name>
+         <description>REDHILL GROUP - GATWICK AIRPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+-0.15952165755819,51.1542142067235</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - BANBURY GROUP</name>
+         <description>LEAMINGTON SPA - BANBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.32608171738474,52.0583321271333</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OXFORD - BANBURY GROUP</name>
+         <description>OXFORD - BANBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2698223826342,51.7506169249712
+-1.32608171738474,52.0583321271333</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP - LEAMINGTON SPA</name>
+         <description>WARWICK GROUP - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58069581862525,52.2842031249513
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT - THREE BRIDGES</name>
+         <description>GATWICK AIRPORT - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.15952165755819,51.1542142067235
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>POLEGATE - LEWES</name>
+         <description>POLEGATE - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.253236488543737,50.8188895282876
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - LEWES</name>
+         <description>THREE BRIDGES - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM - GUILDFORD</name>
+         <description>WOKINGHAM - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.84100195902129,51.409222906424
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOMSHALL - GUILDFORD</name>
+         <description>GOMSHALL - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.440579888231119,51.2167234969664
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - BRIGHTON GROUP</name>
+         <description>THREE BRIDGES - BRIGHTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+-0.139734374960716,50.827616842405</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - COVENTRY</name>
+         <description>LEAMINGTON SPA - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - BRIGHTON GROUP</name>
+         <description>LEWES - BRIGHTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+-0.139734374960716,50.827616842405</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FARNBOROUGH N - WOKINGHAM</name>
+         <description>FARNBOROUGH N - WOKINGHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.741913906017282,51.2994459413971
+-0.84100195902129,51.409222906424</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP - PRINCES RISBORO</name>
+         <description>BANBURY GROUP - PRINCES RISBORO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32608171738474,52.0583321271333
+-0.8418921414643,51.7148226319012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT - REDHILL GROUP</name>
+         <description>GATWICK AIRPORT - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.15952165755819,51.1542142067235
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP - STRATFORD U GROUP</name>
+         <description>WARWICK GROUP - STRATFORD U GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58069581862525,52.2842031249513
+-1.71470851176188,52.1911321349146</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TYSELEY - LEAMINGTON SPA</name>
+         <description>TYSELEY - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.83812052729701,52.4511062722417
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - WOKINGHAM</name>
+         <description>GUILDFORD - WOKINGHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.84100195902129,51.409222906424</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH - BIRMINGHAM GROUP</name>
+         <description>TAMWORTH - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.68523565193305,52.6341448712012
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - DORKING GROUP</name>
+         <description>REDHILL GROUP - DORKING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+-0.32232810917038,51.2393563350226</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DORKING GROUP - REDHILL GROUP</name>
+         <description>DORKING GROUP - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.32232810917038,51.2393563350226
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OXFORD - DIDCOT PARKWAY</name>
+         <description>OXFORD - DIDCOT PARKWAY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2698223826342,51.7506169249712
+-1.24177639605164,51.6084332295774</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOMSHALL - DORKING GROUP</name>
+         <description>GOMSHALL - DORKING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.440579888231119,51.2167234969664
+-0.32232810917038,51.2393563350226</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - TYSELEY</name>
+         <description>BIRMINGHAM GROUP - TYSELEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.83812052729701,52.4511062722417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - WOKINGHAM</name>
+         <description>READING GROUP - WOKINGHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-0.84100195902129,51.409222906424</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TYSELEY - BIRMINGHAM GROUP</name>
+         <description>TYSELEY - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.83812052729701,52.4511062722417
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
+         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.98376405346226,52.5815353235725</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - GOMSHALL</name>
+         <description>GUILDFORD - GOMSHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.440579888231119,51.2167234969664</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DIDCOT PARKWAY - OXFORD</name>
+         <description>DIDCOT PARKWAY - OXFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24177639605164,51.6084332295774
+-1.2698223826342,51.7506169249712</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP - POLEGATE</name>
+         <description>HASTINGS GROUP - POLEGATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.577630945295527,50.8562183508005
+0.253236488543737,50.8188895282876</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM - FORD GROUP</name>
+         <description>HORSHAM - FORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.317257080155847,51.0640099999086
+-0.577134842260158,50.8274799070745</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP - THREE BRIDGES</name>
+         <description>BRIGHTON GROUP - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.139734374960716,50.827616842405
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP - OXFORD</name>
+         <description>BANBURY GROUP - OXFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32608171738474,52.0583321271333
+-1.2698223826342,51.7506169249712</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DIDCOT PARKWAY - READING GROUP</name>
+         <description>DIDCOT PARKWAY - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24177639605164,51.6084332295774
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - HASTINGS GROUP</name>
+         <description>LEWES - HASTINGS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+0.577630945295527,50.8562183508005</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO - BANBURY GROUP</name>
+         <description>PRINCES RISBORO - BANBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.8418921414643,51.7148226319012
+-1.32608171738474,52.0583321271333</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - BIRMINGHAM GROUP</name>
+         <description>COVENTRY - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - GATWICK AIRPORT</name>
+         <description>THREE BRIDGES - GATWICK AIRPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+-0.15952165755819,51.1542142067235</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - TYSELEY</name>
+         <description>LEAMINGTON SPA - TYSELEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.83812052729701,52.4511062722417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM - FARNBOROUGH N</name>
+         <description>WOKINGHAM - FARNBOROUGH N</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.84100195902129,51.409222906424
+-0.741913906017282,51.2994459413971</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - COVENTRY</name>
+         <description>BIRMINGHAM GROUP - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - POLEGATE</name>
+         <description>LEWES - POLEGATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+0.253236488543737,50.8188895282876</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - WARWICK GROUP</name>
+         <description>LEAMINGTON SPA - WARWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.58069581862525,52.2842031249513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP - LEAMINGTON SPA</name>
+         <description>BANBURY GROUP - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32608171738474,52.0583321271333
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP - LEWES</name>
+         <description>BRIGHTON GROUP - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.139734374960716,50.827616842405
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP - LEWES</name>
+         <description>HASTINGS GROUP - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.577630945295527,50.8562183508005
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM - THREE BRIDGES</name>
+         <description>HORSHAM - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.317257080155847,51.0640099999086
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - TAMWORTH</name>
+         <description>BIRMINGHAM GROUP - TAMWORTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.68523565193305,52.6341448712012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>POLEGATE - HASTINGS GROUP</name>
+         <description>POLEGATE - HASTINGS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.253236488543737,50.8188895282876
+0.577630945295527,50.8562183508005</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - HORSHAM</name>
+         <description>THREE BRIDGES - HORSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+-0.317257080155847,51.0640099999086</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

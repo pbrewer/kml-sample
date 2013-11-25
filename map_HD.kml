@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>HD</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffD20379</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>STOCKPORT</name>
+         <description>STOCKPORT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.16095318791928,53.4019907710042</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHEADLE HULME</name>
+         <description>CHEADLE HULME - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.18790259306218,53.3731912199484</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GUIDE BRIDGE</name>
+         <description>GUIDE BRIDGE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.11149453901127,53.4712513204513</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP</name>
+         <description>MANCHESTER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.22752279914098,53.4737830141426</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWINTON  S YORKS</name>
+         <description>SWINTON  S YORKS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.30368986438219,53.4845538752677</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MEADOWHALL</name>
+         <description>MEADOWHALL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.4101691283604,53.4141240779031</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HAZEL GROVE</name>
+         <description>HAZEL GROVE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.12176621514136,53.3750745073095</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNETBY</name>
+         <description>BARNETBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.408151827515758,53.5712589689525</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER</name>
+         <description>DONCASTER - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.13871721870229,53.5185314624258</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNSLEY</name>
+         <description>BARNSLEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.47619600186737,53.5510442770956</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHINLEY</name>
+         <description>CHINLEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.94292550574056,53.3373752706342</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SELBY</name>
+         <description>SELBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.06202765621019,53.7804012865994</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WARRINGTON GROUP</name>
+         <description>WARRINGTON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.59098665939852,53.3889528478108</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHEFFIELD</name>
+         <description>SHEFFIELD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.46181308663146,53.375721027765</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HULL</name>
+         <description>HULL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.34565994560554,53.740296854028</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STOCKPORT - CHEADLE HULME</name>
+         <description>STOCKPORT - CHEADLE HULME</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.16095318791928,53.4019907710042
+-2.18790259306218,53.3731912199484</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
+         <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11149453901127,53.4712513204513
+-2.22752279914098,53.4737830141426</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWINTON  S YORKS - MEADOWHALL</name>
+         <description>SWINTON  S YORKS - MEADOWHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30368986438219,53.4845538752677
+-1.4101691283604,53.4141240779031</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHEADLE HULME - STOCKPORT</name>
+         <description>CHEADLE HULME - STOCKPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.18790259306218,53.3731912199484
+-2.16095318791928,53.4019907710042</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STOCKPORT - HAZEL GROVE</name>
+         <description>STOCKPORT - HAZEL GROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.16095318791928,53.4019907710042
+-2.12176621514136,53.3750745073095</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNETBY - DONCASTER</name>
+         <description>BARNETBY - DONCASTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.408151827515758,53.5712589689525
+-1.13871721870229,53.5185314624258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MEADOWHALL - BARNSLEY</name>
+         <description>MEADOWHALL - BARNSLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.4101691283604,53.4141240779031
+-1.47619600186737,53.5510442770956</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHINLEY - HAZEL GROVE</name>
+         <description>CHINLEY - HAZEL GROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.94292550574056,53.3373752706342
+-2.12176621514136,53.3750745073095</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER - SELBY</name>
+         <description>DONCASTER - SELBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.13871721870229,53.5185314624258
+-1.06202765621019,53.7804012865994</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MEADOWHALL - SWINTON  S YORKS</name>
+         <description>MEADOWHALL - SWINTON  S YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.4101691283604,53.4141240779031
+-1.30368986438219,53.4845538752677</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP - WARRINGTON GROUP</name>
+         <description>MANCHESTER GROUP - WARRINGTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22752279914098,53.4737830141426
+-2.59098665939852,53.3889528478108</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER - BARNETBY</name>
+         <description>DONCASTER - BARNETBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.13871721870229,53.5185314624258
+-0.408151827515758,53.5712589689525</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWINTON  S YORKS - DONCASTER</name>
+         <description>SWINTON  S YORKS - DONCASTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30368986438219,53.4845538752677
+-1.13871721870229,53.5185314624258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER - SWINTON  S YORKS</name>
+         <description>DONCASTER - SWINTON  S YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.13871721870229,53.5185314624258
+-1.30368986438219,53.4845538752677</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHEFFIELD - MEADOWHALL</name>
+         <description>SHEFFIELD - MEADOWHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46181308663146,53.375721027765
+-1.4101691283604,53.4141240779031</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARRINGTON GROUP - MANCHESTER GROUP</name>
+         <description>WARRINGTON GROUP - MANCHESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.59098665939852,53.3889528478108
+-2.22752279914098,53.4737830141426</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUIDE BRIDGE - CHINLEY</name>
+         <description>GUIDE BRIDGE - CHINLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11149453901127,53.4712513204513
+-1.94292550574056,53.3373752706342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HAZEL GROVE - CHINLEY</name>
+         <description>HAZEL GROVE - CHINLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.12176621514136,53.3750745073095
+-1.94292550574056,53.3373752706342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP - GUIDE BRIDGE</name>
+         <description>MANCHESTER GROUP - GUIDE BRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22752279914098,53.4737830141426
+-2.11149453901127,53.4712513204513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MEADOWHALL - SHEFFIELD</name>
+         <description>MEADOWHALL - SHEFFIELD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.4101691283604,53.4141240779031
+-1.46181308663146,53.375721027765</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNSLEY - MEADOWHALL</name>
+         <description>BARNSLEY - MEADOWHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.47619600186737,53.5510442770956
+-1.4101691283604,53.4141240779031</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELBY - DONCASTER</name>
+         <description>SELBY - DONCASTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.06202765621019,53.7804012865994
+-1.13871721870229,53.5185314624258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHINLEY - GUIDE BRIDGE</name>
+         <description>CHINLEY - GUIDE BRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.94292550574056,53.3373752706342
+-2.11149453901127,53.4712513204513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HAZEL GROVE - STOCKPORT</name>
+         <description>HAZEL GROVE - STOCKPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.12176621514136,53.3750745073095
+-2.16095318791928,53.4019907710042</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHEFFIELD - CHINLEY</name>
+         <description>SHEFFIELD - CHINLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46181308663146,53.375721027765
+-1.94292550574056,53.3373752706342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HULL - SELBY</name>
+         <description>HULL - SELBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.34565994560554,53.740296854028
+-1.06202765621019,53.7804012865994</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELBY - HULL</name>
+         <description>SELBY - HULL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.06202765621019,53.7804012865994
+-0.34565994560554,53.740296854028</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHINLEY - SHEFFIELD</name>
+         <description>CHINLEY - SHEFFIELD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.94292550574056,53.3373752706342
+-1.46181308663146,53.375721027765</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

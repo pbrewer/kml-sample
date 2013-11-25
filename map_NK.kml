@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>NK</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff28C0C8</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>CHARLTON</name>
+         <description>CHARLTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0323701197233562,51.4845210863542</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM</name>
+         <description>LEWISHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0131893738009627,51.4637289621017</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD</name>
+         <description>NUNHEAD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0520373598903545,51.4643809758347</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DARTFORD</name>
+         <description>DARTFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.219169461743888,51.4451774699764</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN</name>
+         <description>HITHER GREEN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>6.09091577011303E-4,51.450011083454</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH</name>
+         <description>BLACKHEATH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.00983096142899503,51.463336513641</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM</name>
+         <description>FAVERSHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.892844957991794,51.3091138912366</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP</name>
+         <description>CHATHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.522093821820727,51.3788192504241</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL</name>
+         <description>DENMARK HILL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0879714524318652,51.4658714779636</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE</name>
+         <description>PECKHAM RYE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SLADE GREEN</name>
+         <description>SLADE GREEN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.191312481797045,51.464578656539</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GROVE PARK</name>
+         <description>GROVE PARK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0241072147460091,51.4280344664602</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GRAVESEND</name>
+         <description>GRAVESEND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.368522021932612,51.4386582154852</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MAIDSTONE GROUP</name>
+         <description>MAIDSTONE GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.51490194350759,51.273797018873</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BECKENHAM JN</name>
+         <description>BECKENHAM JN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0256253748578791,51.4091076803144</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS</name>
+         <description>NEW CROSS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0314684684072144,51.4739249880263</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP</name>
+         <description>RAMSGATE GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.40741462464778,51.3384161699967</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHARLTON - LONDON GROUP</name>
+         <description>CHARLTON - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0323701197233562,51.4845210863542
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - NUNHEAD</name>
+         <description>LEWISHAM - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DARTFORD - HITHER GREEN</name>
+         <description>DARTFORD - HITHER GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.219169461743888,51.4451774699764
+6.09091577011303E-4,51.450011083454</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - BLACKHEATH</name>
+         <description>LEWISHAM - BLACKHEATH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+0.00983096142899503,51.463336513641</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - CHATHAM GROUP</name>
+         <description>FAVERSHAM - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH - CHARLTON</name>
+         <description>BLACKHEATH - CHARLTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.00983096142899503,51.463336513641
+0.0323701197233562,51.4845210863542</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - PECKHAM RYE</name>
+         <description>DENMARK HILL - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - DENMARK HILL</name>
+         <description>LONDON GROUP - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - PECKHAM RYE</name>
+         <description>NUNHEAD - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH - SLADE GREEN</name>
+         <description>BLACKHEATH - SLADE GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.00983096142899503,51.463336513641
+0.191312481797045,51.464578656539</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN - SLADE GREEN</name>
+         <description>HITHER GREEN - SLADE GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>6.09091577011303E-4,51.450011083454
+0.191312481797045,51.464578656539</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHARLTON - BLACKHEATH</name>
+         <description>CHARLTON - BLACKHEATH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0323701197233562,51.4845210863542
+0.00983096142899503,51.463336513641</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN - GROVE PARK</name>
+         <description>HITHER GREEN - GROVE PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>6.09091577011303E-4,51.450011083454
+0.0241072147460091,51.4280344664602</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - LONDON GROUP</name>
+         <description>PECKHAM RYE - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GROVE PARK - HITHER GREEN</name>
+         <description>GROVE PARK - HITHER GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0241072147460091,51.4280344664602
+6.09091577011303E-4,51.450011083454</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DARTFORD - GRAVESEND</name>
+         <description>DARTFORD - GRAVESEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.219169461743888,51.4451774699764
+0.368522021932612,51.4386582154852</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - MAIDSTONE GROUP</name>
+         <description>CHATHAM GROUP - MAIDSTONE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.51490194350759,51.273797018873</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GRAVESEND - DARTFORD</name>
+         <description>GRAVESEND - DARTFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.368522021932612,51.4386582154852
+0.219169461743888,51.4451774699764</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHARLTON - SLADE GREEN</name>
+         <description>CHARLTON - SLADE GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0323701197233562,51.4845210863542
+0.191312481797045,51.464578656539</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - BECKENHAM JN</name>
+         <description>LEWISHAM - BECKENHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+-0.0256253748578791,51.4091076803144</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS - LEWISHAM</name>
+         <description>NEW CROSS - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0314684684072144,51.4739249880263
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH - DARTFORD</name>
+         <description>BLACKHEATH - DARTFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.00983096142899503,51.463336513641
+0.219169461743888,51.4451774699764</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLADE GREEN - DARTFORD</name>
+         <description>SLADE GREEN - DARTFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.191312481797045,51.464578656539
+0.219169461743888,51.4451774699764</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - GRAVESEND</name>
+         <description>CHATHAM GROUP - GRAVESEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.368522021932612,51.4386582154852</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - LEWISHAM</name>
+         <description>NUNHEAD - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - CHARLTON</name>
+         <description>LONDON GROUP - CHARLTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+0.0323701197233562,51.4845210863542</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP - FAVERSHAM</name>
+         <description>RAMSGATE GROUP - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.40741462464778,51.3384161699967
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - PECKHAM RYE</name>
+         <description>LONDON GROUP - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN - DARTFORD</name>
+         <description>HITHER GREEN - DARTFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>6.09091577011303E-4,51.450011083454
+0.219169461743888,51.4451774699764</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - LONDON GROUP</name>
+         <description>DENMARK HILL - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH - LEWISHAM</name>
+         <description>BLACKHEATH - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.00983096142899503,51.463336513641
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DARTFORD - BLACKHEATH</name>
+         <description>DARTFORD - BLACKHEATH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.219169461743888,51.4451774699764
+0.00983096142899503,51.463336513641</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - NUNHEAD</name>
+         <description>PECKHAM RYE - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - NEW CROSS</name>
+         <description>LONDON GROUP - NEW CROSS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0314684684072144,51.4739249880263</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLADE GREEN - HITHER GREEN</name>
+         <description>SLADE GREEN - HITHER GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.191312481797045,51.464578656539
+6.09091577011303E-4,51.450011083454</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS - HITHER GREEN</name>
+         <description>NEW CROSS - HITHER GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0314684684072144,51.4739249880263
+6.09091577011303E-4,51.450011083454</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDSTONE GROUP - CHATHAM GROUP</name>
+         <description>MAIDSTONE GROUP - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.51490194350759,51.273797018873
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLADE GREEN - BLACKHEATH</name>
+         <description>SLADE GREEN - BLACKHEATH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.191312481797045,51.464578656539
+0.00983096142899503,51.463336513641</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - NEW CROSS</name>
+         <description>LEWISHAM - NEW CROSS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+-0.0314684684072144,51.4739249880263</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN - LEWISHAM</name>
+         <description>HITHER GREEN - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>6.09091577011303E-4,51.450011083454
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - DENMARK HILL</name>
+         <description>NUNHEAD - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - DENMARK HILL</name>
+         <description>PECKHAM RYE - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BECKENHAM JN - LEWISHAM</name>
+         <description>BECKENHAM JN - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0256253748578791,51.4091076803144
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DARTFORD - SLADE GREEN</name>
+         <description>DARTFORD - SLADE GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.219169461743888,51.4451774699764
+0.191312481797045,51.464578656539</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - NUNHEAD</name>
+         <description>DENMARK HILL - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLADE GREEN - CHARLTON</name>
+         <description>SLADE GREEN - CHARLTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.191312481797045,51.464578656539
+0.0323701197233562,51.4845210863542</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS - LONDON GROUP</name>
+         <description>NEW CROSS - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0314684684072144,51.4739249880263
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - HITHER GREEN</name>
+         <description>LEWISHAM - HITHER GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+6.09091577011303E-4,51.450011083454</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - RAMSGATE GROUP</name>
+         <description>FAVERSHAM - RAMSGATE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+1.40741462464778,51.3384161699967</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GRAVESEND - CHATHAM GROUP</name>
+         <description>GRAVESEND - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.368522021932612,51.4386582154852
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN - NEW CROSS</name>
+         <description>HITHER GREEN - NEW CROSS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>6.09091577011303E-4,51.450011083454
+-0.0314684684072144,51.4739249880263</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - FAVERSHAM</name>
+         <description>CHATHAM GROUP - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>XR</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff55F33F</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>SOUTHAMPTON GROUP</name>
+         <description>SOUTHAMPTON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.41255771562521,50.9056791131306</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EASTLEIGH</name>
+         <description>EASTLEIGH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.34912462799446,50.9664588482129</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BASINGSTOKE</name>
+         <description>BASINGSTOKE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.08687709589478,51.2657940803547</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WINCHESTER</name>
+         <description>WINCHESTER - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.31919597477252,51.0651527128949</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM</name>
+         <description>WOKINGHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.84100195902129,51.409222906424</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD</name>
+         <description>GUILDFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.578935314413253,51.2346642743648</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PORTSMOUTH GROUP</name>
+         <description>PORTSMOUTH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.08897246877542,50.7957491893797</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP</name>
+         <description>READING GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.972242308326233,51.4562854116841</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WEYMOUTH GROUP</name>
+         <description>WEYMOUTH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.45374638413658,50.6132794256376</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HAVANT</name>
+         <description>HAVANT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.981310197425111,50.8523808477861</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SOUTHAMPTON GROUP - EASTLEIGH</name>
+         <description>SOUTHAMPTON GROUP - EASTLEIGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.41255771562521,50.9056791131306
+-1.34912462799446,50.9664588482129</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BASINGSTOKE - WINCHESTER</name>
+         <description>BASINGSTOKE - WINCHESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.08687709589478,51.2657940803547
+-1.31919597477252,51.0651527128949</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM - GUILDFORD</name>
+         <description>WOKINGHAM - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.84100195902129,51.409222906424
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PORTSMOUTH GROUP - EASTLEIGH</name>
+         <description>PORTSMOUTH GROUP - EASTLEIGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.08897246877542,50.7957491893797
+-1.34912462799446,50.9664588482129</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM - READING GROUP</name>
+         <description>WOKINGHAM - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.84100195902129,51.409222906424
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - WOKINGHAM</name>
+         <description>READING GROUP - WOKINGHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-0.84100195902129,51.409222906424</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EASTLEIGH - WINCHESTER</name>
+         <description>EASTLEIGH - WINCHESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.34912462799446,50.9664588482129
+-1.31919597477252,51.0651527128949</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WEYMOUTH GROUP - SOUTHAMPTON GROUP</name>
+         <description>WEYMOUTH GROUP - SOUTHAMPTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.45374638413658,50.6132794256376
+-1.41255771562521,50.9056791131306</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTHAMPTON GROUP - WEYMOUTH GROUP</name>
+         <description>SOUTHAMPTON GROUP - WEYMOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.41255771562521,50.9056791131306
+-2.45374638413658,50.6132794256376</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BASINGSTOKE - READING GROUP</name>
+         <description>BASINGSTOKE - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.08687709589478,51.2657940803547
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - BASINGSTOKE</name>
+         <description>READING GROUP - BASINGSTOKE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-1.08687709589478,51.2657940803547</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WINCHESTER - BASINGSTOKE</name>
+         <description>WINCHESTER - BASINGSTOKE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.31919597477252,51.0651527128949
+-1.08687709589478,51.2657940803547</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WINCHESTER - EASTLEIGH</name>
+         <description>WINCHESTER - EASTLEIGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.31919597477252,51.0651527128949
+-1.34912462799446,50.9664588482129</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EASTLEIGH - SOUTHAMPTON GROUP</name>
+         <description>EASTLEIGH - SOUTHAMPTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.34912462799446,50.9664588482129
+-1.41255771562521,50.9056791131306</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HAVANT - PORTSMOUTH GROUP</name>
+         <description>HAVANT - PORTSMOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.981310197425111,50.8523808477861
+-1.08897246877542,50.7957491893797</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PORTSMOUTH GROUP - HAVANT</name>
+         <description>PORTSMOUTH GROUP - HAVANT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.08897246877542,50.7957491893797
+-0.981310197425111,50.8523808477861</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EASTLEIGH - PORTSMOUTH GROUP</name>
+         <description>EASTLEIGH - PORTSMOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.34912462799446,50.9664588482129
+-1.08897246877542,50.7957491893797</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - WOKINGHAM</name>
+         <description>GUILDFORD - WOKINGHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.84100195902129,51.409222906424</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

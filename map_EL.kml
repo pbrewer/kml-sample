@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>EL</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff410C4B</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>NEW CROSS</name>
+         <description>NEW CROSS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0314684684072144,51.4739249880263</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SURREY QUAYS</name>
+         <description>SURREY QUAYS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0466080587220225,51.4903579634564</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CAMDEN ROAD</name>
+         <description>CAMDEN ROAD - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.13824916332792,51.5394886739332</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GOSPEL OAK</name>
+         <description>GOSPEL OAK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.149232687522671,51.5531454292835</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FINSBURY PARK</name>
+         <description>FINSBURY PARK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.104129330214378,51.5623127208072</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HIGHBURY &amp; I UND</name>
+         <description>HIGHBURY &amp; I UND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.102030856310921,51.5434025567242</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE</name>
+         <description>NEW CROSS GATE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0401417522422767,51.4731714354845</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CRYSTAL PALACE</name>
+         <description>CRYSTAL PALACE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0713862141029046,51.4152630622009</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE</name>
+         <description>PECKHAM RYE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD</name>
+         <description>NUNHEAD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0520373598903545,51.4643809758347</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP</name>
+         <description>CROYDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0918292948916154,51.3733510137007</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL</name>
+         <description>DENMARK HILL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0879714524318652,51.4658714779636</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION</name>
+         <description>CLAPHAM JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.168769712349235,51.4617683410367</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN</name>
+         <description>WILLESDEN JN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.242510759036517,51.5285132205761</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS - SURREY QUAYS</name>
+         <description>NEW CROSS - SURREY QUAYS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0314684684072144,51.4739249880263
+-0.0466080587220225,51.4903579634564</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CAMDEN ROAD - GOSPEL OAK</name>
+         <description>CAMDEN ROAD - GOSPEL OAK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.13824916332792,51.5394886739332
+-0.149232687522671,51.5531454292835</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FINSBURY PARK - HIGHBURY &amp; I UND</name>
+         <description>FINSBURY PARK - HIGHBURY &amp; I UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.104129330214378,51.5623127208072
+-0.102030856310921,51.5434025567242</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE - CRYSTAL PALACE</name>
+         <description>NEW CROSS GATE - CRYSTAL PALACE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0401417522422767,51.4731714354845
+-0.0713862141029046,51.4152630622009</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - NUNHEAD</name>
+         <description>PECKHAM RYE - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGHBURY &amp; I UND - FINSBURY PARK</name>
+         <description>HIGHBURY &amp; I UND - FINSBURY PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.102030856310921,51.5434025567242
+-0.104129330214378,51.5623127208072</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE - CROYDON GROUP</name>
+         <description>NEW CROSS GATE - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0401417522422767,51.4731714354845
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGHBURY &amp; I UND - CAMDEN ROAD</name>
+         <description>HIGHBURY &amp; I UND - CAMDEN ROAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.102030856310921,51.5434025567242
+-0.13824916332792,51.5394886739332</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - PECKHAM RYE</name>
+         <description>DENMARK HILL - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - PECKHAM RYE</name>
+         <description>NUNHEAD - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SURREY QUAYS - NEW CROSS GATE</name>
+         <description>SURREY QUAYS - NEW CROSS GATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0466080587220225,51.4903579634564
+-0.0401417522422767,51.4731714354845</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - NEW CROSS GATE</name>
+         <description>CROYDON GROUP - NEW CROSS GATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.0401417522422767,51.4731714354845</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - DENMARK HILL</name>
+         <description>CLAPHAM JUNCTION - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRYSTAL PALACE - NEW CROSS GATE</name>
+         <description>CRYSTAL PALACE - NEW CROSS GATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0713862141029046,51.4152630622009
+-0.0401417522422767,51.4731714354845</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SURREY QUAYS - HIGHBURY &amp; I UND</name>
+         <description>SURREY QUAYS - HIGHBURY &amp; I UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0466080587220225,51.4903579634564
+-0.102030856310921,51.5434025567242</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE - SURREY QUAYS</name>
+         <description>NEW CROSS GATE - SURREY QUAYS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0401417522422767,51.4731714354845
+-0.0466080587220225,51.4903579634564</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - DENMARK HILL</name>
+         <description>PECKHAM RYE - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CAMDEN ROAD - HIGHBURY &amp; I UND</name>
+         <description>CAMDEN ROAD - HIGHBURY &amp; I UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.13824916332792,51.5394886739332
+-0.102030856310921,51.5434025567242</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - GOSPEL OAK</name>
+         <description>WILLESDEN JN - GOSPEL OAK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.149232687522671,51.5531454292835</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - SURREY QUAYS</name>
+         <description>PECKHAM RYE - SURREY QUAYS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0466080587220225,51.4903579634564</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SURREY QUAYS - PECKHAM RYE</name>
+         <description>SURREY QUAYS - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0466080587220225,51.4903579634564
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOSPEL OAK - CAMDEN ROAD</name>
+         <description>GOSPEL OAK - CAMDEN ROAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.149232687522671,51.5531454292835
+-0.13824916332792,51.5394886739332</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SURREY QUAYS - NEW CROSS</name>
+         <description>SURREY QUAYS - NEW CROSS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0466080587220225,51.4903579634564
+-0.0314684684072144,51.4739249880263</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - CLAPHAM JUNCTION</name>
+         <description>DENMARK HILL - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOSPEL OAK - WILLESDEN JN</name>
+         <description>GOSPEL OAK - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.149232687522671,51.5531454292835
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGHBURY &amp; I UND - SURREY QUAYS</name>
+         <description>HIGHBURY &amp; I UND - SURREY QUAYS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.102030856310921,51.5434025567242
+-0.0466080587220225,51.4903579634564</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

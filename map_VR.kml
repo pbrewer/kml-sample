@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>VR</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffA5DE22</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>TONBRIDGE</name>
+         <description>TONBRIDGE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.271241048728237,51.1888888580524</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SEVENOAKS</name>
+         <description>SEVENOAKS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.183714070842441,51.2750523303078</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD</name>
+         <description>NUNHEAD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0520373598903545,51.4643809758347</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL</name>
+         <description>DENMARK HILL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0879714524318652,51.4658714779636</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP</name>
+         <description>BROMLEY SOUTH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0198851972353429,51.3975453727848</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP</name>
+         <description>HASTINGS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.577630945295527,50.8562183508005</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE</name>
+         <description>PECKHAM RYE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP</name>
+         <description>RAMSGATE GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.40741462464778,51.3384161699967</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL</name>
+         <description>ASHFORD INTL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.875193701365457,51.1414352542849</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS</name>
+         <description>SHORTLANDS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0043172178827097,51.4032060195165</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIXTON</name>
+         <description>BRIXTON - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.112655764191948,51.4608783058262</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE - SEVENOAKS</name>
+         <description>TONBRIDGE - SEVENOAKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.271241048728237,51.1888888580524
+0.183714070842441,51.2750523303078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - DENMARK HILL</name>
+         <description>NUNHEAD - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SEVENOAKS - BROMLEY SOUTH GROUP</name>
+         <description>SEVENOAKS - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.183714070842441,51.2750523303078
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP - TONBRIDGE</name>
+         <description>HASTINGS GROUP - TONBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.577630945295527,50.8562183508005
+0.271241048728237,51.1888888580524</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - DENMARK HILL</name>
+         <description>PECKHAM RYE - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP - ASHFORD INTL</name>
+         <description>RAMSGATE GROUP - ASHFORD INTL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.40741462464778,51.3384161699967
+0.875193701365457,51.1414352542849</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE - HASTINGS GROUP</name>
+         <description>TONBRIDGE - HASTINGS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.271241048728237,51.1888888580524
+0.577630945295527,50.8562183508005</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS - NUNHEAD</name>
+         <description>SHORTLANDS - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0043172178827097,51.4032060195165
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIXTON - DENMARK HILL</name>
+         <description>BRIXTON - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.112655764191948,51.4608783058262
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - NUNHEAD</name>
+         <description>PECKHAM RYE - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - PECKHAM RYE</name>
+         <description>DENMARK HILL - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - NUNHEAD</name>
+         <description>DENMARK HILL - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - PECKHAM RYE</name>
+         <description>NUNHEAD - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SHORTLANDS</name>
+         <description>BROMLEY SOUTH GROUP - SHORTLANDS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.0043172178827097,51.4032060195165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SEVENOAKS - TONBRIDGE</name>
+         <description>SEVENOAKS - TONBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.183714070842441,51.2750523303078
+0.271241048728237,51.1888888580524</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE - ASHFORD INTL</name>
+         <description>TONBRIDGE - ASHFORD INTL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.271241048728237,51.1888888580524
+0.875193701365457,51.1414352542849</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - SHORTLANDS</name>
+         <description>NUNHEAD - SHORTLANDS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+0.0043172178827097,51.4032060195165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL - TONBRIDGE</name>
+         <description>ASHFORD INTL - TONBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.875193701365457,51.1414352542849
+0.271241048728237,51.1888888580524</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - BRIXTON</name>
+         <description>DENMARK HILL - BRIXTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.112655764191948,51.4608783058262</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS - BROMLEY SOUTH GROUP</name>
+         <description>SHORTLANDS - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0043172178827097,51.4032060195165
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIXTON - LONDON GROUP</name>
+         <description>BRIXTON - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.112655764191948,51.4608783058262
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SEVENOAKS</name>
+         <description>BROMLEY SOUTH GROUP - SEVENOAKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.183714070842441,51.2750523303078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL - RAMSGATE GROUP</name>
+         <description>ASHFORD INTL - RAMSGATE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.875193701365457,51.1414352542849
+1.40741462464778,51.3384161699967</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - BRIXTON</name>
+         <description>LONDON GROUP - BRIXTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.112655764191948,51.4608783058262</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

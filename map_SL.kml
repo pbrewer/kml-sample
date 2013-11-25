@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>SL</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff190A02</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>WHITLAND</name>
+         <description>WHITLAND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.61316923131634,51.8155206244219</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWANSEA GROUP</name>
+         <description>SWANSEA GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.94028860334008,51.6227099416963</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP</name>
+         <description>WAKEFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.48675885897802,53.6760184399997</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNSLEY</name>
+         <description>BARNSLEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.47619600186737,53.5510442770956</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWINTON  S YORKS</name>
+         <description>SWINTON  S YORKS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.30368986438219,53.4845538752677</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MEADOWHALL</name>
+         <description>MEADOWHALL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.4101691283604,53.4141240779031</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL</name>
+         <description>CARDIFF CENTRAL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.17645026760644,51.4728636340219</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES)</name>
+         <description>NEWPORT (S.WALES) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.99751869673671,51.5877692937142</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HUDDERSFIELD GROUP</name>
+         <description>HUDDERSFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.78365726682475,53.6454662384722</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DERBY GROUP</name>
+         <description>DERBY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.46160821941454,52.913754524735</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHESTERFIELD</name>
+         <description>CHESTERFIELD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.41862363259194,53.2353107270901</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGEND</name>
+         <description>BRIDGEND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.57497724700083,51.5041409019868</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARRY</name>
+         <description>BARRY - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.28369127248002,51.3944413471767</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GOOLE</name>
+         <description>GOOLE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.871383236956765,53.7014608402164</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER</name>
+         <description>DONCASTER - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.13871721870229,53.5185314624258</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEICESTER</name>
+         <description>LEICESTER - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.12378666494119,52.6286267444856</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LOUGHBORO LEICS</name>
+         <description>LOUGHBORO LEICS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.1934681395205,52.776521257258</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP</name>
+         <description>BIRMINGHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.89692899917132,52.4754385160511</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON</name>
+         <description>NUNEATON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.46196766120402,52.5236920836025</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHEFFIELD</name>
+         <description>SHEFFIELD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.46181308663146,53.375721027765</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP</name>
+         <description>WORCESTER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.21946001815119,52.1921716892404</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD</name>
+         <description>HEREFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.70746562548318,52.0581355218282</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA</name>
+         <description>CHELTENHAM SPA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.09882854165799,51.8939477964377</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP</name>
+         <description>BRISTOL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.57996766294555,51.4467726886349</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER</name>
+         <description>GLOUCESTER - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.23673166427208,51.8622947301681</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH</name>
+         <description>TAMWORTH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.68523565193305,52.6341448712012</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP</name>
+         <description>LEEDS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.54758683544322,53.7922040754631</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP</name>
+         <description>SMETHWICK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.97790163064984,52.4988489648427</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE</name>
+         <description>BROMSGROVE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.04695288598449,52.3199895646342</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN</name>
+         <description>BARNT GREEN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.9926572118682,52.3586451076832</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LICHFIELD T V</name>
+         <description>LICHFIELD T V - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.79879175484465,52.6847224457417</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PONTYPRIDD</name>
+         <description>PONTYPRIDD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.34137458537276,51.596926467657</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SELBY</name>
+         <description>SELBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.06202765621019,53.7804012865994</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PONTEFRACT GROUP</name>
+         <description>PONTEFRACT GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.30184277248278,53.6885648869916</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WHITLAND - SWANSEA GROUP</name>
+         <description>WHITLAND - SWANSEA GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.61316923131634,51.8155206244219
+-3.94028860334008,51.6227099416963</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANSEA GROUP - WHITLAND</name>
+         <description>SWANSEA GROUP - WHITLAND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.94028860334008,51.6227099416963
+-4.61316923131634,51.8155206244219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - BARNSLEY</name>
+         <description>WAKEFIELD GROUP - BARNSLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.47619600186737,53.5510442770956</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWINTON  S YORKS - MEADOWHALL</name>
+         <description>SWINTON  S YORKS - MEADOWHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30368986438219,53.4845538752677
+-1.4101691283604,53.4141240779031</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL - NEWPORT (S.WALES)</name>
+         <description>CARDIFF CENTRAL - NEWPORT (S.WALES)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.17645026760644,51.4728636340219
+-2.99751869673671,51.5877692937142</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUDDERSFIELD GROUP - WAKEFIELD GROUP</name>
+         <description>HUDDERSFIELD GROUP - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.78365726682475,53.6454662384722
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DERBY GROUP - CHESTERFIELD</name>
+         <description>DERBY GROUP - CHESTERFIELD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46160821941454,52.913754524735
+-1.41862363259194,53.2353107270901</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - SWINTON  S YORKS</name>
+         <description>WAKEFIELD GROUP - SWINTON  S YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.30368986438219,53.4845538752677</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGEND - BARRY</name>
+         <description>BRIDGEND - BARRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.57497724700083,51.5041409019868
+-3.28369127248002,51.3944413471767</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOOLE - DONCASTER</name>
+         <description>GOOLE - DONCASTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.871383236956765,53.7014608402164
+-1.13871721870229,53.5185314624258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARRY - BRIDGEND</name>
+         <description>BARRY - BRIDGEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.28369127248002,51.3944413471767
+-3.57497724700083,51.5041409019868</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEICESTER - LOUGHBORO LEICS</name>
+         <description>LEICESTER - LOUGHBORO LEICS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.12378666494119,52.6286267444856
+-1.1934681395205,52.776521257258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - NUNEATON</name>
+         <description>BIRMINGHAM GROUP - NUNEATON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.46196766120402,52.5236920836025</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHEFFIELD - CHESTERFIELD</name>
+         <description>SHEFFIELD - CHESTERFIELD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46181308663146,53.375721027765
+-1.41862363259194,53.2353107270901</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - HEREFORD</name>
+         <description>WORCESTER GROUP - HEREFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-2.70746562548318,52.0581355218282</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MEADOWHALL - SWINTON  S YORKS</name>
+         <description>MEADOWHALL - SWINTON  S YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.4101691283604,53.4141240779031
+-1.30368986438219,53.4845538752677</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - BRISTOL GROUP</name>
+         <description>CHELTENHAM SPA - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - GLOUCESTER</name>
+         <description>BRISTOL GROUP - GLOUCESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.23673166427208,51.8622947301681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DERBY GROUP - TAMWORTH</name>
+         <description>DERBY GROUP - TAMWORTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46160821941454,52.913754524735
+-1.68523565193305,52.6341448712012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - WAKEFIELD GROUP</name>
+         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWINTON  S YORKS - DONCASTER</name>
+         <description>SWINTON  S YORKS - DONCASTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30368986438219,53.4845538752677
+-1.13871721870229,53.5185314624258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES) - CARDIFF CENTRAL</name>
+         <description>NEWPORT (S.WALES) - CARDIFF CENTRAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.99751869673671,51.5877692937142
+-3.17645026760644,51.4728636340219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHEFFIELD - MEADOWHALL</name>
+         <description>SHEFFIELD - MEADOWHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46181308663146,53.375721027765
+-1.4101691283604,53.4141240779031</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER - SWINTON  S YORKS</name>
+         <description>DONCASTER - SWINTON  S YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.13871721870229,53.5185314624258
+-1.30368986438219,53.4845538752677</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LOUGHBORO LEICS - LEICESTER</name>
+         <description>LOUGHBORO LEICS - LEICESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.1934681395205,52.776521257258
+-1.12378666494119,52.6286267444856</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWINTON  S YORKS - WAKEFIELD GROUP</name>
+         <description>SWINTON  S YORKS - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30368986438219,53.4845538752677
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
+         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - BARNT GREEN</name>
+         <description>BROMSGROVE - BARNT GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-1.9926572118682,52.3586451076832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH - LICHFIELD T V</name>
+         <description>TAMWORTH - LICHFIELD T V</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.68523565193305,52.6341448712012
+-1.79879175484465,52.6847224457417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LICHFIELD T V - DERBY GROUP</name>
+         <description>LICHFIELD T V - DERBY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.79879175484465,52.6847224457417
+-1.46160821941454,52.913754524735</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD - NEWPORT (S.WALES)</name>
+         <description>HEREFORD - NEWPORT (S.WALES)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.70746562548318,52.0581355218282
+-2.99751869673671,51.5877692937142</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER - WAKEFIELD GROUP</name>
+         <description>DONCASTER - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.13871721870229,53.5185314624258
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - GLOUCESTER</name>
+         <description>CHELTENHAM SPA - GLOUCESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.23673166427208,51.8622947301681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL - PONTYPRIDD</name>
+         <description>CARDIFF CENTRAL - PONTYPRIDD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.17645026760644,51.4728636340219
+-3.34137458537276,51.596926467657</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MEADOWHALL - SHEFFIELD</name>
+         <description>MEADOWHALL - SHEFFIELD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.4101691283604,53.4141240779031
+-1.46181308663146,53.375721027765</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL - BRIDGEND</name>
+         <description>CARDIFF CENTRAL - BRIDGEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.17645026760644,51.4728636340219
+-3.57497724700083,51.5041409019868</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES) - HEREFORD</name>
+         <description>NEWPORT (S.WALES) - HEREFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.99751869673671,51.5877692937142
+-2.70746562548318,52.0581355218282</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHESTERFIELD - DERBY GROUP</name>
+         <description>CHESTERFIELD - DERBY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.41862363259194,53.2353107270901
+-1.46160821941454,52.913754524735</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELBY - DONCASTER</name>
+         <description>SELBY - DONCASTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.06202765621019,53.7804012865994
+-1.13871721870229,53.5185314624258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - BROMSGROVE</name>
+         <description>CHELTENHAM SPA - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DERBY GROUP - LICHFIELD T V</name>
+         <description>DERBY GROUP - LICHFIELD T V</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46160821941454,52.913754524735
+-1.79879175484465,52.6847224457417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PONTYPRIDD - CARDIFF CENTRAL</name>
+         <description>PONTYPRIDD - CARDIFF CENTRAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.34137458537276,51.596926467657
+-3.17645026760644,51.4728636340219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNSLEY - WAKEFIELD GROUP</name>
+         <description>BARNSLEY - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.47619600186737,53.5510442770956
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES) - BRISTOL GROUP</name>
+         <description>NEWPORT (S.WALES) - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.99751869673671,51.5877692937142
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - DONCASTER</name>
+         <description>WAKEFIELD GROUP - DONCASTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.13871721870229,53.5185314624258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - LICHFIELD T V</name>
+         <description>BIRMINGHAM GROUP - LICHFIELD T V</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.79879175484465,52.6847224457417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHESTERFIELD - SHEFFIELD</name>
+         <description>CHESTERFIELD - SHEFFIELD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.41862363259194,53.2353107270901
+-1.46181308663146,53.375721027765</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARRY - CARDIFF CENTRAL</name>
+         <description>BARRY - CARDIFF CENTRAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.28369127248002,51.3944413471767
+-3.17645026760644,51.4728636340219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH - BIRMINGHAM GROUP</name>
+         <description>TAMWORTH - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.68523565193305,52.6341448712012
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANSEA GROUP - BRIDGEND</name>
+         <description>SWANSEA GROUP - BRIDGEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.94028860334008,51.6227099416963
+-3.57497724700083,51.5041409019868</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LOUGHBORO LEICS - DERBY GROUP</name>
+         <description>LOUGHBORO LEICS - DERBY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.1934681395205,52.776521257258
+-1.46160821941454,52.913754524735</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER - BRISTOL GROUP</name>
+         <description>GLOUCESTER - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.23673166427208,51.8622947301681
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGEND - SWANSEA GROUP</name>
+         <description>BRIDGEND - SWANSEA GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.57497724700083,51.5041409019868
+-3.94028860334008,51.6227099416963</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN - BROMSGROVE</name>
+         <description>BARNT GREEN - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.9926572118682,52.3586451076832
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - NEWPORT (S.WALES)</name>
+         <description>BRISTOL GROUP - NEWPORT (S.WALES)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.99751869673671,51.5877692937142</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - CHELTENHAM SPA</name>
+         <description>BROMSGROVE - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - WORCESTER GROUP</name>
+         <description>CHELTENHAM SPA - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LICHFIELD T V - TAMWORTH</name>
+         <description>LICHFIELD T V - TAMWORTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.79879175484465,52.6847224457417
+-1.68523565193305,52.6341448712012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD - WORCESTER GROUP</name>
+         <description>HEREFORD - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.70746562548318,52.0581355218282
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER - CHELTENHAM SPA</name>
+         <description>GLOUCESTER - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.23673166427208,51.8622947301681
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MEADOWHALL - BARNSLEY</name>
+         <description>MEADOWHALL - BARNSLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.4101691283604,53.4141240779031
+-1.47619600186737,53.5510442770956</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - CHELTENHAM SPA</name>
+         <description>WORCESTER GROUP - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LICHFIELD T V - BIRMINGHAM GROUP</name>
+         <description>LICHFIELD T V - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.79879175484465,52.6847224457417
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER - SELBY</name>
+         <description>DONCASTER - SELBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.13871721870229,53.5185314624258
+-1.06202765621019,53.7804012865994</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - BARNT GREEN</name>
+         <description>BIRMINGHAM GROUP - BARNT GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.9926572118682,52.3586451076832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DERBY GROUP - LOUGHBORO LEICS</name>
+         <description>DERBY GROUP - LOUGHBORO LEICS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46160821941454,52.913754524735
+-1.1934681395205,52.776521257258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON - BIRMINGHAM GROUP</name>
+         <description>NUNEATON - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46196766120402,52.5236920836025
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL - BARRY</name>
+         <description>CARDIFF CENTRAL - BARRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.17645026760644,51.4728636340219
+-3.28369127248002,51.3944413471767</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - WORCESTER GROUP</name>
+         <description>BROMSGROVE - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - SMETHWICK GROUP</name>
+         <description>WORCESTER GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - LEEDS GROUP</name>
+         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER - NEWPORT (S.WALES)</name>
+         <description>GLOUCESTER - NEWPORT (S.WALES)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.23673166427208,51.8622947301681
+-2.99751869673671,51.5877692937142</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
+         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - WORCESTER GROUP</name>
+         <description>SMETHWICK GROUP - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN - BIRMINGHAM GROUP</name>
+         <description>BARNT GREEN - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.9926572118682,52.3586451076832
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - BROMSGROVE</name>
+         <description>WORCESTER GROUP - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES) - GLOUCESTER</name>
+         <description>NEWPORT (S.WALES) - GLOUCESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.99751869673671,51.5877692937142
+-2.23673166427208,51.8622947301681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGEND - CARDIFF CENTRAL</name>
+         <description>BRIDGEND - CARDIFF CENTRAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.57497724700083,51.5041409019868
+-3.17645026760644,51.4728636340219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH - DERBY GROUP</name>
+         <description>TAMWORTH - DERBY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.68523565193305,52.6341448712012
+-1.46160821941454,52.913754524735</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEICESTER - NUNEATON</name>
+         <description>LEICESTER - NUNEATON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.12378666494119,52.6286267444856
+-1.46196766120402,52.5236920836025</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNSLEY - MEADOWHALL</name>
+         <description>BARNSLEY - MEADOWHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.47619600186737,53.5510442770956
+-1.4101691283604,53.4141240779031</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWINTON  S YORKS - PONTEFRACT GROUP</name>
+         <description>SWINTON  S YORKS - PONTEFRACT GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30368986438219,53.4845538752677
+-1.30184277248278,53.6885648869916</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PONTEFRACT GROUP - SWINTON  S YORKS</name>
+         <description>PONTEFRACT GROUP - SWINTON  S YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30184277248278,53.6885648869916
+-1.30368986438219,53.4845538752677</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER - GOOLE</name>
+         <description>DONCASTER - GOOLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.13871721870229,53.5185314624258
+-0.871383236956765,53.7014608402164</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - TAMWORTH</name>
+         <description>BIRMINGHAM GROUP - TAMWORTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.68523565193305,52.6341448712012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON - LEICESTER</name>
+         <description>NUNEATON - LEICESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46196766120402,52.5236920836025
+-1.12378666494119,52.6286267444856</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - CHELTENHAM SPA</name>
+         <description>BRISTOL GROUP - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - HUDDERSFIELD GROUP</name>
+         <description>WAKEFIELD GROUP - HUDDERSFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.78365726682475,53.6454662384722</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

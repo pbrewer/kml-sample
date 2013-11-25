@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>CA</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffFAB422</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>TELFORD</name>
+         <description>TELFORD - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.43931657824063,52.6759903288674</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY</name>
+         <description>SHREWSBURY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.7475465595177,52.7086006455055</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WALSALL GROUP</name>
+         <description>WALSALL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.98376405346226,52.5815353235725</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP</name>
+         <description>BIRMINGHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.89692899917132,52.4754385160511</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN</name>
+         <description>BARNT GREEN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.9926572118682,52.3586451076832</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE</name>
+         <description>BROMSGROVE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.04695288598449,52.3199895646342</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP</name>
+         <description>SMETHWICK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.97790163064984,52.4988489648427</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MACHYNLLETH GROUP</name>
+         <description>MACHYNLLETH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.85294612804162,52.5931050319326</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WOLVERHAMPTON</name>
+         <description>WOLVERHAMPTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.11808913837316,52.5850725822153</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CRAVEN ARMS</name>
+         <description>CRAVEN ARMS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.83567015766998,52.4392771446456</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON</name>
+         <description>NUNEATON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.46196766120402,52.5236920836025</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TELFORD - SHREWSBURY</name>
+         <description>TELFORD - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.43931657824063,52.6759903288674
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
+         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.98376405346226,52.5815353235725
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN - BROMSGROVE</name>
+         <description>BARNT GREEN - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.9926572118682,52.3586451076832
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - BARNT GREEN</name>
+         <description>BROMSGROVE - BARNT GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-1.9926572118682,52.3586451076832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
+         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - MACHYNLLETH GROUP</name>
+         <description>SHREWSBURY - MACHYNLLETH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-3.85294612804162,52.5931050319326</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TELFORD - WOLVERHAMPTON</name>
+         <description>TELFORD - WOLVERHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.43931657824063,52.6759903288674
+-2.11808913837316,52.5850725822153</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
+         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOLVERHAMPTON - SMETHWICK GROUP</name>
+         <description>WOLVERHAMPTON - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11808913837316,52.5850725822153
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MACHYNLLETH GROUP - SHREWSBURY</name>
+         <description>MACHYNLLETH GROUP - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.85294612804162,52.5931050319326
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - TELFORD</name>
+         <description>SHREWSBURY - TELFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-2.43931657824063,52.6759903288674</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN - BIRMINGHAM GROUP</name>
+         <description>BARNT GREEN - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.9926572118682,52.3586451076832
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - CRAVEN ARMS</name>
+         <description>SHREWSBURY - CRAVEN ARMS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-2.83567015766998,52.4392771446456</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
+         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.98376405346226,52.5815353235725</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WALSALL GROUP - WOLVERHAMPTON</name>
+         <description>WALSALL GROUP - WOLVERHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.98376405346226,52.5815353235725
+-2.11808913837316,52.5850725822153</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRAVEN ARMS - SHREWSBURY</name>
+         <description>CRAVEN ARMS - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.83567015766998,52.4392771446456
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - WOLVERHAMPTON</name>
+         <description>SMETHWICK GROUP - WOLVERHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-2.11808913837316,52.5850725822153</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOLVERHAMPTON - TELFORD</name>
+         <description>WOLVERHAMPTON - TELFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11808913837316,52.5850725822153
+-2.43931657824063,52.6759903288674</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - NUNEATON</name>
+         <description>BIRMINGHAM GROUP - NUNEATON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.46196766120402,52.5236920836025</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - BARNT GREEN</name>
+         <description>BIRMINGHAM GROUP - BARNT GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.9926572118682,52.3586451076832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON - BIRMINGHAM GROUP</name>
+         <description>NUNEATON - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46196766120402,52.5236920836025
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOLVERHAMPTON - WALSALL GROUP</name>
+         <description>WOLVERHAMPTON - WALSALL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11808913837316,52.5850725822153
+-1.98376405346226,52.5815353235725</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

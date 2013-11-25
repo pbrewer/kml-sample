@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>YN</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffB4454A</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>LEEDS GROUP</name>
+         <description>LEEDS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.54758683544322,53.7922040754631</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HARROGATE</name>
+         <description>HARROGATE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.5363046851771,53.9889901979466</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MIDDLESBROUGH GROUP</name>
+         <description>MIDDLESBROUGH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.2310576583881,54.5761261486276</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DARLINGTON</name>
+         <description>DARLINGTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.54578731766567,54.5174993504893</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SELBY</name>
+         <description>SELBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.06202765621019,53.7804012865994</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HARTLEPOOL</name>
+         <description>HARTLEPOOL - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.20575407723747,54.6838167251177</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWCASTLE</name>
+         <description>NEWCASTLE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.61572906780496,54.9653249022215</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HUDDERSFIELD GROUP</name>
+         <description>HUDDERSFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.78365726682475,53.6454662384722</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STALYBRIDGE</name>
+         <description>STALYBRIDGE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.06329543897595,53.4811728690541</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>YORK</name>
+         <description>YORK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.09164414482499,53.9549944344078</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NORTHALLERTON</name>
+         <description>NORTHALLERTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.44020006264227,54.3301128769982</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HALIFAX GROUP</name>
+         <description>HALIFAX GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.85299957012169,53.7174718790283</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP</name>
+         <description>BRADFORD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.74801394804718,53.7874001473732</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DURHAM</name>
+         <description>DURHAM - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.58020598133438,54.7764673142649</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SCARBOROUGH GROUP</name>
+         <description>SCARBOROUGH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.404114952496297,54.2768123775554</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HELLIFIELD GROUP</name>
+         <description>HELLIFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.22585165157831,54.0085463384902</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PONTEFRACT GROUP</name>
+         <description>PONTEFRACT GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.30184277248278,53.6885648869916</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - HARROGATE</name>
+         <description>LEEDS GROUP - HARROGATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.5363046851771,53.9889901979466</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MIDDLESBROUGH GROUP - DARLINGTON</name>
+         <description>MIDDLESBROUGH GROUP - DARLINGTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2310576583881,54.5761261486276
+-1.54578731766567,54.5174993504893</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - SELBY</name>
+         <description>LEEDS GROUP - SELBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.06202765621019,53.7804012865994</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HARTLEPOOL - NEWCASTLE</name>
+         <description>HARTLEPOOL - NEWCASTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.20575407723747,54.6838167251177
+-1.61572906780496,54.9653249022215</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUDDERSFIELD GROUP - STALYBRIDGE</name>
+         <description>HUDDERSFIELD GROUP - STALYBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.78365726682475,53.6454662384722
+-2.06329543897595,53.4811728690541</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>YORK - NORTHALLERTON</name>
+         <description>YORK - NORTHALLERTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.09164414482499,53.9549944344078
+-1.44020006264227,54.3301128769982</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HARROGATE - LEEDS GROUP</name>
+         <description>HARROGATE - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.5363046851771,53.9889901979466
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>YORK - LEEDS GROUP</name>
+         <description>YORK - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.09164414482499,53.9549944344078
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HALIFAX GROUP - BRADFORD GROUP</name>
+         <description>HALIFAX GROUP - BRADFORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.85299957012169,53.7174718790283
+-1.74801394804718,53.7874001473732</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DURHAM - DARLINGTON</name>
+         <description>DURHAM - DARLINGTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58020598133438,54.7764673142649
+-1.54578731766567,54.5174993504893</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MIDDLESBROUGH GROUP - HARTLEPOOL</name>
+         <description>MIDDLESBROUGH GROUP - HARTLEPOOL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2310576583881,54.5761261486276
+-1.20575407723747,54.6838167251177</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP - HALIFAX GROUP</name>
+         <description>BRADFORD GROUP - HALIFAX GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.74801394804718,53.7874001473732
+-1.85299957012169,53.7174718790283</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP - LEEDS GROUP</name>
+         <description>BRADFORD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.74801394804718,53.7874001473732
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NORTHALLERTON - YORK</name>
+         <description>NORTHALLERTON - YORK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.44020006264227,54.3301128769982
+-1.09164414482499,53.9549944344078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - HUDDERSFIELD GROUP</name>
+         <description>LEEDS GROUP - HUDDERSFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.78365726682475,53.6454662384722</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DARLINGTON - MIDDLESBROUGH GROUP</name>
+         <description>DARLINGTON - MIDDLESBROUGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54578731766567,54.5174993504893
+-1.2310576583881,54.5761261486276</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUDDERSFIELD GROUP - LEEDS GROUP</name>
+         <description>HUDDERSFIELD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.78365726682475,53.6454662384722
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>YORK - SCARBOROUGH GROUP</name>
+         <description>YORK - SCARBOROUGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.09164414482499,53.9549944344078
+-0.404114952496297,54.2768123775554</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELBY - LEEDS GROUP</name>
+         <description>SELBY - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.06202765621019,53.7804012865994
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - HELLIFIELD GROUP</name>
+         <description>LEEDS GROUP - HELLIFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-2.22585165157831,54.0085463384902</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - BRADFORD GROUP</name>
+         <description>LEEDS GROUP - BRADFORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.74801394804718,53.7874001473732</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NORTHALLERTON - DARLINGTON</name>
+         <description>NORTHALLERTON - DARLINGTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.44020006264227,54.3301128769982
+-1.54578731766567,54.5174993504893</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PONTEFRACT GROUP - YORK</name>
+         <description>PONTEFRACT GROUP - YORK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30184277248278,53.6885648869916
+-1.09164414482499,53.9549944344078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWCASTLE - HARTLEPOOL</name>
+         <description>NEWCASTLE - HARTLEPOOL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.61572906780496,54.9653249022215
+-1.20575407723747,54.6838167251177</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HARROGATE - YORK</name>
+         <description>HARROGATE - YORK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.5363046851771,53.9889901979466
+-1.09164414482499,53.9549944344078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SCARBOROUGH GROUP - YORK</name>
+         <description>SCARBOROUGH GROUP - YORK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.404114952496297,54.2768123775554
+-1.09164414482499,53.9549944344078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HARTLEPOOL - MIDDLESBROUGH GROUP</name>
+         <description>HARTLEPOOL - MIDDLESBROUGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.20575407723747,54.6838167251177
+-1.2310576583881,54.5761261486276</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DARLINGTON - DURHAM</name>
+         <description>DARLINGTON - DURHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54578731766567,54.5174993504893
+-1.58020598133438,54.7764673142649</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MIDDLESBROUGH GROUP - NORTHALLERTON</name>
+         <description>MIDDLESBROUGH GROUP - NORTHALLERTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2310576583881,54.5761261486276
+-1.44020006264227,54.3301128769982</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>YORK - PONTEFRACT GROUP</name>
+         <description>YORK - PONTEFRACT GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.09164414482499,53.9549944344078
+-1.30184277248278,53.6885648869916</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HELLIFIELD GROUP - LEEDS GROUP</name>
+         <description>HELLIFIELD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22585165157831,54.0085463384902
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STALYBRIDGE - HUDDERSFIELD GROUP</name>
+         <description>STALYBRIDGE - HUDDERSFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.06329543897595,53.4811728690541
+-1.78365726682475,53.6454662384722</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PONTEFRACT GROUP - LEEDS GROUP</name>
+         <description>PONTEFRACT GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30184277248278,53.6885648869916
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - YORK</name>
+         <description>LEEDS GROUP - YORK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.09164414482499,53.9549944344078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NORTHALLERTON - MIDDLESBROUGH GROUP</name>
+         <description>NORTHALLERTON - MIDDLESBROUGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.44020006264227,54.3301128769982
+-1.2310576583881,54.5761261486276</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWCASTLE - DURHAM</name>
+         <description>NEWCASTLE - DURHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.61572906780496,54.9653249022215
+-1.58020598133438,54.7764673142649</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DARLINGTON - NORTHALLERTON</name>
+         <description>DARLINGTON - NORTHALLERTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54578731766567,54.5174993504893
+-1.44020006264227,54.3301128769982</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DURHAM - NEWCASTLE</name>
+         <description>DURHAM - NEWCASTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58020598133438,54.7764673142649
+-1.61572906780496,54.9653249022215</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - PONTEFRACT GROUP</name>
+         <description>LEEDS GROUP - PONTEFRACT GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.30184277248278,53.6885648869916</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>YORK - HARROGATE</name>
+         <description>YORK - HARROGATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.09164414482499,53.9549944344078
+-1.5363046851771,53.9889901979466</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

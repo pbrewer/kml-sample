@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>PB</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffD2B2D8</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>WALSALL GROUP</name>
+         <description>WALSALL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.98376405346226,52.5815353235725</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP</name>
+         <description>BIRMINGHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.89692899917132,52.4754385160511</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGWATER</name>
+         <description>BRIDGWATER - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.98896514462237,51.1258664842373</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WESTON SUPR MARE</name>
+         <description>WESTON SUPR MARE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.97063000675618,51.3417279722431</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP</name>
+         <description>BRISTOL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.57996766294555,51.4467726886349</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON ABBOT</name>
+         <description>NEWTON ABBOT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.59867836580248,50.5276921735096</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EXETER GROUP</name>
+         <description>EXETER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.53168545123118,50.72453530067</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TAUNTON</name>
+         <description>TAUNTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.10082010093475,51.0215061746061</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TRURO</name>
+         <description>TRURO - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-5.06185790477253,50.2619529661365</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PAR</name>
+         <description>PAR - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.70355987074813,50.3535492327742</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA</name>
+         <description>CHELTENHAM SPA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.09882854165799,51.8939477964377</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER</name>
+         <description>GLOUCESTER - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.23673166427208,51.8622947301681</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP</name>
+         <description>WESTBURY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.19781295870281,51.2646940754104</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CASTLE CARY</name>
+         <description>CASTLE CARY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.52131224016905,51.0974294858244</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LISKEARD</name>
+         <description>LISKEARD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.46787225359045,50.4450883897547</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PLYMOUTH GROUP</name>
+         <description>PLYMOUTH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.14215458332859,50.3760376084661</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE</name>
+         <description>BROMSGROVE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.04695288598449,52.3199895646342</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN</name>
+         <description>BARNT GREEN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.9926572118682,52.3586451076832</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP</name>
+         <description>SMETHWICK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.97790163064984,52.4988489648427</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PENZANCE GROUP</name>
+         <description>PENZANCE GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-5.53137440057147,50.1200540661048</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA</name>
+         <description>BATH SPA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.35491303257205,51.3757692670053</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LICHFIELD T V</name>
+         <description>LICHFIELD T V - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.79879175484465,52.6847224457417</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH</name>
+         <description>TAMWORTH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.68523565193305,52.6341448712012</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP</name>
+         <description>WORCESTER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.21946001815119,52.1921716892404</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
+         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.98376405346226,52.5815353235725
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGWATER - WESTON SUPR MARE</name>
+         <description>BRIDGWATER - WESTON SUPR MARE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98896514462237,51.1258664842373
+-2.97063000675618,51.3417279722431</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - WESTON SUPR MARE</name>
+         <description>BRISTOL GROUP - WESTON SUPR MARE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.97063000675618,51.3417279722431</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON ABBOT - EXETER GROUP</name>
+         <description>NEWTON ABBOT - EXETER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.59867836580248,50.5276921735096
+-3.53168545123118,50.72453530067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAUNTON - EXETER GROUP</name>
+         <description>TAUNTON - EXETER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.10082010093475,51.0215061746061
+-3.53168545123118,50.72453530067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TRURO - PAR</name>
+         <description>TRURO - PAR</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-5.06185790477253,50.2619529661365
+-4.70355987074813,50.3535492327742</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - BRISTOL GROUP</name>
+         <description>CHELTENHAM SPA - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - GLOUCESTER</name>
+         <description>BRISTOL GROUP - GLOUCESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.23673166427208,51.8622947301681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - CASTLE CARY</name>
+         <description>WESTBURY GROUP - CASTLE CARY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-2.52131224016905,51.0974294858244</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PAR - LISKEARD</name>
+         <description>PAR - LISKEARD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.70355987074813,50.3535492327742
+-4.46787225359045,50.4450883897547</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PLYMOUTH GROUP - NEWTON ABBOT</name>
+         <description>PLYMOUTH GROUP - NEWTON ABBOT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.14215458332859,50.3760376084661
+-3.59867836580248,50.5276921735096</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LISKEARD - PLYMOUTH GROUP</name>
+         <description>LISKEARD - PLYMOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.46787225359045,50.4450883897547
+-4.14215458332859,50.3760376084661</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - BRIDGWATER</name>
+         <description>BRISTOL GROUP - BRIDGWATER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.98896514462237,51.1258664842373</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EXETER GROUP - NEWTON ABBOT</name>
+         <description>EXETER GROUP - NEWTON ABBOT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.53168545123118,50.72453530067
+-3.59867836580248,50.5276921735096</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - BARNT GREEN</name>
+         <description>BROMSGROVE - BARNT GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-1.9926572118682,52.3586451076832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
+         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGWATER - TAUNTON</name>
+         <description>BRIDGWATER - TAUNTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98896514462237,51.1258664842373
+-3.10082010093475,51.0215061746061</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - GLOUCESTER</name>
+         <description>CHELTENHAM SPA - GLOUCESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.23673166427208,51.8622947301681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TRURO - PENZANCE GROUP</name>
+         <description>TRURO - PENZANCE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-5.06185790477253,50.2619529661365
+-5.53137440057147,50.1200540661048</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - BROMSGROVE</name>
+         <description>CHELTENHAM SPA - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - BATH SPA</name>
+         <description>BRISTOL GROUP - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EXETER GROUP - TAUNTON</name>
+         <description>EXETER GROUP - TAUNTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.53168545123118,50.72453530067
+-3.10082010093475,51.0215061746061</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - LICHFIELD T V</name>
+         <description>BIRMINGHAM GROUP - LICHFIELD T V</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.79879175484465,52.6847224457417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - BRISTOL GROUP</name>
+         <description>BATH SPA - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH - BIRMINGHAM GROUP</name>
+         <description>TAMWORTH - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.68523565193305,52.6341448712012
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN - BROMSGROVE</name>
+         <description>BARNT GREEN - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.9926572118682,52.3586451076832
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER - BRISTOL GROUP</name>
+         <description>GLOUCESTER - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.23673166427208,51.8622947301681
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - BATH SPA</name>
+         <description>WESTBURY GROUP - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAUNTON - CASTLE CARY</name>
+         <description>TAUNTON - CASTLE CARY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.10082010093475,51.0215061746061
+-2.52131224016905,51.0974294858244</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - CHELTENHAM SPA</name>
+         <description>BROMSGROVE - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
+         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.98376405346226,52.5815353235725</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - WORCESTER GROUP</name>
+         <description>CHELTENHAM SPA - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER - CHELTENHAM SPA</name>
+         <description>GLOUCESTER - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.23673166427208,51.8622947301681
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGWATER - BRISTOL GROUP</name>
+         <description>BRIDGWATER - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98896514462237,51.1258664842373
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - CHELTENHAM SPA</name>
+         <description>WORCESTER GROUP - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PAR - TRURO</name>
+         <description>PAR - TRURO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.70355987074813,50.3535492327742
+-5.06185790477253,50.2619529661365</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LICHFIELD T V - BIRMINGHAM GROUP</name>
+         <description>LICHFIELD T V - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.79879175484465,52.6847224457417
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTON SUPR MARE - BRISTOL GROUP</name>
+         <description>WESTON SUPR MARE - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97063000675618,51.3417279722431
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - BARNT GREEN</name>
+         <description>BIRMINGHAM GROUP - BARNT GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.9926572118682,52.3586451076832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CASTLE CARY - TAUNTON</name>
+         <description>CASTLE CARY - TAUNTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.52131224016905,51.0974294858244
+-3.10082010093475,51.0215061746061</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - WESTBURY GROUP</name>
+         <description>BATH SPA - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAUNTON - BRIDGWATER</name>
+         <description>TAUNTON - BRIDGWATER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.10082010093475,51.0215061746061
+-2.98896514462237,51.1258664842373</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - WORCESTER GROUP</name>
+         <description>BROMSGROVE - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - SMETHWICK GROUP</name>
+         <description>WORCESTER GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
+         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PENZANCE GROUP - TRURO</name>
+         <description>PENZANCE GROUP - TRURO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-5.53137440057147,50.1200540661048
+-5.06185790477253,50.2619529661365</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - WORCESTER GROUP</name>
+         <description>SMETHWICK GROUP - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN - BIRMINGHAM GROUP</name>
+         <description>BARNT GREEN - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.9926572118682,52.3586451076832
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - BROMSGROVE</name>
+         <description>WORCESTER GROUP - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTON SUPR MARE - BRIDGWATER</name>
+         <description>WESTON SUPR MARE - BRIDGWATER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97063000675618,51.3417279722431
+-2.98896514462237,51.1258664842373</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON ABBOT - PLYMOUTH GROUP</name>
+         <description>NEWTON ABBOT - PLYMOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.59867836580248,50.5276921735096
+-4.14215458332859,50.3760376084661</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - TAMWORTH</name>
+         <description>BIRMINGHAM GROUP - TAMWORTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.68523565193305,52.6341448712012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CASTLE CARY - WESTBURY GROUP</name>
+         <description>CASTLE CARY - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.52131224016905,51.0974294858244
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PLYMOUTH GROUP - LISKEARD</name>
+         <description>PLYMOUTH GROUP - LISKEARD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.14215458332859,50.3760376084661
+-4.46787225359045,50.4450883897547</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - CHELTENHAM SPA</name>
+         <description>BRISTOL GROUP - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LISKEARD - PAR</name>
+         <description>LISKEARD - PAR</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.46787225359045,50.4450883897547
+-4.70355987074813,50.3535492327742</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

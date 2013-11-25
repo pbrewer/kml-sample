@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>GC</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffDC6F63</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>SOUTH RUISLP UND</name>
+         <description>SOUTH RUISLP UND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.397298632921743,51.5549989051923</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP</name>
+         <description>EALING BROADWAY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.299347829081659,51.5122730230576</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY</name>
+         <description>COVENTRY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.51200282653748,52.3980821347103</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA</name>
+         <description>LEAMINGTON SPA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.53526711169815,52.2822355714122</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD U GROUP</name>
+         <description>STRATFORD U GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.71470851176188,52.1911321349146</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP</name>
+         <description>WARWICK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.58069581862525,52.2842031249513</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP</name>
+         <description>BIRMINGHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.89692899917132,52.4754385160511</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TYSELEY</name>
+         <description>TYSELEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.83812052729701,52.4511062722417</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GREENFORD UND</name>
+         <description>GREENFORD UND - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.343027394360147,51.5398635077165</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN</name>
+         <description>WILLESDEN JN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.242510759036517,51.5285132205761</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY</name>
+         <description>RUGBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.24779788512554,52.3760244925185</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP</name>
+         <description>BANBURY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.32608171738474,52.0583321271333</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO</name>
+         <description>PRINCES RISBORO - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.8418921414643,51.7148226319012</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HIGH WYCOMBE</name>
+         <description>HIGH WYCOMBE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.744442579009597,51.626637576763</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP</name>
+         <description>WORCESTER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.21946001815119,52.1921716892404</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP</name>
+         <description>SMETHWICK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.97790163064984,52.4988489648427</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON</name>
+         <description>NUNEATON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.46196766120402,52.5236920836025</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND - EALING BROADWAY GROUP</name>
+         <description>SOUTH RUISLP UND - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.397298632921743,51.5549989051923
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - LEAMINGTON SPA</name>
+         <description>COVENTRY - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD U GROUP - WARWICK GROUP</name>
+         <description>STRATFORD U GROUP - WARWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.71470851176188,52.1911321349146
+-1.58069581862525,52.2842031249513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - TYSELEY</name>
+         <description>BIRMINGHAM GROUP - TYSELEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.83812052729701,52.4511062722417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GREENFORD UND - SOUTH RUISLP UND</name>
+         <description>GREENFORD UND - SOUTH RUISLP UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.343027394360147,51.5398635077165
+-0.397298632921743,51.5549989051923</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TYSELEY - BIRMINGHAM GROUP</name>
+         <description>TYSELEY - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.83812052729701,52.4511062722417
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - WILLESDEN JN</name>
+         <description>LONDON GROUP - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - LONDON GROUP</name>
+         <description>EALING BROADWAY GROUP - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - RUGBY</name>
+         <description>COVENTRY - RUGBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.24779788512554,52.3760244925185</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - GREENFORD UND</name>
+         <description>LONDON GROUP - GREENFORD UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.343027394360147,51.5398635077165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP - TYSELEY</name>
+         <description>WARWICK GROUP - TYSELEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58069581862525,52.2842031249513
+-1.83812052729701,52.4511062722417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - SOUTH RUISLP UND</name>
+         <description>EALING BROADWAY GROUP - SOUTH RUISLP UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.397298632921743,51.5549989051923</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TYSELEY - WARWICK GROUP</name>
+         <description>TYSELEY - WARWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.83812052729701,52.4511062722417
+-1.58069581862525,52.2842031249513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - BANBURY GROUP</name>
+         <description>LEAMINGTON SPA - BANBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.32608171738474,52.0583321271333</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - LONDON GROUP</name>
+         <description>WILLESDEN JN - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GREENFORD UND - LONDON GROUP</name>
+         <description>GREENFORD UND - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.343027394360147,51.5398635077165
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP - LEAMINGTON SPA</name>
+         <description>WARWICK GROUP - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58069581862525,52.2842031249513
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO - BANBURY GROUP</name>
+         <description>PRINCES RISBORO - BANBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.8418921414643,51.7148226319012
+-1.32608171738474,52.0583321271333</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - BIRMINGHAM GROUP</name>
+         <description>COVENTRY - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND - GREENFORD UND</name>
+         <description>SOUTH RUISLP UND - GREENFORD UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.397298632921743,51.5549989051923
+-0.343027394360147,51.5398635077165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGH WYCOMBE - SOUTH RUISLP UND</name>
+         <description>HIGH WYCOMBE - SOUTH RUISLP UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.744442579009597,51.626637576763
+-0.397298632921743,51.5549989051923</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - SMETHWICK GROUP</name>
+         <description>WORCESTER GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - NUNEATON</name>
+         <description>COVENTRY - NUNEATON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.46196766120402,52.5236920836025</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - EALING BROADWAY GROUP</name>
+         <description>LONDON GROUP - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY - COVENTRY</name>
+         <description>RUGBY - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24779788512554,52.3760244925185
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
+         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - SOUTH RUISLP UND</name>
+         <description>LONDON GROUP - SOUTH RUISLP UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.397298632921743,51.5549989051923</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
+         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND - HIGH WYCOMBE</name>
+         <description>SOUTH RUISLP UND - HIGH WYCOMBE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.397298632921743,51.5549989051923
+-0.744442579009597,51.626637576763</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - WORCESTER GROUP</name>
+         <description>SMETHWICK GROUP - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON - COVENTRY</name>
+         <description>NUNEATON - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46196766120402,52.5236920836025
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - COVENTRY</name>
+         <description>LEAMINGTON SPA - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP - PRINCES RISBORO</name>
+         <description>BANBURY GROUP - PRINCES RISBORO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32608171738474,52.0583321271333
+-0.8418921414643,51.7148226319012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND - LONDON GROUP</name>
+         <description>SOUTH RUISLP UND - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.397298632921743,51.5549989051923
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - EALING BROADWAY GROUP</name>
+         <description>WILLESDEN JN - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - COVENTRY</name>
+         <description>BIRMINGHAM GROUP - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - WILLESDEN JN</name>
+         <description>EALING BROADWAY GROUP - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - WARWICK GROUP</name>
+         <description>LEAMINGTON SPA - WARWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.58069581862525,52.2842031249513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP - LEAMINGTON SPA</name>
+         <description>BANBURY GROUP - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32608171738474,52.0583321271333
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP - STRATFORD U GROUP</name>
+         <description>WARWICK GROUP - STRATFORD U GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58069581862525,52.2842031249513
+-1.71470851176188,52.1911321349146</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGH WYCOMBE - PRINCES RISBORO</name>
+         <description>HIGH WYCOMBE - PRINCES RISBORO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.744442579009597,51.626637576763
+-0.8418921414643,51.7148226319012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO - HIGH WYCOMBE</name>
+         <description>PRINCES RISBORO - HIGH WYCOMBE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.8418921414643,51.7148226319012
+-0.744442579009597,51.626637576763</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GREENFORD UND - EALING BROADWAY GROUP</name>
+         <description>GREENFORD UND - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.343027394360147,51.5398635077165
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - GREENFORD UND</name>
+         <description>EALING BROADWAY GROUP - GREENFORD UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.343027394360147,51.5398635077165</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

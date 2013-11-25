@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>XV</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffC3D341</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>BLACKBURN</name>
+         <description>BLACKBURN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.47766980365798,53.7435728816802</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HELLIFIELD GROUP</name>
+         <description>HELLIFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.22585165157831,54.0085463384902</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PRESTON LANCS</name>
+         <description>PRESTON LANCS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.7067978635424,53.7523272523068</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KIRKHAM &amp; WESHAM</name>
+         <description>KIRKHAM &amp; WESHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.88038065453008,53.7844331327434</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HUYTON</name>
+         <description>HUYTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.84248348710437,53.4072163077818</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EARLESTOWN GROUP</name>
+         <description>EARLESTOWN GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.63398486263039,53.448949903018</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HUNTS CROSS GROUP</name>
+         <description>HUNTS CROSS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.85352843794817,53.357704777171</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>AIGBURTH</name>
+         <description>AIGBURTH - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.92574506214727,53.3616604244271</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WIGAN GROUP</name>
+         <description>WIGAN GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.63082648852484,53.5406412185915</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP</name>
+         <description>LIVERPOOL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.97631716943623,53.4043995068628</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP</name>
+         <description>LANCASTER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.80646520495794,54.0455998359243</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM YORKS</name>
+         <description>CLAPHAM YORKS - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.40836909508231,54.102434872771</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HOOTON</name>
+         <description>HOOTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.9752950896166,53.2938563998056</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>OXENHOLME LAKE D</name>
+         <description>OXENHOLME LAKE D - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.72079672561516,54.3022952619467</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BLACKBURN - HELLIFIELD GROUP</name>
+         <description>BLACKBURN - HELLIFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.47766980365798,53.7435728816802
+-2.22585165157831,54.0085463384902</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRESTON LANCS - KIRKHAM &amp; WESHAM</name>
+         <description>PRESTON LANCS - KIRKHAM &amp; WESHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7067978635424,53.7523272523068
+-2.88038065453008,53.7844331327434</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUYTON - EARLESTOWN GROUP</name>
+         <description>HUYTON - EARLESTOWN GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.84248348710437,53.4072163077818
+-2.63398486263039,53.448949903018</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUNTS CROSS GROUP - AIGBURTH</name>
+         <description>HUNTS CROSS GROUP - AIGBURTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.85352843794817,53.357704777171
+-2.92574506214727,53.3616604244271</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRESTON LANCS - WIGAN GROUP</name>
+         <description>PRESTON LANCS - WIGAN GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7067978635424,53.7523272523068
+-2.63082648852484,53.5406412185915</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>AIGBURTH - HUNTS CROSS GROUP</name>
+         <description>AIGBURTH - HUNTS CROSS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.92574506214727,53.3616604244271
+-2.85352843794817,53.357704777171</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HELLIFIELD GROUP - BLACKBURN</name>
+         <description>HELLIFIELD GROUP - BLACKBURN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22585165157831,54.0085463384902
+-2.47766980365798,53.7435728816802</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EARLESTOWN GROUP - HUYTON</name>
+         <description>EARLESTOWN GROUP - HUYTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.63398486263039,53.448949903018
+-2.84248348710437,53.4072163077818</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP - HUYTON</name>
+         <description>LIVERPOOL GROUP - HUYTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97631716943623,53.4043995068628
+-2.84248348710437,53.4072163077818</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KIRKHAM &amp; WESHAM - PRESTON LANCS</name>
+         <description>KIRKHAM &amp; WESHAM - PRESTON LANCS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.88038065453008,53.7844331327434
+-2.7067978635424,53.7523272523068</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUYTON - LIVERPOOL GROUP</name>
+         <description>HUYTON - LIVERPOOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.84248348710437,53.4072163077818
+-2.97631716943623,53.4043995068628</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP - PRESTON LANCS</name>
+         <description>LANCASTER GROUP - PRESTON LANCS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.80646520495794,54.0455998359243
+-2.7067978635424,53.7523272523068</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WIGAN GROUP - HUYTON</name>
+         <description>WIGAN GROUP - HUYTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.63082648852484,53.5406412185915
+-2.84248348710437,53.4072163077818</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HELLIFIELD GROUP - CLAPHAM YORKS</name>
+         <description>HELLIFIELD GROUP - CLAPHAM YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22585165157831,54.0085463384902
+-2.40836909508231,54.102434872771</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP - CLAPHAM YORKS</name>
+         <description>LANCASTER GROUP - CLAPHAM YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.80646520495794,54.0455998359243
+-2.40836909508231,54.102434872771</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRESTON LANCS - BLACKBURN</name>
+         <description>PRESTON LANCS - BLACKBURN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7067978635424,53.7523272523068
+-2.47766980365798,53.7435728816802</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP - HUNTS CROSS GROUP</name>
+         <description>LIVERPOOL GROUP - HUNTS CROSS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97631716943623,53.4043995068628
+-2.85352843794817,53.357704777171</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>AIGBURTH - LIVERPOOL GROUP</name>
+         <description>AIGBURTH - LIVERPOOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.92574506214727,53.3616604244271
+-2.97631716943623,53.4043995068628</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUYTON - WIGAN GROUP</name>
+         <description>HUYTON - WIGAN GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.84248348710437,53.4072163077818
+-2.63082648852484,53.5406412185915</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HOOTON - LIVERPOOL GROUP</name>
+         <description>HOOTON - LIVERPOOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.9752950896166,53.2938563998056
+-2.97631716943623,53.4043995068628</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP - HOOTON</name>
+         <description>LIVERPOOL GROUP - HOOTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97631716943623,53.4043995068628
+-2.9752950896166,53.2938563998056</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP - OXENHOLME LAKE D</name>
+         <description>LANCASTER GROUP - OXENHOLME LAKE D</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.80646520495794,54.0455998359243
+-2.72079672561516,54.3022952619467</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUNTS CROSS GROUP - LIVERPOOL GROUP</name>
+         <description>HUNTS CROSS GROUP - LIVERPOOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.85352843794817,53.357704777171
+-2.97631716943623,53.4043995068628</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP - AIGBURTH</name>
+         <description>LIVERPOOL GROUP - AIGBURTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97631716943623,53.4043995068628
+-2.92574506214727,53.3616604244271</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OXENHOLME LAKE D - LANCASTER GROUP</name>
+         <description>OXENHOLME LAKE D - LANCASTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.72079672561516,54.3022952619467
+-2.80646520495794,54.0455998359243</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKBURN - PRESTON LANCS</name>
+         <description>BLACKBURN - PRESTON LANCS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.47766980365798,53.7435728816802
+-2.7067978635424,53.7523272523068</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WIGAN GROUP - PRESTON LANCS</name>
+         <description>WIGAN GROUP - PRESTON LANCS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.63082648852484,53.5406412185915
+-2.7067978635424,53.7523272523068</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRESTON LANCS - LANCASTER GROUP</name>
+         <description>PRESTON LANCS - LANCASTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7067978635424,53.7523272523068
+-2.80646520495794,54.0455998359243</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM YORKS - HELLIFIELD GROUP</name>
+         <description>CLAPHAM YORKS - HELLIFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.40836909508231,54.102434872771
+-2.22585165157831,54.0085463384902</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM YORKS - LANCASTER GROUP</name>
+         <description>CLAPHAM YORKS - LANCASTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.40836909508231,54.102434872771
+-2.80646520495794,54.0455998359243</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

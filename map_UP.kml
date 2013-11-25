@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>UP</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff234E1C</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>BARKING</name>
+         <description>BARKING - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0823256310492868,51.5375778573699</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LIMEHOUSE E.R.</name>
+         <description>LIMEHOUSE E.R. - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.038561401550543,51.5099988760097</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>UPMINSTER</name>
+         <description>UPMINSTER - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.253461201092809,51.5568872968332</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GRAYS</name>
+         <description>GRAYS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.324249872480289,51.4737038039959</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PITSEA</name>
+         <description>PITSEA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.510352233483185,51.55796283936</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ROMFORD GROUP</name>
+         <description>ROMFORD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.183514650133649,51.5725927113854</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARKING - LIMEHOUSE E.R.</name>
+         <description>BARKING - LIMEHOUSE E.R.</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0823256310492868,51.5375778573699
+-0.038561401550543,51.5099988760097</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIMEHOUSE E.R. - BARKING</name>
+         <description>LIMEHOUSE E.R. - BARKING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.038561401550543,51.5099988760097
+0.0823256310492868,51.5375778573699</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARKING - UPMINSTER</name>
+         <description>BARKING - UPMINSTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0823256310492868,51.5375778573699
+0.253461201092809,51.5568872968332</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GRAYS - UPMINSTER</name>
+         <description>GRAYS - UPMINSTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.324249872480289,51.4737038039959
+0.253461201092809,51.5568872968332</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIMEHOUSE E.R. - LONDON GROUP</name>
+         <description>LIMEHOUSE E.R. - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.038561401550543,51.5099988760097
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>UPMINSTER - PITSEA</name>
+         <description>UPMINSTER - PITSEA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.253461201092809,51.5568872968332
+0.510352233483185,51.55796283936</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PITSEA - UPMINSTER</name>
+         <description>PITSEA - UPMINSTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.510352233483185,51.55796283936
+0.253461201092809,51.5568872968332</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>UPMINSTER - GRAYS</name>
+         <description>UPMINSTER - GRAYS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.253461201092809,51.5568872968332
+0.324249872480289,51.4737038039959</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - BARKING</name>
+         <description>LONDON GROUP - BARKING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+0.0823256310492868,51.5375778573699</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GRAYS - PITSEA</name>
+         <description>GRAYS - PITSEA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.324249872480289,51.4737038039959
+0.510352233483185,51.55796283936</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - LIMEHOUSE E.R.</name>
+         <description>LONDON GROUP - LIMEHOUSE E.R.</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.038561401550543,51.5099988760097</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PITSEA - GRAYS</name>
+         <description>PITSEA - GRAYS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.510352233483185,51.55796283936
+0.324249872480289,51.4737038039959</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ROMFORD GROUP - UPMINSTER</name>
+         <description>ROMFORD GROUP - UPMINSTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.183514650133649,51.5725927113854
+0.253461201092809,51.5568872968332</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>UPMINSTER - BARKING</name>
+         <description>UPMINSTER - BARKING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.253461201092809,51.5568872968332
+0.0823256310492868,51.5375778573699</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>UPMINSTER - ROMFORD GROUP</name>
+         <description>UPMINSTER - ROMFORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.253461201092809,51.5568872968332
+0.183514650133649,51.5725927113854</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARKING - LONDON GROUP</name>
+         <description>BARKING - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0823256310492868,51.5375778573699
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

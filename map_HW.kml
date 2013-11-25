@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>HW</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff0F1687</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>WHITLAND</name>
+         <description>WHITLAND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.61316923131634,51.8155206244219</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWANSEA GROUP</name>
+         <description>SWANSEA GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.94028860334008,51.6227099416963</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LLANDOVERY</name>
+         <description>LLANDOVERY - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.80182502384194,51.9925512009182</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY</name>
+         <description>SHREWSBURY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.7475465595177,52.7086006455055</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MACHYNLLETH GROUP</name>
+         <description>MACHYNLLETH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.85294612804162,52.5931050319326</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CREWE</name>
+         <description>CREWE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.4315419838315,53.0867528750238</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CRAVEN ARMS</name>
+         <description>CRAVEN ARMS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.83567015766998,52.4392771446456</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WHITLAND - SWANSEA GROUP</name>
+         <description>WHITLAND - SWANSEA GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.61316923131634,51.8155206244219
+-3.94028860334008,51.6227099416963</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LLANDOVERY - SWANSEA GROUP</name>
+         <description>LLANDOVERY - SWANSEA GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.80182502384194,51.9925512009182
+-3.94028860334008,51.6227099416963</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANSEA GROUP - LLANDOVERY</name>
+         <description>SWANSEA GROUP - LLANDOVERY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.94028860334008,51.6227099416963
+-3.80182502384194,51.9925512009182</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - MACHYNLLETH GROUP</name>
+         <description>SHREWSBURY - MACHYNLLETH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-3.85294612804162,52.5931050319326</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANSEA GROUP - WHITLAND</name>
+         <description>SWANSEA GROUP - WHITLAND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.94028860334008,51.6227099416963
+-4.61316923131634,51.8155206244219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MACHYNLLETH GROUP - SHREWSBURY</name>
+         <description>MACHYNLLETH GROUP - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.85294612804162,52.5931050319326
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CREWE - SHREWSBURY</name>
+         <description>CREWE - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.4315419838315,53.0867528750238
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - CREWE</name>
+         <description>SHREWSBURY - CREWE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-2.4315419838315,53.0867528750238</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LLANDOVERY - CRAVEN ARMS</name>
+         <description>LLANDOVERY - CRAVEN ARMS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.80182502384194,51.9925512009182
+-2.83567015766998,52.4392771446456</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - CRAVEN ARMS</name>
+         <description>SHREWSBURY - CRAVEN ARMS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-2.83567015766998,52.4392771446456</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRAVEN ARMS - LLANDOVERY</name>
+         <description>CRAVEN ARMS - LLANDOVERY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.83567015766998,52.4392771446456
+-3.80182502384194,51.9925512009182</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRAVEN ARMS - SHREWSBURY</name>
+         <description>CRAVEN ARMS - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.83567015766998,52.4392771446456
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

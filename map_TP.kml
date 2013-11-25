@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>TP</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffD7AC16</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>SALFORD CRESCENT</name>
+         <description>SALFORD CRESCENT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.27428439903141,53.4817736575281</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BOLTON</name>
+         <description>BOLTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.42437676789755,53.571211139824</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP</name>
+         <description>LEEDS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.54758683544322,53.7922040754631</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HARROGATE</name>
+         <description>HARROGATE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.5363046851771,53.9889901979466</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHEADLE HULME</name>
+         <description>CHEADLE HULME - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.18790259306218,53.3731912199484</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WILMSLOW GROUP</name>
+         <description>WILMSLOW GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.22372067876089,53.3236978660225</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STOCKPORT</name>
+         <description>STOCKPORT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.16095318791928,53.4019907710042</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP</name>
+         <description>WAKEFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.48675885897802,53.6760184399997</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNSLEY</name>
+         <description>BARNSLEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.47619600186737,53.5510442770956</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HUNTS CROSS GROUP</name>
+         <description>HUNTS CROSS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.85352843794817,53.357704777171</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>AIGBURTH</name>
+         <description>AIGBURTH - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.92574506214727,53.3616604244271</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HUDDERSFIELD GROUP</name>
+         <description>HUDDERSFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.78365726682475,53.6454662384722</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STALYBRIDGE</name>
+         <description>STALYBRIDGE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.06329543897595,53.4811728690541</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP</name>
+         <description>LIVERPOOL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.97631716943623,53.4043995068628</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HUYTON</name>
+         <description>HUYTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.84248348710437,53.4072163077818</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP</name>
+         <description>MANCHESTER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.22752279914098,53.4737830141426</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP</name>
+         <description>BRADFORD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.74801394804718,53.7874001473732</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PONTEFRACT GROUP</name>
+         <description>PONTEFRACT GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.30184277248278,53.6885648869916</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WARRINGTON GROUP</name>
+         <description>WARRINGTON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.59098665939852,53.3889528478108</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GUIDE BRIDGE</name>
+         <description>GUIDE BRIDGE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.11149453901127,53.4712513204513</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HOOTON</name>
+         <description>HOOTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.9752950896166,53.2938563998056</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SELBY</name>
+         <description>SELBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.06202765621019,53.7804012865994</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HALIFAX GROUP</name>
+         <description>HALIFAX GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.85299957012169,53.7174718790283</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GOOLE</name>
+         <description>GOOLE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.871383236956765,53.7014608402164</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CREWE</name>
+         <description>CREWE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.4315419838315,53.0867528750238</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HULL</name>
+         <description>HULL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.34565994560554,53.740296854028</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SALFORD CRESCENT - BOLTON</name>
+         <description>SALFORD CRESCENT - BOLTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.27428439903141,53.4817736575281
+-2.42437676789755,53.571211139824</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - HARROGATE</name>
+         <description>LEEDS GROUP - HARROGATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.5363046851771,53.9889901979466</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHEADLE HULME - WILMSLOW GROUP</name>
+         <description>CHEADLE HULME - WILMSLOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.18790259306218,53.3731912199484
+-2.22372067876089,53.3236978660225</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STOCKPORT - CHEADLE HULME</name>
+         <description>STOCKPORT - CHEADLE HULME</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.16095318791928,53.4019907710042
+-2.18790259306218,53.3731912199484</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - BARNSLEY</name>
+         <description>WAKEFIELD GROUP - BARNSLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.47619600186737,53.5510442770956</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUNTS CROSS GROUP - AIGBURTH</name>
+         <description>HUNTS CROSS GROUP - AIGBURTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.85352843794817,53.357704777171
+-2.92574506214727,53.3616604244271</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUDDERSFIELD GROUP - STALYBRIDGE</name>
+         <description>HUDDERSFIELD GROUP - STALYBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.78365726682475,53.6454662384722
+-2.06329543897595,53.4811728690541</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP - HUYTON</name>
+         <description>LIVERPOOL GROUP - HUYTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97631716943623,53.4043995068628
+-2.84248348710437,53.4072163077818</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUDDERSFIELD GROUP - WAKEFIELD GROUP</name>
+         <description>HUDDERSFIELD GROUP - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.78365726682475,53.6454662384722
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
+         <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22752279914098,53.4737830141426
+-2.27428439903141,53.4817736575281</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BOLTON - SALFORD CRESCENT</name>
+         <description>BOLTON - SALFORD CRESCENT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.42437676789755,53.571211139824
+-2.27428439903141,53.4817736575281</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP - LEEDS GROUP</name>
+         <description>BRADFORD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.74801394804718,53.7874001473732
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUYTON - LIVERPOOL GROUP</name>
+         <description>HUYTON - LIVERPOOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.84248348710437,53.4072163077818
+-2.97631716943623,53.4043995068628</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PONTEFRACT GROUP - WAKEFIELD GROUP</name>
+         <description>PONTEFRACT GROUP - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30184277248278,53.6885648869916
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP - WARRINGTON GROUP</name>
+         <description>MANCHESTER GROUP - WARRINGTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22752279914098,53.4737830141426
+-2.59098665939852,53.3889528478108</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - WAKEFIELD GROUP</name>
+         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILMSLOW GROUP - CHEADLE HULME</name>
+         <description>WILMSLOW GROUP - CHEADLE HULME</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22372067876089,53.3236978660225
+-2.18790259306218,53.3731912199484</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILMSLOW GROUP - MANCHESTER GROUP</name>
+         <description>WILMSLOW GROUP - MANCHESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22372067876089,53.3236978660225
+-2.22752279914098,53.4737830141426</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP - STOCKPORT</name>
+         <description>MANCHESTER GROUP - STOCKPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22752279914098,53.4737830141426
+-2.16095318791928,53.4019907710042</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP - HUNTS CROSS GROUP</name>
+         <description>LIVERPOOL GROUP - HUNTS CROSS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97631716943623,53.4043995068628
+-2.85352843794817,53.357704777171</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUIDE BRIDGE - STALYBRIDGE</name>
+         <description>GUIDE BRIDGE - STALYBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11149453901127,53.4712513204513
+-2.06329543897595,53.4811728690541</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
+         <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.27428439903141,53.4817736575281
+-2.22752279914098,53.4737830141426</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP - HOOTON</name>
+         <description>LIVERPOOL GROUP - HOOTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97631716943623,53.4043995068628
+-2.9752950896166,53.2938563998056</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PONTEFRACT GROUP - LEEDS GROUP</name>
+         <description>PONTEFRACT GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30184277248278,53.6885648869916
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP - WILMSLOW GROUP</name>
+         <description>MANCHESTER GROUP - WILMSLOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22752279914098,53.4737830141426
+-2.22372067876089,53.3236978660225</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNSLEY - WAKEFIELD GROUP</name>
+         <description>BARNSLEY - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.47619600186737,53.5510442770956
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - PONTEFRACT GROUP</name>
+         <description>LEEDS GROUP - PONTEFRACT GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.30184277248278,53.6885648869916</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARRINGTON GROUP - HUNTS CROSS GROUP</name>
+         <description>WARRINGTON GROUP - HUNTS CROSS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.59098665939852,53.3889528478108
+-2.85352843794817,53.357704777171</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - SELBY</name>
+         <description>LEEDS GROUP - SELBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.06202765621019,53.7804012865994</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
+         <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11149453901127,53.4712513204513
+-2.22752279914098,53.4737830141426</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>AIGBURTH - HUNTS CROSS GROUP</name>
+         <description>AIGBURTH - HUNTS CROSS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.92574506214727,53.3616604244271
+-2.85352843794817,53.357704777171</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHEADLE HULME - STOCKPORT</name>
+         <description>CHEADLE HULME - STOCKPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.18790259306218,53.3731912199484
+-2.16095318791928,53.4019907710042</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HARROGATE - LEEDS GROUP</name>
+         <description>HARROGATE - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.5363046851771,53.9889901979466
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HALIFAX GROUP - BRADFORD GROUP</name>
+         <description>HALIFAX GROUP - BRADFORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.85299957012169,53.7174718790283
+-1.74801394804718,53.7874001473732</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STALYBRIDGE - MANCHESTER GROUP</name>
+         <description>STALYBRIDGE - MANCHESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.06329543897595,53.4811728690541
+-2.22752279914098,53.4737830141426</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - PONTEFRACT GROUP</name>
+         <description>WAKEFIELD GROUP - PONTEFRACT GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.30184277248278,53.6885648869916</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUNTS CROSS GROUP - WARRINGTON GROUP</name>
+         <description>HUNTS CROSS GROUP - WARRINGTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.85352843794817,53.357704777171
+-2.59098665939852,53.3889528478108</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP - HALIFAX GROUP</name>
+         <description>BRADFORD GROUP - HALIFAX GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.74801394804718,53.7874001473732
+-1.85299957012169,53.7174718790283</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOOLE - PONTEFRACT GROUP</name>
+         <description>GOOLE - PONTEFRACT GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.871383236956765,53.7014608402164
+-1.30184277248278,53.6885648869916</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - HUDDERSFIELD GROUP</name>
+         <description>LEEDS GROUP - HUDDERSFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.78365726682475,53.6454662384722</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUDDERSFIELD GROUP - LEEDS GROUP</name>
+         <description>HUDDERSFIELD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.78365726682475,53.6454662384722
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELBY - LEEDS GROUP</name>
+         <description>SELBY - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.06202765621019,53.7804012865994
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP - STALYBRIDGE</name>
+         <description>MANCHESTER GROUP - STALYBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22752279914098,53.4737830141426
+-2.06329543897595,53.4811728690541</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - BRADFORD GROUP</name>
+         <description>LEEDS GROUP - BRADFORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.74801394804718,53.7874001473732</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STALYBRIDGE - GUIDE BRIDGE</name>
+         <description>STALYBRIDGE - GUIDE BRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.06329543897595,53.4811728690541
+-2.11149453901127,53.4712513204513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARRINGTON GROUP - MANCHESTER GROUP</name>
+         <description>WARRINGTON GROUP - MANCHESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.59098665939852,53.3889528478108
+-2.22752279914098,53.4737830141426</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STOCKPORT - MANCHESTER GROUP</name>
+         <description>STOCKPORT - MANCHESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.16095318791928,53.4019907710042
+-2.22752279914098,53.4737830141426</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - LEEDS GROUP</name>
+         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CREWE - WILMSLOW GROUP</name>
+         <description>CREWE - WILMSLOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.4315419838315,53.0867528750238
+-2.22372067876089,53.3236978660225</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>AIGBURTH - LIVERPOOL GROUP</name>
+         <description>AIGBURTH - LIVERPOOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.92574506214727,53.3616604244271
+-2.97631716943623,53.4043995068628</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PONTEFRACT GROUP - GOOLE</name>
+         <description>PONTEFRACT GROUP - GOOLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.30184277248278,53.6885648869916
+-0.871383236956765,53.7014608402164</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HOOTON - LIVERPOOL GROUP</name>
+         <description>HOOTON - LIVERPOOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.9752950896166,53.2938563998056
+-2.97631716943623,53.4043995068628</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MANCHESTER GROUP - GUIDE BRIDGE</name>
+         <description>MANCHESTER GROUP - GUIDE BRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22752279914098,53.4737830141426
+-2.11149453901127,53.4712513204513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STALYBRIDGE - HUDDERSFIELD GROUP</name>
+         <description>STALYBRIDGE - HUDDERSFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.06329543897595,53.4811728690541
+-1.78365726682475,53.6454662384722</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HUNTS CROSS GROUP - LIVERPOOL GROUP</name>
+         <description>HUNTS CROSS GROUP - LIVERPOOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.85352843794817,53.357704777171
+-2.97631716943623,53.4043995068628</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LIVERPOOL GROUP - AIGBURTH</name>
+         <description>LIVERPOOL GROUP - AIGBURTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97631716943623,53.4043995068628
+-2.92574506214727,53.3616604244271</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILMSLOW GROUP - CREWE</name>
+         <description>WILMSLOW GROUP - CREWE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22372067876089,53.3236978660225
+-2.4315419838315,53.0867528750238</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELBY - HULL</name>
+         <description>SELBY - HULL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.06202765621019,53.7804012865994
+-0.34565994560554,53.740296854028</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HULL - SELBY</name>
+         <description>HULL - SELBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.34565994560554,53.740296854028
+-1.06202765621019,53.7804012865994</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - HUDDERSFIELD GROUP</name>
+         <description>WAKEFIELD GROUP - HUDDERSFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.78365726682475,53.6454662384722</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

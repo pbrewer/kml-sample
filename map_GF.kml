@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>GF</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff4B5065</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>NEWTON LANARK</name>
+         <description>NEWTON LANARK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.13242975572459,55.8165428999123</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP</name>
+         <description>GLASGOW GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.25772518045981,55.8574586971832</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP</name>
+         <description>MOTHERWELL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.99374336471782,55.7892042237234</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FALKIRK GROUP</name>
+         <description>FALKIRK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.7907706980682,55.9891919882658</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SPRINGBURN</name>
+         <description>SPRINGBURN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.22857550663581,55.8786674142388</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS</name>
+         <description>CARSTAIRS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.66719660940652,55.6879970200404</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BELLGROVE</name>
+         <description>BELLGROVE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.22399420881111,55.8544770806507</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PAISLEY GIL ST</name>
+         <description>PAISLEY GIL ST - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.42317845734824,55.8453202183079</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KILMARNOCK</name>
+         <description>KILMARNOCK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.49757948758596,55.6100734945976</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>POLLOKSHAWS WEST</name>
+         <description>POLLOKSHAWS WEST - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.30035427379742,55.8216069737407</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MOUNT FLORIDA</name>
+         <description>MOUNT FLORIDA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.26058467436566,55.8241426007126</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KILWINNING</name>
+         <description>KILWINNING - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.70861104529443,55.653245391913</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PORT GLASGOW</name>
+         <description>PORT GLASGOW - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.68797158009861,55.9315283640005</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON LANARK - GLASGOW GROUP</name>
+         <description>NEWTON LANARK - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.13242975572459,55.8165428999123
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - NEWTON LANARK</name>
+         <description>GLASGOW GROUP - NEWTON LANARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.13242975572459,55.8165428999123</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - MOTHERWELL GROUP</name>
+         <description>GLASGOW GROUP - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FALKIRK GROUP - SPRINGBURN</name>
+         <description>FALKIRK GROUP - SPRINGBURN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.7907706980682,55.9891919882658
+-4.22857550663581,55.8786674142388</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - GLASGOW GROUP</name>
+         <description>MOTHERWELL GROUP - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS - MOTHERWELL GROUP</name>
+         <description>CARSTAIRS - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.66719660940652,55.6879970200404
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - CARSTAIRS</name>
+         <description>MOTHERWELL GROUP - CARSTAIRS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-3.66719660940652,55.6879970200404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - BELLGROVE</name>
+         <description>GLASGOW GROUP - BELLGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.22399420881111,55.8544770806507</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PAISLEY GIL ST - GLASGOW GROUP</name>
+         <description>PAISLEY GIL ST - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.42317845734824,55.8453202183079
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SPRINGBURN - GLASGOW GROUP</name>
+         <description>SPRINGBURN - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.22857550663581,55.8786674142388
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BELLGROVE - GLASGOW GROUP</name>
+         <description>BELLGROVE - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.22399420881111,55.8544770806507
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KILMARNOCK - POLLOKSHAWS WEST</name>
+         <description>KILMARNOCK - POLLOKSHAWS WEST</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.49757948758596,55.6100734945976
+-4.30035427379742,55.8216069737407</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOUNT FLORIDA - GLASGOW GROUP</name>
+         <description>MOUNT FLORIDA - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.26058467436566,55.8241426007126
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - POLLOKSHAWS WEST</name>
+         <description>GLASGOW GROUP - POLLOKSHAWS WEST</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.30035427379742,55.8216069737407</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>POLLOKSHAWS WEST - GLASGOW GROUP</name>
+         <description>POLLOKSHAWS WEST - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.30035427379742,55.8216069737407
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - PAISLEY GIL ST</name>
+         <description>GLASGOW GROUP - PAISLEY GIL ST</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.42317845734824,55.8453202183079</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - FALKIRK GROUP</name>
+         <description>GLASGOW GROUP - FALKIRK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-3.7907706980682,55.9891919882658</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - MOUNT FLORIDA</name>
+         <description>GLASGOW GROUP - MOUNT FLORIDA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.26058467436566,55.8241426007126</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PAISLEY GIL ST - KILWINNING</name>
+         <description>PAISLEY GIL ST - KILWINNING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.42317845734824,55.8453202183079
+-4.70861104529443,55.653245391913</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON LANARK - MOTHERWELL GROUP</name>
+         <description>NEWTON LANARK - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.13242975572459,55.8165428999123
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PAISLEY GIL ST - PORT GLASGOW</name>
+         <description>PAISLEY GIL ST - PORT GLASGOW</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.42317845734824,55.8453202183079
+-4.68797158009861,55.9315283640005</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FALKIRK GROUP - GLASGOW GROUP</name>
+         <description>FALKIRK GROUP - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.7907706980682,55.9891919882658
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SPRINGBURN - BELLGROVE</name>
+         <description>SPRINGBURN - BELLGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.22857550663581,55.8786674142388
+-4.22399420881111,55.8544770806507</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BELLGROVE - SPRINGBURN</name>
+         <description>BELLGROVE - SPRINGBURN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.22399420881111,55.8544770806507
+-4.22857550663581,55.8786674142388</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - NEWTON LANARK</name>
+         <description>MOTHERWELL GROUP - NEWTON LANARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-4.13242975572459,55.8165428999123</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SPRINGBURN - FALKIRK GROUP</name>
+         <description>SPRINGBURN - FALKIRK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.22857550663581,55.8786674142388
+-3.7907706980682,55.9891919882658</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>POLLOKSHAWS WEST - KILMARNOCK</name>
+         <description>POLLOKSHAWS WEST - KILMARNOCK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.30035427379742,55.8216069737407
+-4.49757948758596,55.6100734945976</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - SPRINGBURN</name>
+         <description>GLASGOW GROUP - SPRINGBURN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.22857550663581,55.8786674142388</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KILWINNING - PAISLEY GIL ST</name>
+         <description>KILWINNING - PAISLEY GIL ST</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.70861104529443,55.653245391913
+-4.42317845734824,55.8453202183079</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PORT GLASGOW - PAISLEY GIL ST</name>
+         <description>PORT GLASGOW - PAISLEY GIL ST</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.68797158009861,55.9315283640005
+-4.42317845734824,55.8453202183079</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

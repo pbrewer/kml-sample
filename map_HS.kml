@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>HS</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff325583</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>EBBSFLEET INTERNATIONAL</name>
+         <description>EBBSFLEET INTERNATIONAL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.322562057806688,51.4404771241638</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL</name>
+         <description>ASHFORD INTL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.875193701365457,51.1414352542849</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP</name>
+         <description>RAMSGATE GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.40741462464778,51.3384161699967</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD LONDON GP</name>
+         <description>STRATFORD LONDON GP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.00273806485052959,51.5381583521958</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GRAVESEND</name>
+         <description>GRAVESEND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.368522021932612,51.4386582154852</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM</name>
+         <description>FAVERSHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.892844957991794,51.3091138912366</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP</name>
+         <description>CHATHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.522093821820727,51.3788192504241</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DOVER PRIORY</name>
+         <description>DOVER PRIORY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.30580430019011,51.1237524751162</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EBBSFLEET INTERNATIONAL - ASHFORD INTL</name>
+         <description>EBBSFLEET INTERNATIONAL - ASHFORD INTL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.322562057806688,51.4404771241638
+0.875193701365457,51.1414352542849</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL - EBBSFLEET INTERNATIONAL</name>
+         <description>ASHFORD INTL - EBBSFLEET INTERNATIONAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.875193701365457,51.1414352542849
+0.322562057806688,51.4404771241638</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP - ASHFORD INTL</name>
+         <description>RAMSGATE GROUP - ASHFORD INTL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.40741462464778,51.3384161699967
+0.875193701365457,51.1414352542849</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EBBSFLEET INTERNATIONAL - STRATFORD LONDON GP</name>
+         <description>EBBSFLEET INTERNATIONAL - STRATFORD LONDON GP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.322562057806688,51.4404771241638
+-0.00273806485052959,51.5381583521958</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EBBSFLEET INTERNATIONAL - GRAVESEND</name>
+         <description>EBBSFLEET INTERNATIONAL - GRAVESEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.322562057806688,51.4404771241638
+0.368522021932612,51.4386582154852</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - CHATHAM GROUP</name>
+         <description>FAVERSHAM - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GRAVESEND - EBBSFLEET INTERNATIONAL</name>
+         <description>GRAVESEND - EBBSFLEET INTERNATIONAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.368522021932612,51.4386582154852
+0.322562057806688,51.4404771241638</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - GRAVESEND</name>
+         <description>CHATHAM GROUP - GRAVESEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.368522021932612,51.4386582154852</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DOVER PRIORY - ASHFORD INTL</name>
+         <description>DOVER PRIORY - ASHFORD INTL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.30580430019011,51.1237524751162
+0.875193701365457,51.1414352542849</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GRAVESEND - CHATHAM GROUP</name>
+         <description>GRAVESEND - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.368522021932612,51.4386582154852
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL - DOVER PRIORY</name>
+         <description>ASHFORD INTL - DOVER PRIORY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.875193701365457,51.1414352542849
+1.30580430019011,51.1237524751162</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - STRATFORD LONDON GP</name>
+         <description>LONDON GROUP - STRATFORD LONDON GP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.00273806485052959,51.5381583521958</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD LONDON GP - LONDON GROUP</name>
+         <description>STRATFORD LONDON GP - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.00273806485052959,51.5381583521958
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - FAVERSHAM</name>
+         <description>CHATHAM GROUP - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD LONDON GP - EBBSFLEET INTERNATIONAL</name>
+         <description>STRATFORD LONDON GP - EBBSFLEET INTERNATIONAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.00273806485052959,51.5381583521958
+0.322562057806688,51.4404771241638</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL - RAMSGATE GROUP</name>
+         <description>ASHFORD INTL - RAMSGATE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.875193701365457,51.1414352542849
+1.40741462464778,51.3384161699967</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>LR</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffAF9BAC</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>CRYSTAL PALACE</name>
+         <description>CRYSTAL PALACE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0713862141029046,51.4152630622009</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP</name>
+         <description>STREATHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.130024439539019,51.4234044157532</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SEVENOAKS</name>
+         <description>SEVENOAKS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.183714070842441,51.2750523303078</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP</name>
+         <description>BROMLEY SOUTH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0198851972353429,51.3975453727848</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY</name>
+         <description>SWANLEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.169076202588924,51.3903835321094</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BECKENHAM JN</name>
+         <description>BECKENHAM JN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0256253748578791,51.4091076803144</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM</name>
+         <description>FAVERSHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.892844957991794,51.3091138912366</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP</name>
+         <description>CHATHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.522093821820727,51.3788192504241</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GROVE PARK</name>
+         <description>GROVE PARK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0241072147460091,51.4280344664602</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SELLING</name>
+         <description>SELLING - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.942362575597316,51.2755146258354</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KEARSNEY (KENT)</name>
+         <description>KEARSNEY (KENT) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.27315041375844,51.1471487671387</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MAIDSTONE GROUP</name>
+         <description>MAIDSTONE GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.51490194350759,51.273797018873</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DOVER PRIORY</name>
+         <description>DOVER PRIORY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.30580430019011,51.1237524751162</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL</name>
+         <description>ASHFORD INTL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.875193701365457,51.1414352542849</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS</name>
+         <description>SHORTLANDS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0043172178827097,51.4032060195165</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION</name>
+         <description>CLAPHAM JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.168769712349235,51.4617683410367</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP</name>
+         <description>CROYDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0918292948916154,51.3733510137007</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP</name>
+         <description>RAMSGATE GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.40741462464778,51.3384161699967</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CRYSTAL PALACE - STREATHAM GROUP</name>
+         <description>CRYSTAL PALACE - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0713862141029046,51.4152630622009
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SEVENOAKS - BROMLEY SOUTH GROUP</name>
+         <description>SEVENOAKS - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.183714070842441,51.2750523303078
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SWANLEY</name>
+         <description>BROMLEY SOUTH GROUP - SWANLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.169076202588924,51.3903835321094</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRYSTAL PALACE - BECKENHAM JN</name>
+         <description>CRYSTAL PALACE - BECKENHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0713862141029046,51.4152630622009
+-0.0256253748578791,51.4091076803144</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY - BROMLEY SOUTH GROUP</name>
+         <description>SWANLEY - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.169076202588924,51.3903835321094
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - CHATHAM GROUP</name>
+         <description>FAVERSHAM - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - GROVE PARK</name>
+         <description>BROMLEY SOUTH GROUP - GROVE PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.0241072147460091,51.4280344664602</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELLING - KEARSNEY (KENT)</name>
+         <description>SELLING - KEARSNEY (KENT)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.942362575597316,51.2755146258354
+1.27315041375844,51.1471487671387</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY - MAIDSTONE GROUP</name>
+         <description>SWANLEY - MAIDSTONE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.169076202588924,51.3903835321094
+0.51490194350759,51.273797018873</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KEARSNEY (KENT) - DOVER PRIORY</name>
+         <description>KEARSNEY (KENT) - DOVER PRIORY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.27315041375844,51.1471487671387
+1.30580430019011,51.1237524751162</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GROVE PARK - BROMLEY SOUTH GROUP</name>
+         <description>GROVE PARK - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0241072147460091,51.4280344664602
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL - MAIDSTONE GROUP</name>
+         <description>ASHFORD INTL - MAIDSTONE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.875193701365457,51.1414352542849
+0.51490194350759,51.273797018873</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - SELLING</name>
+         <description>FAVERSHAM - SELLING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+0.942362575597316,51.2755146258354</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS - BECKENHAM JN</name>
+         <description>SHORTLANDS - BECKENHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0043172178827097,51.4032060195165
+-0.0256253748578791,51.4091076803144</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SHORTLANDS</name>
+         <description>BROMLEY SOUTH GROUP - SHORTLANDS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.0043172178827097,51.4032060195165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - STREATHAM GROUP</name>
+         <description>CLAPHAM JUNCTION - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - CRYSTAL PALACE</name>
+         <description>STREATHAM GROUP - CRYSTAL PALACE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.0713862141029046,51.4152630622009</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - DOVER PRIORY</name>
+         <description>FAVERSHAM - DOVER PRIORY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+1.30580430019011,51.1237524751162</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KEARSNEY (KENT) - SELLING</name>
+         <description>KEARSNEY (KENT) - SELLING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.27315041375844,51.1471487671387
+0.942362575597316,51.2755146258354</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - SWANLEY</name>
+         <description>CHATHAM GROUP - SWANLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.169076202588924,51.3903835321094</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELLING - FAVERSHAM</name>
+         <description>SELLING - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.942362575597316,51.2755146258354
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - STREATHAM GROUP</name>
+         <description>CROYDON GROUP - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRYSTAL PALACE - CROYDON GROUP</name>
+         <description>CRYSTAL PALACE - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0713862141029046,51.4152630622009
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DOVER PRIORY - KEARSNEY (KENT)</name>
+         <description>DOVER PRIORY - KEARSNEY (KENT)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.30580430019011,51.1237524751162
+1.27315041375844,51.1471487671387</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BECKENHAM JN - SHORTLANDS</name>
+         <description>BECKENHAM JN - SHORTLANDS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0256253748578791,51.4091076803144
+0.0043172178827097,51.4032060195165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY - CHATHAM GROUP</name>
+         <description>SWANLEY - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.169076202588924,51.3903835321094
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDSTONE GROUP - ASHFORD INTL</name>
+         <description>MAIDSTONE GROUP - ASHFORD INTL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.51490194350759,51.273797018873
+0.875193701365457,51.1414352542849</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - CLAPHAM JUNCTION</name>
+         <description>STREATHAM GROUP - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - LONDON GROUP</name>
+         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BECKENHAM JN - CRYSTAL PALACE</name>
+         <description>BECKENHAM JN - CRYSTAL PALACE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0256253748578791,51.4091076803144
+-0.0713862141029046,51.4152630622009</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - RAMSGATE GROUP</name>
+         <description>FAVERSHAM - RAMSGATE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+1.40741462464778,51.3384161699967</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - CLAPHAM JUNCTION</name>
+         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS - BROMLEY SOUTH GROUP</name>
+         <description>SHORTLANDS - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0043172178827097,51.4032060195165
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP - FAVERSHAM</name>
+         <description>RAMSGATE GROUP - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.40741462464778,51.3384161699967
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DOVER PRIORY - FAVERSHAM</name>
+         <description>DOVER PRIORY - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.30580430019011,51.1237524751162
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - FAVERSHAM</name>
+         <description>CHATHAM GROUP - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SEVENOAKS</name>
+         <description>BROMLEY SOUTH GROUP - SEVENOAKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.183714070842441,51.2750523303078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - CROYDON GROUP</name>
+         <description>STREATHAM GROUP - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDSTONE GROUP - SWANLEY</name>
+         <description>MAIDSTONE GROUP - SWANLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.51490194350759,51.273797018873
+0.169076202588924,51.3903835321094</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - CRYSTAL PALACE</name>
+         <description>CROYDON GROUP - CRYSTAL PALACE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.0713862141029046,51.4152630622009</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

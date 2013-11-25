@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>WP</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffE1F030</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>GLOUCESTER</name>
+         <description>GLOUCESTER - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.23673166427208,51.8622947301681</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP</name>
+         <description>BRISTOL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.57996766294555,51.4467726886349</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HAYES &amp; HARLNGTN GP</name>
+         <description>HAYES &amp; HARLNGTN GP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.417945334425063,51.5004503083908</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP</name>
+         <description>EALING BROADWAY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.299347829081659,51.5122730230576</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SLOUGH</name>
+         <description>SLOUGH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.590565992879139,51.5098424704067</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MAIDENHEAD</name>
+         <description>MAIDENHEAD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.721546959650751,51.515837329819</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWBURY</name>
+         <description>NEWBURY - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.32151184589984,51.3941153661348</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP</name>
+         <description>WESTBURY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.19781295870281,51.2646940754104</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA</name>
+         <description>BATH SPA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.35491303257205,51.3757692670053</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TWYFORD</name>
+         <description>TWYFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.862420368717771,51.4732471781296</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP</name>
+         <description>READING GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.972242308326233,51.4562854116841</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA</name>
+         <description>CHELTENHAM SPA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.09882854165799,51.8939477964377</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP</name>
+         <description>WORCESTER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.21946001815119,52.1921716892404</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD</name>
+         <description>HEREFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.70746562548318,52.0581355218282</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHIPPENHAM</name>
+         <description>CHIPPENHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.11372296911025,51.4598357522008</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWINDON (WILTS)</name>
+         <description>SWINDON (WILTS) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.78502451282572,51.5630507679151</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER - BRISTOL GROUP</name>
+         <description>GLOUCESTER - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.23673166427208,51.8622947301681
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</name>
+         <description>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.417945334425063,51.5004503083908
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLOUGH - MAIDENHEAD</name>
+         <description>SLOUGH - MAIDENHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.590565992879139,51.5098424704067
+-0.721546959650751,51.515837329819</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWBURY - WESTBURY GROUP</name>
+         <description>NEWBURY - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32151184589984,51.3941153661348
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - BATH SPA</name>
+         <description>WESTBURY GROUP - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TWYFORD - READING GROUP</name>
+         <description>TWYFORD - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.862420368717771,51.4732471781296
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - WORCESTER GROUP</name>
+         <description>CHELTENHAM SPA - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD - WORCESTER GROUP</name>
+         <description>HEREFORD - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.70746562548318,52.0581355218282
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER - CHELTENHAM SPA</name>
+         <description>GLOUCESTER - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.23673166427208,51.8622947301681
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHIPPENHAM - WESTBURY GROUP</name>
+         <description>CHIPPENHAM - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11372296911025,51.4598357522008
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - TWYFORD</name>
+         <description>READING GROUP - TWYFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-0.862420368717771,51.4732471781296</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - LONDON GROUP</name>
+         <description>EALING BROADWAY GROUP - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - CHELTENHAM SPA</name>
+         <description>WORCESTER GROUP - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWINDON (WILTS) - CHIPPENHAM</name>
+         <description>SWINDON (WILTS) - CHIPPENHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.78502451282572,51.5630507679151
+-2.11372296911025,51.4598357522008</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDENHEAD - SLOUGH</name>
+         <description>MAIDENHEAD - SLOUGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.721546959650751,51.515837329819
+-0.590565992879139,51.5098424704067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - HEREFORD</name>
+         <description>WORCESTER GROUP - HEREFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-2.70746562548318,52.0581355218282</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - CHIPPENHAM</name>
+         <description>BATH SPA - CHIPPENHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.11372296911025,51.4598357522008</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - BRISTOL GROUP</name>
+         <description>CHELTENHAM SPA - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - GLOUCESTER</name>
+         <description>BRISTOL GROUP - GLOUCESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.23673166427208,51.8622947301681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</name>
+         <description>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.417945334425063,51.5004503083908</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - NEWBURY</name>
+         <description>WESTBURY GROUP - NEWBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-1.32151184589984,51.3941153661348</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - WESTBURY GROUP</name>
+         <description>BATH SPA - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHIPPENHAM - SWINDON (WILTS)</name>
+         <description>CHIPPENHAM - SWINDON (WILTS)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11372296911025,51.4598357522008
+-1.78502451282572,51.5630507679151</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - EALING BROADWAY GROUP</name>
+         <description>LONDON GROUP - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - NEWBURY</name>
+         <description>READING GROUP - NEWBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-1.32151184589984,51.3941153661348</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HAYES &amp; HARLNGTN GP - SLOUGH</name>
+         <description>HAYES &amp; HARLNGTN GP - SLOUGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.417945334425063,51.5004503083908
+-0.590565992879139,51.5098424704067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - GLOUCESTER</name>
+         <description>CHELTENHAM SPA - GLOUCESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.23673166427208,51.8622947301681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TWYFORD - MAIDENHEAD</name>
+         <description>TWYFORD - MAIDENHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.862420368717771,51.4732471781296
+-0.721546959650751,51.515837329819</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHIPPENHAM - BATH SPA</name>
+         <description>CHIPPENHAM - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11372296911025,51.4598357522008
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLOUGH - HAYES &amp; HARLNGTN GP</name>
+         <description>SLOUGH - HAYES &amp; HARLNGTN GP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.590565992879139,51.5098424704067
+-0.417945334425063,51.5004503083908</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDENHEAD - TWYFORD</name>
+         <description>MAIDENHEAD - TWYFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.721546959650751,51.515837329819
+-0.862420368717771,51.4732471781296</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - BATH SPA</name>
+         <description>BRISTOL GROUP - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - CHIPPENHAM</name>
+         <description>WESTBURY GROUP - CHIPPENHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-2.11372296911025,51.4598357522008</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWBURY - READING GROUP</name>
+         <description>NEWBURY - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32151184589984,51.3941153661348
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - BRISTOL GROUP</name>
+         <description>BATH SPA - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - CHELTENHAM SPA</name>
+         <description>BRISTOL GROUP - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

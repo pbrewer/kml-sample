@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>SM</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff50F902</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>COVENTRY</name>
+         <description>COVENTRY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.51200282653748,52.3980821347103</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA</name>
+         <description>LEAMINGTON SPA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.53526711169815,52.2822355714122</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>OXFORD</name>
+         <description>OXFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.2698223826342,51.7506169249712</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DIDCOT PARKWAY</name>
+         <description>DIDCOT PARKWAY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.24177639605164,51.6084332295774</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD U GROUP</name>
+         <description>STRATFORD U GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.71470851176188,52.1911321349146</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP</name>
+         <description>WARWICK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.58069581862525,52.2842031249513</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP</name>
+         <description>READING GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.972242308326233,51.4562854116841</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONG BUCKBY</name>
+         <description>LONG BUCKBY - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.0850008276296,52.2912893998626</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY</name>
+         <description>RUGBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.24779788512554,52.3760244925185</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND</name>
+         <description>SOUTH RUISLP UND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.397298632921743,51.5549989051923</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO</name>
+         <description>PRINCES RISBORO - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.8418921414643,51.7148226319012</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>AYLESBURY</name>
+         <description>AYLESBURY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.814772685792515,51.8107238089355</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TYSELEY</name>
+         <description>TYSELEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.83812052729701,52.4511062722417</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP</name>
+         <description>BANBURY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.32608171738474,52.0583321271333</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NORTHAMPTON</name>
+         <description>NORTHAMPTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.906045206063134,52.2340419154024</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP</name>
+         <description>BIRMINGHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.89692899917132,52.4754385160511</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HIGH WYCOMBE</name>
+         <description>HIGH WYCOMBE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.744442579009597,51.626637576763</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON</name>
+         <description>NUNEATON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.46196766120402,52.5236920836025</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - LEAMINGTON SPA</name>
+         <description>COVENTRY - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OXFORD - DIDCOT PARKWAY</name>
+         <description>OXFORD - DIDCOT PARKWAY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2698223826342,51.7506169249712
+-1.24177639605164,51.6084332295774</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD U GROUP - WARWICK GROUP</name>
+         <description>STRATFORD U GROUP - WARWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.71470851176188,52.1911321349146
+-1.58069581862525,52.2842031249513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - DIDCOT PARKWAY</name>
+         <description>READING GROUP - DIDCOT PARKWAY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-1.24177639605164,51.6084332295774</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONG BUCKBY - RUGBY</name>
+         <description>LONG BUCKBY - RUGBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.0850008276296,52.2912893998626
+-1.24779788512554,52.3760244925185</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND - PRINCES RISBORO</name>
+         <description>SOUTH RUISLP UND - PRINCES RISBORO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.397298632921743,51.5549989051923
+-0.8418921414643,51.7148226319012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY - LONG BUCKBY</name>
+         <description>RUGBY - LONG BUCKBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24779788512554,52.3760244925185
+-1.0850008276296,52.2912893998626</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO - AYLESBURY</name>
+         <description>PRINCES RISBORO - AYLESBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.8418921414643,51.7148226319012
+-0.814772685792515,51.8107238089355</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - RUGBY</name>
+         <description>COVENTRY - RUGBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.24779788512554,52.3760244925185</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DIDCOT PARKWAY - OXFORD</name>
+         <description>DIDCOT PARKWAY - OXFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24177639605164,51.6084332295774
+-1.2698223826342,51.7506169249712</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP - TYSELEY</name>
+         <description>WARWICK GROUP - TYSELEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58069581862525,52.2842031249513
+-1.83812052729701,52.4511062722417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP - OXFORD</name>
+         <description>BANBURY GROUP - OXFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32608171738474,52.0583321271333
+-1.2698223826342,51.7506169249712</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DIDCOT PARKWAY - READING GROUP</name>
+         <description>DIDCOT PARKWAY - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24177639605164,51.6084332295774
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO - SOUTH RUISLP UND</name>
+         <description>PRINCES RISBORO - SOUTH RUISLP UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.8418921414643,51.7148226319012
+-0.397298632921743,51.5549989051923</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TYSELEY - WARWICK GROUP</name>
+         <description>TYSELEY - WARWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.83812052729701,52.4511062722417
+-1.58069581862525,52.2842031249513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OXFORD - BANBURY GROUP</name>
+         <description>OXFORD - BANBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2698223826342,51.7506169249712
+-1.32608171738474,52.0583321271333</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NORTHAMPTON - RUGBY</name>
+         <description>NORTHAMPTON - RUGBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.906045206063134,52.2340419154024
+-1.24779788512554,52.3760244925185</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - BANBURY GROUP</name>
+         <description>LEAMINGTON SPA - BANBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.32608171738474,52.0583321271333</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY - NORTHAMPTON</name>
+         <description>RUGBY - NORTHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24779788512554,52.3760244925185
+-0.906045206063134,52.2340419154024</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP - LEAMINGTON SPA</name>
+         <description>WARWICK GROUP - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58069581862525,52.2842031249513
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO - BANBURY GROUP</name>
+         <description>PRINCES RISBORO - BANBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.8418921414643,51.7148226319012
+-1.32608171738474,52.0583321271333</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - BIRMINGHAM GROUP</name>
+         <description>COVENTRY - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONG BUCKBY - NORTHAMPTON</name>
+         <description>LONG BUCKBY - NORTHAMPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.0850008276296,52.2912893998626
+-0.906045206063134,52.2340419154024</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGH WYCOMBE - SOUTH RUISLP UND</name>
+         <description>HIGH WYCOMBE - SOUTH RUISLP UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.744442579009597,51.626637576763
+-0.397298632921743,51.5549989051923</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NORTHAMPTON - LONG BUCKBY</name>
+         <description>NORTHAMPTON - LONG BUCKBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.906045206063134,52.2340419154024
+-1.0850008276296,52.2912893998626</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>COVENTRY - NUNEATON</name>
+         <description>COVENTRY - NUNEATON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.51200282653748,52.3980821347103
+-1.46196766120402,52.5236920836025</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RUGBY - COVENTRY</name>
+         <description>RUGBY - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.24779788512554,52.3760244925185
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND - HIGH WYCOMBE</name>
+         <description>SOUTH RUISLP UND - HIGH WYCOMBE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.397298632921743,51.5549989051923
+-0.744442579009597,51.626637576763</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNEATON - COVENTRY</name>
+         <description>NUNEATON - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46196766120402,52.5236920836025
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - COVENTRY</name>
+         <description>LEAMINGTON SPA - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP - PRINCES RISBORO</name>
+         <description>BANBURY GROUP - PRINCES RISBORO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32608171738474,52.0583321271333
+-0.8418921414643,51.7148226319012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>AYLESBURY - PRINCES RISBORO</name>
+         <description>AYLESBURY - PRINCES RISBORO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.814772685792515,51.8107238089355
+-0.8418921414643,51.7148226319012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - COVENTRY</name>
+         <description>BIRMINGHAM GROUP - COVENTRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.51200282653748,52.3980821347103</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEAMINGTON SPA - WARWICK GROUP</name>
+         <description>LEAMINGTON SPA - WARWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.53526711169815,52.2822355714122
+-1.58069581862525,52.2842031249513</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BANBURY GROUP - LEAMINGTON SPA</name>
+         <description>BANBURY GROUP - LEAMINGTON SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32608171738474,52.0583321271333
+-1.53526711169815,52.2822355714122</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARWICK GROUP - STRATFORD U GROUP</name>
+         <description>WARWICK GROUP - STRATFORD U GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58069581862525,52.2842031249513
+-1.71470851176188,52.1911321349146</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGH WYCOMBE - PRINCES RISBORO</name>
+         <description>HIGH WYCOMBE - PRINCES RISBORO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.744442579009597,51.626637576763
+-0.8418921414643,51.7148226319012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRINCES RISBORO - HIGH WYCOMBE</name>
+         <description>PRINCES RISBORO - HIGH WYCOMBE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.8418921414643,51.7148226319012
+-0.744442579009597,51.626637576763</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

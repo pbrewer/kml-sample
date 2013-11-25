@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>HL</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff1EA47E</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>LEEDS GROUP</name>
+         <description>LEEDS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.54758683544322,53.7922040754631</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SELBY</name>
+         <description>SELBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.06202765621019,53.7804012865994</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GOOLE</name>
+         <description>GOOLE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.871383236956765,53.7014608402164</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HULL</name>
+         <description>HULL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.34565994560554,53.740296854028</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIDLINGTON</name>
+         <description>BRIDLINGTON - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.199098396001348,54.0815604492753</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SCARBOROUGH GROUP</name>
+         <description>SCARBOROUGH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.404114952496297,54.2768123775554</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP</name>
+         <description>WAKEFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.48675885897802,53.6760184399997</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP</name>
+         <description>BRADFORD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.74801394804718,53.7874001473732</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - SELBY</name>
+         <description>LEEDS GROUP - SELBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.06202765621019,53.7804012865994</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOOLE - HULL</name>
+         <description>GOOLE - HULL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.871383236956765,53.7014608402164
+-0.34565994560554,53.740296854028</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDLINGTON - SCARBOROUGH GROUP</name>
+         <description>BRIDLINGTON - SCARBOROUGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.199098396001348,54.0815604492753
+-0.404114952496297,54.2768123775554</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - LEEDS GROUP</name>
+         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP - LEEDS GROUP</name>
+         <description>BRADFORD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.74801394804718,53.7874001473732
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SCARBOROUGH GROUP - BRIDLINGTON</name>
+         <description>SCARBOROUGH GROUP - BRIDLINGTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.404114952496297,54.2768123775554
+-0.199098396001348,54.0815604492753</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDLINGTON - HULL</name>
+         <description>BRIDLINGTON - HULL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.199098396001348,54.0815604492753
+-0.34565994560554,53.740296854028</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELBY - LEEDS GROUP</name>
+         <description>SELBY - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.06202765621019,53.7804012865994
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HULL - GOOLE</name>
+         <description>HULL - GOOLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.34565994560554,53.740296854028
+-0.871383236956765,53.7014608402164</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HULL - BRIDLINGTON</name>
+         <description>HULL - BRIDLINGTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.34565994560554,53.740296854028
+-0.199098396001348,54.0815604492753</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - BRADFORD GROUP</name>
+         <description>LEEDS GROUP - BRADFORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.74801394804718,53.7874001473732</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELBY - HULL</name>
+         <description>SELBY - HULL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.06202765621019,53.7804012865994
+-0.34565994560554,53.740296854028</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - WAKEFIELD GROUP</name>
+         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HULL - SELBY</name>
+         <description>HULL - SELBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.34565994560554,53.740296854028
+-1.06202765621019,53.7804012865994</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

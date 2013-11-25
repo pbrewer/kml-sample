@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>LA</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff73899E</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>WHITLAND</name>
+         <description>WHITLAND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.61316923131634,51.8155206244219</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWANSEA GROUP</name>
+         <description>SWANSEA GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.94028860334008,51.6227099416963</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGEND</name>
+         <description>BRIDGEND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.57497724700083,51.5041409019868</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP</name>
+         <description>BRISTOL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.57996766294555,51.4467726886349</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES)</name>
+         <description>NEWPORT (S.WALES) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.99751869673671,51.5877692937142</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HAYES &amp; HARLNGTN GP</name>
+         <description>HAYES &amp; HARLNGTN GP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.417945334425063,51.5004503083908</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP</name>
+         <description>EALING BROADWAY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.299347829081659,51.5122730230576</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SLOUGH</name>
+         <description>SLOUGH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.590565992879139,51.5098424704067</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MAIDENHEAD</name>
+         <description>MAIDENHEAD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.721546959650751,51.515837329819</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWBURY</name>
+         <description>NEWBURY - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.32151184589984,51.3941153661348</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP</name>
+         <description>WESTBURY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.19781295870281,51.2646940754104</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL</name>
+         <description>CARDIFF CENTRAL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.17645026760644,51.4728636340219</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA</name>
+         <description>BATH SPA - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.35491303257205,51.3757692670053</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TWYFORD</name>
+         <description>TWYFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.862420368717771,51.4732471781296</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP</name>
+         <description>READING GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.972242308326233,51.4562854116841</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHIPPENHAM</name>
+         <description>CHIPPENHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.11372296911025,51.4598357522008</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARRY</name>
+         <description>BARRY - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.28369127248002,51.3944413471767</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD</name>
+         <description>HEREFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.70746562548318,52.0581355218282</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PONTYPRIDD</name>
+         <description>PONTYPRIDD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.34137458537276,51.596926467657</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WHITLAND - SWANSEA GROUP</name>
+         <description>WHITLAND - SWANSEA GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.61316923131634,51.8155206244219
+-3.94028860334008,51.6227099416963</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGEND - SWANSEA GROUP</name>
+         <description>BRIDGEND - SWANSEA GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.57497724700083,51.5041409019868
+-3.94028860334008,51.6227099416963</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - NEWPORT (S.WALES)</name>
+         <description>BRISTOL GROUP - NEWPORT (S.WALES)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.99751869673671,51.5877692937142</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</name>
+         <description>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.417945334425063,51.5004503083908
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANSEA GROUP - WHITLAND</name>
+         <description>SWANSEA GROUP - WHITLAND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.94028860334008,51.6227099416963
+-4.61316923131634,51.8155206244219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLOUGH - MAIDENHEAD</name>
+         <description>SLOUGH - MAIDENHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.590565992879139,51.5098424704067
+-0.721546959650751,51.515837329819</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWBURY - WESTBURY GROUP</name>
+         <description>NEWBURY - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32151184589984,51.3941153661348
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL - NEWPORT (S.WALES)</name>
+         <description>CARDIFF CENTRAL - NEWPORT (S.WALES)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.17645026760644,51.4728636340219
+-2.99751869673671,51.5877692937142</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - BATH SPA</name>
+         <description>WESTBURY GROUP - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TWYFORD - READING GROUP</name>
+         <description>TWYFORD - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.862420368717771,51.4732471781296
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHIPPENHAM - WESTBURY GROUP</name>
+         <description>CHIPPENHAM - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11372296911025,51.4598357522008
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGEND - BARRY</name>
+         <description>BRIDGEND - BARRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.57497724700083,51.5041409019868
+-3.28369127248002,51.3944413471767</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - LONDON GROUP</name>
+         <description>EALING BROADWAY GROUP - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - TWYFORD</name>
+         <description>READING GROUP - TWYFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-0.862420368717771,51.4732471781296</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARRY - BRIDGEND</name>
+         <description>BARRY - BRIDGEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.28369127248002,51.3944413471767
+-3.57497724700083,51.5041409019868</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDENHEAD - SLOUGH</name>
+         <description>MAIDENHEAD - SLOUGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.721546959650751,51.515837329819
+-0.590565992879139,51.5098424704067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</name>
+         <description>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.417945334425063,51.5004503083908</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL - BARRY</name>
+         <description>CARDIFF CENTRAL - BARRY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.17645026760644,51.4728636340219
+-3.28369127248002,51.3944413471767</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - NEWBURY</name>
+         <description>WESTBURY GROUP - NEWBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-1.32151184589984,51.3941153661348</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES) - CARDIFF CENTRAL</name>
+         <description>NEWPORT (S.WALES) - CARDIFF CENTRAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.99751869673671,51.5877692937142
+-3.17645026760644,51.4728636340219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - WESTBURY GROUP</name>
+         <description>BATH SPA - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - EALING BROADWAY GROUP</name>
+         <description>LONDON GROUP - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - NEWBURY</name>
+         <description>READING GROUP - NEWBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-1.32151184589984,51.3941153661348</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD - NEWPORT (S.WALES)</name>
+         <description>HEREFORD - NEWPORT (S.WALES)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.70746562548318,52.0581355218282
+-2.99751869673671,51.5877692937142</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HAYES &amp; HARLNGTN GP - SLOUGH</name>
+         <description>HAYES &amp; HARLNGTN GP - SLOUGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.417945334425063,51.5004503083908
+-0.590565992879139,51.5098424704067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL - PONTYPRIDD</name>
+         <description>CARDIFF CENTRAL - PONTYPRIDD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.17645026760644,51.4728636340219
+-3.34137458537276,51.596926467657</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TWYFORD - MAIDENHEAD</name>
+         <description>TWYFORD - MAIDENHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.862420368717771,51.4732471781296
+-0.721546959650751,51.515837329819</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARDIFF CENTRAL - BRIDGEND</name>
+         <description>CARDIFF CENTRAL - BRIDGEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.17645026760644,51.4728636340219
+-3.57497724700083,51.5041409019868</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGEND - CARDIFF CENTRAL</name>
+         <description>BRIDGEND - CARDIFF CENTRAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.57497724700083,51.5041409019868
+-3.17645026760644,51.4728636340219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLOUGH - HAYES &amp; HARLNGTN GP</name>
+         <description>SLOUGH - HAYES &amp; HARLNGTN GP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.590565992879139,51.5098424704067
+-0.417945334425063,51.5004503083908</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES) - HEREFORD</name>
+         <description>NEWPORT (S.WALES) - HEREFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.99751869673671,51.5877692937142
+-2.70746562548318,52.0581355218282</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PONTYPRIDD - CARDIFF CENTRAL</name>
+         <description>PONTYPRIDD - CARDIFF CENTRAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.34137458537276,51.596926467657
+-3.17645026760644,51.4728636340219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDENHEAD - TWYFORD</name>
+         <description>MAIDENHEAD - TWYFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.721546959650751,51.515837329819
+-0.862420368717771,51.4732471781296</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES) - BRISTOL GROUP</name>
+         <description>NEWPORT (S.WALES) - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.99751869673671,51.5877692937142
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - BATH SPA</name>
+         <description>BRISTOL GROUP - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - CHIPPENHAM</name>
+         <description>WESTBURY GROUP - CHIPPENHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-2.11372296911025,51.4598357522008</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWBURY - READING GROUP</name>
+         <description>NEWBURY - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.32151184589984,51.3941153661348
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - BRISTOL GROUP</name>
+         <description>BATH SPA - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARRY - CARDIFF CENTRAL</name>
+         <description>BARRY - CARDIFF CENTRAL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.28369127248002,51.3944413471767
+-3.17645026760644,51.4728636340219</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANSEA GROUP - BRIDGEND</name>
+         <description>SWANSEA GROUP - BRIDGEND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.94028860334008,51.6227099416963
+-3.57497724700083,51.5041409019868</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

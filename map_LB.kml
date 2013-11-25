@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>LB</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffAA799F</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>CROYDON GROUP</name>
+         <description>CROYDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0918292948916154,51.3733510137007</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP</name>
+         <description>REDHILL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.163348351898478,51.2378679252594</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CRYSTAL PALACE</name>
+         <description>CRYSTAL PALACE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0713862141029046,51.4152630622009</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP</name>
+         <description>STREATHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.130024439539019,51.4234044157532</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ELEPHANT &amp; CSTLE</name>
+         <description>ELEPHANT &amp; CSTLE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.096959749551758,51.4920849012898</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP</name>
+         <description>BRIGHTON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.139734374960716,50.827616842405</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FORD GROUP</name>
+         <description>FORD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.577134842260158,50.8274799070745</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE</name>
+         <description>NEW CROSS GATE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0401417522422767,51.4731714354845</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MITCHAM JUNCTION</name>
+         <description>MITCHAM JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.155802159436525,51.3905551171452</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE</name>
+         <description>PECKHAM RYE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TULSE HILL</name>
+         <description>TULSE HILL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.103552472423464,51.4373608568023</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEWES</name>
+         <description>LEWES - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0139708740923098,50.8682100046315</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES</name>
+         <description>THREE BRIDGES - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.159664743659514,51.1146668456172</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT</name>
+         <description>GATWICK AIRPORT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.15952165755819,51.1542142067235</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>POLEGATE</name>
+         <description>POLEGATE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.253236488543737,50.8188895282876</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HERNE HILL</name>
+         <description>HERNE HILL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.100117179014863,51.4507882179277</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION</name>
+         <description>CLAPHAM JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.168769712349235,51.4617683410367</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP</name>
+         <description>HASTINGS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.577630945295527,50.8562183508005</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM</name>
+         <description>HORSHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.317257080155847,51.0640099999086</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - REDHILL GROUP</name>
+         <description>CROYDON GROUP - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRYSTAL PALACE - STREATHAM GROUP</name>
+         <description>CRYSTAL PALACE - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0713862141029046,51.4152630622009
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ELEPHANT &amp; CSTLE - LONDON GROUP</name>
+         <description>ELEPHANT &amp; CSTLE - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.096959749551758,51.4920849012898
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP - FORD GROUP</name>
+         <description>BRIGHTON GROUP - FORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.139734374960716,50.827616842405
+-0.577134842260158,50.8274799070745</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE - CROYDON GROUP</name>
+         <description>NEW CROSS GATE - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0401417522422767,51.4731714354845
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MITCHAM JUNCTION - STREATHAM GROUP</name>
+         <description>MITCHAM JUNCTION - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.155802159436525,51.3905551171452
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - TULSE HILL</name>
+         <description>PECKHAM RYE - TULSE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.103552472423464,51.4373608568023</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - THREE BRIDGES</name>
+         <description>LEWES - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - GATWICK AIRPORT</name>
+         <description>REDHILL GROUP - GATWICK AIRPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+-0.15952165755819,51.1542142067235</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - NEW CROSS GATE</name>
+         <description>LONDON GROUP - NEW CROSS GATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0401417522422767,51.4731714354845</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT - THREE BRIDGES</name>
+         <description>GATWICK AIRPORT - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.15952165755819,51.1542142067235
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - LONDON GROUP</name>
+         <description>PECKHAM RYE - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - MITCHAM JUNCTION</name>
+         <description>STREATHAM GROUP - MITCHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.155802159436525,51.3905551171452</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>POLEGATE - LEWES</name>
+         <description>POLEGATE - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.253236488543737,50.8188895282876
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TULSE HILL - HERNE HILL</name>
+         <description>TULSE HILL - HERNE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.103552472423464,51.4373608568023
+-0.100117179014863,51.4507882179277</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - LEWES</name>
+         <description>THREE BRIDGES - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE - LONDON GROUP</name>
+         <description>NEW CROSS GATE - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0401417522422767,51.4731714354845
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - STREATHAM GROUP</name>
+         <description>CROYDON GROUP - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - BRIGHTON GROUP</name>
+         <description>THREE BRIDGES - BRIGHTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+-0.139734374960716,50.827616842405</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - BRIGHTON GROUP</name>
+         <description>LEWES - BRIGHTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+-0.139734374960716,50.827616842405</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT - REDHILL GROUP</name>
+         <description>GATWICK AIRPORT - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.15952165755819,51.1542142067235
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - CLAPHAM JUNCTION</name>
+         <description>STREATHAM GROUP - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - LONDON GROUP</name>
+         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - CLAPHAM JUNCTION</name>
+         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - PECKHAM RYE</name>
+         <description>LONDON GROUP - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - LONDON GROUP</name>
+         <description>CROYDON GROUP - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FORD GROUP - BRIGHTON GROUP</name>
+         <description>FORD GROUP - BRIGHTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.577134842260158,50.8274799070745
+-0.139734374960716,50.827616842405</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - TULSE HILL</name>
+         <description>STREATHAM GROUP - TULSE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.103552472423464,51.4373608568023</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP - POLEGATE</name>
+         <description>HASTINGS GROUP - POLEGATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.577630945295527,50.8562183508005
+0.253236488543737,50.8188895282876</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP - THREE BRIDGES</name>
+         <description>BRIGHTON GROUP - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.139734374960716,50.827616842405
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - STREATHAM GROUP</name>
+         <description>CLAPHAM JUNCTION - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - CRYSTAL PALACE</name>
+         <description>STREATHAM GROUP - CRYSTAL PALACE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.0713862141029046,51.4152630622009</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - NEW CROSS GATE</name>
+         <description>CROYDON GROUP - NEW CROSS GATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.0401417522422767,51.4731714354845</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - HASTINGS GROUP</name>
+         <description>LEWES - HASTINGS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+0.577630945295527,50.8562183508005</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HERNE HILL - TULSE HILL</name>
+         <description>HERNE HILL - TULSE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.100117179014863,51.4507882179277
+-0.103552472423464,51.4373608568023</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - GATWICK AIRPORT</name>
+         <description>THREE BRIDGES - GATWICK AIRPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+-0.15952165755819,51.1542142067235</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TULSE HILL - STREATHAM GROUP</name>
+         <description>TULSE HILL - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.103552472423464,51.4373608568023
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - CROYDON GROUP</name>
+         <description>REDHILL GROUP - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - CROYDON GROUP</name>
+         <description>LONDON GROUP - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ELEPHANT &amp; CSTLE - HERNE HILL</name>
+         <description>ELEPHANT &amp; CSTLE - HERNE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.096959749551758,51.4920849012898
+-0.100117179014863,51.4507882179277</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRYSTAL PALACE - CROYDON GROUP</name>
+         <description>CRYSTAL PALACE - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0713862141029046,51.4152630622009
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRYSTAL PALACE - TULSE HILL</name>
+         <description>CRYSTAL PALACE - TULSE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0713862141029046,51.4152630622009
+-0.103552472423464,51.4373608568023</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - POLEGATE</name>
+         <description>LEWES - POLEGATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+0.253236488543737,50.8188895282876</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TULSE HILL - PECKHAM RYE</name>
+         <description>TULSE HILL - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.103552472423464,51.4373608568023
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP - LEWES</name>
+         <description>BRIGHTON GROUP - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.139734374960716,50.827616842405
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP - LEWES</name>
+         <description>HASTINGS GROUP - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.577630945295527,50.8562183508005
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM - THREE BRIDGES</name>
+         <description>HORSHAM - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.317257080155847,51.0640099999086
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TULSE HILL - CRYSTAL PALACE</name>
+         <description>TULSE HILL - CRYSTAL PALACE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.103552472423464,51.4373608568023
+-0.0713862141029046,51.4152630622009</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>POLEGATE - HASTINGS GROUP</name>
+         <description>POLEGATE - HASTINGS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.253236488543737,50.8188895282876
+0.577630945295527,50.8562183508005</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - HORSHAM</name>
+         <description>THREE BRIDGES - HORSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+-0.317257080155847,51.0640099999086</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - ELEPHANT &amp; CSTLE</name>
+         <description>LONDON GROUP - ELEPHANT &amp; CSTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.096959749551758,51.4920849012898</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - CROYDON GROUP</name>
+         <description>STREATHAM GROUP - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HERNE HILL - ELEPHANT &amp; CSTLE</name>
+         <description>HERNE HILL - ELEPHANT &amp; CSTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.100117179014863,51.4507882179277
+-0.096959749551758,51.4920849012898</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - CRYSTAL PALACE</name>
+         <description>CROYDON GROUP - CRYSTAL PALACE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.0713862141029046,51.4152630622009</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

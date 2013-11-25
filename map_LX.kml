@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>LX</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff556CAF</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>WAKEFIELD GROUP</name>
+         <description>WAKEFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.48675885897802,53.6760184399997</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP</name>
+         <description>LEEDS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.54758683544322,53.7922040754631</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNSLEY</name>
+         <description>BARNSLEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.47619600186737,53.5510442770956</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER</name>
+         <description>DONCASTER - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.13871721870229,53.5185314624258</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNETBY</name>
+         <description>BARNETBY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.408151827515758,53.5712589689525</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HELLIFIELD GROUP</name>
+         <description>HELLIFIELD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.22585165157831,54.0085463384902</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SKIPTON</name>
+         <description>SKIPTON - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.02438550784808,53.9557294979361</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP</name>
+         <description>BRADFORD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.74801394804718,53.7874001473732</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP</name>
+         <description>LANCASTER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.80646520495794,54.0455998359243</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>OXENHOLME LAKE D</name>
+         <description>OXENHOLME LAKE D - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.72079672561516,54.3022952619467</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM YORKS</name>
+         <description>CLAPHAM YORKS - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.40836909508231,54.102434872771</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - LEEDS GROUP</name>
+         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - BARNSLEY</name>
+         <description>WAKEFIELD GROUP - BARNSLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.47619600186737,53.5510442770956</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER - WAKEFIELD GROUP</name>
+         <description>DONCASTER - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.13871721870229,53.5185314624258
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNETBY - DONCASTER</name>
+         <description>BARNETBY - DONCASTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.408151827515758,53.5712589689525
+-1.13871721870229,53.5185314624258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HELLIFIELD GROUP - SKIPTON</name>
+         <description>HELLIFIELD GROUP - SKIPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22585165157831,54.0085463384902
+-2.02438550784808,53.9557294979361</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP - SKIPTON</name>
+         <description>BRADFORD GROUP - SKIPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.74801394804718,53.7874001473732
+-2.02438550784808,53.9557294979361</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRADFORD GROUP - LEEDS GROUP</name>
+         <description>BRADFORD GROUP - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.74801394804718,53.7874001473732
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP - OXENHOLME LAKE D</name>
+         <description>LANCASTER GROUP - OXENHOLME LAKE D</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.80646520495794,54.0455998359243
+-2.72079672561516,54.3022952619467</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SKIPTON - LEEDS GROUP</name>
+         <description>SKIPTON - LEEDS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.02438550784808,53.9557294979361
+-1.54758683544322,53.7922040754631</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HELLIFIELD GROUP - CLAPHAM YORKS</name>
+         <description>HELLIFIELD GROUP - CLAPHAM YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22585165157831,54.0085463384902
+-2.40836909508231,54.102434872771</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNSLEY - WAKEFIELD GROUP</name>
+         <description>BARNSLEY - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.47619600186737,53.5510442770956
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SKIPTON - HELLIFIELD GROUP</name>
+         <description>SKIPTON - HELLIFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.02438550784808,53.9557294979361
+-2.22585165157831,54.0085463384902</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SKIPTON - BRADFORD GROUP</name>
+         <description>SKIPTON - BRADFORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.02438550784808,53.9557294979361
+-1.74801394804718,53.7874001473732</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OXENHOLME LAKE D - LANCASTER GROUP</name>
+         <description>OXENHOLME LAKE D - LANCASTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.72079672561516,54.3022952619467
+-2.80646520495794,54.0455998359243</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WAKEFIELD GROUP - DONCASTER</name>
+         <description>WAKEFIELD GROUP - DONCASTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.48675885897802,53.6760184399997
+-1.13871721870229,53.5185314624258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP - CLAPHAM YORKS</name>
+         <description>LANCASTER GROUP - CLAPHAM YORKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.80646520495794,54.0455998359243
+-2.40836909508231,54.102434872771</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - BRADFORD GROUP</name>
+         <description>LEEDS GROUP - BRADFORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.74801394804718,53.7874001473732</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DONCASTER - BARNETBY</name>
+         <description>DONCASTER - BARNETBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.13871721870229,53.5185314624258
+-0.408151827515758,53.5712589689525</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - WAKEFIELD GROUP</name>
+         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-1.48675885897802,53.6760184399997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM YORKS - HELLIFIELD GROUP</name>
+         <description>CLAPHAM YORKS - HELLIFIELD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.40836909508231,54.102434872771
+-2.22585165157831,54.0085463384902</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEEDS GROUP - SKIPTON</name>
+         <description>LEEDS GROUP - SKIPTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54758683544322,53.7922040754631
+-2.02438550784808,53.9557294979361</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM YORKS - LANCASTER GROUP</name>
+         <description>CLAPHAM YORKS - LANCASTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.40836909508231,54.102434872771
+-2.80646520495794,54.0455998359243</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>RG</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffC846EE</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP</name>
+         <description>EALING BROADWAY GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.299347829081659,51.5122730230576</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HAYES &amp; HARLNGTN GP</name>
+         <description>HAYES &amp; HARLNGTN GP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.417945334425063,51.5004503083908</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SLOUGH</name>
+         <description>SLOUGH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.590565992879139,51.5098424704067</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MAIDENHEAD</name>
+         <description>MAIDENHEAD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.721546959650751,51.515837329819</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GREENFORD UND</name>
+         <description>GREENFORD UND - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.343027394360147,51.5398635077165</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND</name>
+         <description>SOUTH RUISLP UND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.397298632921743,51.5549989051923</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TWYFORD</name>
+         <description>TWYFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.862420368717771,51.4732471781296</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP</name>
+         <description>READING GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.972242308326233,51.4562854116841</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - EALING BROADWAY GROUP</name>
+         <description>LONDON GROUP - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</name>
+         <description>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.417945334425063,51.5004503083908
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLOUGH - MAIDENHEAD</name>
+         <description>SLOUGH - MAIDENHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.590565992879139,51.5098424704067
+-0.721546959650751,51.515837329819</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HAYES &amp; HARLNGTN GP - SLOUGH</name>
+         <description>HAYES &amp; HARLNGTN GP - SLOUGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.417945334425063,51.5004503083908
+-0.590565992879139,51.5098424704067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GREENFORD UND - SOUTH RUISLP UND</name>
+         <description>GREENFORD UND - SOUTH RUISLP UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.343027394360147,51.5398635077165
+-0.397298632921743,51.5549989051923</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TWYFORD - READING GROUP</name>
+         <description>TWYFORD - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.862420368717771,51.4732471781296
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TWYFORD - MAIDENHEAD</name>
+         <description>TWYFORD - MAIDENHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.862420368717771,51.4732471781296
+-0.721546959650751,51.515837329819</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - TWYFORD</name>
+         <description>READING GROUP - TWYFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-0.862420368717771,51.4732471781296</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - LONDON GROUP</name>
+         <description>EALING BROADWAY GROUP - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SLOUGH - HAYES &amp; HARLNGTN GP</name>
+         <description>SLOUGH - HAYES &amp; HARLNGTN GP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.590565992879139,51.5098424704067
+-0.417945334425063,51.5004503083908</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDENHEAD - SLOUGH</name>
+         <description>MAIDENHEAD - SLOUGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.721546959650751,51.515837329819
+-0.590565992879139,51.5098424704067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDENHEAD - TWYFORD</name>
+         <description>MAIDENHEAD - TWYFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.721546959650751,51.515837329819
+-0.862420368717771,51.4732471781296</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</name>
+         <description>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.417945334425063,51.5004503083908</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GREENFORD UND - EALING BROADWAY GROUP</name>
+         <description>GREENFORD UND - EALING BROADWAY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.343027394360147,51.5398635077165
+-0.299347829081659,51.5122730230576</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EALING BROADWAY GROUP - GREENFORD UND</name>
+         <description>EALING BROADWAY GROUP - GREENFORD UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299347829081659,51.5122730230576
+-0.343027394360147,51.5398635077165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTH RUISLP UND - GREENFORD UND</name>
+         <description>SOUTH RUISLP UND - GREENFORD UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.397298632921743,51.5549989051923
+-0.343027394360147,51.5398635077165</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

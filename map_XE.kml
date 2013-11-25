@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>XE</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff41433B</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>CROYDON GROUP</name>
+         <description>CROYDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0918292948916154,51.3733510137007</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP</name>
+         <description>REDHILL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.163348351898478,51.2378679252594</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES</name>
+         <description>THREE BRIDGES - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.159664743659514,51.1146668456172</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEWES</name>
+         <description>LEWES - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0139708740923098,50.8682100046315</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EPSOM</name>
+         <description>EPSOM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.26726318438557,51.3320338775324</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEATHERHEAD</name>
+         <description>LEATHERHEAD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.331735826951668,51.296117664066</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP</name>
+         <description>BRIGHTON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.139734374960716,50.827616842405</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SUTTON LONDON</name>
+         <description>SUTTON LONDON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.188720543001437,51.3578110208355</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE</name>
+         <description>TONBRIDGE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.271241048728237,51.1888888580524</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT</name>
+         <description>GATWICK AIRPORT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.15952165755819,51.1542142067235</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP</name>
+         <description>HASTINGS GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.577630945295527,50.8562183508005</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN</name>
+         <description>EFFINGHAM JN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.418044544892225,51.2892262107591</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - REDHILL GROUP</name>
+         <description>CROYDON GROUP - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - LEWES</name>
+         <description>THREE BRIDGES - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EPSOM - LEATHERHEAD</name>
+         <description>EPSOM - LEATHERHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.26726318438557,51.3320338775324
+-0.331735826951668,51.296117664066</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - BRIGHTON GROUP</name>
+         <description>THREE BRIDGES - BRIGHTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+-0.139734374960716,50.827616842405</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SUTTON LONDON - EPSOM</name>
+         <description>SUTTON LONDON - EPSOM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.188720543001437,51.3578110208355
+-0.26726318438557,51.3320338775324</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - BRIGHTON GROUP</name>
+         <description>LEWES - BRIGHTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+-0.139734374960716,50.827616842405</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE - REDHILL GROUP</name>
+         <description>TONBRIDGE - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.271241048728237,51.1888888580524
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SUTTON LONDON - CROYDON GROUP</name>
+         <description>SUTTON LONDON - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.188720543001437,51.3578110208355
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CROYDON GROUP - SUTTON LONDON</name>
+         <description>CROYDON GROUP - SUTTON LONDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0918292948916154,51.3733510137007
+-0.188720543001437,51.3578110208355</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - TONBRIDGE</name>
+         <description>REDHILL GROUP - TONBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+0.271241048728237,51.1888888580524</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP - THREE BRIDGES</name>
+         <description>BRIGHTON GROUP - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.139734374960716,50.827616842405
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - THREE BRIDGES</name>
+         <description>LEWES - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT - REDHILL GROUP</name>
+         <description>GATWICK AIRPORT - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.15952165755819,51.1542142067235
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EPSOM - SUTTON LONDON</name>
+         <description>EPSOM - SUTTON LONDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.26726318438557,51.3320338775324
+-0.188720543001437,51.3578110208355</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIGHTON GROUP - LEWES</name>
+         <description>BRIGHTON GROUP - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.139734374960716,50.827616842405
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - GATWICK AIRPORT</name>
+         <description>REDHILL GROUP - GATWICK AIRPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+-0.15952165755819,51.1542142067235</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP - LEWES</name>
+         <description>HASTINGS GROUP - LEWES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.577630945295527,50.8562183508005
+0.0139708740923098,50.8682100046315</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWES - HASTINGS GROUP</name>
+         <description>LEWES - HASTINGS GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0139708740923098,50.8682100046315
+0.577630945295527,50.8562183508005</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEATHERHEAD - EPSOM</name>
+         <description>LEATHERHEAD - EPSOM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.331735826951668,51.296117664066
+-0.26726318438557,51.3320338775324</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEATHERHEAD - EFFINGHAM JN</name>
+         <description>LEATHERHEAD - EFFINGHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.331735826951668,51.296117664066
+-0.418044544892225,51.2892262107591</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>THREE BRIDGES - GATWICK AIRPORT</name>
+         <description>THREE BRIDGES - GATWICK AIRPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.159664743659514,51.1146668456172
+-0.15952165755819,51.1542142067235</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT - THREE BRIDGES</name>
+         <description>GATWICK AIRPORT - THREE BRIDGES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.15952165755819,51.1542142067235
+-0.159664743659514,51.1146668456172</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN - LEATHERHEAD</name>
+         <description>EFFINGHAM JN - LEATHERHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.418044544892225,51.2892262107591
+-0.331735826951668,51.296117664066</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - CROYDON GROUP</name>
+         <description>REDHILL GROUP - CROYDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+-0.0918292948916154,51.3733510137007</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

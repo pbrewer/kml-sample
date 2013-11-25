@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>OP</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffF5F1D4</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>CHEADLE HULME</name>
+         <description>CHEADLE HULME - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.18790259306218,53.3731912199484</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WILMSLOW GROUP</name>
+         <description>WILMSLOW GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.22372067876089,53.3236978660225</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STOCKPORT</name>
+         <description>STOCKPORT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.16095318791928,53.4019907710042</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP</name>
+         <description>BRISTOL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.57996766294555,51.4467726886349</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES)</name>
+         <description>NEWPORT (S.WALES) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.99751869673671,51.5877692937142</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGWATER</name>
+         <description>BRIDGWATER - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.98896514462237,51.1258664842373</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WESTON SUPR MARE</name>
+         <description>WESTON SUPR MARE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.97063000675618,51.3417279722431</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY</name>
+         <description>SHREWSBURY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.7475465595177,52.7086006455055</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CRAVEN ARMS</name>
+         <description>CRAVEN ARMS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.83567015766998,52.4392771446456</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD</name>
+         <description>HEREFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.70746562548318,52.0581355218282</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON ABBOT</name>
+         <description>NEWTON ABBOT - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.59867836580248,50.5276921735096</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EXETER GROUP</name>
+         <description>EXETER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.53168545123118,50.72453530067</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PAR</name>
+         <description>PAR - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.70355987074813,50.3535492327742</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TRURO</name>
+         <description>TRURO - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-5.06185790477253,50.2619529661365</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TAUNTON</name>
+         <description>TAUNTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.10082010093475,51.0215061746061</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CREWE</name>
+         <description>CREWE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.4315419838315,53.0867528750238</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LISKEARD</name>
+         <description>LISKEARD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.46787225359045,50.4450883897547</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PLYMOUTH GROUP</name>
+         <description>PLYMOUTH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.14215458332859,50.3760376084661</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MACHYNLLETH GROUP</name>
+         <description>MACHYNLLETH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.85294612804162,52.5931050319326</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PENZANCE GROUP</name>
+         <description>PENZANCE GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-5.53137440057147,50.1200540661048</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHEADLE HULME - WILMSLOW GROUP</name>
+         <description>CHEADLE HULME - WILMSLOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.18790259306218,53.3731912199484
+-2.22372067876089,53.3236978660225</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STOCKPORT - CHEADLE HULME</name>
+         <description>STOCKPORT - CHEADLE HULME</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.16095318791928,53.4019907710042
+-2.18790259306218,53.3731912199484</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - NEWPORT (S.WALES)</name>
+         <description>BRISTOL GROUP - NEWPORT (S.WALES)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.99751869673671,51.5877692937142</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHEADLE HULME - STOCKPORT</name>
+         <description>CHEADLE HULME - STOCKPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.18790259306218,53.3731912199484
+-2.16095318791928,53.4019907710042</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGWATER - WESTON SUPR MARE</name>
+         <description>BRIDGWATER - WESTON SUPR MARE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98896514462237,51.1258664842373
+-2.97063000675618,51.3417279722431</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - CRAVEN ARMS</name>
+         <description>SHREWSBURY - CRAVEN ARMS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-2.83567015766998,52.4392771446456</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - WESTON SUPR MARE</name>
+         <description>BRISTOL GROUP - WESTON SUPR MARE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.97063000675618,51.3417279722431</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRAVEN ARMS - SHREWSBURY</name>
+         <description>CRAVEN ARMS - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.83567015766998,52.4392771446456
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD - CRAVEN ARMS</name>
+         <description>HEREFORD - CRAVEN ARMS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.70746562548318,52.0581355218282
+-2.83567015766998,52.4392771446456</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON ABBOT - EXETER GROUP</name>
+         <description>NEWTON ABBOT - EXETER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.59867836580248,50.5276921735096
+-3.53168545123118,50.72453530067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PAR - TRURO</name>
+         <description>PAR - TRURO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.70355987074813,50.3535492327742
+-5.06185790477253,50.2619529661365</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CRAVEN ARMS - HEREFORD</name>
+         <description>CRAVEN ARMS - HEREFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.83567015766998,52.4392771446456
+-2.70746562548318,52.0581355218282</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGWATER - BRISTOL GROUP</name>
+         <description>BRIDGWATER - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98896514462237,51.1258664842373
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAUNTON - EXETER GROUP</name>
+         <description>TAUNTON - EXETER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.10082010093475,51.0215061746061
+-3.53168545123118,50.72453530067</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TRURO - PAR</name>
+         <description>TRURO - PAR</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-5.06185790477253,50.2619529661365
+-4.70355987074813,50.3535492327742</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTON SUPR MARE - BRISTOL GROUP</name>
+         <description>WESTON SUPR MARE - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97063000675618,51.3417279722431
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - CREWE</name>
+         <description>SHREWSBURY - CREWE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-2.4315419838315,53.0867528750238</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PAR - LISKEARD</name>
+         <description>PAR - LISKEARD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.70355987074813,50.3535492327742
+-4.46787225359045,50.4450883897547</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILMSLOW GROUP - CHEADLE HULME</name>
+         <description>WILMSLOW GROUP - CHEADLE HULME</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22372067876089,53.3236978660225
+-2.18790259306218,53.3731912199484</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PLYMOUTH GROUP - NEWTON ABBOT</name>
+         <description>PLYMOUTH GROUP - NEWTON ABBOT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.14215458332859,50.3760376084661
+-3.59867836580248,50.5276921735096</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LISKEARD - PLYMOUTH GROUP</name>
+         <description>LISKEARD - PLYMOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.46787225359045,50.4450883897547
+-4.14215458332859,50.3760376084661</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - BRIDGWATER</name>
+         <description>BRISTOL GROUP - BRIDGWATER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.98896514462237,51.1258664842373</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EXETER GROUP - NEWTON ABBOT</name>
+         <description>EXETER GROUP - NEWTON ABBOT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.53168545123118,50.72453530067
+-3.59867836580248,50.5276921735096</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAUNTON - BRIDGWATER</name>
+         <description>TAUNTON - BRIDGWATER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.10082010093475,51.0215061746061
+-2.98896514462237,51.1258664842373</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHREWSBURY - MACHYNLLETH GROUP</name>
+         <description>SHREWSBURY - MACHYNLLETH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7475465595177,52.7086006455055
+-3.85294612804162,52.5931050319326</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PENZANCE GROUP - TRURO</name>
+         <description>PENZANCE GROUP - TRURO</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-5.53137440057147,50.1200540661048
+-5.06185790477253,50.2619529661365</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HEREFORD - NEWPORT (S.WALES)</name>
+         <description>HEREFORD - NEWPORT (S.WALES)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.70746562548318,52.0581355218282
+-2.99751869673671,51.5877692937142</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CREWE - SHREWSBURY</name>
+         <description>CREWE - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.4315419838315,53.0867528750238
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MACHYNLLETH GROUP - SHREWSBURY</name>
+         <description>MACHYNLLETH GROUP - SHREWSBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.85294612804162,52.5931050319326
+-2.7475465595177,52.7086006455055</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIDGWATER - TAUNTON</name>
+         <description>BRIDGWATER - TAUNTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98896514462237,51.1258664842373
+-3.10082010093475,51.0215061746061</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CREWE - WILMSLOW GROUP</name>
+         <description>CREWE - WILMSLOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.4315419838315,53.0867528750238
+-2.22372067876089,53.3236978660225</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TRURO - PENZANCE GROUP</name>
+         <description>TRURO - PENZANCE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-5.06185790477253,50.2619529661365
+-5.53137440057147,50.1200540661048</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTON SUPR MARE - BRIDGWATER</name>
+         <description>WESTON SUPR MARE - BRIDGWATER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.97063000675618,51.3417279722431
+-2.98896514462237,51.1258664842373</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON ABBOT - PLYMOUTH GROUP</name>
+         <description>NEWTON ABBOT - PLYMOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.59867836580248,50.5276921735096
+-4.14215458332859,50.3760376084661</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES) - HEREFORD</name>
+         <description>NEWPORT (S.WALES) - HEREFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.99751869673671,51.5877692937142
+-2.70746562548318,52.0581355218282</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWPORT (S.WALES) - BRISTOL GROUP</name>
+         <description>NEWPORT (S.WALES) - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.99751869673671,51.5877692937142
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILMSLOW GROUP - CREWE</name>
+         <description>WILMSLOW GROUP - CREWE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.22372067876089,53.3236978660225
+-2.4315419838315,53.0867528750238</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EXETER GROUP - TAUNTON</name>
+         <description>EXETER GROUP - TAUNTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.53168545123118,50.72453530067
+-3.10082010093475,51.0215061746061</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PLYMOUTH GROUP - LISKEARD</name>
+         <description>PLYMOUTH GROUP - LISKEARD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.14215458332859,50.3760376084661
+-4.46787225359045,50.4450883897547</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LISKEARD - PAR</name>
+         <description>LISKEARD - PAR</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.46787225359045,50.4450883897547
+-4.70355987074813,50.3535492327742</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

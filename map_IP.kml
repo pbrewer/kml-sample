@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>IP</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff5AB68C</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>PERTH</name>
+         <description>PERTH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.43853486400658,56.3902039890477</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DUNDEE</name>
+         <description>DUNDEE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.98647708050388,56.4503497727745</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ABERDEEN</name>
+         <description>ABERDEEN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.09584835709385,57.1408810902915</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>INVERNESS</name>
+         <description>INVERNESS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.22168553197048,57.4781575680485</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DINGWALL</name>
+         <description>DINGWALL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.42110081313562,57.592267576863</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PERTH - DUNDEE</name>
+         <description>PERTH - DUNDEE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.43853486400658,56.3902039890477
+-2.98647708050388,56.4503497727745</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ABERDEEN - INVERNESS</name>
+         <description>ABERDEEN - INVERNESS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09584835709385,57.1408810902915
+-4.22168553197048,57.4781575680485</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DINGWALL - INVERNESS</name>
+         <description>DINGWALL - INVERNESS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.42110081313562,57.592267576863
+-4.22168553197048,57.4781575680485</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>INVERNESS - DINGWALL</name>
+         <description>INVERNESS - DINGWALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.22168553197048,57.4781575680485
+-4.42110081313562,57.592267576863</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DUNDEE - PERTH</name>
+         <description>DUNDEE - PERTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98647708050388,56.4503497727745
+-3.43853486400658,56.3902039890477</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DUNDEE - ABERDEEN</name>
+         <description>DUNDEE - ABERDEEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98647708050388,56.4503497727745
+-2.09584835709385,57.1408810902915</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>INVERNESS - ABERDEEN</name>
+         <description>INVERNESS - ABERDEEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.22168553197048,57.4781575680485
+-2.09584835709385,57.1408810902915</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ABERDEEN - DUNDEE</name>
+         <description>ABERDEEN - DUNDEE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09584835709385,57.1408810902915
+-2.98647708050388,56.4503497727745</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

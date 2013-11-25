@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>DK</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff283939</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>RAYNES PARK</name>
+         <description>RAYNES PARK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.228481680875033,51.4069571028245</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MOTSPUR PARK</name>
+         <description>MOTSPUR PARK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.237657435454024,51.3927138624681</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WIMBLEDON</name>
+         <description>WIMBLEDON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.204994402252205,51.4191836093249</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION</name>
+         <description>CLAPHAM JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.168769712349235,51.4617683410367</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FORD GROUP</name>
+         <description>FORD GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.577134842260158,50.8274799070745</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM</name>
+         <description>HORSHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.317257080155847,51.0640099999086</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EPSOM</name>
+         <description>EPSOM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.26726318438557,51.3320338775324</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEATHERHEAD</name>
+         <description>LEATHERHEAD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.331735826951668,51.296117664066</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD</name>
+         <description>GUILDFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.578935314413253,51.2346642743648</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN</name>
+         <description>EFFINGHAM JN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.418044544892225,51.2892262107591</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DORKING GROUP</name>
+         <description>DORKING GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.32232810917038,51.2393563350226</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WOKING</name>
+         <description>WOKING - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.556326011480579,51.316179942942</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ASH VALE</name>
+         <description>ASH VALE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.719767243767824,51.2704441615262</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RAYNES PARK - MOTSPUR PARK</name>
+         <description>RAYNES PARK - MOTSPUR PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.228481680875033,51.4069571028245
+-0.237657435454024,51.3927138624681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WIMBLEDON - CLAPHAM JUNCTION</name>
+         <description>WIMBLEDON - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.204994402252205,51.4191836093249
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FORD GROUP - HORSHAM</name>
+         <description>FORD GROUP - HORSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.577134842260158,50.8274799070745
+-0.317257080155847,51.0640099999086</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EPSOM - LEATHERHEAD</name>
+         <description>EPSOM - LEATHERHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.26726318438557,51.3320338775324
+-0.331735826951668,51.296117664066</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - WIMBLEDON</name>
+         <description>CLAPHAM JUNCTION - WIMBLEDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.204994402252205,51.4191836093249</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTSPUR PARK - EPSOM</name>
+         <description>MOTSPUR PARK - EPSOM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.237657435454024,51.3927138624681
+-0.26726318438557,51.3320338775324</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM - FORD GROUP</name>
+         <description>HORSHAM - FORD GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.317257080155847,51.0640099999086
+-0.577134842260158,50.8274799070745</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTSPUR PARK - RAYNES PARK</name>
+         <description>MOTSPUR PARK - RAYNES PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.237657435454024,51.3927138624681
+-0.228481680875033,51.4069571028245</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - EFFINGHAM JN</name>
+         <description>GUILDFORD - EFFINGHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.418044544892225,51.2892262107591</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DORKING GROUP - HORSHAM</name>
+         <description>DORKING GROUP - HORSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.32232810917038,51.2393563350226
+-0.317257080155847,51.0640099999086</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEATHERHEAD - EPSOM</name>
+         <description>LEATHERHEAD - EPSOM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.331735826951668,51.296117664066
+-0.26726318438557,51.3320338775324</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WIMBLEDON - RAYNES PARK</name>
+         <description>WIMBLEDON - RAYNES PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.204994402252205,51.4191836093249
+-0.228481680875033,51.4069571028245</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RAYNES PARK - WIMBLEDON</name>
+         <description>RAYNES PARK - WIMBLEDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.228481680875033,51.4069571028245
+-0.204994402252205,51.4191836093249</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN - GUILDFORD</name>
+         <description>EFFINGHAM JN - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.418044544892225,51.2892262107591
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - WOKING</name>
+         <description>GUILDFORD - WOKING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.556326011480579,51.316179942942</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EPSOM - MOTSPUR PARK</name>
+         <description>EPSOM - MOTSPUR PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.26726318438557,51.3320338775324
+-0.237657435454024,51.3927138624681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - ASH VALE</name>
+         <description>GUILDFORD - ASH VALE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.719767243767824,51.2704441615262</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DORKING GROUP - LEATHERHEAD</name>
+         <description>DORKING GROUP - LEATHERHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.32232810917038,51.2393563350226
+-0.331735826951668,51.296117664066</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - LONDON GROUP</name>
+         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - CLAPHAM JUNCTION</name>
+         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASH VALE - GUILDFORD</name>
+         <description>ASH VALE - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.719767243767824,51.2704441615262
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOKING - GUILDFORD</name>
+         <description>WOKING - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.556326011480579,51.316179942942
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEATHERHEAD - EFFINGHAM JN</name>
+         <description>LEATHERHEAD - EFFINGHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.331735826951668,51.296117664066
+-0.418044544892225,51.2892262107591</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN - LEATHERHEAD</name>
+         <description>EFFINGHAM JN - LEATHERHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.418044544892225,51.2892262107591
+-0.331735826951668,51.296117664066</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM - DORKING GROUP</name>
+         <description>HORSHAM - DORKING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.317257080155847,51.0640099999086
+-0.32232810917038,51.2393563350226</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEATHERHEAD - DORKING GROUP</name>
+         <description>LEATHERHEAD - DORKING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.331735826951668,51.296117664066
+-0.32232810917038,51.2393563350226</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

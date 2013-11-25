@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>TK</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffC3FB11</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>ELEPHANT &amp; CSTLE</name>
+         <description>ELEPHANT &amp; CSTLE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.096959749551758,51.4920849012898</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BEDFORD</name>
+         <description>BEDFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.477427294975053,52.1340143383127</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LUTON</name>
+         <description>LUTON - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.413383840606806,51.8796972880439</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HERNE HILL</name>
+         <description>HERNE HILL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.100117179014863,51.4507882179277</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SUTTON LONDON</name>
+         <description>SUTTON LONDON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.188720543001437,51.3578110208355</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MITCHAM JUNCTION</name>
+         <description>MITCHAM JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.155802159436525,51.3905551171452</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP</name>
+         <description>STREATHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.130024439539019,51.4234044157532</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WIMBLEDON</name>
+         <description>WIMBLEDON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.204994402252205,51.4191836093249</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WEST HAMPSTD TLK</name>
+         <description>WEST HAMPSTD TLK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.191364107030493,51.5457128284244</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TULSE HILL</name>
+         <description>TULSE HILL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.103552472423464,51.4373608568023</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ELEPHANT &amp; CSTLE - LONDON GROUP</name>
+         <description>ELEPHANT &amp; CSTLE - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.096959749551758,51.4920849012898
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BEDFORD - LUTON</name>
+         <description>BEDFORD - LUTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.477427294975053,52.1340143383127
+-0.413383840606806,51.8796972880439</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ELEPHANT &amp; CSTLE - HERNE HILL</name>
+         <description>ELEPHANT &amp; CSTLE - HERNE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.096959749551758,51.4920849012898
+-0.100117179014863,51.4507882179277</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LUTON - BEDFORD</name>
+         <description>LUTON - BEDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.413383840606806,51.8796972880439
+-0.477427294975053,52.1340143383127</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SUTTON LONDON - MITCHAM JUNCTION</name>
+         <description>SUTTON LONDON - MITCHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.188720543001437,51.3578110208355
+-0.155802159436525,51.3905551171452</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - WIMBLEDON</name>
+         <description>STREATHAM GROUP - WIMBLEDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.204994402252205,51.4191836093249</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WIMBLEDON - STREATHAM GROUP</name>
+         <description>WIMBLEDON - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.204994402252205,51.4191836093249
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MITCHAM JUNCTION - STREATHAM GROUP</name>
+         <description>MITCHAM JUNCTION - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.155802159436525,51.3905551171452
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WEST HAMPSTD TLK - LUTON</name>
+         <description>WEST HAMPSTD TLK - LUTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.191364107030493,51.5457128284244
+-0.413383840606806,51.8796972880439</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - TULSE HILL</name>
+         <description>STREATHAM GROUP - TULSE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.103552472423464,51.4373608568023</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LUTON - WEST HAMPSTD TLK</name>
+         <description>LUTON - WEST HAMPSTD TLK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.413383840606806,51.8796972880439
+-0.191364107030493,51.5457128284244</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - WEST HAMPSTD TLK</name>
+         <description>LONDON GROUP - WEST HAMPSTD TLK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.191364107030493,51.5457128284244</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HERNE HILL - TULSE HILL</name>
+         <description>HERNE HILL - TULSE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.100117179014863,51.4507882179277
+-0.103552472423464,51.4373608568023</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TULSE HILL - STREATHAM GROUP</name>
+         <description>TULSE HILL - STREATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.103552472423464,51.4373608568023
+-0.130024439539019,51.4234044157532</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MITCHAM JUNCTION - SUTTON LONDON</name>
+         <description>MITCHAM JUNCTION - SUTTON LONDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.155802159436525,51.3905551171452
+-0.188720543001437,51.3578110208355</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - ELEPHANT &amp; CSTLE</name>
+         <description>LONDON GROUP - ELEPHANT &amp; CSTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.096959749551758,51.4920849012898</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STREATHAM GROUP - MITCHAM JUNCTION</name>
+         <description>STREATHAM GROUP - MITCHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.130024439539019,51.4234044157532
+-0.155802159436525,51.3905551171452</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WEST HAMPSTD TLK - LONDON GROUP</name>
+         <description>WEST HAMPSTD TLK - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.191364107030493,51.5457128284244
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HERNE HILL - ELEPHANT &amp; CSTLE</name>
+         <description>HERNE HILL - ELEPHANT &amp; CSTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.100117179014863,51.4507882179277
+-0.096959749551758,51.4920849012898</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TULSE HILL - HERNE HILL</name>
+         <description>TULSE HILL - HERNE HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.103552472423464,51.4373608568023
+-0.100117179014863,51.4507882179277</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

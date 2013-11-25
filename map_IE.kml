@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>IE</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffEBD58A</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>LADYBANK</name>
+         <description>LADYBANK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.12075070040537,56.2712433727159</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KIRKCALDY</name>
+         <description>KIRKCALDY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.16591335708558,56.1099364212259</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DINGWALL</name>
+         <description>DINGWALL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.42110081313562,57.592267576863</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>INVERNESS</name>
+         <description>INVERNESS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.22168553197048,57.4781575680485</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>INVERKEITHING GROUP</name>
+         <description>INVERKEITHING GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.39468834148053,56.0320609246806</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EDINBURGH GROUP</name>
+         <description>EDINBURGH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.1867201601368,55.9497469450646</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GLENROTHES</name>
+         <description>GLENROTHES - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.14165226352735,56.1595983102409</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ABERDEEN</name>
+         <description>ABERDEEN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.09584835709385,57.1408810902915</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DUNDEE</name>
+         <description>DUNDEE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.98647708050388,56.4503497727745</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FALKIRK GROUP</name>
+         <description>FALKIRK GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.7907706980682,55.9891919882658</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS</name>
+         <description>CARSTAIRS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.66719660940652,55.6879970200404</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LADYBANK - KIRKCALDY</name>
+         <description>LADYBANK - KIRKCALDY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.12075070040537,56.2712433727159
+-3.16591335708558,56.1099364212259</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DINGWALL - INVERNESS</name>
+         <description>DINGWALL - INVERNESS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.42110081313562,57.592267576863
+-4.22168553197048,57.4781575680485</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>INVERKEITHING GROUP - EDINBURGH GROUP</name>
+         <description>INVERKEITHING GROUP - EDINBURGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.39468834148053,56.0320609246806
+-3.1867201601368,55.9497469450646</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>INVERNESS - DINGWALL</name>
+         <description>INVERNESS - DINGWALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.22168553197048,57.4781575680485
+-4.42110081313562,57.592267576863</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LADYBANK - GLENROTHES</name>
+         <description>LADYBANK - GLENROTHES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.12075070040537,56.2712433727159
+-3.14165226352735,56.1595983102409</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>INVERNESS - ABERDEEN</name>
+         <description>INVERNESS - ABERDEEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.22168553197048,57.4781575680485
+-2.09584835709385,57.1408810902915</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DUNDEE - LADYBANK</name>
+         <description>DUNDEE - LADYBANK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98647708050388,56.4503497727745
+-3.12075070040537,56.2712433727159</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EDINBURGH GROUP - INVERKEITHING GROUP</name>
+         <description>EDINBURGH GROUP - INVERKEITHING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.1867201601368,55.9497469450646
+-3.39468834148053,56.0320609246806</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ABERDEEN - DUNDEE</name>
+         <description>ABERDEEN - DUNDEE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09584835709385,57.1408810902915
+-2.98647708050388,56.4503497727745</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLENROTHES - KIRKCALDY</name>
+         <description>GLENROTHES - KIRKCALDY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.14165226352735,56.1595983102409
+-3.16591335708558,56.1099364212259</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>INVERKEITHING GROUP - GLENROTHES</name>
+         <description>INVERKEITHING GROUP - GLENROTHES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.39468834148053,56.0320609246806
+-3.14165226352735,56.1595983102409</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ABERDEEN - INVERNESS</name>
+         <description>ABERDEEN - INVERNESS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09584835709385,57.1408810902915
+-4.22168553197048,57.4781575680485</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KIRKCALDY - GLENROTHES</name>
+         <description>KIRKCALDY - GLENROTHES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.16591335708558,56.1099364212259
+-3.14165226352735,56.1595983102409</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>INVERKEITHING GROUP - KIRKCALDY</name>
+         <description>INVERKEITHING GROUP - KIRKCALDY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.39468834148053,56.0320609246806
+-3.16591335708558,56.1099364212259</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EDINBURGH GROUP - FALKIRK GROUP</name>
+         <description>EDINBURGH GROUP - FALKIRK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.1867201601368,55.9497469450646
+-3.7907706980682,55.9891919882658</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FALKIRK GROUP - EDINBURGH GROUP</name>
+         <description>FALKIRK GROUP - EDINBURGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.7907706980682,55.9891919882658
+-3.1867201601368,55.9497469450646</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS - EDINBURGH GROUP</name>
+         <description>CARSTAIRS - EDINBURGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.66719660940652,55.6879970200404
+-3.1867201601368,55.9497469450646</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DUNDEE - ABERDEEN</name>
+         <description>DUNDEE - ABERDEEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.98647708050388,56.4503497727745
+-2.09584835709385,57.1408810902915</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLENROTHES - LADYBANK</name>
+         <description>GLENROTHES - LADYBANK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.14165226352735,56.1595983102409
+-3.12075070040537,56.2712433727159</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LADYBANK - DUNDEE</name>
+         <description>LADYBANK - DUNDEE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.12075070040537,56.2712433727159
+-2.98647708050388,56.4503497727745</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KIRKCALDY - LADYBANK</name>
+         <description>KIRKCALDY - LADYBANK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.16591335708558,56.1099364212259
+-3.12075070040537,56.2712433727159</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLENROTHES - INVERKEITHING GROUP</name>
+         <description>GLENROTHES - INVERKEITHING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.14165226352735,56.1595983102409
+-3.39468834148053,56.0320609246806</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KIRKCALDY - INVERKEITHING GROUP</name>
+         <description>KIRKCALDY - INVERKEITHING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.16591335708558,56.1099364212259
+-3.39468834148053,56.0320609246806</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EDINBURGH GROUP - CARSTAIRS</name>
+         <description>EDINBURGH GROUP - CARSTAIRS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.1867201601368,55.9497469450646
+-3.66719660940652,55.6879970200404</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

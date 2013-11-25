@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>OV</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff64D2D6</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>CAMDEN ROAD</name>
+         <description>CAMDEN ROAD - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.13824916332792,51.5394886739332</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GOSPEL OAK</name>
+         <description>GOSPEL OAK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.149232687522671,51.5531454292835</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHORSE R UND</name>
+         <description>BLACKHORSE R UND - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0397183635248578,51.5837260355341</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HACKNEY WICK</name>
+         <description>HACKNEY WICK - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0242384227113074,51.5412191304147</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HIGHBURY &amp; I UND</name>
+         <description>HIGHBURY &amp; I UND - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.102030856310921,51.5434025567242</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WATFORD JUNCTION</name>
+         <description>WATFORD JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.395005816943682,51.6610302646915</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN</name>
+         <description>WILLESDEN JN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.242510759036517,51.5285132205761</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD LONDON GP</name>
+         <description>STRATFORD LONDON GP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.00273806485052959,51.5381583521958</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KEW GARDENS</name>
+         <description>KEW GARDENS - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.283445704658904,51.4751886311839</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RICHMOND LONDON</name>
+         <description>RICHMOND LONDON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.299846694619959,51.4601472544842</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>STAINES</name>
+         <description>STAINES - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.500930451797934,51.4305333094029</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WANSTEAD PARK</name>
+         <description>WANSTEAD PARK - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0266028349371884,51.5493405403606</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARKING</name>
+         <description>BARKING - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0823256310492868,51.5375778573699</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION</name>
+         <description>CLAPHAM JUNCTION - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.168769712349235,51.4617683410367</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CAMDEN ROAD - GOSPEL OAK</name>
+         <description>CAMDEN ROAD - GOSPEL OAK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.13824916332792,51.5394886739332
+-0.149232687522671,51.5531454292835</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOSPEL OAK - BLACKHORSE R UND</name>
+         <description>GOSPEL OAK - BLACKHORSE R UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.149232687522671,51.5531454292835
+-0.0397183635248578,51.5837260355341</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HACKNEY WICK - HIGHBURY &amp; I UND</name>
+         <description>HACKNEY WICK - HIGHBURY &amp; I UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0242384227113074,51.5412191304147
+-0.102030856310921,51.5434025567242</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WATFORD JUNCTION - WILLESDEN JN</name>
+         <description>WATFORD JUNCTION - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.395005816943682,51.6610302646915
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - WILLESDEN JN</name>
+         <description>LONDON GROUP - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STRATFORD LONDON GP - HACKNEY WICK</name>
+         <description>STRATFORD LONDON GP - HACKNEY WICK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.00273806485052959,51.5381583521958
+-0.0242384227113074,51.5412191304147</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGHBURY &amp; I UND - CAMDEN ROAD</name>
+         <description>HIGHBURY &amp; I UND - CAMDEN ROAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.102030856310921,51.5434025567242
+-0.13824916332792,51.5394886739332</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HIGHBURY &amp; I UND - HACKNEY WICK</name>
+         <description>HIGHBURY &amp; I UND - HACKNEY WICK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.102030856310921,51.5434025567242
+-0.0242384227113074,51.5412191304147</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHORSE R UND - GOSPEL OAK</name>
+         <description>BLACKHORSE R UND - GOSPEL OAK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0397183635248578,51.5837260355341
+-0.149232687522671,51.5531454292835</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KEW GARDENS - WILLESDEN JN</name>
+         <description>KEW GARDENS - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.283445704658904,51.4751886311839
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - LONDON GROUP</name>
+         <description>WILLESDEN JN - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RICHMOND LONDON - STAINES</name>
+         <description>RICHMOND LONDON - STAINES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299846694619959,51.4601472544842
+-0.500930451797934,51.4305333094029</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - KEW GARDENS</name>
+         <description>WILLESDEN JN - KEW GARDENS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.283445704658904,51.4751886311839</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HACKNEY WICK - STRATFORD LONDON GP</name>
+         <description>HACKNEY WICK - STRATFORD LONDON GP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0242384227113074,51.5412191304147
+-0.00273806485052959,51.5381583521958</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>STAINES - RICHMOND LONDON</name>
+         <description>STAINES - RICHMOND LONDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.500930451797934,51.4305333094029
+-0.299846694619959,51.4601472544842</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - WATFORD JUNCTION</name>
+         <description>WILLESDEN JN - WATFORD JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.395005816943682,51.6610302646915</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WANSTEAD PARK - BLACKHORSE R UND</name>
+         <description>WANSTEAD PARK - BLACKHORSE R UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0266028349371884,51.5493405403606
+-0.0397183635248578,51.5837260355341</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CAMDEN ROAD - HIGHBURY &amp; I UND</name>
+         <description>CAMDEN ROAD - HIGHBURY &amp; I UND</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.13824916332792,51.5394886739332
+-0.102030856310921,51.5434025567242</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - GOSPEL OAK</name>
+         <description>WILLESDEN JN - GOSPEL OAK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.149232687522671,51.5531454292835</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARKING - WANSTEAD PARK</name>
+         <description>BARKING - WANSTEAD PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0823256310492868,51.5375778573699
+0.0266028349371884,51.5493405403606</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - WILLESDEN JN</name>
+         <description>CLAPHAM JUNCTION - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOSPEL OAK - CAMDEN ROAD</name>
+         <description>GOSPEL OAK - CAMDEN ROAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.149232687522671,51.5531454292835
+-0.13824916332792,51.5394886739332</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHORSE R UND - WANSTEAD PARK</name>
+         <description>BLACKHORSE R UND - WANSTEAD PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0397183635248578,51.5837260355341
+0.0266028349371884,51.5493405403606</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WANSTEAD PARK - BARKING</name>
+         <description>WANSTEAD PARK - BARKING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0266028349371884,51.5493405403606
+0.0823256310492868,51.5375778573699</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WILLESDEN JN - CLAPHAM JUNCTION</name>
+         <description>WILLESDEN JN - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.242510759036517,51.5285132205761
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KEW GARDENS - RICHMOND LONDON</name>
+         <description>KEW GARDENS - RICHMOND LONDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.283445704658904,51.4751886311839
+-0.299846694619959,51.4601472544842</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RICHMOND LONDON - KEW GARDENS</name>
+         <description>RICHMOND LONDON - KEW GARDENS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.299846694619959,51.4601472544842
+-0.283445704658904,51.4751886311839</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOSPEL OAK - WILLESDEN JN</name>
+         <description>GOSPEL OAK - WILLESDEN JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.149232687522671,51.5531454292835
+-0.242510759036517,51.5285132205761</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

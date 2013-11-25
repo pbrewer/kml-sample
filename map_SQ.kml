@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>SQ</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff2DBA06</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>NEW CROSS</name>
+         <description>NEW CROSS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0314684684072144,51.4739249880263</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SURREY QUAYS</name>
+         <description>SURREY QUAYS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0466080587220225,51.4903579634564</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE</name>
+         <description>NEW CROSS GATE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0401417522422767,51.4731714354845</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS - SURREY QUAYS</name>
+         <description>NEW CROSS - SURREY QUAYS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0314684684072144,51.4739249880263
+-0.0466080587220225,51.4903579634564</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS - LONDON GROUP</name>
+         <description>NEW CROSS - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0314684684072144,51.4739249880263
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE - SURREY QUAYS</name>
+         <description>NEW CROSS GATE - SURREY QUAYS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0401417522422767,51.4731714354845
+-0.0466080587220225,51.4903579634564</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS GATE - LONDON GROUP</name>
+         <description>NEW CROSS GATE - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0401417522422767,51.4731714354845
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SURREY QUAYS - NEW CROSS</name>
+         <description>SURREY QUAYS - NEW CROSS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0466080587220225,51.4903579634564
+-0.0314684684072144,51.4739249880263</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SURREY QUAYS - NEW CROSS GATE</name>
+         <description>SURREY QUAYS - NEW CROSS GATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0466080587220225,51.4903579634564
+-0.0401417522422767,51.4731714354845</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - NEW CROSS GATE</name>
+         <description>LONDON GROUP - NEW CROSS GATE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0401417522422767,51.4731714354845</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - NEW CROSS</name>
+         <description>LONDON GROUP - NEW CROSS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0314684684072144,51.4739249880263</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>VL</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff37FE20</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>NUNHEAD</name>
+         <description>NUNHEAD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0520373598903545,51.4643809758347</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL</name>
+         <description>DENMARK HILL - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0879714524318652,51.4658714779636</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ELEPHANT &amp; CSTLE</name>
+         <description>ELEPHANT &amp; CSTLE - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.096959749551758,51.4920849012898</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE</name>
+         <description>PECKHAM RYE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM</name>
+         <description>LEWISHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0131893738009627,51.4637289621017</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH</name>
+         <description>BLACKHEATH - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.00983096142899503,51.463336513641</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHARLTON</name>
+         <description>CHARLTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0323701197233562,51.4845210863542</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - DENMARK HILL</name>
+         <description>NUNHEAD - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ELEPHANT &amp; CSTLE - LONDON GROUP</name>
+         <description>ELEPHANT &amp; CSTLE - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.096959749551758,51.4920849012898
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - DENMARK HILL</name>
+         <description>PECKHAM RYE - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - NUNHEAD</name>
+         <description>LEWISHAM - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH - LEWISHAM</name>
+         <description>BLACKHEATH - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.00983096142899503,51.463336513641
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - LONDON GROUP</name>
+         <description>DENMARK HILL - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - BLACKHEATH</name>
+         <description>LEWISHAM - BLACKHEATH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+0.00983096142899503,51.463336513641</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - NUNHEAD</name>
+         <description>PECKHAM RYE - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH - CHARLTON</name>
+         <description>BLACKHEATH - CHARLTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.00983096142899503,51.463336513641
+0.0323701197233562,51.4845210863542</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - ELEPHANT &amp; CSTLE</name>
+         <description>DENMARK HILL - ELEPHANT &amp; CSTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.096959749551758,51.4920849012898</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - PECKHAM RYE</name>
+         <description>DENMARK HILL - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ELEPHANT &amp; CSTLE - DENMARK HILL</name>
+         <description>ELEPHANT &amp; CSTLE - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.096959749551758,51.4920849012898
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - NUNHEAD</name>
+         <description>DENMARK HILL - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - DENMARK HILL</name>
+         <description>LONDON GROUP - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - PECKHAM RYE</name>
+         <description>NUNHEAD - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - LEWISHAM</name>
+         <description>NUNHEAD - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHARLTON - BLACKHEATH</name>
+         <description>CHARLTON - BLACKHEATH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0323701197233562,51.4845210863542
+0.00983096142899503,51.463336513641</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - ELEPHANT &amp; CSTLE</name>
+         <description>LONDON GROUP - ELEPHANT &amp; CSTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.096959749551758,51.4920849012898</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

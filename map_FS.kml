@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>FS</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff91CE5D</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>TONBRIDGE</name>
+         <description>TONBRIDGE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.271241048728237,51.1888888580524</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SEVENOAKS</name>
+         <description>SEVENOAKS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.183714070842441,51.2750523303078</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP</name>
+         <description>BROMLEY SOUTH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0198851972353429,51.3975453727848</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY</name>
+         <description>SWANLEY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.169076202588924,51.3903835321094</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS</name>
+         <description>SHORTLANDS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0043172178827097,51.4032060195165</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BECKENHAM JN</name>
+         <description>BECKENHAM JN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0256253748578791,51.4091076803144</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM</name>
+         <description>FAVERSHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.892844957991794,51.3091138912366</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP</name>
+         <description>CHATHAM GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.522093821820727,51.3788192504241</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE - SEVENOAKS</name>
+         <description>TONBRIDGE - SEVENOAKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.271241048728237,51.1888888580524
+0.183714070842441,51.2750523303078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SEVENOAKS - BROMLEY SOUTH GROUP</name>
+         <description>SEVENOAKS - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.183714070842441,51.2750523303078
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SWANLEY</name>
+         <description>BROMLEY SOUTH GROUP - SWANLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.169076202588924,51.3903835321094</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS - BECKENHAM JN</name>
+         <description>SHORTLANDS - BECKENHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0043172178827097,51.4032060195165
+-0.0256253748578791,51.4091076803144</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SHORTLANDS</name>
+         <description>BROMLEY SOUTH GROUP - SHORTLANDS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.0043172178827097,51.4032060195165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SEVENOAKS - TONBRIDGE</name>
+         <description>SEVENOAKS - TONBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.183714070842441,51.2750523303078
+0.271241048728237,51.1888888580524</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY - BROMLEY SOUTH GROUP</name>
+         <description>SWANLEY - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.169076202588924,51.3903835321094
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - CHATHAM GROUP</name>
+         <description>FAVERSHAM - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS - BROMLEY SOUTH GROUP</name>
+         <description>SHORTLANDS - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0043172178827097,51.4032060195165
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - FAVERSHAM</name>
+         <description>CHATHAM GROUP - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - SWANLEY</name>
+         <description>CHATHAM GROUP - SWANLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.169076202588924,51.3903835321094</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SEVENOAKS</name>
+         <description>BROMLEY SOUTH GROUP - SEVENOAKS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.183714070842441,51.2750523303078</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BECKENHAM JN - SHORTLANDS</name>
+         <description>BECKENHAM JN - SHORTLANDS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0256253748578791,51.4091076803144
+0.0043172178827097,51.4032060195165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY - CHATHAM GROUP</name>
+         <description>SWANLEY - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.169076202588924,51.3903835321094
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

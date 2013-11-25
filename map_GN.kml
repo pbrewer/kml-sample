@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>GN</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ffCDE06B</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>MIDDLESBROUGH GROUP</name>
+         <description>MIDDLESBROUGH GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.2310576583881,54.5761261486276</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DARLINGTON</name>
+         <description>DARLINGTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.54578731766567,54.5174993504893</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HARTLEPOOL</name>
+         <description>HARTLEPOOL - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.20575407723747,54.6838167251177</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWCASTLE</name>
+         <description>NEWCASTLE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.61572906780496,54.9653249022215</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON LANARK</name>
+         <description>NEWTON LANARK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.13242975572459,55.8165428999123</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP</name>
+         <description>GLASGOW GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.25772518045981,55.8574586971832</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KILMARNOCK</name>
+         <description>KILMARNOCK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.49757948758596,55.6100734945976</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CARLISLE</name>
+         <description>CARLISLE - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.93233811859765,54.8877581794713</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP</name>
+         <description>MOTHERWELL GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.99374336471782,55.7892042237234</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DURHAM</name>
+         <description>DURHAM - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.58020598133438,54.7764673142649</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS</name>
+         <description>CARSTAIRS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.66719660940652,55.6879970200404</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PAISLEY GIL ST</name>
+         <description>PAISLEY GIL ST - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.42317845734824,55.8453202183079</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DUMFRIES</name>
+         <description>DUMFRIES - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.6037876629636,55.0695130371346</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MIDDLESBROUGH GROUP - DARLINGTON</name>
+         <description>MIDDLESBROUGH GROUP - DARLINGTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2310576583881,54.5761261486276
+-1.54578731766567,54.5174993504893</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HARTLEPOOL - NEWCASTLE</name>
+         <description>HARTLEPOOL - NEWCASTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.20575407723747,54.6838167251177
+-1.61572906780496,54.9653249022215</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON LANARK - GLASGOW GROUP</name>
+         <description>NEWTON LANARK - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.13242975572459,55.8165428999123
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - NEWTON LANARK</name>
+         <description>GLASGOW GROUP - NEWTON LANARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.13242975572459,55.8165428999123</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KILMARNOCK - GLASGOW GROUP</name>
+         <description>KILMARNOCK - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.49757948758596,55.6100734945976
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARLISLE - NEWCASTLE</name>
+         <description>CARLISLE - NEWCASTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.93233811859765,54.8877581794713
+-1.61572906780496,54.9653249022215</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - MOTHERWELL GROUP</name>
+         <description>GLASGOW GROUP - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - GLASGOW GROUP</name>
+         <description>MOTHERWELL GROUP - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DURHAM - DARLINGTON</name>
+         <description>DURHAM - DARLINGTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58020598133438,54.7764673142649
+-1.54578731766567,54.5174993504893</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MIDDLESBROUGH GROUP - HARTLEPOOL</name>
+         <description>MIDDLESBROUGH GROUP - HARTLEPOOL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2310576583881,54.5761261486276
+-1.20575407723747,54.6838167251177</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DARLINGTON - MIDDLESBROUGH GROUP</name>
+         <description>DARLINGTON - MIDDLESBROUGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54578731766567,54.5174993504893
+-1.2310576583881,54.5761261486276</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS - MOTHERWELL GROUP</name>
+         <description>CARSTAIRS - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.66719660940652,55.6879970200404
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - CARSTAIRS</name>
+         <description>MOTHERWELL GROUP - CARSTAIRS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-3.66719660940652,55.6879970200404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON LANARK - CARSTAIRS</name>
+         <description>NEWTON LANARK - CARSTAIRS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.13242975572459,55.8165428999123
+-3.66719660940652,55.6879970200404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWCASTLE - CARLISLE</name>
+         <description>NEWCASTLE - CARLISLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.61572906780496,54.9653249022215
+-2.93233811859765,54.8877581794713</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PAISLEY GIL ST - GLASGOW GROUP</name>
+         <description>PAISLEY GIL ST - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.42317845734824,55.8453202183079
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARLISLE - DUMFRIES</name>
+         <description>CARLISLE - DUMFRIES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.93233811859765,54.8877581794713
+-3.6037876629636,55.0695130371346</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS - CARLISLE</name>
+         <description>CARSTAIRS - CARLISLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.66719660940652,55.6879970200404
+-2.93233811859765,54.8877581794713</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DUMFRIES - CARLISLE</name>
+         <description>DUMFRIES - CARLISLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.6037876629636,55.0695130371346
+-2.93233811859765,54.8877581794713</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DURHAM - MIDDLESBROUGH GROUP</name>
+         <description>DURHAM - MIDDLESBROUGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58020598133438,54.7764673142649
+-1.2310576583881,54.5761261486276</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MIDDLESBROUGH GROUP - DURHAM</name>
+         <description>MIDDLESBROUGH GROUP - DURHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.2310576583881,54.5761261486276
+-1.58020598133438,54.7764673142649</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWCASTLE - HARTLEPOOL</name>
+         <description>NEWCASTLE - HARTLEPOOL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.61572906780496,54.9653249022215
+-1.20575407723747,54.6838167251177</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARLISLE - CARSTAIRS</name>
+         <description>CARLISLE - CARSTAIRS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.93233811859765,54.8877581794713
+-3.66719660940652,55.6879970200404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - PAISLEY GIL ST</name>
+         <description>GLASGOW GROUP - PAISLEY GIL ST</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.42317845734824,55.8453202183079</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DUMFRIES - KILMARNOCK</name>
+         <description>DUMFRIES - KILMARNOCK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.6037876629636,55.0695130371346
+-4.49757948758596,55.6100734945976</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HARTLEPOOL - MIDDLESBROUGH GROUP</name>
+         <description>HARTLEPOOL - MIDDLESBROUGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.20575407723747,54.6838167251177
+-1.2310576583881,54.5761261486276</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON LANARK - MOTHERWELL GROUP</name>
+         <description>NEWTON LANARK - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.13242975572459,55.8165428999123
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DARLINGTON - DURHAM</name>
+         <description>DARLINGTON - DURHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.54578731766567,54.5174993504893
+-1.58020598133438,54.7764673142649</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - KILMARNOCK</name>
+         <description>GLASGOW GROUP - KILMARNOCK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.49757948758596,55.6100734945976</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS - NEWTON LANARK</name>
+         <description>CARSTAIRS - NEWTON LANARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.66719660940652,55.6879970200404
+-4.13242975572459,55.8165428999123</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWCASTLE - DURHAM</name>
+         <description>NEWCASTLE - DURHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.61572906780496,54.9653249022215
+-1.58020598133438,54.7764673142649</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KILMARNOCK - DUMFRIES</name>
+         <description>KILMARNOCK - DUMFRIES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.49757948758596,55.6100734945976
+-3.6037876629636,55.0695130371346</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DURHAM - NEWCASTLE</name>
+         <description>DURHAM - NEWCASTLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.58020598133438,54.7764673142649
+-1.61572906780496,54.9653249022215</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - NEWTON LANARK</name>
+         <description>MOTHERWELL GROUP - NEWTON LANARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-4.13242975572459,55.8165428999123</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

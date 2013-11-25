@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>MO</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff5A8EBC</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>BEDFORD</name>
+         <description>BEDFORD - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.477427294975053,52.1340143383127</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LUTON</name>
+         <description>LUTON - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.413383840606806,51.8796972880439</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MELTON MOWBRAY</name>
+         <description>MELTON MOWBRAY - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.884074554222115,52.75783617255</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>OAKHAM</name>
+         <description>OAKHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.732516998134623,52.6691285703924</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WEST HAMPSTD TLK</name>
+         <description>WEST HAMPSTD TLK - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.191364107030493,51.5457128284244</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LOUGHBORO LEICS</name>
+         <description>LOUGHBORO LEICS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.1934681395205,52.776521257258</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KETTERING</name>
+         <description>KETTERING - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.730227350583821,52.3904721394009</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEICESTER</name>
+         <description>LEICESTER - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.12378666494119,52.6286267444856</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BEDFORD - LUTON</name>
+         <description>BEDFORD - LUTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.477427294975053,52.1340143383127
+-0.413383840606806,51.8796972880439</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LUTON - BEDFORD</name>
+         <description>LUTON - BEDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.413383840606806,51.8796972880439
+-0.477427294975053,52.1340143383127</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MELTON MOWBRAY - OAKHAM</name>
+         <description>MELTON MOWBRAY - OAKHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.884074554222115,52.75783617255
+-0.732516998134623,52.6691285703924</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WEST HAMPSTD TLK - LUTON</name>
+         <description>WEST HAMPSTD TLK - LUTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.191364107030493,51.5457128284244
+-0.413383840606806,51.8796972880439</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LOUGHBORO LEICS - MELTON MOWBRAY</name>
+         <description>LOUGHBORO LEICS - MELTON MOWBRAY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.1934681395205,52.776521257258
+-0.884074554222115,52.75783617255</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KETTERING - OAKHAM</name>
+         <description>KETTERING - OAKHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.730227350583821,52.3904721394009
+-0.732516998134623,52.6691285703924</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LUTON - WEST HAMPSTD TLK</name>
+         <description>LUTON - WEST HAMPSTD TLK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.413383840606806,51.8796972880439
+-0.191364107030493,51.5457128284244</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OAKHAM - MELTON MOWBRAY</name>
+         <description>OAKHAM - MELTON MOWBRAY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.732516998134623,52.6691285703924
+-0.884074554222115,52.75783617255</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MELTON MOWBRAY - LEICESTER</name>
+         <description>MELTON MOWBRAY - LEICESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.884074554222115,52.75783617255
+-1.12378666494119,52.6286267444856</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KETTERING - BEDFORD</name>
+         <description>KETTERING - BEDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.730227350583821,52.3904721394009
+-0.477427294975053,52.1340143383127</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEICESTER - MELTON MOWBRAY</name>
+         <description>LEICESTER - MELTON MOWBRAY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.12378666494119,52.6286267444856
+-0.884074554222115,52.75783617255</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - WEST HAMPSTD TLK</name>
+         <description>LONDON GROUP - WEST HAMPSTD TLK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.191364107030493,51.5457128284244</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BEDFORD - KETTERING</name>
+         <description>BEDFORD - KETTERING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.477427294975053,52.1340143383127
+-0.730227350583821,52.3904721394009</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OAKHAM - KETTERING</name>
+         <description>OAKHAM - KETTERING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.732516998134623,52.6691285703924
+-0.730227350583821,52.3904721394009</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MELTON MOWBRAY - LOUGHBORO LEICS</name>
+         <description>MELTON MOWBRAY - LOUGHBORO LEICS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.884074554222115,52.75783617255
+-1.1934681395205,52.776521257258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WEST HAMPSTD TLK - LONDON GROUP</name>
+         <description>WEST HAMPSTD TLK - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.191364107030493,51.5457128284244
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

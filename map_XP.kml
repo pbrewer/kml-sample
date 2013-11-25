@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>XP</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff1E043F</color>
+            <width>4</width>
+         </LineStyle>
+      </Style>
+      <Placemark>
+         <name>BLACKBURN</name>
+         <description>BLACKBURN - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.47766980365798,53.7435728816802</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ACCRINGTON</name>
+         <description>ACCRINGTON - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.36854603919095,53.7502494092412</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PRESTON LANCS</name>
+         <description>PRESTON LANCS - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.7067978635424,53.7523272523068</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KIRKHAM &amp; WESHAM</name>
+         <description>KIRKHAM &amp; WESHAM - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.88038065453008,53.7844331327434</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP</name>
+         <description>LANCASTER GROUP - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.80646520495794,54.0455998359243</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>OXENHOLME LAKE D</name>
+         <description>OXENHOLME LAKE D - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.72079672561516,54.3022952619467</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BLACKBURN - ACCRINGTON</name>
+         <description>BLACKBURN - ACCRINGTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.47766980365798,53.7435728816802
+-2.36854603919095,53.7502494092412</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRESTON LANCS - KIRKHAM &amp; WESHAM</name>
+         <description>PRESTON LANCS - KIRKHAM &amp; WESHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7067978635424,53.7523272523068
+-2.88038065453008,53.7844331327434</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP - PRESTON LANCS</name>
+         <description>LANCASTER GROUP - PRESTON LANCS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.80646520495794,54.0455998359243
+-2.7067978635424,53.7523272523068</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LANCASTER GROUP - OXENHOLME LAKE D</name>
+         <description>LANCASTER GROUP - OXENHOLME LAKE D</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.80646520495794,54.0455998359243
+-2.72079672561516,54.3022952619467</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OXENHOLME LAKE D - LANCASTER GROUP</name>
+         <description>OXENHOLME LAKE D - LANCASTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.72079672561516,54.3022952619467
+-2.80646520495794,54.0455998359243</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKBURN - PRESTON LANCS</name>
+         <description>BLACKBURN - PRESTON LANCS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.47766980365798,53.7435728816802
+-2.7067978635424,53.7523272523068</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ACCRINGTON - BLACKBURN</name>
+         <description>ACCRINGTON - BLACKBURN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.36854603919095,53.7502494092412
+-2.47766980365798,53.7435728816802</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRESTON LANCS - BLACKBURN</name>
+         <description>PRESTON LANCS - BLACKBURN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7067978635424,53.7523272523068
+-2.47766980365798,53.7435728816802</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PRESTON LANCS - LANCASTER GROUP</name>
+         <description>PRESTON LANCS - LANCASTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.7067978635424,53.7523272523068
+-2.80646520495794,54.0455998359243</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KIRKHAM &amp; WESHAM - PRESTON LANCS</name>
+         <description>KIRKHAM &amp; WESHAM - PRESTON LANCS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.88038065453008,53.7844331327434
+-2.7067978635424,53.7523272523068</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>
