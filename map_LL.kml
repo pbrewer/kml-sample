@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>BROMLEY SOUTH GROUP</name>
-         <description>BROMLEY SOUTH GROUP() - ROUTEING_GROUP</description>
+         <description>BROMLEY SOUTH GROUP(G06) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0198851972353429,51.3975453727848</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY</name>
-         <description>SWANLEY() - ROUTEING_POINT</description>
+         <description>SWANLEY(SAY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.169076202588924,51.3903835321094</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM</name>
-         <description>LEWISHAM() - ROUTEING_POINT</description>
+         <description>LEWISHAM(LEW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0131893738009627,51.4637289621017</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>NUNHEAD</name>
-         <description>NUNHEAD() - ROUTEING_POINT</description>
+         <description>NUNHEAD(NHD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0520373598903545,51.4643809758347</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>BATTLE</name>
-         <description>BATTLE() - INTERCHANGE</description>
+         <description>BATTLE(BAT) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>0.496711913550688,50.911015510351</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>HASTINGS GROUP</name>
-         <description>HASTINGS GROUP() - ROUTEING_GROUP</description>
+         <description>HASTINGS GROUP(G15) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.577630945295527,50.8562183508005</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>GROVE PARK</name>
-         <description>GROVE PARK() - ROUTEING_POINT</description>
+         <description>GROVE PARK(GRP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0241072147460091,51.4280344664602</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>MAIDSTONE GROUP</name>
-         <description>MAIDSTONE GROUP() - ROUTEING_GROUP</description>
+         <description>MAIDSTONE GROUP(G19) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.51490194350759,51.273797018873</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>DENMARK HILL</name>
-         <description>DENMARK HILL() - ROUTEING_POINT</description>
+         <description>DENMARK HILL(DMK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0879714524318652,51.4658714779636</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE</name>
-         <description>PECKHAM RYE() - ROUTEING_POINT</description>
+         <description>PECKHAM RYE(PMR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL</name>
-         <description>ASHFORD INTL() - ROUTEING_POINT</description>
+         <description>ASHFORD INTL(AFK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.875193701365457,51.1414352542849</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP() - ROUTEING_GROUP</description>
+         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS</name>
-         <description>SEVENOAKS() - ROUTEING_POINT</description>
+         <description>SEVENOAKS(SEV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.183714070842441,51.2750523303078</coordinates>
@@ -136,7 +151,7 @@
       </Placemark>
       <Placemark>
          <name>HITHER GREEN</name>
-         <description>HITHER GREEN() - ROUTEING_POINT</description>
+         <description>HITHER GREEN(HGR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>6.09091577011303E-4,51.450011083454</coordinates>
@@ -144,7 +159,7 @@
       </Placemark>
       <Placemark>
          <name>TULSE HILL</name>
-         <description>TULSE HILL() - ROUTEING_POINT</description>
+         <description>TULSE HILL(TUH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.103552472423464,51.4373608568023</coordinates>
@@ -152,7 +167,7 @@
       </Placemark>
       <Placemark>
          <name>HERNE HILL</name>
-         <description>HERNE HILL() - ROUTEING_POINT</description>
+         <description>HERNE HILL(HNH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.100117179014863,51.4507882179277</coordinates>
@@ -160,7 +175,7 @@
       </Placemark>
       <Placemark>
          <name>TONBRIDGE</name>
-         <description>TONBRIDGE() - ROUTEING_POINT</description>
+         <description>TONBRIDGE(TON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.271241048728237,51.1888888580524</coordinates>
@@ -168,7 +183,7 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS</name>
-         <description>NEW CROSS() - ROUTEING_POINT</description>
+         <description>NEW CROSS(NWX) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0314684684072144,51.4739249880263</coordinates>
@@ -176,7 +191,7 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN</name>
-         <description>BECKENHAM JN() - ROUTEING_POINT</description>
+         <description>BECKENHAM JN(BKJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0256253748578791,51.4091076803144</coordinates>
@@ -184,7 +199,7 @@
       </Placemark>
       <Placemark>
          <name>CRYSTAL PALACE</name>
-         <description>CRYSTAL PALACE() - ROUTEING_POINT</description>
+         <description>CRYSTAL PALACE(CYP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0713862141029046,51.4152630622009</coordinates>
@@ -192,7 +207,7 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS</name>
-         <description>SHORTLANDS() - ROUTEING_POINT</description>
+         <description>SHORTLANDS(SRT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0043172178827097,51.4032060195165</coordinates>
@@ -200,7 +215,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION() - ROUTEING_POINT</description>
+         <description>CLAPHAM JUNCTION(CLJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.168769712349235,51.4617683410367</coordinates>
@@ -208,7 +223,7 @@
       </Placemark>
       <Placemark>
          <name>RAMSGATE GROUP</name>
-         <description>RAMSGATE GROUP() - ROUTEING_GROUP</description>
+         <description>RAMSGATE GROUP(G68) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>1.40741462464778,51.3384161699967</coordinates>

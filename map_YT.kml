@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>LEEDS GROUP</name>
-         <description>LEEDS GROUP() - ROUTEING_GROUP</description>
+         <description>LEEDS GROUP(G16) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54758683544322,53.7922040754631</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>HARROGATE</name>
-         <description>HARROGATE() - INTERCHANGE</description>
+         <description>HARROGATE(HGT) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.5363046851771,53.9889901979466</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP</name>
-         <description>MIDDLESBROUGH GROUP() - ROUTEING_GROUP</description>
+         <description>MIDDLESBROUGH GROUP(G42) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.2310576583881,54.5761261486276</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON</name>
-         <description>DARLINGTON() - ROUTEING_POINT</description>
+         <description>DARLINGTON(DAR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54578731766567,54.5174993504893</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>SELBY</name>
-         <description>SELBY() - ROUTEING_POINT</description>
+         <description>SELBY(SBY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.06202765621019,53.7804012865994</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP</name>
-         <description>HUDDERSFIELD GROUP() - ROUTEING_GROUP</description>
+         <description>HUDDERSFIELD GROUP(G40) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.78365726682475,53.6454662384722</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>STALYBRIDGE</name>
-         <description>STALYBRIDGE() - ROUTEING_POINT</description>
+         <description>STALYBRIDGE(SYB) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.06329543897595,53.4811728690541</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>YORK</name>
-         <description>YORK() - ROUTEING_POINT</description>
+         <description>YORK(YRK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.09164414482499,53.9549944344078</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON</name>
-         <description>NORTHALLERTON() - ROUTEING_POINT</description>
+         <description>NORTHALLERTON(NTR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.44020006264227,54.3301128769982</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP</name>
-         <description>BRADFORD GROUP() - ROUTEING_GROUP</description>
+         <description>BRADFORD GROUP(G03) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.74801394804718,53.7874001473732</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP</name>
-         <description>HELLIFIELD GROUP() - ROUTEING_GROUP</description>
+         <description>HELLIFIELD GROUP(G53) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.22585165157831,54.0085463384902</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP</name>
-         <description>PONTEFRACT GROUP() - ROUTEING_GROUP</description>
+         <description>PONTEFRACT GROUP(G22) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30184277248278,53.6885648869916</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP</name>
-         <description>HALIFAX GROUP() - ROUTEING_GROUP</description>
+         <description>HALIFAX GROUP(G39) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.85299957012169,53.7174718790283</coordinates>

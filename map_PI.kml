@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>IPSWICH</name>
-         <description>IPSWICH() - ROUTEING_POINT</description>
+         <description>IPSWICH(IPS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.14604543460463,52.0479119603784</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>MANNINGTREE</name>
-         <description>MANNINGTREE() - ROUTEING_POINT</description>
+         <description>MANNINGTREE(MNG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.04721808895052,51.9462194112542</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>DISS</name>
-         <description>DISS() - INTERCHANGE</description>
+         <description>DISS(DIS) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>1.12484126524517,52.3703521427135</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>STOWMARKET</name>
-         <description>STOWMARKET() - ROUTEING_POINT</description>
+         <description>STOWMARKET(SMK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.00223192854285,52.1874255247094</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH</name>
-         <description>PETERBOROUGH() - ROUTEING_POINT</description>
+         <description>PETERBOROUGH(PBO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.248295800076136,52.5721744409554</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>ELY</name>
-         <description>ELY() - ROUTEING_POINT</description>
+         <description>ELY(ELY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.267644038588302,52.3881214751547</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>NORWICH</name>
-         <description>NORWICH() - ROUTEING_POINT</description>
+         <description>NORWICH(NRW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.30845643744413,52.6243046775948</coordinates>

@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>RAYNES PARK</name>
-         <description>RAYNES PARK() - ROUTEING_POINT</description>
+         <description>RAYNES PARK(RAY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.228481680875033,51.4069571028245</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>MOTSPUR PARK</name>
-         <description>MOTSPUR PARK() - ROUTEING_POINT</description>
+         <description>MOTSPUR PARK(MOT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.237657435454024,51.3927138624681</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>WIMBLEDON</name>
-         <description>WIMBLEDON() - ROUTEING_POINT</description>
+         <description>WIMBLEDON(WIM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.204994402252205,51.4191836093249</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION() - ROUTEING_POINT</description>
+         <description>CLAPHAM JUNCTION(CLJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.168769712349235,51.4617683410367</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>FORD GROUP</name>
-         <description>FORD GROUP() - ROUTEING_GROUP</description>
+         <description>FORD GROUP(G61) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.577134842260158,50.8274799070745</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM</name>
-         <description>HORSHAM() - ROUTEING_POINT</description>
+         <description>HORSHAM(HRH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.317257080155847,51.0640099999086</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>EPSOM</name>
-         <description>EPSOM() - ROUTEING_POINT</description>
+         <description>EPSOM(EPS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.26726318438557,51.3320338775324</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>LEATHERHEAD</name>
-         <description>LEATHERHEAD() - ROUTEING_POINT</description>
+         <description>LEATHERHEAD(LHD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.331735826951668,51.296117664066</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD</name>
-         <description>GUILDFORD() - ROUTEING_POINT</description>
+         <description>GUILDFORD(GLD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.578935314413253,51.2346642743648</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>EFFINGHAM JN</name>
-         <description>EFFINGHAM JN() - ROUTEING_POINT</description>
+         <description>EFFINGHAM JN(EFF) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.418044544892225,51.2892262107591</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>DORKING GROUP</name>
-         <description>DORKING GROUP() - ROUTEING_GROUP</description>
+         <description>DORKING GROUP(G10) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.32232810917038,51.2393563350226</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>WOKING</name>
-         <description>WOKING() - ROUTEING_POINT</description>
+         <description>WOKING(WOK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.556326011480579,51.316179942942</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>ASH VALE</name>
-         <description>ASH VALE() - ROUTEING_POINT</description>
+         <description>ASH VALE(AHV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.719767243767824,51.2704441615262</coordinates>
@@ -136,7 +151,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP() - ROUTEING_GROUP</description>
+         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>

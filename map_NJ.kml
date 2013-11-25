@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>WREXHAM GROUP</name>
-         <description>WREXHAM GROUP() - ROUTEING_GROUP</description>
+         <description>WREXHAM GROUP(G49) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.00105187330833,53.0473735627572</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>CHESTER</name>
-         <description>CHESTER() - ROUTEING_POINT</description>
+         <description>CHESTER(CTR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.87871506267186,53.1939431401654</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON</name>
-         <description>NUNEATON() - ROUTEING_POINT</description>
+         <description>NUNEATON(NUN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46196766120402,52.5236920836025</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH</name>
-         <description>TAMWORTH() - ROUTEING_POINT</description>
+         <description>TAMWORTH(TAM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.68523565193305,52.6341448712012</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON</name>
-         <description>WOLVERHAMPTON() - ROUTEING_POINT</description>
+         <description>WOLVERHAMPTON(WVH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.11808913837316,52.5850725822153</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP</name>
-         <description>SMETHWICK GROUP() - ROUTEING_GROUP</description>
+         <description>SMETHWICK GROUP(G63) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.97790163064984,52.4988489648427</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>HOOTON</name>
-         <description>HOOTON() - ROUTEING_POINT</description>
+         <description>HOOTON(HOO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.9752950896166,53.2938563998056</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP</name>
-         <description>STAFFORD GROUP() - ROUTEING_GROUP</description>
+         <description>STAFFORD GROUP(G65) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.12164188686284,52.801668937545</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>CREWE</name>
-         <description>CREWE() - ROUTEING_POINT</description>
+         <description>CREWE(CRE) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.4315419838315,53.0867528750238</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V</name>
-         <description>LICHFIELD T V() - ROUTEING_POINT</description>
+         <description>LICHFIELD T V(LTV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.79879175484465,52.6847224457417</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON</name>
-         <description>SHOTTON() - ROUTEING_POINT</description>
+         <description>SHOTTON(SHT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.03630325182179,53.2106526120998</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>LLANDUDNO JN</name>
-         <description>LLANDUDNO JN() - ROUTEING_POINT</description>
+         <description>LLANDUDNO JN(LLJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.80754581249448,53.2805500537438</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL</name>
-         <description>RUGELEY TRNT VAL() - ROUTEING_POINT</description>
+         <description>RUGELEY TRNT VAL(RGL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.92885212810642,52.7666585179512</coordinates>
@@ -136,7 +151,7 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY</name>
-         <description>COVENTRY() - ROUTEING_POINT</description>
+         <description>COVENTRY(COV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.51200282653748,52.3980821347103</coordinates>

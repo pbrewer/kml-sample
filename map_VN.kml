@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>LEEDS GROUP</name>
-         <description>LEEDS GROUP() - ROUTEING_GROUP</description>
+         <description>LEEDS GROUP(G16) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54758683544322,53.7922040754631</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>HARROGATE</name>
-         <description>HARROGATE() - INTERCHANGE</description>
+         <description>HARROGATE(HGT) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.5363046851771,53.9889901979466</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>HARTLEPOOL</name>
-         <description>HARTLEPOOL() - INTERCHANGE</description>
+         <description>HARTLEPOOL(HPL) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.20575407723747,54.6838167251177</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE</name>
-         <description>NEWCASTLE() - ROUTEING_POINT</description>
+         <description>NEWCASTLE(NCL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.61572906780496,54.9653249022215</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP</name>
-         <description>HUNTS CROSS GROUP() - ROUTEING_GROUP</description>
+         <description>HUNTS CROSS GROUP(G70) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.85352843794817,53.357704777171</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>AIGBURTH</name>
-         <description>AIGBURTH() - INTERCHANGE</description>
+         <description>AIGBURTH(AIG) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.92574506214727,53.3616604244271</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP</name>
-         <description>HUDDERSFIELD GROUP() - ROUTEING_GROUP</description>
+         <description>HUDDERSFIELD GROUP(G40) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.78365726682475,53.6454662384722</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>STALYBRIDGE</name>
-         <description>STALYBRIDGE() - ROUTEING_POINT</description>
+         <description>STALYBRIDGE(SYB) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.06329543897595,53.4811728690541</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP</name>
-         <description>EARLESTOWN GROUP() - ROUTEING_GROUP</description>
+         <description>EARLESTOWN GROUP(G78) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.63398486263039,53.448949903018</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>HUYTON</name>
-         <description>HUYTON() - ROUTEING_POINT</description>
+         <description>HUYTON(HUY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.84248348710437,53.4072163077818</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>YORK</name>
-         <description>YORK() - ROUTEING_POINT</description>
+         <description>YORK(YRK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.09164414482499,53.9549944344078</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP</name>
-         <description>LIVERPOOL GROUP() - ROUTEING_GROUP</description>
+         <description>LIVERPOOL GROUP(G18) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.97631716943623,53.4043995068628</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP</name>
-         <description>BRADFORD GROUP() - ROUTEING_GROUP</description>
+         <description>BRADFORD GROUP(G03) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.74801394804718,53.7874001473732</coordinates>
@@ -136,7 +151,7 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON</name>
-         <description>NORTHALLERTON() - ROUTEING_POINT</description>
+         <description>NORTHALLERTON(NTR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.44020006264227,54.3301128769982</coordinates>
@@ -144,7 +159,7 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON</name>
-         <description>DARLINGTON() - ROUTEING_POINT</description>
+         <description>DARLINGTON(DAR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54578731766567,54.5174993504893</coordinates>
@@ -152,7 +167,7 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP</name>
-         <description>MIDDLESBROUGH GROUP() - ROUTEING_GROUP</description>
+         <description>MIDDLESBROUGH GROUP(G42) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.2310576583881,54.5761261486276</coordinates>
@@ -160,7 +175,7 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP</name>
-         <description>HALIFAX GROUP() - ROUTEING_GROUP</description>
+         <description>HALIFAX GROUP(G39) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.85299957012169,53.7174718790283</coordinates>
@@ -168,7 +183,7 @@
       </Placemark>
       <Placemark>
          <name>HEBDEN BRIDGE</name>
-         <description>HEBDEN BRIDGE() - INTERCHANGE</description>
+         <description>HEBDEN BRIDGE(HBD) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.00758042613385,53.7346381410441</coordinates>
@@ -176,7 +191,7 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP</name>
-         <description>MANCHESTER GROUP() - ROUTEING_GROUP</description>
+         <description>MANCHESTER GROUP(G20) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.22752279914098,53.4737830141426</coordinates>
@@ -184,7 +199,7 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP</name>
-         <description>WARRINGTON GROUP() - ROUTEING_GROUP</description>
+         <description>WARRINGTON GROUP(G31) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.59098665939852,53.3889528478108</coordinates>
@@ -192,7 +207,7 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP</name>
-         <description>SCARBOROUGH GROUP() - ROUTEING_GROUP</description>
+         <description>SCARBOROUGH GROUP(G48) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.404114952496297,54.2768123775554</coordinates>
@@ -200,7 +215,7 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE</name>
-         <description>GUIDE BRIDGE() - ROUTEING_POINT</description>
+         <description>GUIDE BRIDGE(GUI) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.11149453901127,53.4712513204513</coordinates>
@@ -208,7 +223,7 @@
       </Placemark>
       <Placemark>
          <name>DURHAM</name>
-         <description>DURHAM() - INTERCHANGE</description>
+         <description>DURHAM(DHM) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.58020598133438,54.7764673142649</coordinates>
@@ -216,7 +231,7 @@
       </Placemark>
       <Placemark>
          <name>HOOTON</name>
-         <description>HOOTON() - ROUTEING_POINT</description>
+         <description>HOOTON(HOO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.9752950896166,53.2938563998056</coordinates>
@@ -224,7 +239,7 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP</name>
-         <description>PONTEFRACT GROUP() - ROUTEING_GROUP</description>
+         <description>PONTEFRACT GROUP(G22) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30184277248278,53.6885648869916</coordinates>
@@ -232,7 +247,7 @@
       </Placemark>
       <Placemark>
          <name>SELBY</name>
-         <description>SELBY() - ROUTEING_POINT</description>
+         <description>SELBY(SBY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.06202765621019,53.7804012865994</coordinates>

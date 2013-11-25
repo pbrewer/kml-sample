@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>MIDDLESBROUGH GROUP</name>
-         <description>MIDDLESBROUGH GROUP() - ROUTEING_GROUP</description>
+         <description>MIDDLESBROUGH GROUP(G42) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.2310576583881,54.5761261486276</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON</name>
-         <description>DARLINGTON() - ROUTEING_POINT</description>
+         <description>DARLINGTON(DAR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54578731766567,54.5174993504893</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>HARTLEPOOL</name>
-         <description>HARTLEPOOL() - INTERCHANGE</description>
+         <description>HARTLEPOOL(HPL) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.20575407723747,54.6838167251177</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE</name>
-         <description>NEWCASTLE() - ROUTEING_POINT</description>
+         <description>NEWCASTLE(NCL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.61572906780496,54.9653249022215</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK</name>
-         <description>LADYBANK() - ROUTEING_POINT</description>
+         <description>LADYBANK(LDY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.12075070040537,56.2712433727159</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>PERTH</name>
-         <description>PERTH() - ROUTEING_POINT</description>
+         <description>PERTH(PTH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.43853486400658,56.3902039890477</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>DINGWALL</name>
-         <description>DINGWALL() - ROUTEING_POINT</description>
+         <description>DINGWALL(DIN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.42110081313562,57.592267576863</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>INVERNESS</name>
-         <description>INVERNESS() - ROUTEING_POINT</description>
+         <description>INVERNESS(INV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.22168553197048,57.4781575680485</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE</name>
-         <description>CARLISLE() - ROUTEING_POINT</description>
+         <description>CARLISLE(CAR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.93233811859765,54.8877581794713</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES</name>
-         <description>GLENROTHES() - INTERCHANGE</description>
+         <description>GLENROTHES(GLT) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.14165226352735,56.1595983102409</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>DURHAM</name>
-         <description>DURHAM() - INTERCHANGE</description>
+         <description>DURHAM(DHM) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.58020598133438,54.7764673142649</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY</name>
-         <description>KIRKCALDY() - ROUTEING_POINT</description>
+         <description>KIRKCALDY(KDY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.16591335708558,56.1099364212259</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP</name>
-         <description>INVERKEITHING GROUP() - ROUTEING_GROUP</description>
+         <description>INVERKEITHING GROUP(G50) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.39468834148053,56.0320609246806</coordinates>
@@ -136,7 +151,7 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP</name>
-         <description>FALKIRK GROUP() - ROUTEING_GROUP</description>
+         <description>FALKIRK GROUP(G44) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.7907706980682,55.9891919882658</coordinates>
@@ -144,7 +159,7 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP</name>
-         <description>EDINBURGH GROUP() - ROUTEING_GROUP</description>
+         <description>EDINBURGH GROUP(G11) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.1867201601368,55.9497469450646</coordinates>
@@ -152,7 +167,7 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS</name>
-         <description>CARSTAIRS() - ROUTEING_POINT</description>
+         <description>CARSTAIRS(CRS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.66719660940652,55.6879970200404</coordinates>
@@ -160,7 +175,7 @@
       </Placemark>
       <Placemark>
          <name>BERWICK ON TWEED</name>
-         <description>BERWICK ON TWEED() - INTERCHANGE</description>
+         <description>BERWICK ON TWEED(BWK) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.00956507175765,55.7721143202125</coordinates>
@@ -168,7 +183,7 @@
       </Placemark>
       <Placemark>
          <name>AVIEMORE</name>
-         <description>AVIEMORE() - INTERCHANGE</description>
+         <description>AVIEMORE(AVM) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.82682091769454,57.1869447311107</coordinates>

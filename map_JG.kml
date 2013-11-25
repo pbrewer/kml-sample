@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>SALFORD CRESCENT</name>
-         <description>SALFORD CRESCENT() - ROUTEING_POINT</description>
+         <description>SALFORD CRESCENT(SLD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.27428439903141,53.4817736575281</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>BOLTON</name>
-         <description>BOLTON() - ROUTEING_POINT</description>
+         <description>BOLTON(BON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.42437676789755,53.571211139824</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>WREXHAM GROUP</name>
-         <description>WREXHAM GROUP() - ROUTEING_GROUP</description>
+         <description>WREXHAM GROUP(G49) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.00105187330833,53.0473735627572</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>CHESTER</name>
-         <description>CHESTER() - ROUTEING_POINT</description>
+         <description>CHESTER(CTR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.87871506267186,53.1939431401654</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT</name>
-         <description>STOCKPORT() - ROUTEING_POINT</description>
+         <description>STOCKPORT(SPT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.16095318791928,53.4019907710042</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP</name>
-         <description>MANCHESTER GROUP() - ROUTEING_GROUP</description>
+         <description>MANCHESTER GROUP(G20) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.22752279914098,53.4737830141426</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP</name>
-         <description>WILMSLOW GROUP() - ROUTEING_GROUP</description>
+         <description>WILMSLOW GROUP(G69) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.22372067876089,53.3236978660225</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE</name>
-         <description>GUIDE BRIDGE() - ROUTEING_POINT</description>
+         <description>GUIDE BRIDGE(GUI) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.11149453901127,53.4712513204513</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP</name>
-         <description>WARRINGTON GROUP() - ROUTEING_GROUP</description>
+         <description>WARRINGTON GROUP(G31) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.59098665939852,53.3889528478108</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON</name>
-         <description>SHOTTON() - ROUTEING_POINT</description>
+         <description>SHOTTON(SHT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.03630325182179,53.2106526120998</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>LLANDUDNO JN</name>
-         <description>LLANDUDNO JN() - ROUTEING_POINT</description>
+         <description>LLANDUDNO JN(LLJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.80754581249448,53.2805500537438</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP</name>
-         <description>EARLESTOWN GROUP() - ROUTEING_GROUP</description>
+         <description>EARLESTOWN GROUP(G78) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.63398486263039,53.448949903018</coordinates>

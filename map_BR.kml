@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>NEW CROSS</name>
-         <description>NEW CROSS() - ROUTEING_POINT</description>
+         <description>NEW CROSS(NWX) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0314684684072144,51.4739249880263</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP() - ROUTEING_GROUP</description>
+         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>BLACKHEATH</name>
-         <description>BLACKHEATH() - ROUTEING_POINT</description>
+         <description>BLACKHEATH(BKH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.00983096142899503,51.463336513641</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM</name>
-         <description>LEWISHAM() - ROUTEING_POINT</description>
+         <description>LEWISHAM(LEW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0131893738009627,51.4637289621017</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS GATE</name>
-         <description>NEW CROSS GATE() - ROUTEING_POINT</description>
+         <description>NEW CROSS GATE(NXG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0401417522422767,51.4731714354845</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>CHARLTON</name>
-         <description>CHARLTON() - ROUTEING_POINT</description>
+         <description>CHARLTON(CTN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0323701197233562,51.4845210863542</coordinates>

@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>NUNEATON</name>
-         <description>NUNEATON() - ROUTEING_POINT</description>
+         <description>NUNEATON(NUN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46196766120402,52.5236920836025</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH</name>
-         <description>TAMWORTH() - ROUTEING_POINT</description>
+         <description>TAMWORTH(TAM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.68523565193305,52.6341448712012</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL</name>
-         <description>RUGELEY TRNT VAL() - ROUTEING_POINT</description>
+         <description>RUGELEY TRNT VAL(RGL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.92885212810642,52.7666585179512</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT</name>
-         <description>STOKE ON TRENT() - ROUTEING_POINT</description>
+         <description>STOKE ON TRENT(SOT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.17885041744102,53.0056140476396</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>LONG BUCKBY</name>
-         <description>LONG BUCKBY() - INTERCHANGE</description>
+         <description>LONG BUCKBY(LBK) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.0850008276296,52.2912893998626</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>RUGBY</name>
-         <description>RUGBY() - ROUTEING_POINT</description>
+         <description>RUGBY(RUG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.24779788512554,52.3760244925185</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V</name>
-         <description>LICHFIELD T V() - ROUTEING_POINT</description>
+         <description>LICHFIELD T V(LTV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.79879175484465,52.6847224457417</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP</name>
-         <description>BIRMINGHAM GROUP() - ROUTEING_GROUP</description>
+         <description>BIRMINGHAM GROUP(G02) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.89692899917132,52.4754385160511</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>NORTHAMPTON</name>
-         <description>NORTHAMPTON() - ROUTEING_POINT</description>
+         <description>NORTHAMPTON(NMP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.906045206063134,52.2340419154024</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP</name>
-         <description>DERBY GROUP() - ROUTEING_GROUP</description>
+         <description>DERBY GROUP(G09) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46160821941454,52.913754524735</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP</name>
-         <description>STAFFORD GROUP() - ROUTEING_GROUP</description>
+         <description>STAFFORD GROUP(G65) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.12164188686284,52.801668937545</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY</name>
-         <description>COVENTRY() - ROUTEING_POINT</description>
+         <description>COVENTRY(COV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.51200282653748,52.3980821347103</coordinates>

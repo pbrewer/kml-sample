@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>NUNHEAD</name>
-         <description>NUNHEAD() - ROUTEING_POINT</description>
+         <description>NUNHEAD(NHD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0520373598903545,51.4643809758347</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>DENMARK HILL</name>
-         <description>DENMARK HILL() - ROUTEING_POINT</description>
+         <description>DENMARK HILL(DMK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0879714524318652,51.4658714779636</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP</name>
-         <description>BROMLEY SOUTH GROUP() - ROUTEING_GROUP</description>
+         <description>BROMLEY SOUTH GROUP(G06) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0198851972353429,51.3975453727848</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY</name>
-         <description>SWANLEY() - ROUTEING_POINT</description>
+         <description>SWANLEY(SAY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.169076202588924,51.3903835321094</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE</name>
-         <description>PECKHAM RYE() - ROUTEING_POINT</description>
+         <description>PECKHAM RYE(PMR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS</name>
-         <description>SHORTLANDS() - ROUTEING_POINT</description>
+         <description>SHORTLANDS(SRT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0043172178827097,51.4032060195165</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>BRIXTON</name>
-         <description>BRIXTON() - INTERCHANGE</description>
+         <description>BRIXTON(BRX) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.112655764191948,51.4608783058262</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>MAIDSTONE GROUP</name>
-         <description>MAIDSTONE GROUP() - ROUTEING_GROUP</description>
+         <description>MAIDSTONE GROUP(G19) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.51490194350759,51.273797018873</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL</name>
-         <description>ASHFORD INTL() - ROUTEING_POINT</description>
+         <description>ASHFORD INTL(AFK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.875193701365457,51.1414352542849</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP() - ROUTEING_GROUP</description>
+         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>

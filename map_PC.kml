@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>READING GROUP</name>
-         <description>READING GROUP() - ROUTEING_GROUP</description>
+         <description>READING GROUP(G24) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.972242308326233,51.4562854116841</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>DIDCOT PARKWAY</name>
-         <description>DIDCOT PARKWAY() - ROUTEING_POINT</description>
+         <description>DIDCOT PARKWAY(DID) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.24177639605164,51.6084332295774</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>HAYES &amp; HARLNGTN GP</name>
-         <description>HAYES &amp; HARLNGTN GP() - ROUTEING_GROUP</description>
+         <description>HAYES &amp; HARLNGTN GP(G75) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.417945334425063,51.5004503083908</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>EALING BROADWAY GROUP</name>
-         <description>EALING BROADWAY GROUP() - ROUTEING_GROUP</description>
+         <description>EALING BROADWAY GROUP(G77) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.299347829081659,51.5122730230576</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>SLOUGH</name>
-         <description>SLOUGH() - ROUTEING_POINT</description>
+         <description>SLOUGH(SLO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.590565992879139,51.5098424704067</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>MAIDENHEAD</name>
-         <description>MAIDENHEAD() - ROUTEING_POINT</description>
+         <description>MAIDENHEAD(MAI) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.721546959650751,51.515837329819</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>WESTBURY GROUP</name>
-         <description>WESTBURY GROUP() - ROUTEING_GROUP</description>
+         <description>WESTBURY GROUP(G46) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.19781295870281,51.2646940754104</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>BATH SPA</name>
-         <description>BATH SPA() - ROUTEING_POINT</description>
+         <description>BATH SPA(BTH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.35491303257205,51.3757692670053</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>TWYFORD</name>
-         <description>TWYFORD() - ROUTEING_POINT</description>
+         <description>TWYFORD(TWY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.862420368717771,51.4732471781296</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>CHIPPENHAM</name>
-         <description>CHIPPENHAM() - ROUTEING_POINT</description>
+         <description>CHIPPENHAM(CPM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.11372296911025,51.4598357522008</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP() - ROUTEING_GROUP</description>
+         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>SWINDON (WILTS)</name>
-         <description>SWINDON (WILTS)() - ROUTEING_POINT</description>
+         <description>SWINDON (WILTS)(SWI) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.78502451282572,51.5630507679151</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>YEOVIL PEN MILL</name>
-         <description>YEOVIL PEN MILL() - INTERCHANGE</description>
+         <description>YEOVIL PEN MILL(YVP) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.61210460405944,50.9424017929649</coordinates>
@@ -136,7 +151,7 @@
       </Placemark>
       <Placemark>
          <name>CASTLE CARY</name>
-         <description>CASTLE CARY() - ROUTEING_POINT</description>
+         <description>CASTLE CARY(CLC) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.52131224016905,51.0974294858244</coordinates>
@@ -144,7 +159,7 @@
       </Placemark>
       <Placemark>
          <name>WEYMOUTH GROUP</name>
-         <description>WEYMOUTH GROUP() - ROUTEING_GROUP</description>
+         <description>WEYMOUTH GROUP(G33) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.45374638413658,50.6132794256376</coordinates>

@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>STRATFORD LONDON GP</name>
-         <description>STRATFORD LONDON GP() - ROUTEING_GROUP</description>
+         <description>STRATFORD LONDON GP(G74) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.00273806485052959,51.5381583521958</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE</name>
-         <description>TOTTENHAM HALE() - ROUTEING_POINT</description>
+         <description>TOTTENHAM HALE(TOM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0583956949249829,51.5858343313731</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>HACKNEY DOWNS</name>
-         <description>HACKNEY DOWNS() - ROUTEING_POINT</description>
+         <description>HACKNEY DOWNS(HAC) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0586375574298068,51.546287887249</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPTON</name>
-         <description>CLAPTON() - INTERCHANGE</description>
+         <description>CLAPTON(CPT) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.055180010443115,51.5597137219714</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP() - ROUTEING_GROUP</description>
+         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>

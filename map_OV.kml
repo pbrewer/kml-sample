@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>CAMDEN ROAD</name>
-         <description>CAMDEN ROAD() - INTERCHANGE</description>
+         <description>CAMDEN ROAD(CMD) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.13824916332792,51.5394886739332</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>GOSPEL OAK</name>
-         <description>GOSPEL OAK() - ROUTEING_POINT</description>
+         <description>GOSPEL OAK(GPO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.149232687522671,51.5531454292835</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>BLACKHORSE R UND</name>
-         <description>BLACKHORSE R UND() - INTERCHANGE</description>
+         <description>BLACKHORSE R UND(BHO) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0397183635248578,51.5837260355341</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>HACKNEY WICK</name>
-         <description>HACKNEY WICK() - INTERCHANGE</description>
+         <description>HACKNEY WICK(HKW) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0242384227113074,51.5412191304147</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND</name>
-         <description>HIGHBURY &amp; I UND() - ROUTEING_POINT</description>
+         <description>HIGHBURY &amp; I UND(HHY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.102030856310921,51.5434025567242</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>WATFORD JUNCTION</name>
-         <description>WATFORD JUNCTION() - ROUTEING_POINT</description>
+         <description>WATFORD JUNCTION(WFJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.395005816943682,51.6610302646915</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>WILLESDEN JN</name>
-         <description>WILLESDEN JN() - ROUTEING_POINT</description>
+         <description>WILLESDEN JN(WIJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.242510759036517,51.5285132205761</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP() - ROUTEING_GROUP</description>
+         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP</name>
-         <description>STRATFORD LONDON GP() - ROUTEING_GROUP</description>
+         <description>STRATFORD LONDON GP(G74) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.00273806485052959,51.5381583521958</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>KEW GARDENS</name>
-         <description>KEW GARDENS() - INTERCHANGE</description>
+         <description>KEW GARDENS(KWG) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.283445704658904,51.4751886311839</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>RICHMOND LONDON</name>
-         <description>RICHMOND LONDON() - ROUTEING_POINT</description>
+         <description>RICHMOND LONDON(RMD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.299846694619959,51.4601472544842</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>STAINES</name>
-         <description>STAINES() - ROUTEING_POINT</description>
+         <description>STAINES(SNS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.500930451797934,51.4305333094029</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>WANSTEAD PARK</name>
-         <description>WANSTEAD PARK() - INTERCHANGE</description>
+         <description>WANSTEAD PARK(WNP) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0266028349371884,51.5493405403606</coordinates>
@@ -136,7 +151,7 @@
       </Placemark>
       <Placemark>
          <name>BARKING</name>
-         <description>BARKING() - ROUTEING_POINT</description>
+         <description>BARKING(BKG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0823256310492868,51.5375778573699</coordinates>
@@ -144,7 +159,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION() - ROUTEING_POINT</description>
+         <description>CLAPHAM JUNCTION(CLJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.168769712349235,51.4617683410367</coordinates>

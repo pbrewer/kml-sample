@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>DONCASTER</name>
-         <description>DONCASTER() - ROUTEING_POINT</description>
+         <description>DONCASTER(DON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.13871721870229,53.5185314624258</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP</name>
-         <description>NEWARK GROUP() - ROUTEING_GROUP</description>
+         <description>NEWARK GROUP(G47) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.798130010834015,53.0796689798256</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>RETFORD</name>
-         <description>RETFORD() - ROUTEING_POINT</description>
+         <description>RETFORD(RET) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.946208578834308,53.3129622458949</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP</name>
-         <description>MIDDLESBROUGH GROUP() - ROUTEING_GROUP</description>
+         <description>MIDDLESBROUGH GROUP(G42) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.2310576583881,54.5761261486276</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON</name>
-         <description>DARLINGTON() - ROUTEING_POINT</description>
+         <description>DARLINGTON(DAR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54578731766567,54.5174993504893</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>YORK</name>
-         <description>YORK() - ROUTEING_POINT</description>
+         <description>YORK(YRK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.09164414482499,53.9549944344078</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON</name>
-         <description>NORTHALLERTON() - ROUTEING_POINT</description>
+         <description>NORTHALLERTON(NTR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.44020006264227,54.3301128769982</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP</name>
-         <description>LEEDS GROUP() - ROUTEING_GROUP</description>
+         <description>LEEDS GROUP(G16) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54758683544322,53.7922040754631</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>SELBY</name>
-         <description>SELBY() - ROUTEING_POINT</description>
+         <description>SELBY(SBY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.06202765621019,53.7804012865994</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP</name>
-         <description>WAKEFIELD GROUP() - ROUTEING_GROUP</description>
+         <description>WAKEFIELD GROUP(G30) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.48675885897802,53.6760184399997</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>WORKSOP</name>
-         <description>WORKSOP() - ROUTEING_POINT</description>
+         <description>WORKSOP(WRK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.12194470956872,53.3080936765093</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN</name>
-         <description>LINCOLN() - ROUTEING_POINT</description>
+         <description>LINCOLN(LCN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.539408227391042,53.2241839046206</coordinates>

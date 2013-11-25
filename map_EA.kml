@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>IPSWICH</name>
-         <description>IPSWICH() - ROUTEING_POINT</description>
+         <description>IPSWICH(IPS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.14604543460463,52.0479119603784</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>MANNINGTREE</name>
-         <description>MANNINGTREE() - ROUTEING_POINT</description>
+         <description>MANNINGTREE(MNG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.04721808895052,51.9462194112542</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>KENNETT</name>
-         <description>KENNETT() - INTERCHANGE</description>
+         <description>KENNETT(KNE) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>0.492032803678062,52.2748257389763</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>STOWMARKET</name>
-         <description>STOWMARKET() - ROUTEING_POINT</description>
+         <description>STOWMARKET(SMK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.00223192854285,52.1874255247094</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE</name>
-         <description>CAMBRIDGE() - ROUTEING_POINT</description>
+         <description>CAMBRIDGE(CBG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.139110387067273,52.1918581729905</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD</name>
-         <description>SHENFIELD() - ROUTEING_POINT</description>
+         <description>SHENFIELD(SNF) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.332138657219138,51.628162442627</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>ROMFORD GROUP</name>
-         <description>ROMFORD GROUP() - ROUTEING_GROUP</description>
+         <description>ROMFORD GROUP(G37) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.183514650133649,51.5725927113854</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>WICKFORD</name>
-         <description>WICKFORD() - ROUTEING_POINT</description>
+         <description>WICKFORD(WIC) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.520589140537186,51.6125796135542</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>COLCHESTER</name>
-         <description>COLCHESTER() - ROUTEING_POINT</description>
+         <description>COLCHESTER(COL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.895642092724321,51.8979040219436</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>WITHAM</name>
-         <description>WITHAM() - ROUTEING_POINT</description>
+         <description>WITHAM(WTM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.642921285136763,51.8031685484283</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE</name>
-         <description>TOTTENHAM HALE() - ROUTEING_POINT</description>
+         <description>TOTTENHAM HALE(TOM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0583956949249829,51.5858343313731</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP() - ROUTEING_GROUP</description>
+         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP</name>
-         <description>STRATFORD LONDON GP() - ROUTEING_GROUP</description>
+         <description>STRATFORD LONDON GP(G74) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.00273806485052959,51.5381583521958</coordinates>
@@ -136,7 +151,7 @@
       </Placemark>
       <Placemark>
          <name>ELY</name>
-         <description>ELY() - ROUTEING_POINT</description>
+         <description>ELY(ELY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.267644038588302,52.3881214751547</coordinates>
@@ -144,7 +159,7 @@
       </Placemark>
       <Placemark>
          <name>DISS</name>
-         <description>DISS() - INTERCHANGE</description>
+         <description>DISS(DIS) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>1.12484126524517,52.3703521427135</coordinates>
@@ -152,7 +167,7 @@
       </Placemark>
       <Placemark>
          <name>NORWICH</name>
-         <description>NORWICH() - ROUTEING_POINT</description>
+         <description>NORWICH(NRW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.30845643744413,52.6243046775948</coordinates>
@@ -160,7 +175,7 @@
       </Placemark>
       <Placemark>
          <name>CHESHUNT</name>
-         <description>CHESHUNT() - ROUTEING_POINT</description>
+         <description>CHESHUNT(CHN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0216581211012142,51.7002772853904</coordinates>
@@ -168,7 +183,7 @@
       </Placemark>
       <Placemark>
          <name>STANSTED GROUP</name>
-         <description>STANSTED GROUP() - ROUTEING_GROUP</description>
+         <description>STANSTED GROUP(G66) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.30340061061354,51.8876210475587</coordinates>
@@ -176,7 +191,7 @@
       </Placemark>
       <Placemark>
          <name>MARKS TEY</name>
-         <description>MARKS TEY() - ROUTEING_POINT</description>
+         <description>MARKS TEY(MKT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.783921499610857,51.8781265497108</coordinates>

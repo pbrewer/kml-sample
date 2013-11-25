@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>MARKS TEY</name>
-         <description>MARKS TEY() - ROUTEING_POINT</description>
+         <description>MARKS TEY(MKT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.783921499610857,51.8781265497108</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>COLCHESTER</name>
-         <description>COLCHESTER() - ROUTEING_POINT</description>
+         <description>COLCHESTER(COL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.895642092724321,51.8979040219436</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP</name>
-         <description>STRATFORD LONDON GP() - ROUTEING_GROUP</description>
+         <description>STRATFORD LONDON GP(G74) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.00273806485052959,51.5381583521958</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE</name>
-         <description>TOTTENHAM HALE() - ROUTEING_POINT</description>
+         <description>TOTTENHAM HALE(TOM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0583956949249829,51.5858343313731</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>WITHAM</name>
-         <description>WITHAM() - ROUTEING_POINT</description>
+         <description>WITHAM(WTM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.642921285136763,51.8031685484283</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP() - ROUTEING_GROUP</description>
+         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>ROMFORD GROUP</name>
-         <description>ROMFORD GROUP() - ROUTEING_GROUP</description>
+         <description>ROMFORD GROUP(G37) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.183514650133649,51.5725927113854</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD</name>
-         <description>SHENFIELD() - ROUTEING_POINT</description>
+         <description>SHENFIELD(SNF) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.332138657219138,51.628162442627</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>WICKFORD</name>
-         <description>WICKFORD() - ROUTEING_POINT</description>
+         <description>WICKFORD(WIC) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.520589140537186,51.6125796135542</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>GRAYS</name>
-         <description>GRAYS() - ROUTEING_POINT</description>
+         <description>GRAYS(GRY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.324249872480289,51.4737038039959</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>UPMINSTER</name>
-         <description>UPMINSTER() - ROUTEING_POINT</description>
+         <description>UPMINSTER(UPM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.253461201092809,51.5568872968332</coordinates>

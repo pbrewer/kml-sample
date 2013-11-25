@@ -9,6 +9,11 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -16,6 +21,11 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -23,6 +33,11 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -32,7 +47,7 @@
       </Style>
       <Placemark>
          <name>GLASGOW GROUP</name>
-         <description>GLASGOW GROUP() - ROUTEING_GROUP</description>
+         <description>GLASGOW GROUP(G13) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.25772518045981,55.8574586971832</coordinates>
@@ -40,7 +55,7 @@
       </Placemark>
       <Placemark>
          <name>KILWINNING</name>
-         <description>KILWINNING() - ROUTEING_POINT</description>
+         <description>KILWINNING(KWN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.70861104529443,55.653245391913</coordinates>
@@ -48,7 +63,7 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP</name>
-         <description>FALKIRK GROUP() - ROUTEING_GROUP</description>
+         <description>FALKIRK GROUP(G44) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.7907706980682,55.9891919882658</coordinates>
@@ -56,7 +71,7 @@
       </Placemark>
       <Placemark>
          <name>SPRINGBURN</name>
-         <description>SPRINGBURN() - ROUTEING_POINT</description>
+         <description>SPRINGBURN(SPR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.22857550663581,55.8786674142388</coordinates>
@@ -64,7 +79,7 @@
       </Placemark>
       <Placemark>
          <name>DUNDEE</name>
-         <description>DUNDEE() - ROUTEING_POINT</description>
+         <description>DUNDEE(DEE) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.98647708050388,56.4503497727745</coordinates>
@@ -72,7 +87,7 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK</name>
-         <description>LADYBANK() - ROUTEING_POINT</description>
+         <description>LADYBANK(LDY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.12075070040537,56.2712433727159</coordinates>
@@ -80,7 +95,7 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES</name>
-         <description>GLENROTHES() - INTERCHANGE</description>
+         <description>GLENROTHES(GLT) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.14165226352735,56.1595983102409</coordinates>
@@ -88,7 +103,7 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP</name>
-         <description>EDINBURGH GROUP() - ROUTEING_GROUP</description>
+         <description>EDINBURGH GROUP(G11) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.1867201601368,55.9497469450646</coordinates>
@@ -96,7 +111,7 @@
       </Placemark>
       <Placemark>
          <name>BELLGROVE</name>
-         <description>BELLGROVE() - ROUTEING_POINT</description>
+         <description>BELLGROVE(BLG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.22399420881111,55.8544770806507</coordinates>
@@ -104,7 +119,7 @@
       </Placemark>
       <Placemark>
          <name>STIRLING</name>
-         <description>STIRLING() - ROUTEING_POINT</description>
+         <description>STIRLING(STG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.93342054431657,56.1164857646184</coordinates>
@@ -112,7 +127,7 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP</name>
-         <description>MOTHERWELL GROUP() - ROUTEING_GROUP</description>
+         <description>MOTHERWELL GROUP(G67) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.99374336471782,55.7892042237234</coordinates>
@@ -120,7 +135,7 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS</name>
-         <description>CARSTAIRS() - ROUTEING_POINT</description>
+         <description>CARSTAIRS(CRS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.66719660940652,55.6879970200404</coordinates>
@@ -128,7 +143,7 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP</name>
-         <description>INVERKEITHING GROUP() - ROUTEING_GROUP</description>
+         <description>INVERKEITHING GROUP(G50) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.39468834148053,56.0320609246806</coordinates>
@@ -136,7 +151,7 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY</name>
-         <description>KIRKCALDY() - ROUTEING_POINT</description>
+         <description>KIRKCALDY(KDY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.16591335708558,56.1099364212259</coordinates>
@@ -144,7 +159,7 @@
       </Placemark>
       <Placemark>
          <name>PAISLEY GIL ST</name>
-         <description>PAISLEY GIL ST() - ROUTEING_POINT</description>
+         <description>PAISLEY GIL ST(PYG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.42317845734824,55.8453202183079</coordinates>
@@ -152,7 +167,7 @@
       </Placemark>
       <Placemark>
          <name>PORT GLASGOW</name>
-         <description>PORT GLASGOW() - ROUTEING_POINT</description>
+         <description>PORT GLASGOW(PTG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.68797158009861,55.9315283640005</coordinates>
@@ -160,7 +175,7 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK</name>
-         <description>KILMARNOCK() - ROUTEING_POINT</description>
+         <description>KILMARNOCK(KMK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.49757948758596,55.6100734945976</coordinates>
@@ -168,7 +183,7 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST</name>
-         <description>POLLOKSHAWS WEST() - ROUTEING_POINT</description>
+         <description>POLLOKSHAWS WEST(PWW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.30035427379742,55.8216069737407</coordinates>
@@ -176,7 +191,7 @@
       </Placemark>
       <Placemark>
          <name>MOUNT FLORIDA</name>
-         <description>MOUNT FLORIDA() - ROUTEING_POINT</description>
+         <description>MOUNT FLORIDA(MFL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.26058467436566,55.8241426007126</coordinates>
@@ -184,7 +199,7 @@
       </Placemark>
       <Placemark>
          <name>PERTH</name>
-         <description>PERTH() - ROUTEING_POINT</description>
+         <description>PERTH(PTH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.43853486400658,56.3902039890477</coordinates>
@@ -192,7 +207,7 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK</name>
-         <description>NEWTON LANARK() - ROUTEING_POINT</description>
+         <description>NEWTON LANARK(NTN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.13242975572459,55.8165428999123</coordinates>
@@ -200,7 +215,7 @@
       </Placemark>
       <Placemark>
          <name>PARTICK</name>
-         <description>PARTICK() - ROUTEING_POINT</description>
+         <description>PARTICK(PTK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.30944896259972,55.8672868799959</coordinates>
@@ -208,7 +223,7 @@
       </Placemark>
       <Placemark>
          <name>ABERDEEN</name>
-         <description>ABERDEEN() - ROUTEING_POINT</description>
+         <description>ABERDEEN(ABD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.09584835709385,57.1408810902915</coordinates>
