@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>BLACKBURN</name>
-         <description>BLACKBURN(BBN) - ROUTEING_POINT</description>
+         <description>BLACKBURN (BBN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.47766980365798,53.7435728816802</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP</name>
-         <description>HELLIFIELD GROUP(G53) - ROUTEING_GROUP</description>
+         <description>HELLIFIELD GROUP (G53) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.22585165157831,54.0085463384902</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>HUYTON</name>
-         <description>HUYTON(HUY) - ROUTEING_POINT</description>
+         <description>HUYTON (HUY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.84248348710437,53.4072163077818</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP</name>
-         <description>EARLESTOWN GROUP(G78) - ROUTEING_GROUP</description>
+         <description>EARLESTOWN GROUP (G78) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.63398486263039,53.448949903018</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP</name>
-         <description>WIGAN GROUP(G34) - ROUTEING_GROUP</description>
+         <description>WIGAN GROUP (G34) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.63082648852484,53.5406412185915</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP</name>
-         <description>WARRINGTON GROUP(G31) - ROUTEING_GROUP</description>
+         <description>WARRINGTON GROUP (G31) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.59098665939852,53.3889528478108</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP</name>
-         <description>HALIFAX GROUP(G39) - ROUTEING_GROUP</description>
+         <description>HALIFAX GROUP (G39) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.85299957012169,53.7174718790283</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>BOLTON</name>
-         <description>BOLTON(BON) - ROUTEING_POINT</description>
+         <description>BOLTON (BON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.42437676789755,53.571211139824</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP</name>
-         <description>HUNTS CROSS GROUP(G70) - ROUTEING_GROUP</description>
+         <description>HUNTS CROSS GROUP (G70) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.85352843794817,53.357704777171</coordinates>

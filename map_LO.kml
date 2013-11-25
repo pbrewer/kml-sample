@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE</name>
-         <description>ELEPHANT &amp; CSTLE(EPH) - INTERCHANGE</description>
+         <description>ELEPHANT &amp; CSTLE (EPH) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.096959749551758,51.4920849012898</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>HERNE HILL</name>
-         <description>HERNE HILL(HNH) - ROUTEING_POINT</description>
+         <description>HERNE HILL (HNH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.100117179014863,51.4507882179277</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>WEST HAMPSTD TLK</name>
-         <description>WEST HAMPSTD TLK(WHP) - ROUTEING_POINT</description>
+         <description>WEST HAMPSTD TLK (WHP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.191364107030493,51.5457128284244</coordinates>

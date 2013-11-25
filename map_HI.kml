@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>GOSPEL OAK</name>
-         <description>GOSPEL OAK(GPO) - ROUTEING_POINT</description>
+         <description>GOSPEL OAK (GPO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.149232687522671,51.5531454292835</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND</name>
-         <description>HIGHBURY &amp; I UND(HHY) - ROUTEING_POINT</description>
+         <description>HIGHBURY &amp; I UND (HHY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.102030856310921,51.5434025567242</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>

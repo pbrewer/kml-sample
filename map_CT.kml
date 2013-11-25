@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>CHARLTON</name>
-         <description>CHARLTON(CTN) - ROUTEING_POINT</description>
+         <description>CHARLTON (CTN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0323701197233562,51.4845210863542</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>DARTFORD</name>
-         <description>DARTFORD(DFD) - ROUTEING_POINT</description>
+         <description>DARTFORD (DFD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.219169461743888,51.4451774699764</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>GRAVESEND</name>
-         <description>GRAVESEND(GRV) - ROUTEING_POINT</description>
+         <description>GRAVESEND (GRV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.368522021932612,51.4386582154852</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>BLACKHEATH</name>
-         <description>BLACKHEATH(BKH) - ROUTEING_POINT</description>
+         <description>BLACKHEATH (BKH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.00983096142899503,51.463336513641</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM</name>
-         <description>LEWISHAM(LEW) - ROUTEING_POINT</description>
+         <description>LEWISHAM (LEW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0131893738009627,51.4637289621017</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>HITHER GREEN</name>
-         <description>HITHER GREEN(HGR) - ROUTEING_POINT</description>
+         <description>HITHER GREEN (HGR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>6.09091577011303E-4,51.450011083454</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>SLADE GREEN</name>
-         <description>SLADE GREEN(SGR) - ROUTEING_POINT</description>
+         <description>SLADE GREEN (SGR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.191312481797045,51.464578656539</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS</name>
-         <description>NEW CROSS(NWX) - ROUTEING_POINT</description>
+         <description>NEW CROSS (NWX) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0314684684072144,51.4739249880263</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP</name>
-         <description>CHATHAM GROUP(G07) - ROUTEING_GROUP</description>
+         <description>CHATHAM GROUP (G07) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.522093821820727,51.3788192504241</coordinates>

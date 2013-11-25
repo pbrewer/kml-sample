@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>NEWTON LANARK</name>
-         <description>NEWTON LANARK(NTN) - ROUTEING_POINT</description>
+         <description>NEWTON LANARK (NTN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.13242975572459,55.8165428999123</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP</name>
-         <description>GLASGOW GROUP(G13) - ROUTEING_GROUP</description>
+         <description>GLASGOW GROUP (G13) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.25772518045981,55.8574586971832</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP</name>
-         <description>MOTHERWELL GROUP(G67) - ROUTEING_GROUP</description>
+         <description>MOTHERWELL GROUP (G67) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.99374336471782,55.7892042237234</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>TROON GROUP</name>
-         <description>TROON GROUP(G81) - ROUTEING_GROUP</description>
+         <description>TROON GROUP (G81) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.65327165048802,55.5402684571067</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK</name>
-         <description>KILMARNOCK(KMK) - ROUTEING_POINT</description>
+         <description>KILMARNOCK (KMK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.49757948758596,55.6100734945976</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>PARTICK</name>
-         <description>PARTICK(PTK) - ROUTEING_POINT</description>
+         <description>PARTICK (PTK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.30944896259972,55.8672868799959</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>HYNDLAND</name>
-         <description>HYNDLAND(HYN) - ROUTEING_POINT</description>
+         <description>HYNDLAND (HYN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.3132299509596,55.8771051673374</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS</name>
-         <description>CARSTAIRS(CRS) - ROUTEING_POINT</description>
+         <description>CARSTAIRS (CRS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.66719660940652,55.6879970200404</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>KILWINNING</name>
-         <description>KILWINNING(KWN) - ROUTEING_POINT</description>
+         <description>KILWINNING (KWN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.70861104529443,55.653245391913</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>BELLGROVE</name>
-         <description>BELLGROVE(BLG) - ROUTEING_POINT</description>
+         <description>BELLGROVE (BLG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.22399420881111,55.8544770806507</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>PAISLEY GIL ST</name>
-         <description>PAISLEY GIL ST(PYG) - ROUTEING_POINT</description>
+         <description>PAISLEY GIL ST (PYG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.42317845734824,55.8453202183079</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST</name>
-         <description>POLLOKSHAWS WEST(PWW) - ROUTEING_POINT</description>
+         <description>POLLOKSHAWS WEST (PWW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.30035427379742,55.8216069737407</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>MOUNT FLORIDA</name>
-         <description>MOUNT FLORIDA(MFL) - ROUTEING_POINT</description>
+         <description>MOUNT FLORIDA (MFL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.26058467436566,55.8241426007126</coordinates>

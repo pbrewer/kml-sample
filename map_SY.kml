@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>WAKEFIELD GROUP</name>
-         <description>WAKEFIELD GROUP(G30) - ROUTEING_GROUP</description>
+         <description>WAKEFIELD GROUP (G30) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.48675885897802,53.6760184399997</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY</name>
-         <description>BARNSLEY(BNY) - ROUTEING_POINT</description>
+         <description>BARNSLEY (BNY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.47619600186737,53.5510442770956</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS</name>
-         <description>SWINTON  S YORKS(SWN) - ROUTEING_POINT</description>
+         <description>SWINTON  S YORKS (SWN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30368986438219,53.4845538752677</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL</name>
-         <description>MEADOWHALL(MHS) - ROUTEING_POINT</description>
+         <description>MEADOWHALL (MHS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.4101691283604,53.4141240779031</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS</name>
-         <description>LOUGHBORO LEICS(LBO) - ROUTEING_POINT</description>
+         <description>LOUGHBORO LEICS (LBO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.1934681395205,52.776521257258</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP</name>
-         <description>NOTTINGHAM GROUP(G43) - ROUTEING_GROUP</description>
+         <description>NOTTINGHAM GROUP (G43) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.14419550451195,52.9451470971285</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP</name>
-         <description>DERBY GROUP(G09) - ROUTEING_GROUP</description>
+         <description>DERBY GROUP (G09) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46160821941454,52.913754524735</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD</name>
-         <description>CHESTERFIELD(CHD) - ROUTEING_POINT</description>
+         <description>CHESTERFIELD (CHD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.41862363259194,53.2353107270901</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>KETTERING</name>
-         <description>KETTERING(KET) - ROUTEING_POINT</description>
+         <description>KETTERING (KET) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.730227350583821,52.3904721394009</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER</name>
-         <description>LEICESTER(LEI) - ROUTEING_POINT</description>
+         <description>LEICESTER (LEI) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.12378666494119,52.6286267444856</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER</name>
-         <description>DONCASTER(DON) - ROUTEING_POINT</description>
+         <description>DONCASTER (DON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.13871721870229,53.5185314624258</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>GOOLE</name>
-         <description>GOOLE(GOO) - ROUTEING_POINT</description>
+         <description>GOOLE (GOO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.871383236956765,53.7014608402164</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP</name>
-         <description>BRADFORD GROUP(G03) - ROUTEING_GROUP</description>
+         <description>BRADFORD GROUP (G03) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.74801394804718,53.7874001473732</coordinates>
@@ -156,7 +156,7 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP</name>
-         <description>LEEDS GROUP(G16) - ROUTEING_GROUP</description>
+         <description>LEEDS GROUP (G16) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54758683544322,53.7922040754631</coordinates>
@@ -164,7 +164,7 @@
       </Placemark>
       <Placemark>
          <name>LUTON</name>
-         <description>LUTON(LUT) - INTERCHANGE</description>
+         <description>LUTON (LUT) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.413383840606806,51.8796972880439</coordinates>
@@ -172,7 +172,7 @@
       </Placemark>
       <Placemark>
          <name>WEST HAMPSTD TLK</name>
-         <description>WEST HAMPSTD TLK(WHP) - ROUTEING_POINT</description>
+         <description>WEST HAMPSTD TLK (WHP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.191364107030493,51.5457128284244</coordinates>
@@ -180,7 +180,7 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY</name>
-         <description>MELTON MOWBRAY(MMO) - ROUTEING_POINT</description>
+         <description>MELTON MOWBRAY (MMO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.884074554222115,52.75783617255</coordinates>
@@ -188,7 +188,7 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP</name>
-         <description>HUDDERSFIELD GROUP(G40) - ROUTEING_GROUP</description>
+         <description>HUDDERSFIELD GROUP (G40) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.78365726682475,53.6454662384722</coordinates>
@@ -196,7 +196,7 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD</name>
-         <description>SHEFFIELD(SHF) - ROUTEING_POINT</description>
+         <description>SHEFFIELD (SHF) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46181308663146,53.375721027765</coordinates>
@@ -204,7 +204,7 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP</name>
-         <description>PONTEFRACT GROUP(G22) - ROUTEING_GROUP</description>
+         <description>PONTEFRACT GROUP (G22) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30184277248278,53.6885648869916</coordinates>
@@ -212,7 +212,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -220,7 +220,7 @@
       </Placemark>
       <Placemark>
          <name>OAKHAM</name>
-         <description>OAKHAM(OKM) - ROUTEING_POINT</description>
+         <description>OAKHAM (OKM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.732516998134623,52.6691285703924</coordinates>
@@ -228,7 +228,7 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP</name>
-         <description>HALIFAX GROUP(G39) - ROUTEING_GROUP</description>
+         <description>HALIFAX GROUP (G39) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.85299957012169,53.7174718790283</coordinates>
@@ -236,7 +236,7 @@
       </Placemark>
       <Placemark>
          <name>SELBY</name>
-         <description>SELBY(SBY) - ROUTEING_POINT</description>
+         <description>SELBY (SBY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.06202765621019,53.7804012865994</coordinates>
@@ -244,7 +244,7 @@
       </Placemark>
       <Placemark>
          <name>BEDFORD</name>
-         <description>BEDFORD(BDM) - ROUTEING_POINT</description>
+         <description>BEDFORD (BDM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.477427294975053,52.1340143383127</coordinates>
@@ -252,7 +252,7 @@
       </Placemark>
       <Placemark>
          <name>PENISTONE</name>
-         <description>PENISTONE(PNS) - INTERCHANGE</description>
+         <description>PENISTONE (PNS) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.61985412827879,53.5228268058336</coordinates>

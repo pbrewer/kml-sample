@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>ALEXANDRA PALACE</name>
-         <description>ALEXANDRA PALACE(AAP) - ROUTEING_POINT</description>
+         <description>ALEXANDRA PALACE (AAP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.11861881117201,51.5958040459942</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE</name>
-         <description>STEVENAGE(SVG) - ROUTEING_POINT</description>
+         <description>STEVENAGE (SVG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.20492897787444,51.8964761088654</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>HERTFORD NORTH</name>
-         <description>HERTFORD NORTH(HFN) - INTERCHANGE</description>
+         <description>HERTFORD NORTH (HFN) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0914490397240044,51.7958137563165</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK</name>
-         <description>FINSBURY PARK(FPK) - ROUTEING_POINT</description>
+         <description>FINSBURY PARK (FPK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.104129330214378,51.5623127208072</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND</name>
-         <description>HIGHBURY &amp; I UND(HHY) - ROUTEING_POINT</description>
+         <description>HIGHBURY &amp; I UND (HHY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.102030856310921,51.5434025567242</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH</name>
-         <description>PETERBOROUGH(PBO) - ROUTEING_POINT</description>
+         <description>PETERBOROUGH (PBO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.248295800076136,52.5721744409554</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM</name>
-         <description>GRANTHAM(GRA) - ROUTEING_POINT</description>
+         <description>GRANTHAM (GRA) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.64092361498438,52.9036052752164</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>OAKHAM</name>
-         <description>OAKHAM(OKM) - ROUTEING_POINT</description>
+         <description>OAKHAM (OKM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.732516998134623,52.6691285703924</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>ELY</name>
-         <description>ELY(ELY) - ROUTEING_POINT</description>
+         <description>ELY (ELY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.267644038588302,52.3881214751547</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>ESSEX ROAD</name>
-         <description>ESSEX ROAD(EXR) - INTERCHANGE</description>
+         <description>ESSEX ROAD (EXR) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0950491218531374,51.5378961668471</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>HITCHIN</name>
-         <description>HITCHIN(HIT) - ROUTEING_POINT</description>
+         <description>HITCHIN (HIT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.260991998042183,51.9503505578144</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>NORWICH</name>
-         <description>NORWICH(NRW) - ROUTEING_POINT</description>
+         <description>NORWICH (NRW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.30845643744413,52.6243046775948</coordinates>
@@ -156,7 +156,7 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY</name>
-         <description>MELTON MOWBRAY(MMO) - ROUTEING_POINT</description>
+         <description>MELTON MOWBRAY (MMO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.884074554222115,52.75783617255</coordinates>

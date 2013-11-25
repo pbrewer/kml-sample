@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>CROYDON GROUP</name>
-         <description>CROYDON GROUP(G08) - ROUTEING_GROUP</description>
+         <description>CROYDON GROUP (G08) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0918292948916154,51.3733510137007</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP</name>
-         <description>REDHILL GROUP(G60) - ROUTEING_GROUP</description>
+         <description>REDHILL GROUP (G60) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.163348351898478,51.2378679252594</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>FORD GROUP</name>
-         <description>FORD GROUP(G61) - ROUTEING_GROUP</description>
+         <description>FORD GROUP (G61) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.577134842260158,50.8274799070745</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM</name>
-         <description>HORSHAM(HRH) - ROUTEING_POINT</description>
+         <description>HORSHAM (HRH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.317257080155847,51.0640099999086</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>SOUTHAMPTON GROUP</name>
-         <description>SOUTHAMPTON GROUP(G26) - ROUTEING_GROUP</description>
+         <description>SOUTHAMPTON GROUP (G26) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.41255771562521,50.9056791131306</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>PORTSMOUTH GROUP</name>
-         <description>PORTSMOUTH GROUP(G23) - ROUTEING_GROUP</description>
+         <description>PORTSMOUTH GROUP (G23) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.08897246877542,50.7957491893797</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>BARNHAM</name>
-         <description>BARNHAM(BAA) - INTERCHANGE</description>
+         <description>BARNHAM (BAA) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.638150941438077,50.8291068980316</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION(CLJ) - ROUTEING_POINT</description>
+         <description>CLAPHAM JUNCTION (CLJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.168769712349235,51.4617683410367</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP</name>
-         <description>STREATHAM GROUP(G29) - ROUTEING_GROUP</description>
+         <description>STREATHAM GROUP (G29) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.130024439539019,51.4234044157532</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT</name>
-         <description>GATWICK AIRPORT(GTW) - ROUTEING_POINT</description>
+         <description>GATWICK AIRPORT (GTW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.15952165755819,51.1542142067235</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>HAVANT</name>
-         <description>HAVANT(HAV) - ROUTEING_POINT</description>
+         <description>HAVANT (HAV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.981310197425111,50.8523808477861</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES</name>
-         <description>THREE BRIDGES(TBD) - ROUTEING_POINT</description>
+         <description>THREE BRIDGES (TBD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.159664743659514,51.1146668456172</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>

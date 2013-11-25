@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>BARKING</name>
-         <description>BARKING(BKG) - ROUTEING_POINT</description>
+         <description>BARKING (BKG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0823256310492868,51.5375778573699</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>LIMEHOUSE E.R.</name>
-         <description>LIMEHOUSE E.R.(LHS) - INTERCHANGE</description>
+         <description>LIMEHOUSE E.R. (LHS) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.038561401550543,51.5099988760097</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>UPMINSTER</name>
-         <description>UPMINSTER(UPM) - ROUTEING_POINT</description>
+         <description>UPMINSTER (UPM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.253461201092809,51.5568872968332</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>GRAYS</name>
-         <description>GRAYS(GRY) - ROUTEING_POINT</description>
+         <description>GRAYS (GRY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.324249872480289,51.4737038039959</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>PITSEA</name>
-         <description>PITSEA(PSE) - ROUTEING_POINT</description>
+         <description>PITSEA (PSE) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.510352233483185,51.55796283936</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP</name>
-         <description>STRATFORD LONDON GP(G74) - ROUTEING_GROUP</description>
+         <description>STRATFORD LONDON GP (G74) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.00273806485052959,51.5381583521958</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>ROMFORD GROUP</name>
-         <description>ROMFORD GROUP(G37) - ROUTEING_GROUP</description>
+         <description>ROMFORD GROUP (G37) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.183514650133649,51.5725927113854</coordinates>

@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>LEEDS GROUP</name>
-         <description>LEEDS GROUP(G16) - ROUTEING_GROUP</description>
+         <description>LEEDS GROUP (G16) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54758683544322,53.7922040754631</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>HARROGATE</name>
-         <description>HARROGATE(HGT) - INTERCHANGE</description>
+         <description>HARROGATE (HGT) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.5363046851771,53.9889901979466</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE</name>
-         <description>CARLISLE(CAR) - ROUTEING_POINT</description>
+         <description>CARLISLE (CAR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.93233811859765,54.8877581794713</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>APPLEBY</name>
-         <description>APPLEBY(APP) - INTERCHANGE</description>
+         <description>APPLEBY (APP) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.48427808979365,54.5775999596093</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP</name>
-         <description>WAKEFIELD GROUP(G30) - ROUTEING_GROUP</description>
+         <description>WAKEFIELD GROUP (G30) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.48675885897802,53.6760184399997</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY</name>
-         <description>BARNSLEY(BNY) - ROUTEING_POINT</description>
+         <description>BARNSLEY (BNY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.47619600186737,53.5510442770956</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>BARROW IN FURNSS</name>
-         <description>BARROW IN FURNSS(BIF) - INTERCHANGE</description>
+         <description>BARROW IN FURNSS (BIF) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.2255261855801,54.1157625711654</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>SELLAFIELD</name>
-         <description>SELLAFIELD(SEL) - INTERCHANGE</description>
+         <description>SELLAFIELD (SEL) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.51026434598241,54.413642492677</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>YORK</name>
-         <description>YORK(YRK) - ROUTEING_POINT</description>
+         <description>YORK (YRK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.09164414482499,53.9549944344078</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP</name>
-         <description>HELLIFIELD GROUP(G53) - ROUTEING_GROUP</description>
+         <description>HELLIFIELD GROUP (G53) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.22585165157831,54.0085463384902</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS</name>
-         <description>SWINTON  S YORKS(SWN) - ROUTEING_POINT</description>
+         <description>SWINTON  S YORKS (SWN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30368986438219,53.4845538752677</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP</name>
-         <description>BRADFORD GROUP(G03) - ROUTEING_GROUP</description>
+         <description>BRADFORD GROUP (G03) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.74801394804718,53.7874001473732</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP</name>
-         <description>MOTHERWELL GROUP(G67) - ROUTEING_GROUP</description>
+         <description>MOTHERWELL GROUP (G67) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.99374336471782,55.7892042237234</coordinates>
@@ -156,7 +156,7 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS</name>
-         <description>CARSTAIRS(CRS) - ROUTEING_POINT</description>
+         <description>CARSTAIRS (CRS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.66719660940652,55.6879970200404</coordinates>
@@ -164,7 +164,7 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP</name>
-         <description>PONTEFRACT GROUP(G22) - ROUTEING_GROUP</description>
+         <description>PONTEFRACT GROUP (G22) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30184277248278,53.6885648869916</coordinates>
@@ -172,7 +172,7 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON</name>
-         <description>SKIPTON(SKI) - INTERCHANGE</description>
+         <description>SKIPTON (SKI) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.02438550784808,53.9557294979361</coordinates>
@@ -180,7 +180,7 @@
       </Placemark>
       <Placemark>
          <name>DUMFRIES</name>
-         <description>DUMFRIES(DMF) - INTERCHANGE</description>
+         <description>DUMFRIES (DMF) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.6037876629636,55.0695130371346</coordinates>
@@ -188,7 +188,7 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK</name>
-         <description>KILMARNOCK(KMK) - ROUTEING_POINT</description>
+         <description>KILMARNOCK (KMK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.49757948758596,55.6100734945976</coordinates>
@@ -196,7 +196,7 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP</name>
-         <description>SCARBOROUGH GROUP(G48) - ROUTEING_GROUP</description>
+         <description>SCARBOROUGH GROUP (G48) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.404114952496297,54.2768123775554</coordinates>
@@ -204,7 +204,7 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP</name>
-         <description>LANCASTER GROUP(G64) - ROUTEING_GROUP</description>
+         <description>LANCASTER GROUP (G64) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.80646520495794,54.0455998359243</coordinates>
@@ -212,7 +212,7 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP</name>
-         <description>FALKIRK GROUP(G44) - ROUTEING_GROUP</description>
+         <description>FALKIRK GROUP (G44) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.7907706980682,55.9891919882658</coordinates>
@@ -220,7 +220,7 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK</name>
-         <description>NEWTON LANARK(NTN) - ROUTEING_POINT</description>
+         <description>NEWTON LANARK (NTN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.13242975572459,55.8165428999123</coordinates>
@@ -228,7 +228,7 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D</name>
-         <description>OXENHOLME LAKE D(OXN) - ROUTEING_POINT</description>
+         <description>OXENHOLME LAKE D (OXN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.72079672561516,54.3022952619467</coordinates>
@@ -236,7 +236,7 @@
       </Placemark>
       <Placemark>
          <name>PENRITH</name>
-         <description>PENRITH(PNR) - INTERCHANGE</description>
+         <description>PENRITH (PNR) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.75655145110832,54.6588920507997</coordinates>
@@ -244,7 +244,7 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP</name>
-         <description>EDINBURGH GROUP(G11) - ROUTEING_GROUP</description>
+         <description>EDINBURGH GROUP (G11) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.1867201601368,55.9497469450646</coordinates>
@@ -252,7 +252,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS</name>
-         <description>CLAPHAM YORKS(CPY) - INTERCHANGE</description>
+         <description>CLAPHAM YORKS (CPY) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.40836909508231,54.102434872771</coordinates>
@@ -260,7 +260,7 @@
       </Placemark>
       <Placemark>
          <name>SELBY</name>
-         <description>SELBY(SBY) - ROUTEING_POINT</description>
+         <description>SELBY (SBY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.06202765621019,53.7804012865994</coordinates>
@@ -268,7 +268,7 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP</name>
-         <description>GLASGOW GROUP(G13) - ROUTEING_GROUP</description>
+         <description>GLASGOW GROUP (G13) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.25772518045981,55.8574586971832</coordinates>

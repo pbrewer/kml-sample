@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>RETFORD</name>
-         <description>RETFORD(RET) - ROUTEING_POINT</description>
+         <description>RETFORD (RET) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.946208578834308,53.3129622458949</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER</name>
-         <description>DONCASTER(DON) - ROUTEING_POINT</description>
+         <description>DONCASTER (DON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.13871721870229,53.5185314624258</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>WORKSOP</name>
-         <description>WORKSOP(WRK) - ROUTEING_POINT</description>
+         <description>WORKSOP (WRK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.12194470956872,53.3080936765093</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>GOOLE</name>
-         <description>GOOLE(GOO) - ROUTEING_POINT</description>
+         <description>GOOLE (GOO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.871383236956765,53.7014608402164</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>HULL</name>
-         <description>HULL(HUL) - ROUTEING_POINT</description>
+         <description>HULL (HUL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.34565994560554,53.740296854028</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN</name>
-         <description>LINCOLN(LCN) - ROUTEING_POINT</description>
+         <description>LINCOLN (LCN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.539408227391042,53.2241839046206</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP</name>
-         <description>NEWARK GROUP(G47) - ROUTEING_GROUP</description>
+         <description>NEWARK GROUP (G47) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.798130010834015,53.0796689798256</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>SELBY</name>
-         <description>SELBY(SBY) - ROUTEING_POINT</description>
+         <description>SELBY (SBY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.06202765621019,53.7804012865994</coordinates>

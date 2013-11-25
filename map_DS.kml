@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>HARTLEPOOL</name>
-         <description>HARTLEPOOL(HPL) - INTERCHANGE</description>
+         <description>HARTLEPOOL (HPL) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.20575407723747,54.6838167251177</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE</name>
-         <description>NEWCASTLE(NCL) - ROUTEING_POINT</description>
+         <description>NEWCASTLE (NCL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.61572906780496,54.9653249022215</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS</name>
-         <description>SWINTON  S YORKS(SWN) - ROUTEING_POINT</description>
+         <description>SWINTON  S YORKS (SWN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30368986438219,53.4845538752677</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL</name>
-         <description>MEADOWHALL(MHS) - ROUTEING_POINT</description>
+         <description>MEADOWHALL (MHS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.4101691283604,53.4141240779031</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>DINGWALL</name>
-         <description>DINGWALL(DIN) - ROUTEING_POINT</description>
+         <description>DINGWALL (DIN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.42110081313562,57.592267576863</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>INVERNESS</name>
-         <description>INVERNESS(INV) - ROUTEING_POINT</description>
+         <description>INVERNESS (INV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.22168553197048,57.4781575680485</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK</name>
-         <description>LADYBANK(LDY) - ROUTEING_POINT</description>
+         <description>LADYBANK (LDY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.12075070040537,56.2712433727159</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES</name>
-         <description>GLENROTHES(GLT) - INTERCHANGE</description>
+         <description>GLENROTHES (GLT) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.14165226352735,56.1595983102409</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER</name>
-         <description>DONCASTER(DON) - ROUTEING_POINT</description>
+         <description>DONCASTER (DON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.13871721870229,53.5185314624258</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>DUNDEE</name>
-         <description>DUNDEE(DEE) - ROUTEING_POINT</description>
+         <description>DUNDEE (DEE) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.98647708050388,56.4503497727745</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>YORK</name>
-         <description>YORK(YRK) - ROUTEING_POINT</description>
+         <description>YORK (YRK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.09164414482499,53.9549944344078</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>GOOLE</name>
-         <description>GOOLE(GOO) - ROUTEING_POINT</description>
+         <description>GOOLE (GOO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.871383236956765,53.7014608402164</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>STIRLING</name>
-         <description>STIRLING(STG) - ROUTEING_POINT</description>
+         <description>STIRLING (STG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.93342054431657,56.1164857646184</coordinates>
@@ -156,7 +156,7 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP</name>
-         <description>FALKIRK GROUP(G44) - ROUTEING_GROUP</description>
+         <description>FALKIRK GROUP (G44) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.7907706980682,55.9891919882658</coordinates>
@@ -164,7 +164,7 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON</name>
-         <description>NORTHALLERTON(NTR) - ROUTEING_POINT</description>
+         <description>NORTHALLERTON (NTR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.44020006264227,54.3301128769982</coordinates>
@@ -172,7 +172,7 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON</name>
-         <description>DARLINGTON(DAR) - ROUTEING_POINT</description>
+         <description>DARLINGTON (DAR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54578731766567,54.5174993504893</coordinates>
@@ -180,7 +180,7 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP</name>
-         <description>MIDDLESBROUGH GROUP(G42) - ROUTEING_GROUP</description>
+         <description>MIDDLESBROUGH GROUP (G42) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.2310576583881,54.5761261486276</coordinates>
@@ -188,7 +188,7 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP</name>
-         <description>MOTHERWELL GROUP(G67) - ROUTEING_GROUP</description>
+         <description>MOTHERWELL GROUP (G67) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.99374336471782,55.7892042237234</coordinates>
@@ -196,7 +196,7 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS</name>
-         <description>CARSTAIRS(CRS) - ROUTEING_POINT</description>
+         <description>CARSTAIRS (CRS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.66719660940652,55.6879970200404</coordinates>
@@ -204,7 +204,7 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP</name>
-         <description>INVERKEITHING GROUP(G50) - ROUTEING_GROUP</description>
+         <description>INVERKEITHING GROUP (G50) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.39468834148053,56.0320609246806</coordinates>
@@ -212,7 +212,7 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY</name>
-         <description>KIRKCALDY(KDY) - ROUTEING_POINT</description>
+         <description>KIRKCALDY (KDY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.16591335708558,56.1099364212259</coordinates>
@@ -220,7 +220,7 @@
       </Placemark>
       <Placemark>
          <name>PERTH</name>
-         <description>PERTH(PTH) - ROUTEING_POINT</description>
+         <description>PERTH (PTH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.43853486400658,56.3902039890477</coordinates>
@@ -228,7 +228,7 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP</name>
-         <description>EDINBURGH GROUP(G11) - ROUTEING_GROUP</description>
+         <description>EDINBURGH GROUP (G11) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.1867201601368,55.9497469450646</coordinates>
@@ -236,7 +236,7 @@
       </Placemark>
       <Placemark>
          <name>BARNETBY</name>
-         <description>BARNETBY(BTB) - ROUTEING_POINT</description>
+         <description>BARNETBY (BTB) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.408151827515758,53.5712589689525</coordinates>
@@ -244,7 +244,7 @@
       </Placemark>
       <Placemark>
          <name>DURHAM</name>
-         <description>DURHAM(DHM) - INTERCHANGE</description>
+         <description>DURHAM (DHM) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.58020598133438,54.7764673142649</coordinates>
@@ -252,7 +252,7 @@
       </Placemark>
       <Placemark>
          <name>BERWICK ON TWEED</name>
-         <description>BERWICK ON TWEED(BWK) - INTERCHANGE</description>
+         <description>BERWICK ON TWEED (BWK) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.00956507175765,55.7721143202125</coordinates>
@@ -260,7 +260,7 @@
       </Placemark>
       <Placemark>
          <name>SELBY</name>
-         <description>SELBY(SBY) - ROUTEING_POINT</description>
+         <description>SELBY (SBY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.06202765621019,53.7804012865994</coordinates>
@@ -268,7 +268,7 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP</name>
-         <description>SCARBOROUGH GROUP(G48) - ROUTEING_GROUP</description>
+         <description>SCARBOROUGH GROUP (G48) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.404114952496297,54.2768123775554</coordinates>
@@ -276,7 +276,7 @@
       </Placemark>
       <Placemark>
          <name>HULL</name>
-         <description>HULL(HUL) - ROUTEING_POINT</description>
+         <description>HULL (HUL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.34565994560554,53.740296854028</coordinates>
@@ -284,7 +284,7 @@
       </Placemark>
       <Placemark>
          <name>AVIEMORE</name>
-         <description>AVIEMORE(AVM) - INTERCHANGE</description>
+         <description>AVIEMORE (AVM) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.82682091769454,57.1869447311107</coordinates>
@@ -292,7 +292,7 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK</name>
-         <description>NEWTON LANARK(NTN) - ROUTEING_POINT</description>
+         <description>NEWTON LANARK (NTN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.13242975572459,55.8165428999123</coordinates>
@@ -300,7 +300,7 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE</name>
-         <description>CARLISLE(CAR) - ROUTEING_POINT</description>
+         <description>CARLISLE (CAR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.93233811859765,54.8877581794713</coordinates>
@@ -308,7 +308,7 @@
       </Placemark>
       <Placemark>
          <name>ABERDEEN</name>
-         <description>ABERDEEN(ABD) - ROUTEING_POINT</description>
+         <description>ABERDEEN (ABD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.09584835709385,57.1408810902915</coordinates>

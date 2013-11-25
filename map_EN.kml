@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>WATFORD JUNCTION</name>
-         <description>WATFORD JUNCTION(WFJ) - ROUTEING_POINT</description>
+         <description>WATFORD JUNCTION (WFJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.395005816943682,51.6610302646915</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>BLETCHLEY</name>
-         <description>BLETCHLEY(BLY) - ROUTEING_POINT</description>
+         <description>BLETCHLEY (BLY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.735694534570948,51.9923580710804</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>WILLESDEN JN</name>
-         <description>WILLESDEN JN(WIJ) - ROUTEING_POINT</description>
+         <description>WILLESDEN JN (WIJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.242510759036517,51.5285132205761</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>KENSNGTN OLYMPIA</name>
-         <description>KENSNGTN OLYMPIA(KPA) - INTERCHANGE</description>
+         <description>KENSNGTN OLYMPIA (KPA) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.207790989883325,51.4947301900618</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION(CLJ) - ROUTEING_POINT</description>
+         <description>CLAPHAM JUNCTION (CLJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.168769712349235,51.4617683410367</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>MILTON KEYNES C</name>
-         <description>MILTON KEYNES C(MKC) - ROUTEING_POINT</description>
+         <description>MILTON KEYNES C (MKC) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.773956414418963,52.0314112191844</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>NORTHAMPTON</name>
-         <description>NORTHAMPTON(NMP) - ROUTEING_POINT</description>
+         <description>NORTHAMPTON (NMP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.906045206063134,52.2340419154024</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>RUGBY</name>
-         <description>RUGBY(RUG) - ROUTEING_POINT</description>
+         <description>RUGBY (RUG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.24779788512554,52.3760244925185</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>BEDFORD</name>
-         <description>BEDFORD(BDM) - ROUTEING_POINT</description>
+         <description>BEDFORD (BDM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.477427294975053,52.1340143383127</coordinates>

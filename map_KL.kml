@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>TONBRIDGE</name>
-         <description>TONBRIDGE(TON) - ROUTEING_POINT</description>
+         <description>TONBRIDGE (TON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.271241048728237,51.1888888580524</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS</name>
-         <description>SEVENOAKS(SEV) - ROUTEING_POINT</description>
+         <description>SEVENOAKS (SEV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.183714070842441,51.2750523303078</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>DARTFORD</name>
-         <description>DARTFORD(DFD) - ROUTEING_POINT</description>
+         <description>DARTFORD (DFD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.219169461743888,51.4451774699764</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>GRAVESEND</name>
-         <description>GRAVESEND(GRV) - ROUTEING_POINT</description>
+         <description>GRAVESEND (GRV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.368522021932612,51.4386582154852</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP</name>
-         <description>BROMLEY SOUTH GROUP(G06) - ROUTEING_GROUP</description>
+         <description>BROMLEY SOUTH GROUP (G06) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0198851972353429,51.3975453727848</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY</name>
-         <description>SWANLEY(SAY) - ROUTEING_POINT</description>
+         <description>SWANLEY (SAY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.169076202588924,51.3903835321094</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP</name>
-         <description>CHATHAM GROUP(G07) - ROUTEING_GROUP</description>
+         <description>CHATHAM GROUP (G07) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.522093821820727,51.3788192504241</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>MAIDSTONE GROUP</name>
-         <description>MAIDSTONE GROUP(G19) - ROUTEING_GROUP</description>
+         <description>MAIDSTONE GROUP (G19) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.51490194350759,51.273797018873</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN</name>
-         <description>BECKENHAM JN(BKJ) - ROUTEING_POINT</description>
+         <description>BECKENHAM JN (BKJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0256253748578791,51.4091076803144</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS</name>
-         <description>SHORTLANDS(SRT) - ROUTEING_POINT</description>
+         <description>SHORTLANDS (SRT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0043172178827097,51.4032060195165</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>SLADE GREEN</name>
-         <description>SLADE GREEN(SGR) - ROUTEING_POINT</description>
+         <description>SLADE GREEN (SGR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.191312481797045,51.464578656539</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL</name>
-         <description>ASHFORD INTL(AFK) - ROUTEING_POINT</description>
+         <description>ASHFORD INTL (AFK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.875193701365457,51.1414352542849</coordinates>

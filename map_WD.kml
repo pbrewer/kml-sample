@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>WHITLAND</name>
-         <description>WHITLAND(WTL) - ROUTEING_POINT</description>
+         <description>WHITLAND (WTL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.61316923131634,51.8155206244219</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>SWANSEA GROUP</name>
-         <description>SWANSEA GROUP(G38) - ROUTEING_GROUP</description>
+         <description>SWANSEA GROUP (G38) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.94028860334008,51.6227099416963</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>BRIDGEND</name>
-         <description>BRIDGEND(BGN) - ROUTEING_POINT</description>
+         <description>BRIDGEND (BGN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.57497724700083,51.5041409019868</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>BRISTOL GROUP</name>
-         <description>BRISTOL GROUP(G05) - ROUTEING_GROUP</description>
+         <description>BRISTOL GROUP (G05) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.57996766294555,51.4467726886349</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>NEWPORT (S.WALES)</name>
-         <description>NEWPORT (S.WALES)(NWP) - ROUTEING_POINT</description>
+         <description>NEWPORT (S.WALES) (NWP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.99751869673671,51.5877692937142</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL</name>
-         <description>CARDIFF CENTRAL(CDF) - ROUTEING_POINT</description>
+         <description>CARDIFF CENTRAL (CDF) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.17645026760644,51.4728636340219</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>WESTBURY GROUP</name>
-         <description>WESTBURY GROUP(G46) - ROUTEING_GROUP</description>
+         <description>WESTBURY GROUP (G46) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.19781295870281,51.2646940754104</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>BATH SPA</name>
-         <description>BATH SPA(BTH) - ROUTEING_POINT</description>
+         <description>BATH SPA (BTH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.35491303257205,51.3757692670053</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>BARRY</name>
-         <description>BARRY(BRY) - INTERCHANGE</description>
+         <description>BARRY (BRY) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.28369127248002,51.3944413471767</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>YEOVIL PEN MILL</name>
-         <description>YEOVIL PEN MILL(YVP) - INTERCHANGE</description>
+         <description>YEOVIL PEN MILL (YVP) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.61210460405944,50.9424017929649</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>CASTLE CARY</name>
-         <description>CASTLE CARY(CLC) - ROUTEING_POINT</description>
+         <description>CASTLE CARY (CLC) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.52131224016905,51.0974294858244</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>PONTYPRIDD</name>
-         <description>PONTYPRIDD(PPD) - ROUTEING_POINT</description>
+         <description>PONTYPRIDD (PPD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.34137458537276,51.596926467657</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>WEYMOUTH GROUP</name>
-         <description>WEYMOUTH GROUP(G33) - ROUTEING_GROUP</description>
+         <description>WEYMOUTH GROUP (G33) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.45374638413658,50.6132794256376</coordinates>

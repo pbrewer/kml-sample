@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>FELTHAM</name>
-         <description>FELTHAM(FEL) - ROUTEING_POINT</description>
+         <description>FELTHAM (FEL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.408332053159965,51.4454913808552</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>STAINES</name>
-         <description>STAINES(SNS) - ROUTEING_POINT</description>
+         <description>STAINES (SNS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.500930451797934,51.4305333094029</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>WIMBLEDON</name>
-         <description>WIMBLEDON(WIM) - ROUTEING_POINT</description>
+         <description>WIMBLEDON (WIM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.204994402252205,51.4191836093249</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION(CLJ) - ROUTEING_POINT</description>
+         <description>CLAPHAM JUNCTION (CLJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.168769712349235,51.4617683410367</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK</name>
-         <description>RAYNES PARK(RAY) - ROUTEING_POINT</description>
+         <description>RAYNES PARK (RAY) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.228481680875033,51.4069571028245</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>MOTSPUR PARK</name>
-         <description>MOTSPUR PARK(MOT) - ROUTEING_POINT</description>
+         <description>MOTSPUR PARK (MOT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.237657435454024,51.3927138624681</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE</name>
-         <description>ELEPHANT &amp; CSTLE(EPH) - INTERCHANGE</description>
+         <description>ELEPHANT &amp; CSTLE (EPH) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.096959749551758,51.4920849012898</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP(G01) - ROUTEING_GROUP</description>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>SURBITON</name>
-         <description>SURBITON(SUR) - ROUTEING_POINT</description>
+         <description>SURBITON (SUR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.302445681710373,51.3900751055431</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>WEYBRIDGE GROUP</name>
-         <description>WEYBRIDGE GROUP(G82) - ROUTEING_GROUP</description>
+         <description>WEYBRIDGE GROUP (G82) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.455865275689889,51.3589408511936</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>BASINGSTOKE</name>
-         <description>BASINGSTOKE(BSK) - ROUTEING_POINT</description>
+         <description>BASINGSTOKE (BSK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.08687709589478,51.2657940803547</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>SALISBURY</name>
-         <description>SALISBURY(SAL) - ROUTEING_POINT</description>
+         <description>SALISBURY (SAL) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.80445073638904,51.0687691626069</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>VIRGINIA WATER</name>
-         <description>VIRGINIA WATER(VIR) - INTERCHANGE</description>
+         <description>VIRGINIA WATER (VIR) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.56091066988956,51.3989276264035</coordinates>
@@ -156,7 +156,7 @@
       </Placemark>
       <Placemark>
          <name>NEW MALDEN</name>
-         <description>NEW MALDEN(NEM) - ROUTEING_POINT</description>
+         <description>NEW MALDEN (NEM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.25459071852964,51.4010569843257</coordinates>
@@ -164,7 +164,7 @@
       </Placemark>
       <Placemark>
          <name>NEWTON ABBOT</name>
-         <description>NEWTON ABBOT(NTA) - ROUTEING_POINT</description>
+         <description>NEWTON ABBOT (NTA) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.59867836580248,50.5276921735096</coordinates>
@@ -172,7 +172,7 @@
       </Placemark>
       <Placemark>
          <name>EXETER GROUP</name>
-         <description>EXETER GROUP(G12) - ROUTEING_GROUP</description>
+         <description>EXETER GROUP (G12) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.53168545123118,50.72453530067</coordinates>
@@ -180,7 +180,7 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE</name>
-         <description>PECKHAM RYE(PMR) - ROUTEING_POINT</description>
+         <description>PECKHAM RYE (PMR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
@@ -188,7 +188,7 @@
       </Placemark>
       <Placemark>
          <name>TULSE HILL</name>
-         <description>TULSE HILL(TUH) - ROUTEING_POINT</description>
+         <description>TULSE HILL (TUH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.103552472423464,51.4373608568023</coordinates>
@@ -196,7 +196,7 @@
       </Placemark>
       <Placemark>
          <name>WOKING</name>
-         <description>WOKING(WOK) - ROUTEING_POINT</description>
+         <description>WOKING (WOK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.556326011480579,51.316179942942</coordinates>
@@ -204,7 +204,7 @@
       </Placemark>
       <Placemark>
          <name>ASH VALE</name>
-         <description>ASH VALE(AHV) - ROUTEING_POINT</description>
+         <description>ASH VALE (AHV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.719767243767824,51.2704441615262</coordinates>
@@ -212,7 +212,7 @@
       </Placemark>
       <Placemark>
          <name>TAUNTON</name>
-         <description>TAUNTON(TAU) - ROUTEING_POINT</description>
+         <description>TAUNTON (TAU) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.10082010093475,51.0215061746061</coordinates>
@@ -220,7 +220,7 @@
       </Placemark>
       <Placemark>
          <name>NUNHEAD</name>
-         <description>NUNHEAD(NHD) - ROUTEING_POINT</description>
+         <description>NUNHEAD (NHD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0520373598903545,51.4643809758347</coordinates>
@@ -228,7 +228,7 @@
       </Placemark>
       <Placemark>
          <name>TRURO</name>
-         <description>TRURO(TRU) - ROUTEING_POINT</description>
+         <description>TRURO (TRU) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-5.06185790477253,50.2619529661365</coordinates>
@@ -236,7 +236,7 @@
       </Placemark>
       <Placemark>
          <name>PAR</name>
-         <description>PAR(PAR) - ROUTEING_POINT</description>
+         <description>PAR (PAR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.70355987074813,50.3535492327742</coordinates>
@@ -244,7 +244,7 @@
       </Placemark>
       <Placemark>
          <name>BARNES</name>
-         <description>BARNES(BNS) - ROUTEING_POINT</description>
+         <description>BARNES (BNS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.239206694807909,51.4646452039048</coordinates>
@@ -252,7 +252,7 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH MAIN</name>
-         <description>FARNBOROUGH MAIN(FNB) - INTERCHANGE</description>
+         <description>FARNBOROUGH MAIN (FNB) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.754967281725865,51.2941926546325</coordinates>
@@ -260,7 +260,7 @@
       </Placemark>
       <Placemark>
          <name>HOUNSLOW</name>
-         <description>HOUNSLOW(HOU) - ROUTEING_POINT</description>
+         <description>HOUNSLOW (HOU) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.360314476333161,51.4601097718686</coordinates>
@@ -268,7 +268,7 @@
       </Placemark>
       <Placemark>
          <name>LISKEARD</name>
-         <description>LISKEARD(LSK) - ROUTEING_POINT</description>
+         <description>LISKEARD (LSK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.46787225359045,50.4450883897547</coordinates>
@@ -276,7 +276,7 @@
       </Placemark>
       <Placemark>
          <name>PLYMOUTH GROUP</name>
-         <description>PLYMOUTH GROUP(G21) - ROUTEING_GROUP</description>
+         <description>PLYMOUTH GROUP (G21) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.14215458332859,50.3760376084661</coordinates>
@@ -284,7 +284,7 @@
       </Placemark>
       <Placemark>
          <name>HERNE HILL</name>
-         <description>HERNE HILL(HNH) - ROUTEING_POINT</description>
+         <description>HERNE HILL (HNH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.100117179014863,51.4507882179277</coordinates>
@@ -292,7 +292,7 @@
       </Placemark>
       <Placemark>
          <name>RICHMOND LONDON</name>
-         <description>RICHMOND LONDON(RMD) - ROUTEING_POINT</description>
+         <description>RICHMOND LONDON (RMD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.299846694619959,51.4601472544842</coordinates>
@@ -300,7 +300,7 @@
       </Placemark>
       <Placemark>
          <name>TWICKENHAM</name>
-         <description>TWICKENHAM(TWI) - ROUTEING_POINT</description>
+         <description>TWICKENHAM (TWI) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.327645982918459,51.4479633470328</coordinates>
@@ -308,7 +308,7 @@
       </Placemark>
       <Placemark>
          <name>YEOVIL PEN MILL</name>
-         <description>YEOVIL PEN MILL(YVP) - INTERCHANGE</description>
+         <description>YEOVIL PEN MILL (YVP) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.61210460405944,50.9424017929649</coordinates>
@@ -316,7 +316,7 @@
       </Placemark>
       <Placemark>
          <name>YEOVIL JUNCTION</name>
-         <description>YEOVIL JUNCTION(YVJ) - INTERCHANGE</description>
+         <description>YEOVIL JUNCTION (YVJ) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.61184512944343,50.9226303189283</coordinates>
@@ -324,7 +324,7 @@
       </Placemark>
       <Placemark>
          <name>PENZANCE GROUP</name>
-         <description>PENZANCE GROUP(G79) - ROUTEING_GROUP</description>
+         <description>PENZANCE GROUP (G79) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-5.53137440057147,50.1200540661048</coordinates>
@@ -332,7 +332,7 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP</name>
-         <description>STREATHAM GROUP(G29) - ROUTEING_GROUP</description>
+         <description>STREATHAM GROUP (G29) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.130024439539019,51.4234044157532</coordinates>
@@ -340,7 +340,7 @@
       </Placemark>
       <Placemark>
          <name>WEYMOUTH GROUP</name>
-         <description>WEYMOUTH GROUP(G33) - ROUTEING_GROUP</description>
+         <description>WEYMOUTH GROUP (G33) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.45374638413658,50.6132794256376</coordinates>
@@ -348,7 +348,7 @@
       </Placemark>
       <Placemark>
          <name>HONITON</name>
-         <description>HONITON(HON) - INTERCHANGE</description>
+         <description>HONITON (HON) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.18489355414419,50.7950864181847</coordinates>

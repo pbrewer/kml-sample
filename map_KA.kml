@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>SELLING</name>
-         <description>SELLING(SEG) - INTERCHANGE</description>
+         <description>SELLING (SEG) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>0.942362575597316,51.2755146258354</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM</name>
-         <description>FAVERSHAM(FAV) - ROUTEING_POINT</description>
+         <description>FAVERSHAM (FAV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.892844957991794,51.3091138912366</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>HASTINGS GROUP</name>
-         <description>HASTINGS GROUP(G15) - ROUTEING_GROUP</description>
+         <description>HASTINGS GROUP (G15) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.577630945295527,50.8562183508005</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL</name>
-         <description>ASHFORD INTL(AFK) - ROUTEING_POINT</description>
+         <description>ASHFORD INTL (AFK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.875193701365457,51.1414352542849</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP</name>
-         <description>CHATHAM GROUP(G07) - ROUTEING_GROUP</description>
+         <description>CHATHAM GROUP (G07) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.522093821820727,51.3788192504241</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>KEARSNEY (KENT)</name>
-         <description>KEARSNEY (KENT)(KSN) - INTERCHANGE</description>
+         <description>KEARSNEY (KENT) (KSN) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>1.27315041375844,51.1471487671387</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>DOVER PRIORY</name>
-         <description>DOVER PRIORY(DVP) - ROUTEING_POINT</description>
+         <description>DOVER PRIORY (DVP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.30580430019011,51.1237524751162</coordinates>

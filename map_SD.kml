@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>DORKING GROUP</name>
-         <description>DORKING GROUP(G10) - ROUTEING_GROUP</description>
+         <description>DORKING GROUP (G10) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.32232810917038,51.2393563350226</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP</name>
-         <description>REDHILL GROUP(G60) - ROUTEING_GROUP</description>
+         <description>REDHILL GROUP (G60) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.163348351898478,51.2378679252594</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>CROYDON GROUP</name>
-         <description>CROYDON GROUP(G08) - ROUTEING_GROUP</description>
+         <description>CROYDON GROUP (G08) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0918292948916154,51.3733510137007</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>CRYSTAL PALACE</name>
-         <description>CRYSTAL PALACE(CYP) - ROUTEING_POINT</description>
+         <description>CRYSTAL PALACE (CYP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0713862141029046,51.4152630622009</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP</name>
-         <description>STREATHAM GROUP(G29) - ROUTEING_GROUP</description>
+         <description>STREATHAM GROUP (G29) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.130024439539019,51.4234044157532</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>GOMSHALL</name>
-         <description>GOMSHALL(GOM) - INTERCHANGE</description>
+         <description>GOMSHALL (GOM) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.440579888231119,51.2167234969664</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>FORD GROUP</name>
-         <description>FORD GROUP(G61) - ROUTEING_GROUP</description>
+         <description>FORD GROUP (G61) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.577134842260158,50.8274799070745</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM</name>
-         <description>HORSHAM(HRH) - ROUTEING_POINT</description>
+         <description>HORSHAM (HRH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.317257080155847,51.0640099999086</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>SUTTON LONDON</name>
-         <description>SUTTON LONDON(SUO) - ROUTEING_POINT</description>
+         <description>SUTTON LONDON (SUO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.188720543001437,51.3578110208355</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>MITCHAM JUNCTION</name>
-         <description>MITCHAM JUNCTION(MIJ) - ROUTEING_POINT</description>
+         <description>MITCHAM JUNCTION (MIJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.155802159436525,51.3905551171452</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>EPSOM</name>
-         <description>EPSOM(EPS) - ROUTEING_POINT</description>
+         <description>EPSOM (EPS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.26726318438557,51.3320338775324</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES</name>
-         <description>THREE BRIDGES(TBD) - ROUTEING_POINT</description>
+         <description>THREE BRIDGES (TBD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.159664743659514,51.1146668456172</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD</name>
-         <description>GUILDFORD(GLD) - ROUTEING_POINT</description>
+         <description>GUILDFORD (GLD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.578935314413253,51.2346642743648</coordinates>
@@ -156,7 +156,7 @@
       </Placemark>
       <Placemark>
          <name>WIMBLEDON</name>
-         <description>WIMBLEDON(WIM) - ROUTEING_POINT</description>
+         <description>WIMBLEDON (WIM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.204994402252205,51.4191836093249</coordinates>
@@ -164,7 +164,7 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT</name>
-         <description>GATWICK AIRPORT(GTW) - ROUTEING_POINT</description>
+         <description>GATWICK AIRPORT (GTW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.15952165755819,51.1542142067235</coordinates>

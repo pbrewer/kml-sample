@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>BLACKBURN</name>
-         <description>BLACKBURN(BBN) - ROUTEING_POINT</description>
+         <description>BLACKBURN (BBN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.47766980365798,53.7435728816802</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP</name>
-         <description>HELLIFIELD GROUP(G53) - ROUTEING_GROUP</description>
+         <description>HELLIFIELD GROUP (G53) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.22585165157831,54.0085463384902</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>WREXHAM GROUP</name>
-         <description>WREXHAM GROUP(G49) - ROUTEING_GROUP</description>
+         <description>WREXHAM GROUP (G49) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.00105187330833,53.0473735627572</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>CHESTER</name>
-         <description>CHESTER(CTR) - ROUTEING_POINT</description>
+         <description>CHESTER (CTR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.87871506267186,53.1939431401654</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS</name>
-         <description>PRESTON LANCS(PRE) - ROUTEING_POINT</description>
+         <description>PRESTON LANCS (PRE) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.7067978635424,53.7523272523068</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP</name>
-         <description>WIGAN GROUP(G34) - ROUTEING_GROUP</description>
+         <description>WIGAN GROUP (G34) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.63082648852484,53.5406412185915</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>BOLTON</name>
-         <description>BOLTON(BON) - ROUTEING_POINT</description>
+         <description>BOLTON (BON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.42437676789755,53.571211139824</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP</name>
-         <description>WARRINGTON GROUP(G31) - ROUTEING_GROUP</description>
+         <description>WARRINGTON GROUP (G31) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.59098665939852,53.3889528478108</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>HOOTON</name>
-         <description>HOOTON(HOO) - ROUTEING_POINT</description>
+         <description>HOOTON (HOO) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.9752950896166,53.2938563998056</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON</name>
-         <description>SHOTTON(SHT) - ROUTEING_POINT</description>
+         <description>SHOTTON (SHT) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.03630325182179,53.2106526120998</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>LLANDUDNO JN</name>
-         <description>LLANDUDNO JN(LLJ) - ROUTEING_POINT</description>
+         <description>LLANDUDNO JN (LLJ) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.80754581249448,53.2805500537438</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP</name>
-         <description>LANCASTER GROUP(G64) - ROUTEING_GROUP</description>
+         <description>LANCASTER GROUP (G64) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.80646520495794,54.0455998359243</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS</name>
-         <description>CLAPHAM YORKS(CPY) - INTERCHANGE</description>
+         <description>CLAPHAM YORKS (CPY) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.40836909508231,54.102434872771</coordinates>
@@ -156,7 +156,7 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D</name>
-         <description>OXENHOLME LAKE D(OXN) - ROUTEING_POINT</description>
+         <description>OXENHOLME LAKE D (OXN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.72079672561516,54.3022952619467</coordinates>

@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>DORKING GROUP</name>
-         <description>DORKING GROUP(G10) - ROUTEING_GROUP</description>
+         <description>DORKING GROUP (G10) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.32232810917038,51.2393563350226</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP</name>
-         <description>REDHILL GROUP(G60) - ROUTEING_GROUP</description>
+         <description>REDHILL GROUP (G60) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.163348351898478,51.2378679252594</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH N</name>
-         <description>FARNBOROUGH N(FNN) - INTERCHANGE</description>
+         <description>FARNBOROUGH N (FNN) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.741913906017282,51.2994459413971</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD</name>
-         <description>GUILDFORD(GLD) - ROUTEING_POINT</description>
+         <description>GUILDFORD (GLD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.578935314413253,51.2346642743648</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>GOMSHALL</name>
-         <description>GOMSHALL(GOM) - INTERCHANGE</description>
+         <description>GOMSHALL (GOM) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.440579888231119,51.2167234969664</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>EDENBRIDGE</name>
-         <description>EDENBRIDGE(EBR) - INTERCHANGE</description>
+         <description>EDENBRIDGE (EBR) - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0616163164544236,51.2062550712968</coordinates>
@@ -100,7 +100,7 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM</name>
-         <description>WOKINGHAM(WKM) - ROUTEING_POINT</description>
+         <description>WOKINGHAM (WKM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.84100195902129,51.409222906424</coordinates>
@@ -108,7 +108,7 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP</name>
-         <description>READING GROUP(G24) - ROUTEING_GROUP</description>
+         <description>READING GROUP (G24) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.972242308326233,51.4562854116841</coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
          <name>TONBRIDGE</name>
-         <description>TONBRIDGE(TON) - ROUTEING_POINT</description>
+         <description>TONBRIDGE (TON) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.271241048728237,51.1888888580524</coordinates>
@@ -124,7 +124,7 @@
       </Placemark>
       <Placemark>
          <name>EPSOM</name>
-         <description>EPSOM(EPS) - ROUTEING_POINT</description>
+         <description>EPSOM (EPS) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.26726318438557,51.3320338775324</coordinates>
@@ -132,7 +132,7 @@
       </Placemark>
       <Placemark>
          <name>LEATHERHEAD</name>
-         <description>LEATHERHEAD(LHD) - ROUTEING_POINT</description>
+         <description>LEATHERHEAD (LHD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.331735826951668,51.296117664066</coordinates>
@@ -140,7 +140,7 @@
       </Placemark>
       <Placemark>
          <name>MAIDSTONE GROUP</name>
-         <description>MAIDSTONE GROUP(G19) - ROUTEING_GROUP</description>
+         <description>MAIDSTONE GROUP (G19) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.51490194350759,51.273797018873</coordinates>
@@ -148,7 +148,7 @@
       </Placemark>
       <Placemark>
          <name>DOVER PRIORY</name>
-         <description>DOVER PRIORY(DVP) - ROUTEING_POINT</description>
+         <description>DOVER PRIORY (DVP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.30580430019011,51.1237524751162</coordinates>
@@ -156,7 +156,7 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL</name>
-         <description>ASHFORD INTL(AFK) - ROUTEING_POINT</description>
+         <description>ASHFORD INTL (AFK) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.875193701365457,51.1414352542849</coordinates>
@@ -164,7 +164,7 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT</name>
-         <description>GATWICK AIRPORT(GTW) - ROUTEING_POINT</description>
+         <description>GATWICK AIRPORT (GTW) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.15952165755819,51.1542142067235</coordinates>
@@ -172,7 +172,7 @@
       </Placemark>
       <Placemark>
          <name>EFFINGHAM JN</name>
-         <description>EFFINGHAM JN(EFF) - ROUTEING_POINT</description>
+         <description>EFFINGHAM JN (EFF) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.418044544892225,51.2892262107591</coordinates>
@@ -180,7 +180,7 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM</name>
-         <description>HORSHAM(HRH) - ROUTEING_POINT</description>
+         <description>HORSHAM (HRH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.317257080155847,51.0640099999086</coordinates>
@@ -188,7 +188,7 @@
       </Placemark>
       <Placemark>
          <name>HASTINGS GROUP</name>
-         <description>HASTINGS GROUP(G15) - ROUTEING_GROUP</description>
+         <description>HASTINGS GROUP (G15) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.577630945295527,50.8562183508005</coordinates>

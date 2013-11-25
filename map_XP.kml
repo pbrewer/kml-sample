@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>BLACKBURN</name>
-         <description>BLACKBURN(BBN) - ROUTEING_POINT</description>
+         <description>BLACKBURN (BBN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.47766980365798,53.7435728816802</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>ACCRINGTON</name>
-         <description>ACCRINGTON(ACR) - ROUTEING_POINT</description>
+         <description>ACCRINGTON (ACR) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.36854603919095,53.7502494092412</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS</name>
-         <description>PRESTON LANCS(PRE) - ROUTEING_POINT</description>
+         <description>PRESTON LANCS (PRE) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.7067978635424,53.7523272523068</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>KIRKHAM &amp; WESHAM</name>
-         <description>KIRKHAM &amp; WESHAM(KKM) - ROUTEING_POINT</description>
+         <description>KIRKHAM &amp; WESHAM (KKM) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.88038065453008,53.7844331327434</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP</name>
-         <description>LANCASTER GROUP(G64) - ROUTEING_GROUP</description>
+         <description>LANCASTER GROUP (G64) - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.80646520495794,54.0455998359243</coordinates>
@@ -92,7 +92,7 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D</name>
-         <description>OXENHOLME LAKE D(OXN) - ROUTEING_POINT</description>
+         <description>OXENHOLME LAKE D (OXN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.72079672561516,54.3022952619467</coordinates>

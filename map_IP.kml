@@ -47,12 +47,12 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
          <name>PERTH</name>
-         <description>PERTH(PTH) - ROUTEING_POINT</description>
+         <description>PERTH (PTH) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.43853486400658,56.3902039890477</coordinates>
@@ -60,7 +60,7 @@
       </Placemark>
       <Placemark>
          <name>DUNDEE</name>
-         <description>DUNDEE(DEE) - ROUTEING_POINT</description>
+         <description>DUNDEE (DEE) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.98647708050388,56.4503497727745</coordinates>
@@ -68,7 +68,7 @@
       </Placemark>
       <Placemark>
          <name>ABERDEEN</name>
-         <description>ABERDEEN(ABD) - ROUTEING_POINT</description>
+         <description>ABERDEEN (ABD) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.09584835709385,57.1408810902915</coordinates>
@@ -76,7 +76,7 @@
       </Placemark>
       <Placemark>
          <name>INVERNESS</name>
-         <description>INVERNESS(INV) - ROUTEING_POINT</description>
+         <description>INVERNESS (INV) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.22168553197048,57.4781575680485</coordinates>
@@ -84,7 +84,7 @@
       </Placemark>
       <Placemark>
          <name>DINGWALL</name>
-         <description>DINGWALL(DIN) - ROUTEING_POINT</description>
+         <description>DINGWALL (DIN) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.42110081313562,57.592267576863</coordinates>
