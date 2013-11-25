@@ -46,7 +46,7 @@
      $(document).ready(function() {
         $.getJSON( "ajax/map_meta_data.json", function(data) {
             $.each(data.maps, function(key, value) {
-            	$("#mapCodes").append('<option value="' + value.kmlUrl + '">' + value.mapCode + ', ' + value.mapName + '</option>');
+            	$("#mapCodes").append('<option value="' + value.kmlUrl + '">' + value.mapCode + ' - ' + value.mapName + '</option>');
             });
     	});   
     }); 
