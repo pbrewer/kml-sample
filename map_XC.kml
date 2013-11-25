@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>DORKING GROUP</name>
-         <description>DORKING GROUP - ROUTEING_GROUP</description>
+         <description>DORKING GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.32232810917038,51.2393563350226</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP</name>
-         <description>REDHILL GROUP - ROUTEING_GROUP</description>
+         <description>REDHILL GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.163348351898478,51.2378679252594</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH N</name>
-         <description>FARNBOROUGH N - INTERCHANGE</description>
+         <description>FARNBOROUGH N() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.741913906017282,51.2994459413971</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD</name>
-         <description>GUILDFORD - ROUTEING_POINT</description>
+         <description>GUILDFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.578935314413253,51.2346642743648</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>GOMSHALL</name>
-         <description>GOMSHALL - INTERCHANGE</description>
+         <description>GOMSHALL() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.440579888231119,51.2167234969664</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>FORD GROUP</name>
-         <description>FORD GROUP - ROUTEING_GROUP</description>
+         <description>FORD GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.577134842260158,50.8274799070745</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM</name>
-         <description>HORSHAM - ROUTEING_POINT</description>
+         <description>HORSHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.317257080155847,51.0640099999086</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM</name>
-         <description>WOKINGHAM - ROUTEING_POINT</description>
+         <description>WOKINGHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.84100195902129,51.409222906424</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP</name>
-         <description>READING GROUP - ROUTEING_GROUP</description>
+         <description>READING GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.972242308326233,51.4562854116841</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>HASTINGS GROUP</name>
-         <description>HASTINGS GROUP - ROUTEING_GROUP</description>
+         <description>HASTINGS GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.577630945295527,50.8562183508005</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>POLEGATE</name>
-         <description>POLEGATE - INTERCHANGE</description>
+         <description>POLEGATE() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>0.253236488543737,50.8188895282876</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>BRIGHTON GROUP</name>
-         <description>BRIGHTON GROUP - ROUTEING_GROUP</description>
+         <description>BRIGHTON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.139734374960716,50.827616842405</coordinates>
@@ -143,7 +128,7 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES</name>
-         <description>THREE BRIDGES - ROUTEING_POINT</description>
+         <description>THREE BRIDGES() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.159664743659514,51.1146668456172</coordinates>
@@ -151,7 +136,7 @@
       </Placemark>
       <Placemark>
          <name>LEWES</name>
-         <description>LEWES - ROUTEING_POINT</description>
+         <description>LEWES() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0139708740923098,50.8682100046315</coordinates>
@@ -159,7 +144,7 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT</name>
-         <description>GATWICK AIRPORT - ROUTEING_POINT</description>
+         <description>GATWICK AIRPORT() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.15952165755819,51.1542142067235</coordinates>

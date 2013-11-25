@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>WHITLAND</name>
-         <description>WHITLAND - ROUTEING_POINT</description>
+         <description>WHITLAND() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.61316923131634,51.8155206244219</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>SWANSEA GROUP</name>
-         <description>SWANSEA GROUP - ROUTEING_GROUP</description>
+         <description>SWANSEA GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.94028860334008,51.6227099416963</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>LLANDOVERY</name>
-         <description>LLANDOVERY - INTERCHANGE</description>
+         <description>LLANDOVERY() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.80182502384194,51.9925512009182</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>SHREWSBURY</name>
-         <description>SHREWSBURY - ROUTEING_POINT</description>
+         <description>SHREWSBURY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.7475465595177,52.7086006455055</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>MACHYNLLETH GROUP</name>
-         <description>MACHYNLLETH GROUP - ROUTEING_GROUP</description>
+         <description>MACHYNLLETH GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.85294612804162,52.5931050319326</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>CREWE</name>
-         <description>CREWE - ROUTEING_POINT</description>
+         <description>CREWE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.4315419838315,53.0867528750238</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>CRAVEN ARMS</name>
-         <description>CRAVEN ARMS - ROUTEING_POINT</description>
+         <description>CRAVEN ARMS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.83567015766998,52.4392771446456</coordinates>

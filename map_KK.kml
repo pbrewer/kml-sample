@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>DUMFRIES</name>
-         <description>DUMFRIES - INTERCHANGE</description>
+         <description>DUMFRIES() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.6037876629636,55.0695130371346</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK</name>
-         <description>KILMARNOCK - ROUTEING_POINT</description>
+         <description>KILMARNOCK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.49757948758596,55.6100734945976</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>TROON GROUP</name>
-         <description>TROON GROUP - ROUTEING_GROUP</description>
+         <description>TROON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.65327165048802,55.5402684571067</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP</name>
-         <description>GLASGOW GROUP - ROUTEING_GROUP</description>
+         <description>GLASGOW GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.25772518045981,55.8574586971832</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>MOUNT FLORIDA</name>
-         <description>MOUNT FLORIDA - ROUTEING_POINT</description>
+         <description>MOUNT FLORIDA() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.26058467436566,55.8241426007126</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>PAISLEY GIL ST</name>
-         <description>PAISLEY GIL ST - ROUTEING_POINT</description>
+         <description>PAISLEY GIL ST() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.42317845734824,55.8453202183079</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>KILWINNING</name>
-         <description>KILWINNING - ROUTEING_POINT</description>
+         <description>KILWINNING() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.70861104529443,55.653245391913</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>PORT GLASGOW</name>
-         <description>PORT GLASGOW - ROUTEING_POINT</description>
+         <description>PORT GLASGOW() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.68797158009861,55.9315283640005</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST</name>
-         <description>POLLOKSHAWS WEST - ROUTEING_POINT</description>
+         <description>POLLOKSHAWS WEST() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.30035427379742,55.8216069737407</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE</name>
-         <description>CARLISLE - ROUTEING_POINT</description>
+         <description>CARLISLE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.93233811859765,54.8877581794713</coordinates>

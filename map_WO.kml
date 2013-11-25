@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>BARNT GREEN</name>
-         <description>BARNT GREEN - ROUTEING_POINT</description>
+         <description>BARNT GREEN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.9926572118682,52.3586451076832</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE</name>
-         <description>BROMSGROVE - ROUTEING_POINT</description>
+         <description>BROMSGROVE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.04695288598449,52.3199895646342</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>GLOUCESTER</name>
-         <description>GLOUCESTER - ROUTEING_POINT</description>
+         <description>GLOUCESTER() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.23673166427208,51.8622947301681</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>BRISTOL GROUP</name>
-         <description>BRISTOL GROUP - ROUTEING_GROUP</description>
+         <description>BRISTOL GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.57996766294555,51.4467726886349</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>WARMINSTER</name>
-         <description>WARMINSTER - INTERCHANGE</description>
+         <description>WARMINSTER() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.17608167090137,51.2045121652987</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>SALISBURY</name>
-         <description>SALISBURY - ROUTEING_POINT</description>
+         <description>SALISBURY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.80445073638904,51.0687691626069</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>WESTBURY GROUP</name>
-         <description>WESTBURY GROUP - ROUTEING_GROUP</description>
+         <description>WESTBURY GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.19781295870281,51.2646940754104</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>BATH SPA</name>
-         <description>BATH SPA - ROUTEING_POINT</description>
+         <description>BATH SPA() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.35491303257205,51.3757692670053</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>CHELTENHAM SPA</name>
-         <description>CHELTENHAM SPA - ROUTEING_POINT</description>
+         <description>CHELTENHAM SPA() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.09882854165799,51.8939477964377</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP</name>
-         <description>WORCESTER GROUP - ROUTEING_GROUP</description>
+         <description>WORCESTER GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.21946001815119,52.1921716892404</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>YEOVIL PEN MILL</name>
-         <description>YEOVIL PEN MILL - INTERCHANGE</description>
+         <description>YEOVIL PEN MILL() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.61210460405944,50.9424017929649</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>SWINDON (WILTS)</name>
-         <description>SWINDON (WILTS) - ROUTEING_POINT</description>
+         <description>SWINDON (WILTS)() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.78502451282572,51.5630507679151</coordinates>
@@ -143,7 +128,7 @@
       </Placemark>
       <Placemark>
          <name>CHIPPENHAM</name>
-         <description>CHIPPENHAM - ROUTEING_POINT</description>
+         <description>CHIPPENHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.11372296911025,51.4598357522008</coordinates>
@@ -151,7 +136,7 @@
       </Placemark>
       <Placemark>
          <name>CASTLE CARY</name>
-         <description>CASTLE CARY - ROUTEING_POINT</description>
+         <description>CASTLE CARY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.52131224016905,51.0974294858244</coordinates>

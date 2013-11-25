@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>YORK</name>
-         <description>YORK - ROUTEING_POINT</description>
+         <description>YORK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.09164414482499,53.9549944344078</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP</name>
-         <description>PONTEFRACT GROUP - ROUTEING_GROUP</description>
+         <description>PONTEFRACT GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30184277248278,53.6885648869916</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP</name>
-         <description>LEEDS GROUP - ROUTEING_GROUP</description>
+         <description>LEEDS GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54758683544322,53.7922040754631</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP</name>
-         <description>WAKEFIELD GROUP - ROUTEING_GROUP</description>
+         <description>WAKEFIELD GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.48675885897802,53.6760184399997</coordinates>

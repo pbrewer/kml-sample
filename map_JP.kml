@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>BLACKBURN</name>
-         <description>BLACKBURN - ROUTEING_POINT</description>
+         <description>BLACKBURN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.47766980365798,53.7435728816802</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>ACCRINGTON</name>
-         <description>ACCRINGTON - ROUTEING_POINT</description>
+         <description>ACCRINGTON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.36854603919095,53.7502494092412</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>WREXHAM GROUP</name>
-         <description>WREXHAM GROUP - ROUTEING_GROUP</description>
+         <description>WREXHAM GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.00105187330833,53.0473735627572</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>CHESTER</name>
-         <description>CHESTER - ROUTEING_POINT</description>
+         <description>CHESTER() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.87871506267186,53.1939431401654</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS</name>
-         <description>PRESTON LANCS - ROUTEING_POINT</description>
+         <description>PRESTON LANCS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.7067978635424,53.7523272523068</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>KIRKHAM &amp; WESHAM</name>
-         <description>KIRKHAM &amp; WESHAM - ROUTEING_POINT</description>
+         <description>KIRKHAM &amp; WESHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.88038065453008,53.7844331327434</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP</name>
-         <description>WIGAN GROUP - ROUTEING_GROUP</description>
+         <description>WIGAN GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.63082648852484,53.5406412185915</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP</name>
-         <description>LIVERPOOL GROUP - ROUTEING_GROUP</description>
+         <description>LIVERPOOL GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.97631716943623,53.4043995068628</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>HUYTON</name>
-         <description>HUYTON - ROUTEING_POINT</description>
+         <description>HUYTON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.84248348710437,53.4072163077818</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>HOOTON</name>
-         <description>HOOTON - ROUTEING_POINT</description>
+         <description>HOOTON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.9752950896166,53.2938563998056</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON</name>
-         <description>SHOTTON - ROUTEING_POINT</description>
+         <description>SHOTTON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.03630325182179,53.2106526120998</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>LLANDUDNO JN</name>
-         <description>LLANDUDNO JN - ROUTEING_POINT</description>
+         <description>LLANDUDNO JN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.80754581249448,53.2805500537438</coordinates>

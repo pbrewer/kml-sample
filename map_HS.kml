@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>EBBSFLEET INTERNATIONAL</name>
-         <description>EBBSFLEET INTERNATIONAL - ROUTEING_POINT</description>
+         <description>EBBSFLEET INTERNATIONAL() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.322562057806688,51.4404771241638</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL</name>
-         <description>ASHFORD INTL - ROUTEING_POINT</description>
+         <description>ASHFORD INTL() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.875193701365457,51.1414352542849</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>RAMSGATE GROUP</name>
-         <description>RAMSGATE GROUP - ROUTEING_GROUP</description>
+         <description>RAMSGATE GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>1.40741462464778,51.3384161699967</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP</name>
-         <description>STRATFORD LONDON GP - ROUTEING_GROUP</description>
+         <description>STRATFORD LONDON GP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.00273806485052959,51.5381583521958</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>GRAVESEND</name>
-         <description>GRAVESEND - ROUTEING_POINT</description>
+         <description>GRAVESEND() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.368522021932612,51.4386582154852</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM</name>
-         <description>FAVERSHAM - ROUTEING_POINT</description>
+         <description>FAVERSHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.892844957991794,51.3091138912366</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP</name>
-         <description>CHATHAM GROUP - ROUTEING_GROUP</description>
+         <description>CHATHAM GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.522093821820727,51.3788192504241</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>DOVER PRIORY</name>
-         <description>DOVER PRIORY - ROUTEING_POINT</description>
+         <description>DOVER PRIORY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.30580430019011,51.1237524751162</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <description>LONDON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>

@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>GRANTHAM</name>
-         <description>GRANTHAM - ROUTEING_POINT</description>
+         <description>GRANTHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.64092361498438,52.9036052752164</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP</name>
-         <description>NOTTINGHAM GROUP - ROUTEING_GROUP</description>
+         <description>NOTTINGHAM GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.14419550451195,52.9451470971285</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>SLEAFORD</name>
-         <description>SLEAFORD - ROUTEING_POINT</description>
+         <description>SLEAFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.408661580477448,52.9924033599123</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP</name>
-         <description>DERBY GROUP - ROUTEING_GROUP</description>
+         <description>DERBY GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46160821941454,52.913754524735</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS</name>
-         <description>LOUGHBORO LEICS - ROUTEING_POINT</description>
+         <description>LOUGHBORO LEICS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.1934681395205,52.776521257258</coordinates>

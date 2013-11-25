@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>CARLISLE</name>
-         <description>CARLISLE - ROUTEING_POINT</description>
+         <description>CARLISLE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.93233811859765,54.8877581794713</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS</name>
-         <description>CARSTAIRS - ROUTEING_POINT</description>
+         <description>CARSTAIRS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.66719660940652,55.6879970200404</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP</name>
-         <description>FALKIRK GROUP - ROUTEING_GROUP</description>
+         <description>FALKIRK GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.7907706980682,55.9891919882658</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>STIRLING</name>
-         <description>STIRLING - ROUTEING_POINT</description>
+         <description>STIRLING() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.93342054431657,56.1164857646184</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>DINGWALL</name>
-         <description>DINGWALL - ROUTEING_POINT</description>
+         <description>DINGWALL() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.42110081313562,57.592267576863</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>INVERNESS</name>
-         <description>INVERNESS - ROUTEING_POINT</description>
+         <description>INVERNESS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.22168553197048,57.4781575680485</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>PERTH</name>
-         <description>PERTH - ROUTEING_POINT</description>
+         <description>PERTH() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.43853486400658,56.3902039890477</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>AVIEMORE</name>
-         <description>AVIEMORE - INTERCHANGE</description>
+         <description>AVIEMORE() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.82682091769454,57.1869447311107</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP</name>
-         <description>EDINBURGH GROUP - ROUTEING_GROUP</description>
+         <description>EDINBURGH GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.1867201601368,55.9497469450646</coordinates>

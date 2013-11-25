@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>NEW CROSS</name>
-         <description>NEW CROSS - ROUTEING_POINT</description>
+         <description>NEW CROSS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0314684684072144,51.4739249880263</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>SURREY QUAYS</name>
-         <description>SURREY QUAYS - ROUTEING_POINT</description>
+         <description>SURREY QUAYS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0466080587220225,51.4903579634564</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>CAMDEN ROAD</name>
-         <description>CAMDEN ROAD - INTERCHANGE</description>
+         <description>CAMDEN ROAD() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.13824916332792,51.5394886739332</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>GOSPEL OAK</name>
-         <description>GOSPEL OAK - ROUTEING_POINT</description>
+         <description>GOSPEL OAK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.149232687522671,51.5531454292835</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK</name>
-         <description>FINSBURY PARK - ROUTEING_POINT</description>
+         <description>FINSBURY PARK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.104129330214378,51.5623127208072</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND</name>
-         <description>HIGHBURY &amp; I UND - ROUTEING_POINT</description>
+         <description>HIGHBURY &amp; I UND() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.102030856310921,51.5434025567242</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS GATE</name>
-         <description>NEW CROSS GATE - ROUTEING_POINT</description>
+         <description>NEW CROSS GATE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0401417522422767,51.4731714354845</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>CRYSTAL PALACE</name>
-         <description>CRYSTAL PALACE - ROUTEING_POINT</description>
+         <description>CRYSTAL PALACE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0713862141029046,51.4152630622009</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE</name>
-         <description>PECKHAM RYE - ROUTEING_POINT</description>
+         <description>PECKHAM RYE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>NUNHEAD</name>
-         <description>NUNHEAD - ROUTEING_POINT</description>
+         <description>NUNHEAD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0520373598903545,51.4643809758347</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>CROYDON GROUP</name>
-         <description>CROYDON GROUP - ROUTEING_GROUP</description>
+         <description>CROYDON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0918292948916154,51.3733510137007</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>DENMARK HILL</name>
-         <description>DENMARK HILL - ROUTEING_POINT</description>
+         <description>DENMARK HILL() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0879714524318652,51.4658714779636</coordinates>
@@ -143,7 +128,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION - ROUTEING_POINT</description>
+         <description>CLAPHAM JUNCTION() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.168769712349235,51.4617683410367</coordinates>
@@ -151,7 +136,7 @@
       </Placemark>
       <Placemark>
          <name>WILLESDEN JN</name>
-         <description>WILLESDEN JN - ROUTEING_POINT</description>
+         <description>WILLESDEN JN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.242510759036517,51.5285132205761</coordinates>

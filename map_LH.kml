@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>OXFORD</name>
-         <description>OXFORD - ROUTEING_POINT</description>
+         <description>OXFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.2698223826342,51.7506169249712</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>DIDCOT PARKWAY</name>
-         <description>DIDCOT PARKWAY - ROUTEING_POINT</description>
+         <description>DIDCOT PARKWAY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.24177639605164,51.6084332295774</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN</name>
-         <description>BARNT GREEN - ROUTEING_POINT</description>
+         <description>BARNT GREEN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.9926572118682,52.3586451076832</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE</name>
-         <description>BROMSGROVE - ROUTEING_POINT</description>
+         <description>BROMSGROVE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.04695288598449,52.3199895646342</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP</name>
-         <description>READING GROUP - ROUTEING_GROUP</description>
+         <description>READING GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.972242308326233,51.4562854116841</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>HAYES &amp; HARLNGTN GP</name>
-         <description>HAYES &amp; HARLNGTN GP - ROUTEING_GROUP</description>
+         <description>HAYES &amp; HARLNGTN GP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.417945334425063,51.5004503083908</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>EALING BROADWAY GROUP</name>
-         <description>EALING BROADWAY GROUP - ROUTEING_GROUP</description>
+         <description>EALING BROADWAY GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.299347829081659,51.5122730230576</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>EVESHAM</name>
-         <description>EVESHAM - INTERCHANGE</description>
+         <description>EVESHAM() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.94598280675679,52.0961966655734</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP</name>
-         <description>WORCESTER GROUP - ROUTEING_GROUP</description>
+         <description>WORCESTER GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.21946001815119,52.1921716892404</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>SLOUGH</name>
-         <description>SLOUGH - ROUTEING_POINT</description>
+         <description>SLOUGH() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.590565992879139,51.5098424704067</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>MAIDENHEAD</name>
-         <description>MAIDENHEAD - ROUTEING_POINT</description>
+         <description>MAIDENHEAD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.721546959650751,51.515837329819</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>TWYFORD</name>
-         <description>TWYFORD - ROUTEING_POINT</description>
+         <description>TWYFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.862420368717771,51.4732471781296</coordinates>
@@ -143,7 +128,7 @@
       </Placemark>
       <Placemark>
          <name>CHELTENHAM SPA</name>
-         <description>CHELTENHAM SPA - ROUTEING_POINT</description>
+         <description>CHELTENHAM SPA() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.09882854165799,51.8939477964377</coordinates>
@@ -151,7 +136,7 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD</name>
-         <description>HEREFORD - ROUTEING_POINT</description>
+         <description>HEREFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.70746562548318,52.0581355218282</coordinates>
@@ -159,7 +144,7 @@
       </Placemark>
       <Placemark>
          <name>GLOUCESTER</name>
-         <description>GLOUCESTER - ROUTEING_POINT</description>
+         <description>GLOUCESTER() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.23673166427208,51.8622947301681</coordinates>
@@ -167,7 +152,7 @@
       </Placemark>
       <Placemark>
          <name>CRAVEN ARMS</name>
-         <description>CRAVEN ARMS - ROUTEING_POINT</description>
+         <description>CRAVEN ARMS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.83567015766998,52.4392771446456</coordinates>
@@ -175,7 +160,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <description>LONDON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -183,7 +168,7 @@
       </Placemark>
       <Placemark>
          <name>BANBURY GROUP</name>
-         <description>BANBURY GROUP - ROUTEING_GROUP</description>
+         <description>BANBURY GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.32608171738474,52.0583321271333</coordinates>

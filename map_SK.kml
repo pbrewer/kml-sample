@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>STOCKPORT</name>
-         <description>STOCKPORT - ROUTEING_POINT</description>
+         <description>STOCKPORT() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.16095318791928,53.4019907710042</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP</name>
-         <description>MANCHESTER GROUP - ROUTEING_GROUP</description>
+         <description>MANCHESTER GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.22752279914098,53.4737830141426</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP</name>
-         <description>WILMSLOW GROUP - ROUTEING_GROUP</description>
+         <description>WILMSLOW GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.22372067876089,53.3236978660225</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME</name>
-         <description>CHEADLE HULME - ROUTEING_POINT</description>
+         <description>CHEADLE HULME() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.18790259306218,53.3731912199484</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT</name>
-         <description>STOKE ON TRENT - ROUTEING_POINT</description>
+         <description>STOKE ON TRENT() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.17885041744102,53.0056140476396</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE</name>
-         <description>GUIDE BRIDGE - ROUTEING_POINT</description>
+         <description>GUIDE BRIDGE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.11149453901127,53.4712513204513</coordinates>

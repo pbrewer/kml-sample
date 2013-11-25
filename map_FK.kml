@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>FALKIRK GROUP</name>
-         <description>FALKIRK GROUP - ROUTEING_GROUP</description>
+         <description>FALKIRK GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.7907706980682,55.9891919882658</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>STIRLING</name>
-         <description>STIRLING - ROUTEING_POINT</description>
+         <description>STIRLING() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.93342054431657,56.1164857646184</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK</name>
-         <description>LADYBANK - ROUTEING_POINT</description>
+         <description>LADYBANK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.12075070040537,56.2712433727159</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY</name>
-         <description>KIRKCALDY - ROUTEING_POINT</description>
+         <description>KIRKCALDY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.16591335708558,56.1099364212259</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>PERTH</name>
-         <description>PERTH - ROUTEING_POINT</description>
+         <description>PERTH() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.43853486400658,56.3902039890477</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP</name>
-         <description>INVERKEITHING GROUP - ROUTEING_GROUP</description>
+         <description>INVERKEITHING GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.39468834148053,56.0320609246806</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP</name>
-         <description>EDINBURGH GROUP - ROUTEING_GROUP</description>
+         <description>EDINBURGH GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.1867201601368,55.9497469450646</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES</name>
-         <description>GLENROTHES - INTERCHANGE</description>
+         <description>GLENROTHES() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.14165226352735,56.1595983102409</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>DUNDEE</name>
-         <description>DUNDEE - ROUTEING_POINT</description>
+         <description>DUNDEE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.98647708050388,56.4503497727745</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>ABERDEEN</name>
-         <description>ABERDEEN - ROUTEING_POINT</description>
+         <description>ABERDEEN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.09584835709385,57.1408810902915</coordinates>

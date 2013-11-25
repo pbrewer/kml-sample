@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>DALMUIR</name>
-         <description>DALMUIR - ROUTEING_POINT</description>
+         <description>DALMUIR() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.42555640997027,55.9091063445877</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>WESTERTON</name>
-         <description>WESTERTON - ROUTEING_POINT</description>
+         <description>WESTERTON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.33395911992698,55.9027857249334</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK</name>
-         <description>NEWTON LANARK - ROUTEING_POINT</description>
+         <description>NEWTON LANARK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.13242975572459,55.8165428999123</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP</name>
-         <description>GLASGOW GROUP - ROUTEING_GROUP</description>
+         <description>GLASGOW GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.25772518045981,55.8574586971832</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP</name>
-         <description>MOTHERWELL GROUP - ROUTEING_GROUP</description>
+         <description>MOTHERWELL GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.99374336471782,55.7892042237234</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>PARTICK</name>
-         <description>PARTICK - ROUTEING_POINT</description>
+         <description>PARTICK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.30944896259972,55.8672868799959</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>HYNDLAND</name>
-         <description>HYNDLAND - ROUTEING_POINT</description>
+         <description>HYNDLAND() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.3132299509596,55.8771051673374</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS</name>
-         <description>CARSTAIRS - ROUTEING_POINT</description>
+         <description>CARSTAIRS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.66719660940652,55.6879970200404</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>TROON GROUP</name>
-         <description>TROON GROUP - ROUTEING_GROUP</description>
+         <description>TROON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.65327165048802,55.5402684571067</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>KILWINNING</name>
-         <description>KILWINNING - ROUTEING_POINT</description>
+         <description>KILWINNING() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.70861104529443,55.653245391913</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>BELLGROVE</name>
-         <description>BELLGROVE - ROUTEING_POINT</description>
+         <description>BELLGROVE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.22399420881111,55.8544770806507</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>PAISLEY GIL ST</name>
-         <description>PAISLEY GIL ST - ROUTEING_POINT</description>
+         <description>PAISLEY GIL ST() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.42317845734824,55.8453202183079</coordinates>
@@ -143,7 +128,7 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK</name>
-         <description>KILMARNOCK - ROUTEING_POINT</description>
+         <description>KILMARNOCK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.49757948758596,55.6100734945976</coordinates>
@@ -151,7 +136,7 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST</name>
-         <description>POLLOKSHAWS WEST - ROUTEING_POINT</description>
+         <description>POLLOKSHAWS WEST() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.30035427379742,55.8216069737407</coordinates>
@@ -159,7 +144,7 @@
       </Placemark>
       <Placemark>
          <name>MOUNT FLORIDA</name>
-         <description>MOUNT FLORIDA - ROUTEING_POINT</description>
+         <description>MOUNT FLORIDA() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.26058467436566,55.8241426007126</coordinates>
@@ -167,7 +152,7 @@
       </Placemark>
       <Placemark>
          <name>PORT GLASGOW</name>
-         <description>PORT GLASGOW - ROUTEING_POINT</description>
+         <description>PORT GLASGOW() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.68797158009861,55.9315283640005</coordinates>
@@ -175,7 +160,7 @@
       </Placemark>
       <Placemark>
          <name>SPRINGBURN</name>
-         <description>SPRINGBURN - ROUTEING_POINT</description>
+         <description>SPRINGBURN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.22857550663581,55.8786674142388</coordinates>

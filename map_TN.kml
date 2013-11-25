@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>REDHILL GROUP</name>
-         <description>REDHILL GROUP - ROUTEING_GROUP</description>
+         <description>REDHILL GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.163348351898478,51.2378679252594</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>EDENBRIDGE</name>
-         <description>EDENBRIDGE - INTERCHANGE</description>
+         <description>EDENBRIDGE() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0616163164544236,51.2062550712968</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>BATTLE</name>
-         <description>BATTLE - INTERCHANGE</description>
+         <description>BATTLE() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>0.496711913550688,50.911015510351</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>TONBRIDGE</name>
-         <description>TONBRIDGE - ROUTEING_POINT</description>
+         <description>TONBRIDGE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.271241048728237,51.1888888580524</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>CROYDON GROUP</name>
-         <description>CROYDON GROUP - ROUTEING_GROUP</description>
+         <description>CROYDON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0918292948916154,51.3733510137007</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS GATE</name>
-         <description>NEW CROSS GATE - ROUTEING_POINT</description>
+         <description>NEW CROSS GATE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0401417522422767,51.4731714354845</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <description>LONDON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP</name>
-         <description>STREATHAM GROUP - ROUTEING_GROUP</description>
+         <description>STREATHAM GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.130024439539019,51.4234044157532</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>HASTINGS GROUP</name>
-         <description>HASTINGS GROUP - ROUTEING_GROUP</description>
+         <description>HASTINGS GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.577630945295527,50.8562183508005</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>DOVER PRIORY</name>
-         <description>DOVER PRIORY - ROUTEING_POINT</description>
+         <description>DOVER PRIORY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.30580430019011,51.1237524751162</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL</name>
-         <description>ASHFORD INTL - ROUTEING_POINT</description>
+         <description>ASHFORD INTL() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.875193701365457,51.1414352542849</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION - ROUTEING_POINT</description>
+         <description>CLAPHAM JUNCTION() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.168769712349235,51.4617683410367</coordinates>

@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>MIDDLESBROUGH GROUP</name>
-         <description>MIDDLESBROUGH GROUP - ROUTEING_GROUP</description>
+         <description>MIDDLESBROUGH GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.2310576583881,54.5761261486276</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON</name>
-         <description>DARLINGTON - ROUTEING_POINT</description>
+         <description>DARLINGTON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54578731766567,54.5174993504893</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>HARTLEPOOL</name>
-         <description>HARTLEPOOL - INTERCHANGE</description>
+         <description>HARTLEPOOL() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.20575407723747,54.6838167251177</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE</name>
-         <description>NEWCASTLE - ROUTEING_POINT</description>
+         <description>NEWCASTLE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.61572906780496,54.9653249022215</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>YORK</name>
-         <description>YORK - ROUTEING_POINT</description>
+         <description>YORK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.09164414482499,53.9549944344078</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON</name>
-         <description>NORTHALLERTON - ROUTEING_POINT</description>
+         <description>NORTHALLERTON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.44020006264227,54.3301128769982</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE</name>
-         <description>CARLISLE - ROUTEING_POINT</description>
+         <description>CARLISLE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.93233811859765,54.8877581794713</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>DURHAM</name>
-         <description>DURHAM - INTERCHANGE</description>
+         <description>DURHAM() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.58020598133438,54.7764673142649</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS</name>
-         <description>CARSTAIRS - ROUTEING_POINT</description>
+         <description>CARSTAIRS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.66719660940652,55.6879970200404</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP</name>
-         <description>MOTHERWELL GROUP - ROUTEING_GROUP</description>
+         <description>MOTHERWELL GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.99374336471782,55.7892042237234</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP</name>
-         <description>SCARBOROUGH GROUP - ROUTEING_GROUP</description>
+         <description>SCARBOROUGH GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.404114952496297,54.2768123775554</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK</name>
-         <description>NEWTON LANARK - ROUTEING_POINT</description>
+         <description>NEWTON LANARK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.13242975572459,55.8165428999123</coordinates>

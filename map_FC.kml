@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>CRYSTAL PALACE</name>
-         <description>CRYSTAL PALACE - ROUTEING_POINT</description>
+         <description>CRYSTAL PALACE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0713862141029046,51.4152630622009</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP</name>
-         <description>STREATHAM GROUP - ROUTEING_GROUP</description>
+         <description>STREATHAM GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.130024439539019,51.4234044157532</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP</name>
-         <description>BROMLEY SOUTH GROUP - ROUTEING_GROUP</description>
+         <description>BROMLEY SOUTH GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0198851972353429,51.3975453727848</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY</name>
-         <description>SWANLEY - ROUTEING_POINT</description>
+         <description>SWANLEY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.169076202588924,51.3903835321094</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN</name>
-         <description>BECKENHAM JN - ROUTEING_POINT</description>
+         <description>BECKENHAM JN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.0256253748578791,51.4091076803144</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM</name>
-         <description>FAVERSHAM - ROUTEING_POINT</description>
+         <description>FAVERSHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.892844957991794,51.3091138912366</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP</name>
-         <description>CHATHAM GROUP - ROUTEING_GROUP</description>
+         <description>CHATHAM GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>0.522093821820727,51.3788192504241</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>SELLING</name>
-         <description>SELLING - INTERCHANGE</description>
+         <description>SELLING() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>0.942362575597316,51.2755146258354</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>KEARSNEY (KENT)</name>
-         <description>KEARSNEY (KENT) - INTERCHANGE</description>
+         <description>KEARSNEY (KENT)() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>1.27315041375844,51.1471487671387</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>DOVER PRIORY</name>
-         <description>DOVER PRIORY - ROUTEING_POINT</description>
+         <description>DOVER PRIORY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>1.30580430019011,51.1237524751162</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS</name>
-         <description>SHORTLANDS - ROUTEING_POINT</description>
+         <description>SHORTLANDS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>0.0043172178827097,51.4032060195165</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION - ROUTEING_POINT</description>
+         <description>CLAPHAM JUNCTION() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.168769712349235,51.4617683410367</coordinates>
@@ -143,7 +128,7 @@
       </Placemark>
       <Placemark>
          <name>RAMSGATE GROUP</name>
-         <description>RAMSGATE GROUP - ROUTEING_GROUP</description>
+         <description>RAMSGATE GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>1.40741462464778,51.3384161699967</coordinates>
@@ -151,7 +136,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <description>LONDON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>

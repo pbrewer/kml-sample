@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>LOUGHBORO LEICS</name>
-         <description>LOUGHBORO LEICS - ROUTEING_POINT</description>
+         <description>LOUGHBORO LEICS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.1934681395205,52.776521257258</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER</name>
-         <description>LEICESTER - ROUTEING_POINT</description>
+         <description>LEICESTER() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.12378666494119,52.6286267444856</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>BEDFORD</name>
-         <description>BEDFORD - ROUTEING_POINT</description>
+         <description>BEDFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.477427294975053,52.1340143383127</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>LUTON</name>
-         <description>LUTON - INTERCHANGE</description>
+         <description>LUTON() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.413383840606806,51.8796972880439</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY</name>
-         <description>MELTON MOWBRAY - ROUTEING_POINT</description>
+         <description>MELTON MOWBRAY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.884074554222115,52.75783617255</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>OAKHAM</name>
-         <description>OAKHAM - ROUTEING_POINT</description>
+         <description>OAKHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.732516998134623,52.6691285703924</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>KETTERING</name>
-         <description>KETTERING - ROUTEING_POINT</description>
+         <description>KETTERING() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.730227350583821,52.3904721394009</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>WEST HAMPSTD TLK</name>
-         <description>WEST HAMPSTD TLK - ROUTEING_POINT</description>
+         <description>WEST HAMPSTD TLK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.191364107030493,51.5457128284244</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <description>LONDON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>

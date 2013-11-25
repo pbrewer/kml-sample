@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>CHALFONT &amp; L UND</name>
-         <description>CHALFONT &amp; L UND - INTERCHANGE</description>
+         <description>CHALFONT &amp; L UND() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.558252665094148,51.6658444590262</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>AYLESBURY</name>
-         <description>AYLESBURY - ROUTEING_POINT</description>
+         <description>AYLESBURY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.814772685792515,51.8107238089355</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP</name>
-         <description>LONDON GROUP - ROUTEING_GROUP</description>
+         <description>LONDON GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.133035511350118,51.5259228426492</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>SOUTH RUISLP UND</name>
-         <description>SOUTH RUISLP UND - ROUTEING_POINT</description>
+         <description>SOUTH RUISLP UND() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.397298632921743,51.5549989051923</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>HIGH WYCOMBE</name>
-         <description>HIGH WYCOMBE - INTERCHANGE</description>
+         <description>HIGH WYCOMBE() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.744442579009597,51.626637576763</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>PRINCES RISBORO</name>
-         <description>PRINCES RISBORO - ROUTEING_POINT</description>
+         <description>PRINCES RISBORO() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.8418921414643,51.7148226319012</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>HARROW-HILL UND</name>
-         <description>HARROW-HILL UND - INTERCHANGE</description>
+         <description>HARROW-HILL UND() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.334474944460743,51.5765949181077</coordinates>

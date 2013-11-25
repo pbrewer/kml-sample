@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>HAVANT</name>
-         <description>HAVANT - ROUTEING_POINT</description>
+         <description>HAVANT() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.981310197425111,50.8523808477861</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD</name>
-         <description>GUILDFORD - ROUTEING_POINT</description>
+         <description>GUILDFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.578935314413253,51.2346642743648</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH N</name>
-         <description>FARNBOROUGH N - INTERCHANGE</description>
+         <description>FARNBOROUGH N() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.741913906017282,51.2994459413971</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY</name>
-         <description>COVENTRY - ROUTEING_POINT</description>
+         <description>COVENTRY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.51200282653748,52.3980821347103</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>LEAMINGTON SPA</name>
-         <description>LEAMINGTON SPA - ROUTEING_POINT</description>
+         <description>LEAMINGTON SPA() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.53526711169815,52.2822355714122</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>OXFORD</name>
-         <description>OXFORD - ROUTEING_POINT</description>
+         <description>OXFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.2698223826342,51.7506169249712</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>DIDCOT PARKWAY</name>
-         <description>DIDCOT PARKWAY - ROUTEING_POINT</description>
+         <description>DIDCOT PARKWAY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.24177639605164,51.6084332295774</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP</name>
-         <description>WALSALL GROUP - ROUTEING_GROUP</description>
+         <description>WALSALL GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.98376405346226,52.5815353235725</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP</name>
-         <description>BIRMINGHAM GROUP - ROUTEING_GROUP</description>
+         <description>BIRMINGHAM GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.89692899917132,52.4754385160511</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD U GROUP</name>
-         <description>STRATFORD U GROUP - ROUTEING_GROUP</description>
+         <description>STRATFORD U GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.71470851176188,52.1911321349146</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>WARWICK GROUP</name>
-         <description>WARWICK GROUP - ROUTEING_GROUP</description>
+         <description>WARWICK GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.58069581862525,52.2842031249513</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP</name>
-         <description>READING GROUP - ROUTEING_GROUP</description>
+         <description>READING GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.972242308326233,51.4562854116841</coordinates>
@@ -143,7 +128,7 @@
       </Placemark>
       <Placemark>
          <name>TYSELEY</name>
-         <description>TYSELEY - ROUTEING_POINT</description>
+         <description>TYSELEY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.83812052729701,52.4511062722417</coordinates>
@@ -151,7 +136,7 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM</name>
-         <description>WOKINGHAM - ROUTEING_POINT</description>
+         <description>WOKINGHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.84100195902129,51.409222906424</coordinates>
@@ -159,7 +144,7 @@
       </Placemark>
       <Placemark>
          <name>PRINCES RISBORO</name>
-         <description>PRINCES RISBORO - ROUTEING_POINT</description>
+         <description>PRINCES RISBORO() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.8418921414643,51.7148226319012</coordinates>
@@ -167,7 +152,7 @@
       </Placemark>
       <Placemark>
          <name>AYLESBURY</name>
-         <description>AYLESBURY - ROUTEING_POINT</description>
+         <description>AYLESBURY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.814772685792515,51.8107238089355</coordinates>
@@ -175,7 +160,7 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V</name>
-         <description>LICHFIELD T V - ROUTEING_POINT</description>
+         <description>LICHFIELD T V() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.79879175484465,52.6847224457417</coordinates>
@@ -183,7 +168,7 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON</name>
-         <description>NUNEATON - ROUTEING_POINT</description>
+         <description>NUNEATON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46196766120402,52.5236920836025</coordinates>
@@ -191,7 +176,7 @@
       </Placemark>
       <Placemark>
          <name>BANBURY GROUP</name>
-         <description>BANBURY GROUP - ROUTEING_GROUP</description>
+         <description>BANBURY GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.32608171738474,52.0583321271333</coordinates>
@@ -199,7 +184,7 @@
       </Placemark>
       <Placemark>
          <name>PORTSMOUTH GROUP</name>
-         <description>PORTSMOUTH GROUP - ROUTEING_GROUP</description>
+         <description>PORTSMOUTH GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.08897246877542,50.7957491893797</coordinates>
@@ -207,7 +192,7 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH</name>
-         <description>TAMWORTH - ROUTEING_POINT</description>
+         <description>TAMWORTH() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.68523565193305,52.6341448712012</coordinates>

@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>WAKEFIELD GROUP</name>
-         <description>WAKEFIELD GROUP - ROUTEING_GROUP</description>
+         <description>WAKEFIELD GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.48675885897802,53.6760184399997</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY</name>
-         <description>BARNSLEY - ROUTEING_POINT</description>
+         <description>BARNSLEY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.47619600186737,53.5510442770956</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS</name>
-         <description>SWINTON  S YORKS - ROUTEING_POINT</description>
+         <description>SWINTON  S YORKS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30368986438219,53.4845538752677</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL</name>
-         <description>MEADOWHALL - ROUTEING_POINT</description>
+         <description>MEADOWHALL() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.4101691283604,53.4141240779031</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>YORK</name>
-         <description>YORK - ROUTEING_POINT</description>
+         <description>YORK() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.09164414482499,53.9549944344078</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP</name>
-         <description>LEEDS GROUP - ROUTEING_GROUP</description>
+         <description>LEEDS GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.54758683544322,53.7922040754631</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP</name>
-         <description>DERBY GROUP - ROUTEING_GROUP</description>
+         <description>DERBY GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46160821941454,52.913754524735</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD</name>
-         <description>CHESTERFIELD - ROUTEING_POINT</description>
+         <description>CHESTERFIELD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.41862363259194,53.2353107270901</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER</name>
-         <description>DONCASTER - ROUTEING_POINT</description>
+         <description>DONCASTER() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.13871721870229,53.5185314624258</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP</name>
-         <description>BIRMINGHAM GROUP - ROUTEING_GROUP</description>
+         <description>BIRMINGHAM GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.89692899917132,52.4754385160511</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON</name>
-         <description>NUNEATON - ROUTEING_POINT</description>
+         <description>NUNEATON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46196766120402,52.5236920836025</coordinates>
@@ -135,7 +120,7 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER</name>
-         <description>LEICESTER - ROUTEING_POINT</description>
+         <description>LEICESTER() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.12378666494119,52.6286267444856</coordinates>
@@ -143,7 +128,7 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS</name>
-         <description>LOUGHBORO LEICS - ROUTEING_POINT</description>
+         <description>LOUGHBORO LEICS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.1934681395205,52.776521257258</coordinates>
@@ -151,7 +136,7 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD</name>
-         <description>SHEFFIELD - ROUTEING_POINT</description>
+         <description>SHEFFIELD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.46181308663146,53.375721027765</coordinates>
@@ -159,7 +144,7 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP</name>
-         <description>WORCESTER GROUP - ROUTEING_GROUP</description>
+         <description>WORCESTER GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.21946001815119,52.1921716892404</coordinates>
@@ -167,7 +152,7 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD</name>
-         <description>HEREFORD - ROUTEING_POINT</description>
+         <description>HEREFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.70746562548318,52.0581355218282</coordinates>
@@ -175,7 +160,7 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP</name>
-         <description>PONTEFRACT GROUP - ROUTEING_GROUP</description>
+         <description>PONTEFRACT GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30184277248278,53.6885648869916</coordinates>
@@ -183,7 +168,7 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH</name>
-         <description>TAMWORTH - ROUTEING_POINT</description>
+         <description>TAMWORTH() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.68523565193305,52.6341448712012</coordinates>
@@ -191,7 +176,7 @@
       </Placemark>
       <Placemark>
          <name>SELBY</name>
-         <description>SELBY - ROUTEING_POINT</description>
+         <description>SELBY() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.06202765621019,53.7804012865994</coordinates>
@@ -199,7 +184,7 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE</name>
-         <description>BROMSGROVE - ROUTEING_POINT</description>
+         <description>BROMSGROVE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.04695288598449,52.3199895646342</coordinates>
@@ -207,7 +192,7 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN</name>
-         <description>BARNT GREEN - ROUTEING_POINT</description>
+         <description>BARNT GREEN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.9926572118682,52.3586451076832</coordinates>
@@ -215,7 +200,7 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP</name>
-         <description>SCARBOROUGH GROUP - ROUTEING_GROUP</description>
+         <description>SCARBOROUGH GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-0.404114952496297,54.2768123775554</coordinates>
@@ -223,7 +208,7 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP</name>
-         <description>SMETHWICK GROUP - ROUTEING_GROUP</description>
+         <description>SMETHWICK GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.97790163064984,52.4988489648427</coordinates>
@@ -231,7 +216,7 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V</name>
-         <description>LICHFIELD T V - ROUTEING_POINT</description>
+         <description>LICHFIELD T V() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.79879175484465,52.6847224457417</coordinates>

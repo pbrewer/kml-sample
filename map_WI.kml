@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>WHITLAND</name>
-         <description>WHITLAND - ROUTEING_POINT</description>
+         <description>WHITLAND() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-4.61316923131634,51.8155206244219</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>SWANSEA GROUP</name>
-         <description>SWANSEA GROUP - ROUTEING_GROUP</description>
+         <description>SWANSEA GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.94028860334008,51.6227099416963</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE</name>
-         <description>BROMSGROVE - ROUTEING_POINT</description>
+         <description>BROMSGROVE() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.04695288598449,52.3199895646342</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP</name>
-         <description>WORCESTER GROUP - ROUTEING_GROUP</description>
+         <description>WORCESTER GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.21946001815119,52.1921716892404</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>BRIDGEND</name>
-         <description>BRIDGEND - ROUTEING_POINT</description>
+         <description>BRIDGEND() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.57497724700083,51.5041409019868</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN</name>
-         <description>BARNT GREEN - ROUTEING_POINT</description>
+         <description>BARNT GREEN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.9926572118682,52.3586451076832</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD</name>
-         <description>HEREFORD - ROUTEING_POINT</description>
+         <description>HEREFORD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.70746562548318,52.0581355218282</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>NEWPORT (S.WALES)</name>
-         <description>NEWPORT (S.WALES) - ROUTEING_POINT</description>
+         <description>NEWPORT (S.WALES)() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.99751869673671,51.5877692937142</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL</name>
-         <description>CARDIFF CENTRAL - ROUTEING_POINT</description>
+         <description>CARDIFF CENTRAL() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.17645026760644,51.4728636340219</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>PONTYPRIDD</name>
-         <description>PONTYPRIDD - ROUTEING_POINT</description>
+         <description>PONTYPRIDD() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.34137458537276,51.596926467657</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>BARRY</name>
-         <description>BARRY - INTERCHANGE</description>
+         <description>BARRY() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-3.28369127248002,51.3944413471767</coordinates>

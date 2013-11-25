@@ -9,11 +9,6 @@
                <href>interchange.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
          <IconStyle>
@@ -21,11 +16,6 @@
                <href>routeing-point.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -33,11 +23,6 @@
                <href>routeing-group.gif</href>
             </Icon>
          </IconStyle>
-         <BalloonStyle>
-            <bgColor>00664422</bgColor>
-            <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;Other html here</text>
-         </BalloonStyle>
       </Style>
       <Style id="linkStyle">
          <LineStyle>
@@ -47,7 +32,7 @@
       </Style>
       <Placemark>
          <name>BLACKBURN</name>
-         <description>BLACKBURN - ROUTEING_POINT</description>
+         <description>BLACKBURN() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.47766980365798,53.7435728816802</coordinates>
@@ -55,7 +40,7 @@
       </Placemark>
       <Placemark>
          <name>ACCRINGTON</name>
-         <description>ACCRINGTON - ROUTEING_POINT</description>
+         <description>ACCRINGTON() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.36854603919095,53.7502494092412</coordinates>
@@ -63,7 +48,7 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS</name>
-         <description>PRESTON LANCS - ROUTEING_POINT</description>
+         <description>PRESTON LANCS() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.7067978635424,53.7523272523068</coordinates>
@@ -71,7 +56,7 @@
       </Placemark>
       <Placemark>
          <name>KIRKHAM &amp; WESHAM</name>
-         <description>KIRKHAM &amp; WESHAM - ROUTEING_POINT</description>
+         <description>KIRKHAM &amp; WESHAM() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.88038065453008,53.7844331327434</coordinates>
@@ -79,7 +64,7 @@
       </Placemark>
       <Placemark>
          <name>HEBDEN BRIDGE</name>
-         <description>HEBDEN BRIDGE - INTERCHANGE</description>
+         <description>HEBDEN BRIDGE() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.00758042613385,53.7346381410441</coordinates>
@@ -87,7 +72,7 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP</name>
-         <description>HALIFAX GROUP - ROUTEING_GROUP</description>
+         <description>HALIFAX GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.85299957012169,53.7174718790283</coordinates>
@@ -95,7 +80,7 @@
       </Placemark>
       <Placemark>
          <name>BURNLEY MANCR RD</name>
-         <description>BURNLEY MANCR RD - INTERCHANGE</description>
+         <description>BURNLEY MANCR RD() - INTERCHANGE</description>
          <styleUrl>#interchangeLocationStyle</styleUrl>
          <Point>
             <coordinates>-2.24740041011128,53.7820171534155</coordinates>
@@ -103,7 +88,7 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER</name>
-         <description>DONCASTER - ROUTEING_POINT</description>
+         <description>DONCASTER() - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.13871721870229,53.5185314624258</coordinates>
@@ -111,7 +96,7 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP</name>
-         <description>WAKEFIELD GROUP - ROUTEING_GROUP</description>
+         <description>WAKEFIELD GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.48675885897802,53.6760184399997</coordinates>
@@ -119,7 +104,7 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP</name>
-         <description>PONTEFRACT GROUP - ROUTEING_GROUP</description>
+         <description>PONTEFRACT GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.30184277248278,53.6885648869916</coordinates>
@@ -127,7 +112,7 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP</name>
-         <description>HUDDERSFIELD GROUP - ROUTEING_GROUP</description>
+         <description>HUDDERSFIELD GROUP() - ROUTEING_GROUP</description>
          <styleUrl>#routingGroupLocationStyle</styleUrl>
          <Point>
             <coordinates>-1.78365726682475,53.6454662384722</coordinates>
