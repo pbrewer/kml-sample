@@ -11,8 +11,7 @@
       var pathUrl = 'https://raw.github.com/pbrewer/kml-sample/master/';
       var ctaLayer;
 
-
-     
+    
       
       function initialize() {
         	var point = new google.maps.LatLng(51.5958, -0.11862);
@@ -28,9 +27,9 @@
 		    ctaLayer.setMap(map);
 
       		$("#mapCodes").change(function(){
-            /* ctaLayer.setMap(null); */
-            	ctaLayer.setUrl(pathUrl + $("#mapCodes option:selected").val());
-            /* ctaLayer.setMap(map); */ 		
+             ctaLayer.setMap(null); 
+             ctaLayer.setUrl(pathUrl + $("#mapCodes option:selected").val());
+             ctaLayer.setMap(map); 		
         	});
         	
       	}
