@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>FV</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff0000ff</color>
+            <width>4</width>
+         </LineStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>ffe11901</textColor>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP</name>
+         <description>BROMLEY SOUTH GROUP (G06) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0198851972353429,51.3975453727848</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY</name>
+         <description>SWANLEY (SAY) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.169076202588924,51.3903835321094</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM</name>
+         <description>LEWISHAM (LEW) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0131893738009627,51.4637289621017</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD</name>
+         <description>NUNHEAD (NHD) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0520373598903545,51.4643809758347</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH</name>
+         <description>BLACKHEATH (BKH) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.00983096142899503,51.463336513641</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM</name>
+         <description>FAVERSHAM (FAV) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.892844957991794,51.3091138912366</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP</name>
+         <description>CHATHAM GROUP (G07) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.522093821820727,51.3788192504241</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GROVE PARK</name>
+         <description>GROVE PARK (GRP) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0241072147460091,51.4280344664602</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE</name>
+         <description>PECKHAM RYE (PMR) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0662739503044305,51.4682121762183</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SELLING</name>
+         <description>SELLING (SEG) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.942362575597316,51.2755146258354</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KEARSNEY (KENT)</name>
+         <description>KEARSNEY (KENT) (KSN) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.27315041375844,51.1471487671387</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS</name>
+         <description>NEW CROSS (NWX) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0314684684072144,51.4739249880263</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN</name>
+         <description>HITHER GREEN (HGR) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>6.09091577011303E-4,51.450011083454</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DOVER PRIORY</name>
+         <description>DOVER PRIORY (DVP) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.30580430019011,51.1237524751162</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL</name>
+         <description>DENMARK HILL (DMK) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0879714524318652,51.4658714779636</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS</name>
+         <description>SHORTLANDS (SRT) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0043172178827097,51.4032060195165</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BECKENHAM JN</name>
+         <description>BECKENHAM JN (BKJ) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.0256253748578791,51.4091076803144</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRIXTON</name>
+         <description>BRIXTON (BRX) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.112655764191948,51.4608783058262</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP</name>
+         <description>RAMSGATE GROUP (G68) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.40741462464778,51.3384161699967</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SWANLEY</name>
+         <description>BROMLEY SOUTH GROUP - SWANLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.169076202588924,51.3903835321094</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - NUNHEAD</name>
+         <description>LEWISHAM - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BLACKHEATH - LEWISHAM</name>
+         <description>BLACKHEATH - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.00983096142899503,51.463336513641
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - BLACKHEATH</name>
+         <description>LEWISHAM - BLACKHEATH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+0.00983096142899503,51.463336513641</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY - BROMLEY SOUTH GROUP</name>
+         <description>SWANLEY - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.169076202588924,51.3903835321094
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - CHATHAM GROUP</name>
+         <description>FAVERSHAM - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GROVE PARK - SWANLEY</name>
+         <description>GROVE PARK - SWANLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0241072147460091,51.4280344664602
+0.169076202588924,51.3903835321094</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - NUNHEAD</name>
+         <description>PECKHAM RYE - NUNHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0520373598903545,51.4643809758347</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - GROVE PARK</name>
+         <description>BROMLEY SOUTH GROUP - GROVE PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.0241072147460091,51.4280344664602</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELLING - KEARSNEY (KENT)</name>
+         <description>SELLING - KEARSNEY (KENT)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.942362575597316,51.2755146258354
+1.27315041375844,51.1471487671387</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - NEW CROSS</name>
+         <description>LONDON GROUP - NEW CROSS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.0314684684072144,51.4739249880263</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS - HITHER GREEN</name>
+         <description>NEW CROSS - HITHER GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0314684684072144,51.4739249880263
+6.09091577011303E-4,51.450011083454</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KEARSNEY (KENT) - DOVER PRIORY</name>
+         <description>KEARSNEY (KENT) - DOVER PRIORY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.27315041375844,51.1471487671387
+1.30580430019011,51.1237524751162</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GROVE PARK - BROMLEY SOUTH GROUP</name>
+         <description>GROVE PARK - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0241072147460091,51.4280344664602
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - PECKHAM RYE</name>
+         <description>DENMARK HILL - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - PECKHAM RYE</name>
+         <description>NUNHEAD - PECKHAM RYE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0662739503044305,51.4682121762183</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - SELLING</name>
+         <description>FAVERSHAM - SELLING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+0.942362575597316,51.2755146258354</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS - BECKENHAM JN</name>
+         <description>SHORTLANDS - BECKENHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0043172178827097,51.4032060195165
+-0.0256253748578791,51.4091076803144</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMLEY SOUTH GROUP - SHORTLANDS</name>
+         <description>BROMLEY SOUTH GROUP - SHORTLANDS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0198851972353429,51.3975453727848
+0.0043172178827097,51.4032060195165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DENMARK HILL - BRIXTON</name>
+         <description>DENMARK HILL - BRIXTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0879714524318652,51.4658714779636
+-0.112655764191948,51.4608783058262</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KEARSNEY (KENT) - SELLING</name>
+         <description>KEARSNEY (KENT) - SELLING</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.27315041375844,51.1471487671387
+0.942362575597316,51.2755146258354</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN - GROVE PARK</name>
+         <description>HITHER GREEN - GROVE PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>6.09091577011303E-4,51.450011083454
+0.0241072147460091,51.4280344664602</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIXTON - LONDON GROUP</name>
+         <description>BRIXTON - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.112655764191948,51.4608783058262
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - SWANLEY</name>
+         <description>CHATHAM GROUP - SWANLEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.169076202588924,51.3903835321094</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - NEW CROSS</name>
+         <description>LEWISHAM - NEW CROSS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+-0.0314684684072144,51.4739249880263</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN - LEWISHAM</name>
+         <description>HITHER GREEN - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>6.09091577011303E-4,51.450011083454
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - BRIXTON</name>
+         <description>LONDON GROUP - BRIXTON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.112655764191948,51.4608783058262</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GROVE PARK - HITHER GREEN</name>
+         <description>GROVE PARK - HITHER GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0241072147460091,51.4280344664602
+6.09091577011303E-4,51.450011083454</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SELLING - FAVERSHAM</name>
+         <description>SELLING - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.942362575597316,51.2755146258354
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PECKHAM RYE - DENMARK HILL</name>
+         <description>PECKHAM RYE - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0662739503044305,51.4682121762183
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRIXTON - DENMARK HILL</name>
+         <description>BRIXTON - DENMARK HILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.112655764191948,51.4608783058262
+-0.0879714524318652,51.4658714779636</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DOVER PRIORY - KEARSNEY (KENT)</name>
+         <description>DOVER PRIORY - KEARSNEY (KENT)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.30580430019011,51.1237524751162
+1.27315041375844,51.1471487671387</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BECKENHAM JN - SHORTLANDS</name>
+         <description>BECKENHAM JN - SHORTLANDS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0256253748578791,51.4091076803144
+0.0043172178827097,51.4032060195165</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS - LEWISHAM</name>
+         <description>NEW CROSS - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0314684684072144,51.4739249880263
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY - CHATHAM GROUP</name>
+         <description>SWANLEY - CHATHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.169076202588924,51.3903835321094
+0.522093821820727,51.3788192504241</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW CROSS - LONDON GROUP</name>
+         <description>NEW CROSS - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0314684684072144,51.4739249880263
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEWISHAM - HITHER GREEN</name>
+         <description>LEWISHAM - HITHER GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0131893738009627,51.4637289621017
+6.09091577011303E-4,51.450011083454</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NUNHEAD - LEWISHAM</name>
+         <description>NUNHEAD - LEWISHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.0520373598903545,51.4643809758347
+-0.0131893738009627,51.4637289621017</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HITHER GREEN - NEW CROSS</name>
+         <description>HITHER GREEN - NEW CROSS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>6.09091577011303E-4,51.450011083454
+-0.0314684684072144,51.4739249880263</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FAVERSHAM - RAMSGATE GROUP</name>
+         <description>FAVERSHAM - RAMSGATE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.892844957991794,51.3091138912366
+1.40741462464778,51.3384161699967</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SHORTLANDS - BROMLEY SOUTH GROUP</name>
+         <description>SHORTLANDS - BROMLEY SOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0043172178827097,51.4032060195165
+0.0198851972353429,51.3975453727848</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RAMSGATE GROUP - FAVERSHAM</name>
+         <description>RAMSGATE GROUP - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.40741462464778,51.3384161699967
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHATHAM GROUP - FAVERSHAM</name>
+         <description>CHATHAM GROUP - FAVERSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.522093821820727,51.3788192504241
+0.892844957991794,51.3091138912366</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWANLEY - GROVE PARK</name>
+         <description>SWANLEY - GROVE PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.169076202588924,51.3903835321094
+0.0241072147460091,51.4280344664602</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

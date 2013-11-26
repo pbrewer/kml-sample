@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>GX</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff0000ff</color>
+            <width>4</width>
+         </LineStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>ffe11901</textColor>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Placemark>
+         <name>CARLISLE</name>
+         <description>CARLISLE (CAR) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.93233811859765,54.8877581794713</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS</name>
+         <description>CARSTAIRS (CRS) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.66719660940652,55.6879970200404</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DUMFRIES</name>
+         <description>DUMFRIES (DMF) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.6037876629636,55.0695130371346</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>KILMARNOCK</name>
+         <description>KILMARNOCK (KMK) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.49757948758596,55.6100734945976</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON LANARK</name>
+         <description>NEWTON LANARK (NTN) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.13242975572459,55.8165428999123</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP</name>
+         <description>GLASGOW GROUP (G13) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-4.25772518045981,55.8574586971832</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP</name>
+         <description>MOTHERWELL GROUP (G67) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.99374336471782,55.7892042237234</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>PENRITH</name>
+         <description>PENRITH (PNR) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.75655145110832,54.6588920507997</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FALKIRK GROUP</name>
+         <description>FALKIRK GROUP (G44) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.7907706980682,55.9891919882658</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>OXENHOLME LAKE D</name>
+         <description>OXENHOLME LAKE D (OXN) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.72079672561516,54.3022952619467</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EDINBURGH GROUP</name>
+         <description>EDINBURGH GROUP (G11) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-3.1867201601368,55.9497469450646</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CARLISLE - CARSTAIRS</name>
+         <description>CARLISLE - CARSTAIRS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.93233811859765,54.8877581794713
+-3.66719660940652,55.6879970200404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DUMFRIES - KILMARNOCK</name>
+         <description>DUMFRIES - KILMARNOCK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.6037876629636,55.0695130371346
+-4.49757948758596,55.6100734945976</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON LANARK - GLASGOW GROUP</name>
+         <description>NEWTON LANARK - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.13242975572459,55.8165428999123
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - NEWTON LANARK</name>
+         <description>GLASGOW GROUP - NEWTON LANARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-4.13242975572459,55.8165428999123</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLASGOW GROUP - MOTHERWELL GROUP</name>
+         <description>GLASGOW GROUP - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.25772518045981,55.8574586971832
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - GLASGOW GROUP</name>
+         <description>MOTHERWELL GROUP - GLASGOW GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-4.25772518045981,55.8574586971832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWTON LANARK - MOTHERWELL GROUP</name>
+         <description>NEWTON LANARK - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.13242975572459,55.8165428999123
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARLISLE - PENRITH</name>
+         <description>CARLISLE - PENRITH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.93233811859765,54.8877581794713
+-2.75655145110832,54.6588920507997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - FALKIRK GROUP</name>
+         <description>MOTHERWELL GROUP - FALKIRK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-3.7907706980682,55.9891919882658</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - CARSTAIRS</name>
+         <description>MOTHERWELL GROUP - CARSTAIRS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-3.66719660940652,55.6879970200404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS - MOTHERWELL GROUP</name>
+         <description>CARSTAIRS - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.66719660940652,55.6879970200404
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PENRITH - CARLISLE</name>
+         <description>PENRITH - CARLISLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.75655145110832,54.6588920507997
+-2.93233811859765,54.8877581794713</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FALKIRK GROUP - MOTHERWELL GROUP</name>
+         <description>FALKIRK GROUP - MOTHERWELL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.7907706980682,55.9891919882658
+-3.99374336471782,55.7892042237234</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>PENRITH - OXENHOLME LAKE D</name>
+         <description>PENRITH - OXENHOLME LAKE D</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.75655145110832,54.6588920507997
+-2.72079672561516,54.3022952619467</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>KILMARNOCK - DUMFRIES</name>
+         <description>KILMARNOCK - DUMFRIES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-4.49757948758596,55.6100734945976
+-3.6037876629636,55.0695130371346</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MOTHERWELL GROUP - NEWTON LANARK</name>
+         <description>MOTHERWELL GROUP - NEWTON LANARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.99374336471782,55.7892042237234
+-4.13242975572459,55.8165428999123</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARLISLE - DUMFRIES</name>
+         <description>CARLISLE - DUMFRIES</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.93233811859765,54.8877581794713
+-3.6037876629636,55.0695130371346</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>OXENHOLME LAKE D - PENRITH</name>
+         <description>OXENHOLME LAKE D - PENRITH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.72079672561516,54.3022952619467
+-2.75655145110832,54.6588920507997</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS - CARLISLE</name>
+         <description>CARSTAIRS - CARLISLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.66719660940652,55.6879970200404
+-2.93233811859765,54.8877581794713</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CARSTAIRS - EDINBURGH GROUP</name>
+         <description>CARSTAIRS - EDINBURGH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.66719660940652,55.6879970200404
+-3.1867201601368,55.9497469450646</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DUMFRIES - CARLISLE</name>
+         <description>DUMFRIES - CARLISLE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.6037876629636,55.0695130371346
+-2.93233811859765,54.8877581794713</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EDINBURGH GROUP - CARSTAIRS</name>
+         <description>EDINBURGH GROUP - CARSTAIRS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-3.1867201601368,55.9497469450646
+-3.66719660940652,55.6879970200404</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

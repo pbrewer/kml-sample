@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>AR</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff0000ff</color>
+            <width>4</width>
+         </LineStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>ffe11901</textColor>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Placemark>
+         <name>DORKING GROUP</name>
+         <description>DORKING GROUP (G10) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.32232810917038,51.2393563350226</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP</name>
+         <description>REDHILL GROUP (G60) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.163348351898478,51.2378679252594</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>FARNBOROUGH N</name>
+         <description>FARNBOROUGH N (FNN) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.741913906017282,51.2994459413971</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD</name>
+         <description>GUILDFORD (GLD) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.578935314413253,51.2346642743648</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GOMSHALL</name>
+         <description>GOMSHALL (GOM) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.440579888231119,51.2167234969664</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EDENBRIDGE</name>
+         <description>EDENBRIDGE (EBR) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.0616163164544236,51.2062550712968</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM</name>
+         <description>WOKINGHAM (WKM) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.84100195902129,51.409222906424</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP</name>
+         <description>READING GROUP (G24) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.972242308326233,51.4562854116841</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE</name>
+         <description>TONBRIDGE (TON) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.271241048728237,51.1888888580524</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EPSOM</name>
+         <description>EPSOM (EPS) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.26726318438557,51.3320338775324</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LEATHERHEAD</name>
+         <description>LEATHERHEAD (LHD) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.331735826951668,51.296117664066</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>MAIDSTONE GROUP</name>
+         <description>MAIDSTONE GROUP (G19) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.51490194350759,51.273797018873</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DOVER PRIORY</name>
+         <description>DOVER PRIORY (DVP) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>1.30580430019011,51.1237524751162</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL</name>
+         <description>ASHFORD INTL (AFK) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.875193701365457,51.1414352542849</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT</name>
+         <description>GATWICK AIRPORT (GTW) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.15952165755819,51.1542142067235</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN</name>
+         <description>EFFINGHAM JN (EFF) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.418044544892225,51.2892262107591</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM</name>
+         <description>HORSHAM (HRH) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.317257080155847,51.0640099999086</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>HASTINGS GROUP</name>
+         <description>HASTINGS GROUP (G15) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>0.577630945295527,50.8562183508005</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DORKING GROUP - REDHILL GROUP</name>
+         <description>DORKING GROUP - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.32232810917038,51.2393563350226
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FARNBOROUGH N - GUILDFORD</name>
+         <description>FARNBOROUGH N - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.741913906017282,51.2994459413971
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOMSHALL - DORKING GROUP</name>
+         <description>GOMSHALL - DORKING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.440579888231119,51.2167234969664
+-0.32232810917038,51.2393563350226</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EDENBRIDGE - REDHILL GROUP</name>
+         <description>EDENBRIDGE - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0616163164544236,51.2062550712968
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM - READING GROUP</name>
+         <description>WOKINGHAM - READING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.84100195902129,51.409222906424
+-0.972242308326233,51.4562854116841</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>READING GROUP - WOKINGHAM</name>
+         <description>READING GROUP - WOKINGHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.972242308326233,51.4562854116841
+-0.84100195902129,51.409222906424</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DORKING GROUP - GOMSHALL</name>
+         <description>DORKING GROUP - GOMSHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.32232810917038,51.2393563350226
+-0.440579888231119,51.2167234969664</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE - EDENBRIDGE</name>
+         <description>TONBRIDGE - EDENBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.271241048728237,51.1888888580524
+0.0616163164544236,51.2062550712968</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EPSOM - LEATHERHEAD</name>
+         <description>EPSOM - LEATHERHEAD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.26726318438557,51.3320338775324
+-0.331735826951668,51.296117664066</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - FARNBOROUGH N</name>
+         <description>GUILDFORD - FARNBOROUGH N</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.741913906017282,51.2994459413971</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE - MAIDSTONE GROUP</name>
+         <description>TONBRIDGE - MAIDSTONE GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.271241048728237,51.1888888580524
+0.51490194350759,51.273797018873</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - GOMSHALL</name>
+         <description>GUILDFORD - GOMSHALL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.440579888231119,51.2167234969664</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DOVER PRIORY - ASHFORD INTL</name>
+         <description>DOVER PRIORY - ASHFORD INTL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>1.30580430019011,51.1237524751162
+0.875193701365457,51.1414352542849</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - GATWICK AIRPORT</name>
+         <description>REDHILL GROUP - GATWICK AIRPORT</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+-0.15952165755819,51.1542142067235</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TONBRIDGE - ASHFORD INTL</name>
+         <description>TONBRIDGE - ASHFORD INTL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.271241048728237,51.1888888580524
+0.875193701365457,51.1414352542849</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - EFFINGHAM JN</name>
+         <description>GUILDFORD - EFFINGHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.418044544892225,51.2892262107591</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL - TONBRIDGE</name>
+         <description>ASHFORD INTL - TONBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.875193701365457,51.1414352542849
+0.271241048728237,51.1888888580524</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DORKING GROUP - HORSHAM</name>
+         <description>DORKING GROUP - HORSHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.32232810917038,51.2393563350226
+-0.317257080155847,51.0640099999086</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LEATHERHEAD - EPSOM</name>
+         <description>LEATHERHEAD - EPSOM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.331735826951668,51.296117664066
+-0.26726318438557,51.3320338775324</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN - GUILDFORD</name>
+         <description>EFFINGHAM JN - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.418044544892225,51.2892262107591
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - EDENBRIDGE</name>
+         <description>REDHILL GROUP - EDENBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+0.0616163164544236,51.2062550712968</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GOMSHALL - GUILDFORD</name>
+         <description>GOMSHALL - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.440579888231119,51.2167234969664
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>MAIDSTONE GROUP - TONBRIDGE</name>
+         <description>MAIDSTONE GROUP - TONBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.51490194350759,51.273797018873
+0.271241048728237,51.1888888580524</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WOKINGHAM - FARNBOROUGH N</name>
+         <description>WOKINGHAM - FARNBOROUGH N</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.84100195902129,51.409222906424
+-0.741913906017282,51.2994459413971</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>FARNBOROUGH N - WOKINGHAM</name>
+         <description>FARNBOROUGH N - WOKINGHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.741913906017282,51.2994459413971
+-0.84100195902129,51.409222906424</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EDENBRIDGE - TONBRIDGE</name>
+         <description>EDENBRIDGE - TONBRIDGE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.0616163164544236,51.2062550712968
+0.271241048728237,51.1888888580524</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GATWICK AIRPORT - REDHILL GROUP</name>
+         <description>GATWICK AIRPORT - REDHILL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.15952165755819,51.1542142067235
+-0.163348351898478,51.2378679252594</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASHFORD INTL - DOVER PRIORY</name>
+         <description>ASHFORD INTL - DOVER PRIORY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>0.875193701365457,51.1414352542849
+1.30580430019011,51.1237524751162</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>HORSHAM - DORKING GROUP</name>
+         <description>HORSHAM - DORKING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.317257080155847,51.0640099999086
+-0.32232810917038,51.2393563350226</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>REDHILL GROUP - DORKING GROUP</name>
+         <description>REDHILL GROUP - DORKING GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.163348351898478,51.2378679252594
+-0.32232810917038,51.2393563350226</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

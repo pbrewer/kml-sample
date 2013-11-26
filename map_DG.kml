@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>DG</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff0000ff</color>
+            <width>4</width>
+         </LineStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>ffe11901</textColor>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Placemark>
+         <name>LOUGHBORO LEICS</name>
+         <description>LOUGHBORO LEICS (LBO) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.1934681395205,52.776521257258</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>DERBY GROUP</name>
+         <description>DERBY GROUP (G09) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.46160821941454,52.913754524735</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NOTTINGHAM GROUP</name>
+         <description>NOTTINGHAM GROUP (G43) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.14419550451195,52.9451470971285</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LINCOLN</name>
+         <description>LINCOLN (LCN) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.539408227391042,53.2241839046206</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEWARK GROUP</name>
+         <description>NEWARK GROUP (G47) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.798130010834015,53.0796689798256</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNETBY</name>
+         <description>BARNETBY (BTB) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.408151827515758,53.5712589689525</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LOUGHBORO LEICS - DERBY GROUP</name>
+         <description>LOUGHBORO LEICS - DERBY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.1934681395205,52.776521257258
+-1.46160821941454,52.913754524735</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DERBY GROUP - NOTTINGHAM GROUP</name>
+         <description>DERBY GROUP - NOTTINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46160821941454,52.913754524735
+-1.14419550451195,52.9451470971285</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LINCOLN - NEWARK GROUP</name>
+         <description>LINCOLN - NEWARK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.539408227391042,53.2241839046206
+-0.798130010834015,53.0796689798256</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWARK GROUP - NOTTINGHAM GROUP</name>
+         <description>NEWARK GROUP - NOTTINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.798130010834015,53.0796689798256
+-1.14419550451195,52.9451470971285</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>DERBY GROUP - LOUGHBORO LEICS</name>
+         <description>DERBY GROUP - LOUGHBORO LEICS</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.46160821941454,52.913754524735
+-1.1934681395205,52.776521257258</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NOTTINGHAM GROUP - NEWARK GROUP</name>
+         <description>NOTTINGHAM GROUP - NEWARK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.14419550451195,52.9451470971285
+-0.798130010834015,53.0796689798256</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEWARK GROUP - LINCOLN</name>
+         <description>NEWARK GROUP - LINCOLN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.798130010834015,53.0796689798256
+-0.539408227391042,53.2241839046206</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LINCOLN - BARNETBY</name>
+         <description>LINCOLN - BARNETBY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.539408227391042,53.2241839046206
+-0.408151827515758,53.5712589689525</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNETBY - LINCOLN</name>
+         <description>BARNETBY - LINCOLN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.408151827515758,53.5712589689525
+-0.539408227391042,53.2241839046206</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NOTTINGHAM GROUP - DERBY GROUP</name>
+         <description>NOTTINGHAM GROUP - DERBY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.14419550451195,52.9451470971285
+-1.46160821941454,52.913754524735</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

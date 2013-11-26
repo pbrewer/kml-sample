@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>BW</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff0000ff</color>
+            <width>4</width>
+         </LineStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>ffe11901</textColor>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Placemark>
+         <name>WALSALL GROUP</name>
+         <description>WALSALL GROUP (G59) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.98376405346226,52.5815353235725</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP</name>
+         <description>BIRMINGHAM GROUP (G02) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.89692899917132,52.4754385160511</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WARMINSTER</name>
+         <description>WARMINSTER (WMN) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.17608167090137,51.2045121652987</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SALISBURY</name>
+         <description>SALISBURY (SAL) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.80445073638904,51.0687691626069</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SWINDON (WILTS)</name>
+         <description>SWINDON (WILTS) (SWI) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.78502451282572,51.5630507679151</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHIPPENHAM</name>
+         <description>CHIPPENHAM (CPM) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.11372296911025,51.4598357522008</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ROMSEY</name>
+         <description>ROMSEY (ROM) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.49128601455443,50.9905323000985</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SOUTHAMPTON GROUP</name>
+         <description>SOUTHAMPTON GROUP (G26) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.41255771562521,50.9056791131306</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA</name>
+         <description>BATH SPA (BTH) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.35491303257205,51.3757692670053</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EASTLEIGH</name>
+         <description>EASTLEIGH (ESL) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.34912462799446,50.9664588482129</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA</name>
+         <description>CHELTENHAM SPA (CNM) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.09882854165799,51.8939477964377</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP</name>
+         <description>BRISTOL GROUP (G05) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.57996766294555,51.4467726886349</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER</name>
+         <description>GLOUCESTER (GCR) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.23673166427208,51.8622947301681</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP</name>
+         <description>WESTBURY GROUP (G46) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.19781295870281,51.2646940754104</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CASTLE CARY</name>
+         <description>CASTLE CARY (CLC) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.52131224016905,51.0974294858244</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE</name>
+         <description>BROMSGROVE (BMV) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.04695288598449,52.3199895646342</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN</name>
+         <description>BARNT GREEN (BTG) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.9926572118682,52.3586451076832</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP</name>
+         <description>SMETHWICK GROUP (G63) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.97790163064984,52.4988489648427</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WEYMOUTH GROUP</name>
+         <description>WEYMOUTH GROUP (G33) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.45374638413658,50.6132794256376</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>YEOVIL PEN MILL</name>
+         <description>YEOVIL PEN MILL (YVP) - INTERCHANGE</description>
+         <styleUrl>#interchangeLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.61210460405944,50.9424017929649</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LICHFIELD T V</name>
+         <description>LICHFIELD T V (LTV) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.79879175484465,52.6847224457417</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH</name>
+         <description>TAMWORTH (TAM) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-1.68523565193305,52.6341448712012</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP</name>
+         <description>WORCESTER GROUP (G35) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-2.21946001815119,52.1921716892404</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
+         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.98376405346226,52.5815353235725
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARMINSTER - SALISBURY</name>
+         <description>WARMINSTER - SALISBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.17608167090137,51.2045121652987
+-1.80445073638904,51.0687691626069</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SWINDON (WILTS) - CHIPPENHAM</name>
+         <description>SWINDON (WILTS) - CHIPPENHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.78502451282572,51.5630507679151
+-2.11372296911025,51.4598357522008</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ROMSEY - SALISBURY</name>
+         <description>ROMSEY - SALISBURY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.49128601455443,50.9905323000985
+-1.80445073638904,51.0687691626069</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTHAMPTON GROUP - ROMSEY</name>
+         <description>SOUTHAMPTON GROUP - ROMSEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.41255771562521,50.9056791131306
+-1.49128601455443,50.9905323000985</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - CHIPPENHAM</name>
+         <description>BATH SPA - CHIPPENHAM</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.11372296911025,51.4598357522008</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EASTLEIGH - SOUTHAMPTON GROUP</name>
+         <description>EASTLEIGH - SOUTHAMPTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.34912462799446,50.9664588482129
+-1.41255771562521,50.9056791131306</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - BRISTOL GROUP</name>
+         <description>CHELTENHAM SPA - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - GLOUCESTER</name>
+         <description>BRISTOL GROUP - GLOUCESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.23673166427208,51.8622947301681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - CASTLE CARY</name>
+         <description>WESTBURY GROUP - CASTLE CARY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-2.52131224016905,51.0974294858244</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHIPPENHAM - SWINDON (WILTS)</name>
+         <description>CHIPPENHAM - SWINDON (WILTS)</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11372296911025,51.4598357522008
+-1.78502451282572,51.5630507679151</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - BARNT GREEN</name>
+         <description>BROMSGROVE - BARNT GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-1.9926572118682,52.3586451076832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
+         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SALISBURY - WARMINSTER</name>
+         <description>SALISBURY - WARMINSTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.80445073638904,51.0687691626069
+-2.17608167090137,51.2045121652987</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - GLOUCESTER</name>
+         <description>CHELTENHAM SPA - GLOUCESTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.23673166427208,51.8622947301681</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WEYMOUTH GROUP - YEOVIL PEN MILL</name>
+         <description>WEYMOUTH GROUP - YEOVIL PEN MILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.45374638413658,50.6132794256376
+-2.61210460405944,50.9424017929649</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WARMINSTER - WESTBURY GROUP</name>
+         <description>WARMINSTER - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.17608167090137,51.2045121652987
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - BROMSGROVE</name>
+         <description>CHELTENHAM SPA - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CASTLE CARY - YEOVIL PEN MILL</name>
+         <description>CASTLE CARY - YEOVIL PEN MILL</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.52131224016905,51.0974294858244
+-2.61210460405944,50.9424017929649</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - BATH SPA</name>
+         <description>BRISTOL GROUP - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - LICHFIELD T V</name>
+         <description>BIRMINGHAM GROUP - LICHFIELD T V</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.79879175484465,52.6847224457417</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - BRISTOL GROUP</name>
+         <description>BATH SPA - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - WARMINSTER</name>
+         <description>WESTBURY GROUP - WARMINSTER</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-2.17608167090137,51.2045121652987</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>TAMWORTH - BIRMINGHAM GROUP</name>
+         <description>TAMWORTH - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.68523565193305,52.6341448712012
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN - BROMSGROVE</name>
+         <description>BARNT GREEN - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.9926572118682,52.3586451076832
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER - BRISTOL GROUP</name>
+         <description>GLOUCESTER - BRISTOL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.23673166427208,51.8622947301681
+-2.57996766294555,51.4467726886349</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WESTBURY GROUP - BATH SPA</name>
+         <description>WESTBURY GROUP - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.19781295870281,51.2646940754104
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ROMSEY - EASTLEIGH</name>
+         <description>ROMSEY - EASTLEIGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.49128601455443,50.9905323000985
+-1.34912462799446,50.9664588482129</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - CHELTENHAM SPA</name>
+         <description>BROMSGROVE - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
+         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.98376405346226,52.5815353235725</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHELTENHAM SPA - WORCESTER GROUP</name>
+         <description>CHELTENHAM SPA - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.09882854165799,51.8939477964377
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GLOUCESTER - CHELTENHAM SPA</name>
+         <description>GLOUCESTER - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.23673166427208,51.8622947301681
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EASTLEIGH - ROMSEY</name>
+         <description>EASTLEIGH - ROMSEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.34912462799446,50.9664588482129
+-1.49128601455443,50.9905323000985</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SALISBURY - ROMSEY</name>
+         <description>SALISBURY - ROMSEY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.80445073638904,51.0687691626069
+-1.49128601455443,50.9905323000985</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - CHELTENHAM SPA</name>
+         <description>WORCESTER GROUP - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LICHFIELD T V - BIRMINGHAM GROUP</name>
+         <description>LICHFIELD T V - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.79879175484465,52.6847224457417
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>YEOVIL PEN MILL - CASTLE CARY</name>
+         <description>YEOVIL PEN MILL - CASTLE CARY</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.61210460405944,50.9424017929649
+-2.52131224016905,51.0974294858244</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - BARNT GREEN</name>
+         <description>BIRMINGHAM GROUP - BARNT GREEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.9926572118682,52.3586451076832</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BATH SPA - WESTBURY GROUP</name>
+         <description>BATH SPA - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.35491303257205,51.3757692670053
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BROMSGROVE - WORCESTER GROUP</name>
+         <description>BROMSGROVE - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.04695288598449,52.3199895646342
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - SMETHWICK GROUP</name>
+         <description>WORCESTER GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SOUTHAMPTON GROUP - EASTLEIGH</name>
+         <description>SOUTHAMPTON GROUP - EASTLEIGH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.41255771562521,50.9056791131306
+-1.34912462799446,50.9664588482129</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
+         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.97790163064984,52.4988489648427</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SMETHWICK GROUP - WORCESTER GROUP</name>
+         <description>SMETHWICK GROUP - WORCESTER GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.97790163064984,52.4988489648427
+-2.21946001815119,52.1921716892404</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BARNT GREEN - BIRMINGHAM GROUP</name>
+         <description>BARNT GREEN - BIRMINGHAM GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.9926572118682,52.3586451076832
+-1.89692899917132,52.4754385160511</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WORCESTER GROUP - BROMSGROVE</name>
+         <description>WORCESTER GROUP - BROMSGROVE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.21946001815119,52.1921716892404
+-2.04695288598449,52.3199895646342</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ROMSEY - SOUTHAMPTON GROUP</name>
+         <description>ROMSEY - SOUTHAMPTON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.49128601455443,50.9905323000985
+-1.41255771562521,50.9056791131306</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CHIPPENHAM - BATH SPA</name>
+         <description>CHIPPENHAM - BATH SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.11372296911025,51.4598357522008
+-2.35491303257205,51.3757692670053</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BIRMINGHAM GROUP - TAMWORTH</name>
+         <description>BIRMINGHAM GROUP - TAMWORTH</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-1.89692899917132,52.4754385160511
+-1.68523565193305,52.6341448712012</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CASTLE CARY - WESTBURY GROUP</name>
+         <description>CASTLE CARY - WESTBURY GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.52131224016905,51.0974294858244
+-2.19781295870281,51.2646940754104</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>BRISTOL GROUP - CHELTENHAM SPA</name>
+         <description>BRISTOL GROUP - CHELTENHAM SPA</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.57996766294555,51.4467726886349
+-2.09882854165799,51.8939477964377</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>YEOVIL PEN MILL - WEYMOUTH GROUP</name>
+         <description>YEOVIL PEN MILL - WEYMOUTH GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-2.61210460405944,50.9424017929649
+-2.45374638413658,50.6132794256376</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>

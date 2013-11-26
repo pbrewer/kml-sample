@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+   <Document>
+      <name>EF</name>
+      <description>Routeing Guide Map Publication</description>
+      <Style id="interchangeLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>interchange.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routeingPointLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-point.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="routingGroupLocationStyle">
+         <IconStyle>
+            <Icon>
+               <href>routeing-group.gif</href>
+            </Icon>
+         </IconStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>fffffff</textColor>
+            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Style id="linkStyle">
+         <LineStyle>
+            <color>ff0000ff</color>
+            <width>4</width>
+         </LineStyle>
+         <BalloonStyle>
+            <bgColor>00664422</bgColor>
+            <textColor>ffe11901</textColor>
+            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+         </BalloonStyle>
+      </Style>
+      <Placemark>
+         <name>WIMBLEDON</name>
+         <description>WIMBLEDON (WIM) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.204994402252205,51.4191836093249</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION</name>
+         <description>CLAPHAM JUNCTION (CLJ) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.168769712349235,51.4617683410367</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>NEW MALDEN</name>
+         <description>NEW MALDEN (NEM) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.25459071852964,51.4010569843257</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>RAYNES PARK</name>
+         <description>RAYNES PARK (RAY) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.228481680875033,51.4069571028245</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD</name>
+         <description>GUILDFORD (GLD) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.578935314413253,51.2346642743648</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>ASH VALE</name>
+         <description>ASH VALE (AHV) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.719767243767824,51.2704441615262</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>SURBITON</name>
+         <description>SURBITON (SUR) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.302445681710373,51.3900751055431</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN</name>
+         <description>EFFINGHAM JN (EFF) - ROUTEING_POINT</description>
+         <styleUrl>#routeingPointLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.418044544892225,51.2892262107591</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP</name>
+         <description>LONDON GROUP (G01) - ROUTEING_GROUP</description>
+         <styleUrl>#routingGroupLocationStyle</styleUrl>
+         <Point>
+            <coordinates>-0.133035511350118,51.5259228426492</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>WIMBLEDON - CLAPHAM JUNCTION</name>
+         <description>WIMBLEDON - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.204994402252205,51.4191836093249
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - WIMBLEDON</name>
+         <description>CLAPHAM JUNCTION - WIMBLEDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.204994402252205,51.4191836093249</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW MALDEN - RAYNES PARK</name>
+         <description>NEW MALDEN - RAYNES PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.25459071852964,51.4010569843257
+-0.228481680875033,51.4069571028245</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - ASH VALE</name>
+         <description>GUILDFORD - ASH VALE</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.719767243767824,51.2704441615262</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>NEW MALDEN - SURBITON</name>
+         <description>NEW MALDEN - SURBITON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.25459071852964,51.4010569843257
+-0.302445681710373,51.3900751055431</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN - SURBITON</name>
+         <description>EFFINGHAM JN - SURBITON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.418044544892225,51.2892262107591
+-0.302445681710373,51.3900751055431</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SURBITON - EFFINGHAM JN</name>
+         <description>SURBITON - EFFINGHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.302445681710373,51.3900751055431
+-0.418044544892225,51.2892262107591</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>CLAPHAM JUNCTION - LONDON GROUP</name>
+         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.168769712349235,51.4617683410367
+-0.133035511350118,51.5259228426492</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>GUILDFORD - EFFINGHAM JN</name>
+         <description>GUILDFORD - EFFINGHAM JN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.578935314413253,51.2346642743648
+-0.418044544892225,51.2892262107591</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>ASH VALE - GUILDFORD</name>
+         <description>ASH VALE - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.719767243767824,51.2704441615262
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>LONDON GROUP - CLAPHAM JUNCTION</name>
+         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.133035511350118,51.5259228426492
+-0.168769712349235,51.4617683410367</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>WIMBLEDON - RAYNES PARK</name>
+         <description>WIMBLEDON - RAYNES PARK</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.204994402252205,51.4191836093249
+-0.228481680875033,51.4069571028245</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RAYNES PARK - WIMBLEDON</name>
+         <description>RAYNES PARK - WIMBLEDON</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.228481680875033,51.4069571028245
+-0.204994402252205,51.4191836093249</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>RAYNES PARK - NEW MALDEN</name>
+         <description>RAYNES PARK - NEW MALDEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.228481680875033,51.4069571028245
+-0.25459071852964,51.4010569843257</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>EFFINGHAM JN - GUILDFORD</name>
+         <description>EFFINGHAM JN - GUILDFORD</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.418044544892225,51.2892262107591
+-0.578935314413253,51.2346642743648</coordinates>
+         </LineString>
+      </Placemark>
+      <Placemark>
+         <name>SURBITON - NEW MALDEN</name>
+         <description>SURBITON - NEW MALDEN</description>
+         <styleUrl>#linkStyle</styleUrl>
+         <LineString>
+            <coordinates>-0.302445681710373,51.3900751055431
+-0.25459071852964,51.4010569843257</coordinates>
+         </LineString>
+      </Placemark>
+   </Document>
+</kml>
