@@ -24,7 +24,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;BR&gt;</text>
+            <text> $[name]</text>
          </BalloonStyle>
          <LabelStyle>
             <scale>1</scale>
@@ -41,7 +41,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;BR&gt;</text>
+            <text> $[name]</text>
          </BalloonStyle>
       </Style>
       <Style id="linkStyle">
@@ -52,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt;</text>
+            <text> $[name]</text>
          </BalloonStyle>
       </Style>
       <Placemark>
