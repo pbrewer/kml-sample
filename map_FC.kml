@@ -12,7 +12,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name]</text>
          </BalloonStyle>
       </Style>
       <Style id="routeingPointLocationStyle">
@@ -24,7 +24,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
          <LabelStyle>
             <scale>1</scale>
@@ -41,7 +41,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>fffffff</textColor>
-            <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Style id="linkStyle">

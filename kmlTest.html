@@ -8,7 +8,8 @@
 <script>    
      google.maps.event.addDomListener(window, 'load', function() {
          var map;
-         var pathUrl = 'https://iblocks-rg-publication.s3.amazonaws.com/';
+         /* var pathUrl = 'https://iblocks-rg-publication.s3.amazonaws.com/'; */
+         var pathUrl = 'https://raw.github.com/pbrewer/kml-sample/master/';
          var ctaLayer;
                   
          var setDefaultMap = function (kmlFile) {
@@ -70,12 +71,9 @@
         	ctaLayer = new google.maps.KmlLayer();
     	    
 		    ctaLayer.setMap(map);
+ 		    document.getElementById('legend').index=1;
+		    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('legend')); 
 
-		    // Create the legend and display on the map
-		    var legendDiv = document.createElement('DIV');
-		    var legend = new Legend(legendDiv, map);
-		    legendDiv.index = 1;
-		    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legendDiv);
 
       		$("#mapCodes").change(function(){ 
              ctaLayer.setUrl(pathUrl + $("#mapCodes option:selected").val());	
@@ -93,51 +91,26 @@
               }
          });     
  	 }
-
-     function Legend(controlDiv, map) {
-    	  // Set CSS styles for the DIV containing the control
-    	  // Setting padding to 5 px will offset the control
-    	  // from the edge of the map
-    	  controlDiv.style.padding = '5px';
-
-    	  // Set CSS for the control border
-    	  var controlUI = document.createElement('DIV');
-    	  controlUI.style.backgroundColor = 'white';
-    	  controlUI.style.borderStyle = 'solid';
-    	  controlUI.style.borderWidth = '1px';
-    	  controlUI.title = 'Rail Map Legend';
-    	  controlDiv.appendChild(controlUI);
-
-    	  // Set CSS for the control text
-    	  var controlText = document.createElement('DIV');
-    	  controlText.style.fontFamily = 'Arial,sans-serif';
-    	  controlText.style.fontSize = '12px';
-    	  controlText.style.paddingLeft = '4px';
-    	  controlText.style.paddingRight = '4px';
-    	  
-    	  // Add the text
-    	  controlText.innerHTML = '<b>Rail Map Legend</b><br />' +
-    	 		'<img src="routeing-group.gif" />  Routeing Group<br />' +
-    	        '<img src="routeing-point.gif" />  Routeing Point<br />' +
-    	        '<img src="interchange.gif" />  Interchange<br />';
-    	  controlUI.appendChild(controlText);
-     }
      </script>
 </head>
 
 <body>
-
 	<select id="mapCodes" width = "300px">
 	</select>
 
+	<div id="legend" style="padding:5px;">
+		<div style="background-color:white;border:1px solid;" title="Rail Map Legend">
+			<div style="font-family: Arial,sans-serif;font-size: 13px;padding: 4px;">
+			 <div style="font-weight: bold;font-size: 14px;margin-bottom: 4px;">Rail Map Legend</div>
+ 			 <div style="padding: 2px"><img style="vertical-align: middle;" src="routeing-group.gif" />  <span style="vertical-align: middle;font-size: 12px;">Routeing Group</span></div> 
+ 			 <div style="padding: 2px"><img style="vertical-align: middle;" src="routeing-point.gif" />  <span style="vertical-align: middle;font-size: 12px;">Routeing Point</span></div>
+ 			 <div style="padding: 2px"><img style="vertical-align: middle;" src="interchange.gif" />  <span style="vertical-align: middle;font-size: 12px;">Interchange</span></div>
+ 			</div>
+ 		</div>
+	</div>
+	
 	<div style="width: 1200px; height: 800px; margin-top: 20px;"
 		id="map-canvas" />
-		
-	<div id="legend">
-  		<img src="interchange.gif">Interchange</img>
-  	</div>
-
-	<script></script>
-
+	
 </body>
 </html>
