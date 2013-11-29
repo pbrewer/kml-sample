@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -156,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - DERBY GROUP</name>
-         <description>LOUGHBORO LEICS - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -165,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BROMSGROVE</name>
-         <description>BARNT GREEN - BROMSGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -174,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - SLEAFORD</name>
-         <description>NOTTINGHAM GROUP - SLEAFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -183,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - NOTTINGHAM GROUP</name>
-         <description>LOUGHBORO LEICS - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -192,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - GRANTHAM</name>
-         <description>NOTTINGHAM GROUP - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -201,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM - NOTTINGHAM GROUP</name>
-         <description>GRANTHAM - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.64092361498438,52.9036052752164
@@ -210,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>SLEAFORD - GRANTHAM</name>
-         <description>SLEAFORD - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408661580477448,52.9924033599123
@@ -219,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - NUNEATON</name>
-         <description>BIRMINGHAM GROUP - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -228,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - NEWARK GROUP</name>
-         <description>LINCOLN - NEWARK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -237,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - LOUGHBORO LEICS</name>
-         <description>LEICESTER - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -246,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - LOUGHBORO LEICS</name>
-         <description>DERBY GROUP - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -255,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - BARNT GREEN</name>
-         <description>BIRMINGHAM GROUP - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -264,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - NEWARK GROUP</name>
-         <description>NOTTINGHAM GROUP - NEWARK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -273,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - BIRMINGHAM GROUP</name>
-         <description>NUNEATON - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -282,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - BARNETBY</name>
-         <description>LINCOLN - BARNETBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -291,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - LEICESTER</name>
-         <description>LOUGHBORO LEICS - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -300,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE - BARNT GREEN</name>
-         <description>BROMSGROVE - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.04695288598449,52.3199895646342
@@ -309,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP - NOTTINGHAM GROUP</name>
-         <description>NEWARK GROUP - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.798130010834015,53.0796689798256
@@ -318,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM - SLEAFORD</name>
-         <description>GRANTHAM - SLEAFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.64092361498438,52.9036052752164
@@ -327,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BIRMINGHAM GROUP</name>
-         <description>BARNT GREEN - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -336,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - LOUGHBORO LEICS</name>
-         <description>NOTTINGHAM GROUP - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -345,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP - LINCOLN</name>
-         <description>NEWARK GROUP - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.798130010834015,53.0796689798256
@@ -354,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>BARNETBY - LINCOLN</name>
-         <description>BARNETBY - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408151827515758,53.5712589689525
@@ -363,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - NUNEATON</name>
-         <description>LEICESTER - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -372,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - NOTTINGHAM GROUP</name>
-         <description>DERBY GROUP - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -381,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>SLEAFORD - NOTTINGHAM GROUP</name>
-         <description>SLEAFORD - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408661580477448,52.9924033599123
@@ -390,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - LEICESTER</name>
-         <description>NUNEATON - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -399,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - DERBY GROUP</name>
-         <description>NOTTINGHAM GROUP - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285

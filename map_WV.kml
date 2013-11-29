@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -204,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>FELTHAM - STAINES</name>
-         <description>FELTHAM - STAINES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408332053159965,51.4454913808552
@@ -213,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>WIMBLEDON - CLAPHAM JUNCTION</name>
-         <description>WIMBLEDON - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.204994402252205,51.4191836093249
@@ -222,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK - MOTSPUR PARK</name>
-         <description>RAYNES PARK - MOTSPUR PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.228481680875033,51.4069571028245
@@ -231,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>WOKING - WEYBRIDGE GROUP</name>
-         <description>WOKING - WEYBRIDGE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.556326011480579,51.316179942942
@@ -240,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>SURBITON - WEYBRIDGE GROUP</name>
-         <description>SURBITON - WEYBRIDGE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.302445681710373,51.3900751055431
@@ -249,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>HOUNSLOW - TWICKENHAM</name>
-         <description>HOUNSLOW - TWICKENHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.360314476333161,51.4601097718686
@@ -258,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - READING GROUP</name>
-         <description>WOKINGHAM - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -267,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - WOKINGHAM</name>
-         <description>READING GROUP - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -276,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - WIMBLEDON</name>
-         <description>CLAPHAM JUNCTION - WIMBLEDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -285,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>VIRGINIA WATER - WEYBRIDGE GROUP</name>
-         <description>VIRGINIA WATER - WEYBRIDGE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.56091066988956,51.3989276264035
@@ -294,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>MOTSPUR PARK - RAYNES PARK</name>
-         <description>MOTSPUR PARK - RAYNES PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.237657435454024,51.3927138624681
@@ -303,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>TWICKENHAM - FELTHAM</name>
-         <description>TWICKENHAM - FELTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.327645982918459,51.4479633470328
@@ -312,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>WEYBRIDGE GROUP - VIRGINIA WATER</name>
-         <description>WEYBRIDGE GROUP - VIRGINIA WATER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
@@ -321,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>HOUNSLOW - FELTHAM</name>
-         <description>HOUNSLOW - FELTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.360314476333161,51.4601097718686
@@ -330,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>WIMBLEDON - RAYNES PARK</name>
-         <description>WIMBLEDON - RAYNES PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.204994402252205,51.4191836093249
@@ -339,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK - WIMBLEDON</name>
-         <description>RAYNES PARK - WIMBLEDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.228481680875033,51.4069571028245
@@ -348,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK - NEW MALDEN</name>
-         <description>RAYNES PARK - NEW MALDEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.228481680875033,51.4069571028245
@@ -357,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - ASCOT (BERKS)</name>
-         <description>WOKINGHAM - ASCOT (BERKS)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -366,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>ASCOT (BERKS) - WOKINGHAM</name>
-         <description>ASCOT (BERKS) - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.674347177116286,51.4038610449397
@@ -375,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>SURBITON - NEW MALDEN</name>
-         <description>SURBITON - NEW MALDEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.302445681710373,51.3900751055431
@@ -384,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD - WOKING</name>
-         <description>GUILDFORD - WOKING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.578935314413253,51.2346642743648
@@ -393,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>TWICKENHAM - HOUNSLOW</name>
-         <description>TWICKENHAM - HOUNSLOW</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.327645982918459,51.4479633470328
@@ -402,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>RICHMOND LONDON - TWICKENHAM</name>
-         <description>RICHMOND LONDON - TWICKENHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299846694619959,51.4601472544842
@@ -411,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>FELTHAM - HOUNSLOW</name>
-         <description>FELTHAM - HOUNSLOW</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408332053159965,51.4454913808552
@@ -420,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>NEW MALDEN - RAYNES PARK</name>
-         <description>NEW MALDEN - RAYNES PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.25459071852964,51.4010569843257
@@ -429,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>WEYBRIDGE GROUP - WOKING</name>
-         <description>WEYBRIDGE GROUP - WOKING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
@@ -438,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>FELTHAM - TWICKENHAM</name>
-         <description>FELTHAM - TWICKENHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408332053159965,51.4454913808552
@@ -447,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>VIRGINIA WATER - STAINES</name>
-         <description>VIRGINIA WATER - STAINES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.56091066988956,51.3989276264035
@@ -456,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>VIRGINIA WATER - ASCOT (BERKS)</name>
-         <description>VIRGINIA WATER - ASCOT (BERKS)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.56091066988956,51.3989276264035
@@ -465,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>TWICKENHAM - RICHMOND LONDON</name>
-         <description>TWICKENHAM - RICHMOND LONDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.327645982918459,51.4479633470328
@@ -474,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>NEW MALDEN - SURBITON</name>
-         <description>NEW MALDEN - SURBITON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.25459071852964,51.4010569843257
@@ -483,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>STAINES - FELTHAM</name>
-         <description>STAINES - FELTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.500930451797934,51.4305333094029
@@ -492,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>ASCOT (BERKS) - VIRGINIA WATER</name>
-         <description>ASCOT (BERKS) - VIRGINIA WATER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.674347177116286,51.4038610449397
@@ -501,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - LONDON GROUP</name>
-         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -510,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>WEYBRIDGE GROUP - SURBITON</name>
-         <description>WEYBRIDGE GROUP - SURBITON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
@@ -519,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - CLAPHAM JUNCTION</name>
-         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -528,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>WOKING - GUILDFORD</name>
-         <description>WOKING - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.556326011480579,51.316179942942
@@ -537,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>STAINES - VIRGINIA WATER</name>
-         <description>STAINES - VIRGINIA WATER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.500930451797934,51.4305333094029

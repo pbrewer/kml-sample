@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -148,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - BOLTON</name>
-         <description>SALFORD CRESCENT - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -157,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>WREXHAM GROUP - CHESTER</name>
-         <description>WREXHAM GROUP - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.00105187330833,53.0473735627572
@@ -166,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - MANCHESTER GROUP</name>
-         <description>STOCKPORT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -175,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - MANCHESTER GROUP</name>
-         <description>WILMSLOW GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -184,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STOCKPORT</name>
-         <description>MANCHESTER GROUP - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -193,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
-         <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -202,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - WARRINGTON GROUP</name>
-         <description>CHESTER - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -211,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
-         <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -220,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - GUIDE BRIDGE</name>
-         <description>MANCHESTER GROUP - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -229,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON - LLANDUDNO JN</name>
-         <description>SHOTTON - LLANDUDNO JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.03630325182179,53.2106526120998
@@ -238,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - SALFORD CRESCENT</name>
-         <description>BOLTON - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -247,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
-         <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -256,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - WREXHAM GROUP</name>
-         <description>CHESTER - WREXHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -265,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>LLANDUDNO JN - SHOTTON</name>
-         <description>LLANDUDNO JN - SHOTTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.80754581249448,53.2805500537438
@@ -274,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WILMSLOW GROUP</name>
-         <description>MANCHESTER GROUP - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -283,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - EARLESTOWN GROUP</name>
-         <description>MANCHESTER GROUP - EARLESTOWN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -292,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - EARLESTOWN GROUP</name>
-         <description>WARRINGTON GROUP - EARLESTOWN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -301,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - SHOTTON</name>
-         <description>CHESTER - SHOTTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -310,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON - CHESTER</name>
-         <description>SHOTTON - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.03630325182179,53.2106526120998
@@ -319,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - CHESTER</name>
-         <description>WARRINGTON GROUP - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -328,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP - WARRINGTON GROUP</name>
-         <description>EARLESTOWN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018
@@ -337,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP - MANCHESTER GROUP</name>
-         <description>EARLESTOWN GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018

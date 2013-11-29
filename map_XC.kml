@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -172,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>DORKING GROUP - REDHILL GROUP</name>
-         <description>DORKING GROUP - REDHILL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.32232810917038,51.2393563350226
@@ -181,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH N - GUILDFORD</name>
-         <description>FARNBOROUGH N - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.741913906017282,51.2994459413971
@@ -190,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>GOMSHALL - DORKING GROUP</name>
-         <description>GOMSHALL - DORKING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.440579888231119,51.2167234969664
@@ -199,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>FORD GROUP - HORSHAM</name>
-         <description>FORD GROUP - HORSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.577134842260158,50.8274799070745
@@ -208,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - READING GROUP</name>
-         <description>WOKINGHAM - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -217,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - WOKINGHAM</name>
-         <description>READING GROUP - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -226,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>DORKING GROUP - GOMSHALL</name>
-         <description>DORKING GROUP - GOMSHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.32232810917038,51.2393563350226
@@ -235,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD - FARNBOROUGH N</name>
-         <description>GUILDFORD - FARNBOROUGH N</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.578935314413253,51.2346642743648
@@ -244,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD - GOMSHALL</name>
-         <description>GUILDFORD - GOMSHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.578935314413253,51.2346642743648
@@ -253,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>HASTINGS GROUP - POLEGATE</name>
-         <description>HASTINGS GROUP - POLEGATE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.577630945295527,50.8562183508005
@@ -262,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM - FORD GROUP</name>
-         <description>HORSHAM - FORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.317257080155847,51.0640099999086
@@ -271,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>BRIGHTON GROUP - THREE BRIDGES</name>
-         <description>BRIGHTON GROUP - THREE BRIDGES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.139734374960716,50.827616842405
@@ -280,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>LEWES - THREE BRIDGES</name>
-         <description>LEWES - THREE BRIDGES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0139708740923098,50.8682100046315
@@ -289,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP - GATWICK AIRPORT</name>
-         <description>REDHILL GROUP - GATWICK AIRPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594
@@ -298,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES - GATWICK AIRPORT</name>
-         <description>THREE BRIDGES - GATWICK AIRPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
@@ -307,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT - THREE BRIDGES</name>
-         <description>GATWICK AIRPORT - THREE BRIDGES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.15952165755819,51.1542142067235
@@ -316,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>POLEGATE - LEWES</name>
-         <description>POLEGATE - LEWES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.253236488543737,50.8188895282876
@@ -325,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES - LEWES</name>
-         <description>THREE BRIDGES - LEWES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
@@ -334,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>GOMSHALL - GUILDFORD</name>
-         <description>GOMSHALL - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.440579888231119,51.2167234969664
@@ -343,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES - BRIGHTON GROUP</name>
-         <description>THREE BRIDGES - BRIGHTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
@@ -352,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>LEWES - BRIGHTON GROUP</name>
-         <description>LEWES - BRIGHTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0139708740923098,50.8682100046315
@@ -361,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - FARNBOROUGH N</name>
-         <description>WOKINGHAM - FARNBOROUGH N</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -370,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH N - WOKINGHAM</name>
-         <description>FARNBOROUGH N - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.741913906017282,51.2994459413971
@@ -379,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>LEWES - POLEGATE</name>
-         <description>LEWES - POLEGATE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0139708740923098,50.8682100046315
@@ -388,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT - REDHILL GROUP</name>
-         <description>GATWICK AIRPORT - REDHILL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.15952165755819,51.1542142067235
@@ -397,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>BRIGHTON GROUP - LEWES</name>
-         <description>BRIGHTON GROUP - LEWES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.139734374960716,50.827616842405
@@ -406,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM - THREE BRIDGES</name>
-         <description>HORSHAM - THREE BRIDGES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.317257080155847,51.0640099999086
@@ -415,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>POLEGATE - HASTINGS GROUP</name>
-         <description>POLEGATE - HASTINGS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.253236488543737,50.8188895282876
@@ -424,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES - HORSHAM</name>
-         <description>THREE BRIDGES - HORSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
@@ -433,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP - DORKING GROUP</name>
-         <description>REDHILL GROUP - DORKING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594

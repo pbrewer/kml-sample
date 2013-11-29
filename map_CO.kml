@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -140,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>MARKS TEY - COLCHESTER</name>
-         <description>MARKS TEY - COLCHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.783921499610857,51.8781265497108
@@ -149,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - TOTTENHAM HALE</name>
-         <description>STRATFORD LONDON GP - TOTTENHAM HALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -158,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>WITHAM - MARKS TEY</name>
-         <description>WITHAM - MARKS TEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.642921285136763,51.8031685484283
@@ -167,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>COLCHESTER - MARKS TEY</name>
-         <description>COLCHESTER - MARKS TEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.895642092724321,51.8979040219436
@@ -176,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - ROMFORD GROUP</name>
-         <description>STRATFORD LONDON GP - ROMFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -185,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD - WICKFORD</name>
-         <description>SHENFIELD - WICKFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.332138657219138,51.628162442627
@@ -194,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD - ROMFORD GROUP</name>
-         <description>SHENFIELD - ROMFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.332138657219138,51.628162442627
@@ -203,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>WICKFORD - SHENFIELD</name>
-         <description>WICKFORD - SHENFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.520589140537186,51.6125796135542
@@ -212,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD - WITHAM</name>
-         <description>SHENFIELD - WITHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.332138657219138,51.628162442627
@@ -221,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>GRAYS - UPMINSTER</name>
-         <description>GRAYS - UPMINSTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.324249872480289,51.4737038039959
@@ -230,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>UPMINSTER - GRAYS</name>
-         <description>UPMINSTER - GRAYS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.253461201092809,51.5568872968332
@@ -239,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE - STRATFORD LONDON GP</name>
-         <description>TOTTENHAM HALE - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0583956949249829,51.5858343313731
@@ -248,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>ROMFORD GROUP - STRATFORD LONDON GP</name>
-         <description>ROMFORD GROUP - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183514650133649,51.5725927113854
@@ -257,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>ROMFORD GROUP - UPMINSTER</name>
-         <description>ROMFORD GROUP - UPMINSTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183514650133649,51.5725927113854
@@ -266,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>MARKS TEY - WITHAM</name>
-         <description>MARKS TEY - WITHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.783921499610857,51.8781265497108
@@ -275,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - STRATFORD LONDON GP</name>
-         <description>LONDON GROUP - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -284,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - LONDON GROUP</name>
-         <description>STRATFORD LONDON GP - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -293,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>WITHAM - SHENFIELD</name>
-         <description>WITHAM - SHENFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.642921285136763,51.8031685484283
@@ -302,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>ROMFORD GROUP - SHENFIELD</name>
-         <description>ROMFORD GROUP - SHENFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183514650133649,51.5725927113854
@@ -311,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>UPMINSTER - ROMFORD GROUP</name>
-         <description>UPMINSTER - ROMFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.253461201092809,51.5568872968332

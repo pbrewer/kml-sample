@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -116,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>RETFORD - DONCASTER</name>
-         <description>RETFORD - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
@@ -125,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>WORKSOP - RETFORD</name>
-         <description>WORKSOP - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12194470956872,53.3080936765093
@@ -134,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>GOOLE - HULL</name>
-         <description>GOOLE - HULL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.871383236956765,53.7014608402164
@@ -143,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>RETFORD - WORKSOP</name>
-         <description>RETFORD - WORKSOP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
@@ -152,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - RETFORD</name>
-         <description>DONCASTER - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -161,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>GOOLE - DONCASTER</name>
-         <description>GOOLE - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.871383236956765,53.7014608402164
@@ -170,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - LINCOLN</name>
-         <description>DONCASTER - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -179,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>RETFORD - NEWARK GROUP</name>
-         <description>RETFORD - NEWARK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
@@ -188,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - SELBY</name>
-         <description>DONCASTER - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -197,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - DONCASTER</name>
-         <description>SELBY - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -206,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP - RETFORD</name>
-         <description>NEWARK GROUP - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.798130010834015,53.0796689798256
@@ -215,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>HULL - GOOLE</name>
-         <description>HULL - GOOLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.34565994560554,53.740296854028
@@ -224,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - GOOLE</name>
-         <description>DONCASTER - GOOLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -233,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - DONCASTER</name>
-         <description>LINCOLN - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -242,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - HULL</name>
-         <description>SELBY - HULL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -251,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>HULL - SELBY</name>
-         <description>HULL - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.34565994560554,53.740296854028

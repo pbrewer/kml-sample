@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -132,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>DARTFORD - GRAVESEND</name>
-         <description>DARTFORD - GRAVESEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.219169461743888,51.4451774699764
@@ -141,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - MAIDSTONE GROUP</name>
-         <description>CHATHAM GROUP - MAIDSTONE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241
@@ -150,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>EBBSFLEET INTERNATIONAL - STRATFORD LONDON GP</name>
-         <description>EBBSFLEET INTERNATIONAL - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.322562057806688,51.4404771241638
@@ -159,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>EBBSFLEET INTERNATIONAL - GRAVESEND</name>
-         <description>EBBSFLEET INTERNATIONAL - GRAVESEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.322562057806688,51.4404771241638
@@ -168,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - CHATHAM GROUP</name>
-         <description>FAVERSHAM - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -177,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>GRAVESEND - DARTFORD</name>
-         <description>GRAVESEND - DARTFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.368522021932612,51.4386582154852
@@ -186,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>GRAVESEND - EBBSFLEET INTERNATIONAL</name>
-         <description>GRAVESEND - EBBSFLEET INTERNATIONAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.368522021932612,51.4386582154852
@@ -195,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - CHATHAM GROUP</name>
-         <description>SWANLEY - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -204,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - GRAVESEND</name>
-         <description>CHATHAM GROUP - GRAVESEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241
@@ -213,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>MAIDSTONE GROUP - CHATHAM GROUP</name>
-         <description>MAIDSTONE GROUP - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.51490194350759,51.273797018873
@@ -222,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>GRAVESEND - CHATHAM GROUP</name>
-         <description>GRAVESEND - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.368522021932612,51.4386582154852
@@ -231,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - RAMSGATE GROUP</name>
-         <description>FAVERSHAM - RAMSGATE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -240,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - STRATFORD LONDON GP</name>
-         <description>LONDON GROUP - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -249,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>RAMSGATE GROUP - FAVERSHAM</name>
-         <description>RAMSGATE GROUP - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.40741462464778,51.3384161699967
@@ -258,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - LONDON GROUP</name>
-         <description>STRATFORD LONDON GP - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -267,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - FAVERSHAM</name>
-         <description>CHATHAM GROUP - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241
@@ -276,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - EBBSFLEET INTERNATIONAL</name>
-         <description>STRATFORD LONDON GP - EBBSFLEET INTERNATIONAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -285,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - SWANLEY</name>
-         <description>CHATHAM GROUP - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241

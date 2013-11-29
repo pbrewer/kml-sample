@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -79,7 +84,7 @@
          <description>ALEXANDRA PALACE (AAP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
-            <coordinates>-0.11861881117201,51.5958040459942</coordinates>
+            <coordinates>-0.118620000779629,51.5957984924316</coordinates>
          </Point>
       </Placemark>
       <Placemark>
@@ -343,7 +348,7 @@
          <description>STEVENAGE (SVG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
-            <coordinates>-0.20492897787444,51.8964761088654</coordinates>
+            <coordinates>-0.20492897787444,51.8964805603027</coordinates>
          </Point>
       </Placemark>
       <Placemark>
@@ -364,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>KENNETT - STOWMARKET</name>
-         <description>KENNETT - STOWMARKET</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.492032803678062,52.2748257389763
@@ -373,16 +377,14 @@
       </Placemark>
       <Placemark>
          <name>HERTFORD NORTH - ALEXANDRA PALACE</name>
-         <description>HERTFORD NORTH - ALEXANDRA PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0914490397240044,51.7958137563165
--0.11861881117201,51.5958040459942</coordinates>
+-0.118620000779629,51.5957984924316</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>STOCKPORT - CHEADLE HULME</name>
-         <description>STOCKPORT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -391,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK - HIGHBURY &amp; I UND</name>
-         <description>FINSBURY PARK - HIGHBURY &amp; I UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.104129330214378,51.5623127208072
@@ -400,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - NOTTINGHAM GROUP</name>
-         <description>LOUGHBORO LEICS - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -409,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - GRANTHAM</name>
-         <description>PETERBOROUGH - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -418,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - CHESTERFIELD</name>
-         <description>DERBY GROUP - CHESTERFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -427,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - KENNETT</name>
-         <description>CAMBRIDGE - KENNETT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -436,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - HAZEL GROVE</name>
-         <description>STOCKPORT - HAZEL GROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -445,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
-         <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -454,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD - WITHAM</name>
-         <description>SHENFIELD - WITHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.332138657219138,51.628162442627
@@ -463,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - GRANTHAM</name>
-         <description>NOTTINGHAM GROUP - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -472,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY - LEICESTER</name>
-         <description>MELTON MOWBRAY - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
@@ -481,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>CHINLEY - HAZEL GROVE</name>
-         <description>CHINLEY - HAZEL GROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94292550574056,53.3373752706342
@@ -490,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM - NOTTINGHAM GROUP</name>
-         <description>GRANTHAM - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.64092361498438,52.9036052752164
@@ -499,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - LOUGHBORO LEICS</name>
-         <description>LEICESTER - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -508,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - ELY</name>
-         <description>CAMBRIDGE - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -517,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD - CHESTERFIELD</name>
-         <description>SHEFFIELD - CHESTERFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765
@@ -526,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - CHESTERFIELD</name>
-         <description>NOTTINGHAM GROUP - CHESTERFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -535,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>OAKHAM - PETERBOROUGH</name>
-         <description>OAKHAM - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.732516998134623,52.6691285703924
@@ -544,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - KENNETT</name>
-         <description>ELY - KENNETT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
@@ -553,16 +537,14 @@
       </Placemark>
       <Placemark>
          <name>ALEXANDRA PALACE - FINSBURY PARK</name>
-         <description>ALEXANDRA PALACE - FINSBURY PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.11861881117201,51.5958040459942
+            <coordinates>-0.118620000779629,51.5957984924316
 -0.104129330214378,51.5623127208072</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>CHESHUNT - STANSTED GROUP</name>
-         <description>CHESHUNT - STANSTED GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0216581211012142,51.7002772853904
@@ -571,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WARRINGTON GROUP</name>
-         <description>MANCHESTER GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -580,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY - LOUGHBORO LEICS</name>
-         <description>MELTON MOWBRAY - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
@@ -589,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD - MEADOWHALL</name>
-         <description>SHEFFIELD - MEADOWHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765
@@ -598,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - LEICESTER</name>
-         <description>LOUGHBORO LEICS - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -607,16 +585,14 @@
       </Placemark>
       <Placemark>
          <name>ALEXANDRA PALACE - HERTFORD NORTH</name>
-         <description>ALEXANDRA PALACE - HERTFORD NORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.11861881117201,51.5958040459942
+            <coordinates>-0.118620000779629,51.5957984924316
 -0.0914490397240044,51.7958137563165</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>IPSWICH - STOWMARKET</name>
-         <description>IPSWICH - STOWMARKET</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.14604543460463,52.0479119603784
@@ -625,7 +601,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STOCKPORT</name>
-         <description>MANCHESTER GROUP - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -634,7 +609,6 @@
       </Placemark>
       <Placemark>
          <name>HITCHIN - PETERBOROUGH</name>
-         <description>HITCHIN - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.260991998042183,51.9503505578144
@@ -643,7 +617,6 @@
       </Placemark>
       <Placemark>
          <name>WITHAM - MARKS TEY</name>
-         <description>WITHAM - MARKS TEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.642921285136763,51.8031685484283
@@ -652,7 +625,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - OAKHAM</name>
-         <description>PETERBOROUGH - OAKHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -661,7 +633,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - ELY</name>
-         <description>PETERBOROUGH - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -670,7 +641,6 @@
       </Placemark>
       <Placemark>
          <name>NORWICH - ELY</name>
-         <description>NORWICH - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.30845643744413,52.6243046775948
@@ -679,7 +649,6 @@
       </Placemark>
       <Placemark>
          <name>COLCHESTER - MARKS TEY</name>
-         <description>COLCHESTER - MARKS TEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.895642092724321,51.8979040219436
@@ -688,7 +657,6 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY - OAKHAM</name>
-         <description>MELTON MOWBRAY - OAKHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
@@ -697,7 +665,6 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD - WICKFORD</name>
-         <description>SHENFIELD - WICKFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.332138657219138,51.628162442627
@@ -706,7 +673,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - LOUGHBORO LEICS</name>
-         <description>NOTTINGHAM GROUP - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -715,7 +681,6 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL - SHEFFIELD</name>
-         <description>MEADOWHALL - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.4101691283604,53.4141240779031
@@ -724,7 +689,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
-         <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -733,7 +697,6 @@
       </Placemark>
       <Placemark>
          <name>OAKHAM - MELTON MOWBRAY</name>
-         <description>OAKHAM - MELTON MOWBRAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.732516998134623,52.6691285703924
@@ -742,7 +705,6 @@
       </Placemark>
       <Placemark>
          <name>KENNETT - CAMBRIDGE</name>
-         <description>KENNETT - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.492032803678062,52.2748257389763
@@ -751,7 +713,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - CAMBRIDGE</name>
-         <description>ELY - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
@@ -760,7 +721,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD - DERBY GROUP</name>
-         <description>CHESTERFIELD - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
@@ -769,7 +729,6 @@
       </Placemark>
       <Placemark>
          <name>STOWMARKET - IPSWICH</name>
-         <description>STOWMARKET - IPSWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.00223192854285,52.1874255247094
@@ -778,7 +737,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - MELTON MOWBRAY</name>
-         <description>LEICESTER - MELTON MOWBRAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -787,7 +745,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - STANSTED GROUP</name>
-         <description>CAMBRIDGE - STANSTED GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -796,25 +753,22 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE - HITCHIN</name>
-         <description>STEVENAGE - HITCHIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
+            <coordinates>-0.20492897787444,51.8964805603027
 -0.260991998042183,51.9503505578144</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>HITCHIN - STEVENAGE</name>
-         <description>HITCHIN - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.260991998042183,51.9503505578144
--0.20492897787444,51.8964761088654</coordinates>
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>MARKS TEY - WITHAM</name>
-         <description>MARKS TEY - WITHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.783921499610857,51.8781265497108
@@ -823,7 +777,6 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD - CHINLEY</name>
-         <description>SHEFFIELD - CHINLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765
@@ -832,7 +785,6 @@
       </Placemark>
       <Placemark>
          <name>HAZEL GROVE - STOCKPORT</name>
-         <description>HAZEL GROVE - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12176621514136,53.3750745073095
@@ -841,7 +793,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD - SHEFFIELD</name>
-         <description>CHESTERFIELD - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
@@ -850,7 +801,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - DERBY GROUP</name>
-         <description>NOTTINGHAM GROUP - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -859,7 +809,6 @@
       </Placemark>
       <Placemark>
          <name>CHINLEY - SHEFFIELD</name>
-         <description>CHINLEY - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94292550574056,53.3373752706342
@@ -868,7 +817,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - DERBY GROUP</name>
-         <description>LOUGHBORO LEICS - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -877,7 +825,6 @@
       </Placemark>
       <Placemark>
          <name>IPSWICH - MANNINGTREE</name>
-         <description>IPSWICH - MANNINGTREE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.14604543460463,52.0479119603784
@@ -886,16 +833,14 @@
       </Placemark>
       <Placemark>
          <name>ALEXANDRA PALACE - STEVENAGE</name>
-         <description>ALEXANDRA PALACE - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.11861881117201,51.5958040459942
--0.20492897787444,51.8964761088654</coordinates>
+            <coordinates>-0.118620000779629,51.5957984924316
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
-         <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -904,16 +849,14 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE - ALEXANDRA PALACE</name>
-         <description>STEVENAGE - ALEXANDRA PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
--0.11861881117201,51.5958040459942</coordinates>
+            <coordinates>-0.20492897787444,51.8964805603027
+-0.118620000779629,51.5957984924316</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOCKPORT</name>
-         <description>CHEADLE HULME - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -922,7 +865,6 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND - FINSBURY PARK</name>
-         <description>HIGHBURY &amp; I UND - FINSBURY PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.102030856310921,51.5434025567242
@@ -931,7 +873,6 @@
       </Placemark>
       <Placemark>
          <name>WICKFORD - SHENFIELD</name>
-         <description>WICKFORD - SHENFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.520589140537186,51.6125796135542
@@ -940,7 +881,6 @@
       </Placemark>
       <Placemark>
          <name>MANNINGTREE - COLCHESTER</name>
-         <description>MANNINGTREE - COLCHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.04721808895052,51.9462194112542
@@ -949,7 +889,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - MELTON MOWBRAY</name>
-         <description>LOUGHBORO LEICS - MELTON MOWBRAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -958,7 +897,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD - LOUGHBORO LEICS</name>
-         <description>CHESTERFIELD - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
@@ -967,25 +905,22 @@
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK - ALEXANDRA PALACE</name>
-         <description>FINSBURY PARK - ALEXANDRA PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.104129330214378,51.5623127208072
--0.11861881117201,51.5958040459942</coordinates>
+-0.118620000779629,51.5957984924316</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>HERTFORD NORTH - STEVENAGE</name>
-         <description>HERTFORD NORTH - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0914490397240044,51.7958137563165
--0.20492897787444,51.8964761088654</coordinates>
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - LOUGHBORO LEICS</name>
-         <description>DERBY GROUP - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -994,7 +929,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - PETERBOROUGH</name>
-         <description>ELY - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
@@ -1003,7 +937,6 @@
       </Placemark>
       <Placemark>
          <name>KENNETT - ELY</name>
-         <description>KENNETT - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.492032803678062,52.2748257389763
@@ -1012,7 +945,6 @@
       </Placemark>
       <Placemark>
          <name>STANSTED GROUP - CAMBRIDGE</name>
-         <description>STANSTED GROUP - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.30340061061354,51.8876210475587
@@ -1021,7 +953,6 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM - PETERBOROUGH</name>
-         <description>GRANTHAM - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.64092361498438,52.9036052752164
@@ -1030,7 +961,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - MANCHESTER GROUP</name>
-         <description>WARRINGTON GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -1039,7 +969,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - MANCHESTER GROUP</name>
-         <description>STOCKPORT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -1048,7 +977,6 @@
       </Placemark>
       <Placemark>
          <name>MARKS TEY - COLCHESTER</name>
-         <description>MARKS TEY - COLCHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.783921499610857,51.8781265497108
@@ -1057,7 +985,6 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - CHINLEY</name>
-         <description>GUIDE BRIDGE - CHINLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -1066,7 +993,6 @@
       </Placemark>
       <Placemark>
          <name>HAZEL GROVE - CHINLEY</name>
-         <description>HAZEL GROVE - CHINLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12176621514136,53.3750745073095
@@ -1075,7 +1001,6 @@
       </Placemark>
       <Placemark>
          <name>MANNINGTREE - IPSWICH</name>
-         <description>MANNINGTREE - IPSWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.04721808895052,51.9462194112542
@@ -1084,7 +1009,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - CHESTERFIELD</name>
-         <description>LOUGHBORO LEICS - CHESTERFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -1093,16 +1017,14 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE - HERTFORD NORTH</name>
-         <description>STEVENAGE - HERTFORD NORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
+            <coordinates>-0.20492897787444,51.8964805603027
 -0.0914490397240044,51.7958137563165</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - HITCHIN</name>
-         <description>PETERBOROUGH - HITCHIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -1111,7 +1033,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - GUIDE BRIDGE</name>
-         <description>MANCHESTER GROUP - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -1120,7 +1041,6 @@
       </Placemark>
       <Placemark>
          <name>STOWMARKET - KENNETT</name>
-         <description>STOWMARKET - KENNETT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.00223192854285,52.1874255247094
@@ -1129,7 +1049,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD - NOTTINGHAM GROUP</name>
-         <description>CHESTERFIELD - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
@@ -1138,7 +1057,6 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - NOTTINGHAM GROUP</name>
-         <description>DERBY GROUP - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -1147,7 +1065,6 @@
       </Placemark>
       <Placemark>
          <name>STANSTED GROUP - CHESHUNT</name>
-         <description>STANSTED GROUP - CHESHUNT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.30340061061354,51.8876210475587
@@ -1156,7 +1073,6 @@
       </Placemark>
       <Placemark>
          <name>CHINLEY - GUIDE BRIDGE</name>
-         <description>CHINLEY - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94292550574056,53.3373752706342
@@ -1165,7 +1081,6 @@
       </Placemark>
       <Placemark>
          <name>WITHAM - SHENFIELD</name>
-         <description>WITHAM - SHENFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.642921285136763,51.8031685484283
@@ -1174,7 +1089,6 @@
       </Placemark>
       <Placemark>
          <name>COLCHESTER - MANNINGTREE</name>
-         <description>COLCHESTER - MANNINGTREE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.895642092724321,51.8979040219436
@@ -1183,7 +1097,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - NORWICH</name>
-         <description>ELY - NORWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547

@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -151,12 +156,11 @@
          <description>STEVENAGE (SVG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
-            <coordinates>-0.20492897787444,51.8964761088654</coordinates>
+            <coordinates>-0.20492897787444,51.8964805603027</coordinates>
          </Point>
       </Placemark>
       <Placemark>
          <name>SEVEN SISTRS UND - HACKNEY DOWNS</name>
-         <description>SEVEN SISTRS UND - HACKNEY DOWNS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0730126474042903,51.5815809260148
@@ -165,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>CHESHUNT - SEVEN SISTRS UND</name>
-         <description>CHESHUNT - SEVEN SISTRS UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0216581211012142,51.7002772853904
@@ -174,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>SEVEN SISTRS UND - CHESHUNT</name>
-         <description>SEVEN SISTRS UND - CHESHUNT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0730126474042903,51.5815809260148
@@ -183,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPTON - HACKNEY DOWNS</name>
-         <description>CLAPTON - HACKNEY DOWNS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.055180010443115,51.5597137219714
@@ -192,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - HITCHIN</name>
-         <description>CAMBRIDGE - HITCHIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -201,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - ELY</name>
-         <description>CAMBRIDGE - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -210,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE - STRATFORD LONDON GP</name>
-         <description>TOTTENHAM HALE - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0583956949249829,51.5858343313731
@@ -219,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPTON - WALTHAMSTOW CTL</name>
-         <description>CLAPTON - WALTHAMSTOW CTL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.055180010443115,51.5597137219714
@@ -228,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - STRATFORD LONDON GP</name>
-         <description>LONDON GROUP - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -237,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>CHESHUNT - STANSTED GROUP</name>
-         <description>CHESHUNT - STANSTED GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0216581211012142,51.7002772853904
@@ -246,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>HITCHIN - CAMBRIDGE</name>
-         <description>HITCHIN - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.260991998042183,51.9503505578144
@@ -255,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>STANSTED GROUP - CAMBRIDGE</name>
-         <description>STANSTED GROUP - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.30340061061354,51.8876210475587
@@ -264,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE - CHESHUNT</name>
-         <description>TOTTENHAM HALE - CHESHUNT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0583956949249829,51.5858343313731
@@ -273,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>HACKNEY DOWNS - LONDON GROUP</name>
-         <description>HACKNEY DOWNS - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0586375574298068,51.546287887249
@@ -282,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - TOTTENHAM HALE</name>
-         <description>STRATFORD LONDON GP - TOTTENHAM HALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -291,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>WALTHAMSTOW CTL - CLAPTON</name>
-         <description>WALTHAMSTOW CTL - CLAPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0181969039561204,51.5806678709316
@@ -300,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>CHESHUNT - TOTTENHAM HALE</name>
-         <description>CHESHUNT - TOTTENHAM HALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0216581211012142,51.7002772853904
@@ -309,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - HACKNEY DOWNS</name>
-         <description>LONDON GROUP - HACKNEY DOWNS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -318,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>HACKNEY DOWNS - SEVEN SISTRS UND</name>
-         <description>HACKNEY DOWNS - SEVEN SISTRS UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0586375574298068,51.546287887249
@@ -327,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - CAMBRIDGE</name>
-         <description>ELY - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
@@ -336,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPTON - TOTTENHAM HALE</name>
-         <description>CLAPTON - TOTTENHAM HALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.055180010443115,51.5597137219714
@@ -345,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>STANSTED GROUP - CHESHUNT</name>
-         <description>STANSTED GROUP - CHESHUNT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.30340061061354,51.8876210475587
@@ -354,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - STANSTED GROUP</name>
-         <description>CAMBRIDGE - STANSTED GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -363,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE - CLAPTON</name>
-         <description>TOTTENHAM HALE - CLAPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0583956949249829,51.5858343313731
@@ -372,16 +353,14 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE - HITCHIN</name>
-         <description>STEVENAGE - HITCHIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
+            <coordinates>-0.20492897787444,51.8964805603027
 -0.260991998042183,51.9503505578144</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>HACKNEY DOWNS - CLAPTON</name>
-         <description>HACKNEY DOWNS - CLAPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0586375574298068,51.546287887249
@@ -390,16 +369,14 @@
       </Placemark>
       <Placemark>
          <name>HITCHIN - STEVENAGE</name>
-         <description>HITCHIN - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.260991998042183,51.9503505578144
--0.20492897787444,51.8964761088654</coordinates>
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - LONDON GROUP</name>
-         <description>STRATFORD LONDON GP - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958

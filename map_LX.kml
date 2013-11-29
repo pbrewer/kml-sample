@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -140,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -149,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - BARNSLEY</name>
-         <description>WAKEFIELD GROUP - BARNSLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -158,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - WAKEFIELD GROUP</name>
-         <description>DONCASTER - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -167,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>BARNETBY - DONCASTER</name>
-         <description>BARNETBY - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408151827515758,53.5712589689525
@@ -176,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - SKIPTON</name>
-         <description>HELLIFIELD GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -185,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - SKIPTON</name>
-         <description>BRADFORD GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -194,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - LEEDS GROUP</name>
-         <description>BRADFORD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -203,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - OXENHOLME LAKE D</name>
-         <description>LANCASTER GROUP - OXENHOLME LAKE D</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -212,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - LEEDS GROUP</name>
-         <description>SKIPTON - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -221,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - CLAPHAM YORKS</name>
-         <description>HELLIFIELD GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -230,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY - WAKEFIELD GROUP</name>
-         <description>BARNSLEY - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.47619600186737,53.5510442770956
@@ -239,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - HELLIFIELD GROUP</name>
-         <description>SKIPTON - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -248,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - BRADFORD GROUP</name>
-         <description>SKIPTON - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -257,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D - LANCASTER GROUP</name>
-         <description>OXENHOLME LAKE D - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.72079672561516,54.3022952619467
@@ -266,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - DONCASTER</name>
-         <description>WAKEFIELD GROUP - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -275,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - CLAPHAM YORKS</name>
-         <description>LANCASTER GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -284,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - BRADFORD GROUP</name>
-         <description>LEEDS GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -293,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - BARNETBY</name>
-         <description>DONCASTER - BARNETBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -302,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -311,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - HELLIFIELD GROUP</name>
-         <description>CLAPHAM YORKS - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771
@@ -320,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - SKIPTON</name>
-         <description>LEEDS GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -329,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - LANCASTER GROUP</name>
-         <description>CLAPHAM YORKS - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771

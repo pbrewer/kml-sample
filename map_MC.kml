@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -268,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>WHITLAND - SWANSEA GROUP</name>
-         <description>WHITLAND - SWANSEA GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.61316923131634,51.8155206244219
@@ -277,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - BOLTON</name>
-         <description>SALFORD CRESCENT - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -286,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - WILMSLOW GROUP</name>
-         <description>CHEADLE HULME - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -295,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - CHEADLE HULME</name>
-         <description>STOCKPORT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -304,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>SWANSEA GROUP - WHITLAND</name>
-         <description>SWANSEA GROUP - WHITLAND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.94028860334008,51.6227099416963
@@ -313,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - BLACKBURN</name>
-         <description>BOLTON - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -322,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL - NEWPORT (S.WALES)</name>
-         <description>CARDIFF CENTRAL - NEWPORT (S.WALES)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.17645026760644,51.4728636340219
@@ -331,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
-         <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -340,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>BRIDGEND - BARRY</name>
-         <description>BRIDGEND - BARRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.57497724700083,51.5041409019868
@@ -349,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD - CRAVEN ARMS</name>
-         <description>HEREFORD - CRAVEN ARMS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.70746562548318,52.0581355218282
@@ -358,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - SALFORD CRESCENT</name>
-         <description>BOLTON - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -367,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>CRAVEN ARMS - HEREFORD</name>
-         <description>CRAVEN ARMS - HEREFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.83567015766998,52.4392771446456
@@ -376,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STAFFORD GROUP</name>
-         <description>CREWE - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -385,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>BARRY - BRIDGEND</name>
-         <description>BARRY - BRIDGEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.28369127248002,51.3944413471767
@@ -394,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>BATH SPA - CHIPPENHAM</name>
-         <description>BATH SPA - CHIPPENHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.35491303257205,51.3757692670053
@@ -403,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>SHREWSBURY - CREWE</name>
-         <description>SHREWSBURY - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7475465595177,52.7086006455055
@@ -412,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - EARLESTOWN GROUP</name>
-         <description>WARRINGTON GROUP - EARLESTOWN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -421,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CHEADLE HULME</name>
-         <description>WILMSLOW GROUP - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -430,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>NEWPORT (S.WALES) - CARDIFF CENTRAL</name>
-         <description>NEWPORT (S.WALES) - CARDIFF CENTRAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.99751869673671,51.5877692937142
@@ -439,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - MANCHESTER GROUP</name>
-         <description>WILMSLOW GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -448,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - WARRINGTON GROUP</name>
-         <description>WIGAN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -457,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STOCKPORT</name>
-         <description>MANCHESTER GROUP - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -466,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>SHREWSBURY - MACHYNLLETH GROUP</name>
-         <description>SHREWSBURY - MACHYNLLETH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7475465595177,52.7086006455055
@@ -475,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD - NEWPORT (S.WALES)</name>
-         <description>HEREFORD - NEWPORT (S.WALES)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.70746562548318,52.0581355218282
@@ -484,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - SHREWSBURY</name>
-         <description>CREWE - SHREWSBURY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -493,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL - PONTYPRIDD</name>
-         <description>CARDIFF CENTRAL - PONTYPRIDD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.17645026760644,51.4728636340219
@@ -502,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL - BRIDGEND</name>
-         <description>CARDIFF CENTRAL - BRIDGEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.17645026760644,51.4728636340219
@@ -511,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
-         <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -520,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>NEWPORT (S.WALES) - HEREFORD</name>
-         <description>NEWPORT (S.WALES) - HEREFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.99751869673671,51.5877692937142
@@ -529,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>PONTYPRIDD - CARDIFF CENTRAL</name>
-         <description>PONTYPRIDD - CARDIFF CENTRAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.34137458537276,51.596926467657
@@ -538,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WILMSLOW GROUP</name>
-         <description>MANCHESTER GROUP - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -547,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>NEWPORT (S.WALES) - BRISTOL GROUP</name>
-         <description>NEWPORT (S.WALES) - BRISTOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.99751869673671,51.5877692937142
@@ -556,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>BRISTOL GROUP - BATH SPA</name>
-         <description>BRISTOL GROUP - BATH SPA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.57996766294555,51.4467726886349
@@ -565,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>BATH SPA - BRISTOL GROUP</name>
-         <description>BATH SPA - BRISTOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.35491303257205,51.3757692670053
@@ -574,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>BARRY - CARDIFF CENTRAL</name>
-         <description>BARRY - CARDIFF CENTRAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.28369127248002,51.3944413471767
@@ -583,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>SWANSEA GROUP - BRIDGEND</name>
-         <description>SWANSEA GROUP - BRIDGEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.94028860334008,51.6227099416963
@@ -592,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>BRIDGEND - SWANSEA GROUP</name>
-         <description>BRIDGEND - SWANSEA GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.57497724700083,51.5041409019868
@@ -601,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>BRISTOL GROUP - NEWPORT (S.WALES)</name>
-         <description>BRISTOL GROUP - NEWPORT (S.WALES)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.57996766294555,51.4467726886349
@@ -610,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
-         <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -619,7 +585,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOCKPORT</name>
-         <description>CHEADLE HULME - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -628,7 +593,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - WIGAN GROUP</name>
-         <description>WARRINGTON GROUP - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -637,7 +601,6 @@
       </Placemark>
       <Placemark>
          <name>SHREWSBURY - CRAVEN ARMS</name>
-         <description>SHREWSBURY - CRAVEN ARMS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7475465595177,52.7086006455055
@@ -646,7 +609,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - CREWE</name>
-         <description>STAFFORD GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -655,7 +617,6 @@
       </Placemark>
       <Placemark>
          <name>CRAVEN ARMS - SHREWSBURY</name>
-         <description>CRAVEN ARMS - SHREWSBURY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.83567015766998,52.4392771446456
@@ -664,7 +625,6 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL - BARRY</name>
-         <description>CARDIFF CENTRAL - BARRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.17645026760644,51.4728636340219
@@ -673,7 +633,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - MANCHESTER GROUP</name>
-         <description>STOCKPORT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -682,7 +641,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WARRINGTON GROUP</name>
-         <description>CREWE - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -691,7 +649,6 @@
       </Placemark>
       <Placemark>
          <name>MACHYNLLETH GROUP - SHREWSBURY</name>
-         <description>MACHYNLLETH GROUP - SHREWSBURY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.85294612804162,52.5931050319326
@@ -700,7 +657,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - BOLTON</name>
-         <description>BLACKBURN - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -709,7 +665,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WILMSLOW GROUP</name>
-         <description>CREWE - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -718,7 +673,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - GUIDE BRIDGE</name>
-         <description>MANCHESTER GROUP - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -727,7 +681,6 @@
       </Placemark>
       <Placemark>
          <name>BRIDGEND - CARDIFF CENTRAL</name>
-         <description>BRIDGEND - CARDIFF CENTRAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.57497724700083,51.5041409019868
@@ -736,7 +689,6 @@
       </Placemark>
       <Placemark>
          <name>CHIPPENHAM - BATH SPA</name>
-         <description>CHIPPENHAM - BATH SPA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11372296911025,51.4598357522008
@@ -745,7 +697,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - CREWE</name>
-         <description>WARRINGTON GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -754,7 +705,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CREWE</name>
-         <description>WILMSLOW GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -763,7 +713,6 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP - WARRINGTON GROUP</name>
-         <description>EARLESTOWN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018

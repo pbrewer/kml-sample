@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -556,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - BOLTON</name>
-         <description>SALFORD CRESCENT - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -565,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH N - GUILDFORD</name>
-         <description>FARNBOROUGH N - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.741913906017282,51.2994459413971
@@ -574,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY - LEAMINGTON SPA</name>
-         <description>COVENTRY - LEAMINGTON SPA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
@@ -583,7 +585,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - WILMSLOW GROUP</name>
-         <description>CHEADLE HULME - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -592,7 +593,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD U GROUP - WARWICK GROUP</name>
-         <description>STRATFORD U GROUP - WARWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.71470851176188,52.1911321349146
@@ -601,7 +601,6 @@
       </Placemark>
       <Placemark>
          <name>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</name>
-         <description>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.417945334425063,51.5004503083908
@@ -610,7 +609,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - HAZEL GROVE</name>
-         <description>STOCKPORT - HAZEL GROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -619,7 +617,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
-         <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -628,7 +625,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - WOLVERHAMPTON</name>
-         <description>WALSALL GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -637,7 +633,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - SALFORD CRESCENT</name>
-         <description>BOLTON - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -646,7 +641,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - WOLVERHAMPTON</name>
-         <description>SMETHWICK GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -655,7 +649,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STAFFORD GROUP</name>
-         <description>CREWE - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -664,7 +657,6 @@
       </Placemark>
       <Placemark>
          <name>WARWICK GROUP - TYSELEY</name>
-         <description>WARWICK GROUP - TYSELEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58069581862525,52.2842031249513
@@ -673,7 +665,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - LOUGHBORO LEICS</name>
-         <description>LEICESTER - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -682,7 +673,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - NUNEATON</name>
-         <description>BIRMINGHAM GROUP - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -691,7 +681,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - HEREFORD</name>
-         <description>WORCESTER GROUP - HEREFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -700,7 +689,6 @@
       </Placemark>
       <Placemark>
          <name>TYSELEY - WARWICK GROUP</name>
-         <description>TYSELEY - WARWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.83812052729701,52.4511062722417
@@ -709,7 +697,6 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - TAMWORTH</name>
-         <description>DERBY GROUP - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -718,7 +705,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CHEADLE HULME</name>
-         <description>WILMSLOW GROUP - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -727,7 +713,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STOCKPORT</name>
-         <description>MANCHESTER GROUP - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -736,7 +721,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - LICHFIELD T V</name>
-         <description>TAMWORTH - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -745,7 +729,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - HUNTS CROSS GROUP</name>
-         <description>LIVERPOOL GROUP - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -754,7 +737,6 @@
       </Placemark>
       <Placemark>
          <name>HAYES &amp; HARLNGTN GP - SLOUGH</name>
-         <description>HAYES &amp; HARLNGTN GP - SLOUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.417945334425063,51.5004503083908
@@ -763,7 +745,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - COVENTRY</name>
-         <description>NUNEATON - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -772,7 +753,6 @@
       </Placemark>
       <Placemark>
          <name>GOMSHALL - GUILDFORD</name>
-         <description>GOMSHALL - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.440579888231119,51.2167234969664
@@ -781,7 +761,6 @@
       </Placemark>
       <Placemark>
          <name>CHELTENHAM SPA - GLOUCESTER</name>
-         <description>CHELTENHAM SPA - GLOUCESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.09882854165799,51.8939477964377
@@ -790,7 +769,6 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH N - WOKINGHAM</name>
-         <description>FARNBOROUGH N - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.741913906017282,51.2994459413971
@@ -799,7 +777,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
-         <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -808,7 +785,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - RUNCORN</name>
-         <description>HUNTS CROSS GROUP - RUNCORN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -817,7 +793,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WILMSLOW GROUP</name>
-         <description>MANCHESTER GROUP - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -826,7 +801,6 @@
       </Placemark>
       <Placemark>
          <name>HAZEL GROVE - STOCKPORT</name>
-         <description>HAZEL GROVE - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12176621514136,53.3750745073095
@@ -835,7 +809,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - LICHFIELD T V</name>
-         <description>BIRMINGHAM GROUP - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -844,7 +817,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CREWE</name>
-         <description>STOKE ON TRENT - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -853,7 +825,6 @@
       </Placemark>
       <Placemark>
          <name>TELFORD - SHREWSBURY</name>
-         <description>TELFORD - SHREWSBURY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.43931657824063,52.6759903288674
@@ -862,7 +833,6 @@
       </Placemark>
       <Placemark>
          <name>DORKING GROUP - REDHILL GROUP</name>
-         <description>DORKING GROUP - REDHILL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.32232810917038,51.2393563350226
@@ -871,7 +841,6 @@
       </Placemark>
       <Placemark>
          <name>OXFORD - DIDCOT PARKWAY</name>
-         <description>OXFORD - DIDCOT PARKWAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2698223826342,51.7506169249712
@@ -880,7 +849,6 @@
       </Placemark>
       <Placemark>
          <name>GOMSHALL - DORKING GROUP</name>
-         <description>GOMSHALL - DORKING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.440579888231119,51.2167234969664
@@ -889,7 +857,6 @@
       </Placemark>
       <Placemark>
          <name>AIGBURTH - HUNTS CROSS GROUP</name>
-         <description>AIGBURTH - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.92574506214727,53.3616604244271
@@ -898,7 +865,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - WOKINGHAM</name>
-         <description>READING GROUP - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -907,7 +873,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
-         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -916,7 +881,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - CREWE</name>
-         <description>STAFFORD GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -925,7 +889,6 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD - WORCESTER GROUP</name>
-         <description>HEREFORD - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.70746562548318,52.0581355218282
@@ -934,7 +897,6 @@
       </Placemark>
       <Placemark>
          <name>EALING BROADWAY GROUP - LONDON GROUP</name>
-         <description>EALING BROADWAY GROUP - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299347829081659,51.5122730230576
@@ -943,7 +905,6 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD - GOMSHALL</name>
-         <description>GUILDFORD - GOMSHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.578935314413253,51.2346642743648
@@ -952,7 +913,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - TELFORD</name>
-         <description>WOLVERHAMPTON - TELFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -961,7 +921,6 @@
       </Placemark>
       <Placemark>
          <name>DIDCOT PARKWAY - OXFORD</name>
-         <description>DIDCOT PARKWAY - OXFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24177639605164,51.6084332295774
@@ -970,7 +929,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - CHELTENHAM SPA</name>
-         <description>WORCESTER GROUP - CHELTENHAM SPA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -979,7 +937,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - BIRMINGHAM GROUP</name>
-         <description>LICHFIELD T V - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -988,7 +945,6 @@
       </Placemark>
       <Placemark>
          <name>DIDCOT PARKWAY - READING GROUP</name>
-         <description>DIDCOT PARKWAY - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24177639605164,51.6084332295774
@@ -997,7 +953,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - BASINGSTOKE</name>
-         <description>READING GROUP - BASINGSTOKE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -1006,7 +961,6 @@
       </Placemark>
       <Placemark>
          <name>MAIDENHEAD - SLOUGH</name>
-         <description>MAIDENHEAD - SLOUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.721546959650751,51.515837329819
@@ -1015,7 +969,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STALYBRIDGE</name>
-         <description>MANCHESTER GROUP - STALYBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -1024,7 +977,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - STAFFORD GROUP</name>
-         <description>STOKE ON TRENT - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -1033,7 +985,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - MANCHESTER GROUP</name>
-         <description>STOCKPORT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -1042,7 +993,6 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY - NUNEATON</name>
-         <description>COVENTRY - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
@@ -1051,7 +1001,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WARRINGTON GROUP</name>
-         <description>CREWE - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -1060,7 +1009,6 @@
       </Placemark>
       <Placemark>
          <name>TELFORD - WOLVERHAMPTON</name>
-         <description>TELFORD - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.43931657824063,52.6759903288674
@@ -1069,7 +1017,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
-         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -1078,7 +1025,6 @@
       </Placemark>
       <Placemark>
          <name>AIGBURTH - LIVERPOOL GROUP</name>
-         <description>AIGBURTH - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.92574506214727,53.3616604244271
@@ -1087,7 +1033,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - GUIDE BRIDGE</name>
-         <description>MANCHESTER GROUP - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -1096,7 +1041,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - DERBY GROUP</name>
-         <description>TAMWORTH - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -1105,7 +1049,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - NUNEATON</name>
-         <description>LEICESTER - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -1114,7 +1057,6 @@
       </Placemark>
       <Placemark>
          <name>SLOUGH - HAYES &amp; HARLNGTN GP</name>
-         <description>SLOUGH - HAYES &amp; HARLNGTN GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.590565992879139,51.5098424704067
@@ -1123,7 +1065,6 @@
       </Placemark>
       <Placemark>
          <name>BASINGSTOKE - READING GROUP</name>
-         <description>BASINGSTOKE - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08687709589478,51.2657940803547
@@ -1132,7 +1073,6 @@
       </Placemark>
       <Placemark>
          <name>MAIDENHEAD - TWYFORD</name>
-         <description>MAIDENHEAD - TWYFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.721546959650751,51.515837329819
@@ -1141,7 +1081,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - LIVERPOOL GROUP</name>
-         <description>HUNTS CROSS GROUP - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -1150,7 +1089,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - CREWE</name>
-         <description>WARRINGTON GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -1159,7 +1097,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - CROYDON GROUP</name>
-         <description>STREATHAM GROUP - CROYDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -1168,7 +1105,6 @@
       </Placemark>
       <Placemark>
          <name>CROYDON GROUP - REDHILL GROUP</name>
-         <description>CROYDON GROUP - REDHILL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0918292948916154,51.3733510137007
@@ -1177,7 +1113,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
-         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -1186,7 +1121,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - CHEADLE HULME</name>
-         <description>STOCKPORT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -1195,7 +1129,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - DIDCOT PARKWAY</name>
-         <description>READING GROUP - DIDCOT PARKWAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -1204,7 +1137,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - AIGBURTH</name>
-         <description>HUNTS CROSS GROUP - AIGBURTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -1213,7 +1145,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - READING GROUP</name>
-         <description>WOKINGHAM - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -1222,7 +1153,6 @@
       </Placemark>
       <Placemark>
          <name>SLOUGH - MAIDENHEAD</name>
-         <description>SLOUGH - MAIDENHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.590565992879139,51.5098424704067
@@ -1231,7 +1161,6 @@
       </Placemark>
       <Placemark>
          <name>DORKING GROUP - GOMSHALL</name>
-         <description>DORKING GROUP - GOMSHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.32232810917038,51.2393563350226
@@ -1240,7 +1169,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - HUYTON</name>
-         <description>LIVERPOOL GROUP - HUYTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -1249,7 +1177,6 @@
       </Placemark>
       <Placemark>
          <name>TWYFORD - READING GROUP</name>
-         <description>TWYFORD - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.862420368717771,51.4732471781296
@@ -1258,7 +1185,6 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD - FARNBOROUGH N</name>
-         <description>GUILDFORD - FARNBOROUGH N</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.578935314413253,51.2346642743648
@@ -1267,7 +1193,6 @@
       </Placemark>
       <Placemark>
          <name>HUYTON - LIVERPOOL GROUP</name>
-         <description>HUYTON - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.84248348710437,53.4072163077818
@@ -1276,7 +1201,6 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP - GATWICK AIRPORT</name>
-         <description>REDHILL GROUP - GATWICK AIRPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594
@@ -1285,7 +1209,6 @@
       </Placemark>
       <Placemark>
          <name>OXFORD - BANBURY GROUP</name>
-         <description>OXFORD - BANBURY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2698223826342,51.7506169249712
@@ -1294,7 +1217,6 @@
       </Placemark>
       <Placemark>
          <name>LEAMINGTON SPA - BANBURY GROUP</name>
-         <description>LEAMINGTON SPA - BANBURY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.53526711169815,52.2822355714122
@@ -1303,7 +1225,6 @@
       </Placemark>
       <Placemark>
          <name>RUNCORN - HUNTS CROSS GROUP</name>
-         <description>RUNCORN - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.73894655479018,53.3359997709182
@@ -1312,7 +1233,6 @@
       </Placemark>
       <Placemark>
          <name>WARWICK GROUP - LEAMINGTON SPA</name>
-         <description>WARWICK GROUP - LEAMINGTON SPA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58069581862525,52.2842031249513
@@ -1321,7 +1241,6 @@
       </Placemark>
       <Placemark>
          <name>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</name>
-         <description>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299347829081659,51.5122730230576
@@ -1330,7 +1249,6 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT - THREE BRIDGES</name>
-         <description>GATWICK AIRPORT - THREE BRIDGES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.15952165755819,51.1542142067235
@@ -1339,7 +1257,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STOKE ON TRENT</name>
-         <description>CREWE - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -1348,7 +1265,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - LEICESTER</name>
-         <description>LOUGHBORO LEICS - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -1357,7 +1273,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - MANCHESTER GROUP</name>
-         <description>WILMSLOW GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -1366,7 +1281,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - EALING BROADWAY GROUP</name>
-         <description>LONDON GROUP - EALING BROADWAY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -1375,7 +1289,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
-         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -1384,7 +1297,6 @@
       </Placemark>
       <Placemark>
          <name>CROYDON GROUP - STREATHAM GROUP</name>
-         <description>CROYDON GROUP - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0918292948916154,51.3733510137007
@@ -1393,7 +1305,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - WOLVERHAMPTON</name>
-         <description>STAFFORD GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -1402,7 +1313,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - EVESHAM</name>
-         <description>WORCESTER GROUP - EVESHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -1411,7 +1321,6 @@
       </Placemark>
       <Placemark>
          <name>LEAMINGTON SPA - COVENTRY</name>
-         <description>LEAMINGTON SPA - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.53526711169815,52.2822355714122
@@ -1420,7 +1329,6 @@
       </Placemark>
       <Placemark>
          <name>TWYFORD - MAIDENHEAD</name>
-         <description>TWYFORD - MAIDENHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.862420368717771,51.4732471781296
@@ -1429,7 +1337,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - HOOTON</name>
-         <description>LIVERPOOL GROUP - HOOTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -1438,7 +1345,6 @@
       </Placemark>
       <Placemark>
          <name>OXFORD - EVESHAM</name>
-         <description>OXFORD - EVESHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2698223826342,51.7506169249712
@@ -1447,7 +1353,6 @@
       </Placemark>
       <Placemark>
          <name>RUNCORN - WARRINGTON GROUP</name>
-         <description>RUNCORN - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.73894655479018,53.3359997709182
@@ -1456,7 +1361,6 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT - REDHILL GROUP</name>
-         <description>GATWICK AIRPORT - REDHILL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.15952165755819,51.1542142067235
@@ -1465,7 +1369,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - RUNCORN</name>
-         <description>WARRINGTON GROUP - RUNCORN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -1474,7 +1377,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - CLAPHAM JUNCTION</name>
-         <description>STREATHAM GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -1483,7 +1385,6 @@
       </Placemark>
       <Placemark>
          <name>WARWICK GROUP - STRATFORD U GROUP</name>
-         <description>WARWICK GROUP - STRATFORD U GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58069581862525,52.2842031249513
@@ -1492,7 +1393,6 @@
       </Placemark>
       <Placemark>
          <name>EVESHAM - OXFORD</name>
-         <description>EVESHAM - OXFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94598280675679,52.0961966655734
@@ -1501,7 +1401,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - WALSALL GROUP</name>
-         <description>WOLVERHAMPTON - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -1510,7 +1409,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - BIRMINGHAM GROUP</name>
-         <description>TAMWORTH - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -1519,7 +1417,6 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP - DORKING GROUP</name>
-         <description>REDHILL GROUP - DORKING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594
@@ -1528,7 +1425,6 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
-         <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -1537,7 +1433,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - TYSELEY</name>
-         <description>BIRMINGHAM GROUP - TYSELEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -1546,7 +1441,6 @@
       </Placemark>
       <Placemark>
          <name>EVESHAM - WORCESTER GROUP</name>
-         <description>EVESHAM - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94598280675679,52.0961966655734
@@ -1555,7 +1449,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - SMETHWICK GROUP</name>
-         <description>WOLVERHAMPTON - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -1564,7 +1457,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOCKPORT</name>
-         <description>CHEADLE HULME - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -1573,7 +1465,6 @@
       </Placemark>
       <Placemark>
          <name>TYSELEY - BIRMINGHAM GROUP</name>
-         <description>TYSELEY - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.83812052729701,52.4511062722417
@@ -1582,7 +1473,6 @@
       </Placemark>
       <Placemark>
          <name>SHREWSBURY - TELFORD</name>
-         <description>SHREWSBURY - TELFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7475465595177,52.7086006455055
@@ -1591,7 +1481,6 @@
       </Placemark>
       <Placemark>
          <name>STALYBRIDGE - MANCHESTER GROUP</name>
-         <description>STALYBRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.06329543897595,53.4811728690541
@@ -1600,7 +1489,6 @@
       </Placemark>
       <Placemark>
          <name>CHELTENHAM SPA - WORCESTER GROUP</name>
-         <description>CHELTENHAM SPA - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.09882854165799,51.8939477964377
@@ -1609,7 +1497,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - TAMWORTH</name>
-         <description>LICHFIELD T V - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -1618,7 +1505,6 @@
       </Placemark>
       <Placemark>
          <name>GLOUCESTER - CHELTENHAM SPA</name>
-         <description>GLOUCESTER - CHELTENHAM SPA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.23673166427208,51.8622947301681
@@ -1627,7 +1513,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - RUNCORN</name>
-         <description>CREWE - RUNCORN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -1636,7 +1521,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - TWYFORD</name>
-         <description>READING GROUP - TWYFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -1645,7 +1529,6 @@
       </Placemark>
       <Placemark>
          <name>RUNCORN - CREWE</name>
-         <description>RUNCORN - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.73894655479018,53.3359997709182
@@ -1654,7 +1537,6 @@
       </Placemark>
       <Placemark>
          <name>BANBURY GROUP - OXFORD</name>
-         <description>BANBURY GROUP - OXFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.32608171738474,52.0583321271333
@@ -1663,7 +1545,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CHEADLE HULME</name>
-         <description>STOKE ON TRENT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -1672,7 +1553,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - STREATHAM GROUP</name>
-         <description>CLAPHAM JUNCTION - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -1681,7 +1561,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - BIRMINGHAM GROUP</name>
-         <description>NUNEATON - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -1690,7 +1569,6 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY - BIRMINGHAM GROUP</name>
-         <description>COVENTRY - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
@@ -1699,7 +1577,6 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES - GATWICK AIRPORT</name>
-         <description>THREE BRIDGES - GATWICK AIRPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
@@ -1708,7 +1585,6 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP - CROYDON GROUP</name>
-         <description>REDHILL GROUP - CROYDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594
@@ -1717,7 +1593,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - STAFFORD GROUP</name>
-         <description>WOLVERHAMPTON - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -1726,7 +1601,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOKE ON TRENT</name>
-         <description>CHEADLE HULME - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -1735,7 +1609,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WILMSLOW GROUP</name>
-         <description>CREWE - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -1744,7 +1617,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD U GROUP - TYSELEY</name>
-         <description>STRATFORD U GROUP - TYSELEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.71470851176188,52.1911321349146
@@ -1753,7 +1625,6 @@
       </Placemark>
       <Placemark>
          <name>HOOTON - LIVERPOOL GROUP</name>
-         <description>HOOTON - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.9752950896166,53.2938563998056
@@ -1762,7 +1633,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - FARNBOROUGH N</name>
-         <description>WOKINGHAM - FARNBOROUGH N</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -1771,7 +1641,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - COVENTRY</name>
-         <description>BIRMINGHAM GROUP - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -1780,7 +1649,6 @@
       </Placemark>
       <Placemark>
          <name>LEAMINGTON SPA - WARWICK GROUP</name>
-         <description>LEAMINGTON SPA - WARWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.53526711169815,52.2822355714122
@@ -1789,7 +1657,6 @@
       </Placemark>
       <Placemark>
          <name>BANBURY GROUP - LEAMINGTON SPA</name>
-         <description>BANBURY GROUP - LEAMINGTON SPA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.32608171738474,52.0583321271333
@@ -1798,7 +1665,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - AIGBURTH</name>
-         <description>LIVERPOOL GROUP - AIGBURTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -1807,7 +1673,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - TAMWORTH</name>
-         <description>BIRMINGHAM GROUP - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -1816,7 +1681,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - STOKE ON TRENT</name>
-         <description>STAFFORD GROUP - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -1825,7 +1689,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CREWE</name>
-         <description>WILMSLOW GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -1834,7 +1697,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - LEICESTER</name>
-         <description>NUNEATON - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -1843,7 +1705,6 @@
       </Placemark>
       <Placemark>
          <name>TYSELEY - STRATFORD U GROUP</name>
-         <description>TYSELEY - STRATFORD U GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.83812052729701,52.4511062722417

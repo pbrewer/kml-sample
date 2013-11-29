@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -164,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>CRYSTAL PALACE - STREATHAM GROUP</name>
-         <description>CRYSTAL PALACE - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0713862141029046,51.4152630622009
@@ -173,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SWANLEY</name>
-         <description>BROMLEY SOUTH GROUP - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -182,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>CRYSTAL PALACE - BECKENHAM JN</name>
-         <description>CRYSTAL PALACE - BECKENHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0713862141029046,51.4152630622009
@@ -191,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - CHATHAM GROUP</name>
-         <description>FAVERSHAM - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -200,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - BROMLEY SOUTH GROUP</name>
-         <description>SWANLEY - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -209,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>SELLING - KEARSNEY (KENT)</name>
-         <description>SELLING - KEARSNEY (KENT)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.942362575597316,51.2755146258354
@@ -218,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>KEARSNEY (KENT) - DOVER PRIORY</name>
-         <description>KEARSNEY (KENT) - DOVER PRIORY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.27315041375844,51.1471487671387
@@ -227,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - SELLING</name>
-         <description>FAVERSHAM - SELLING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -236,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS - BECKENHAM JN</name>
-         <description>SHORTLANDS - BECKENHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0043172178827097,51.4032060195165
@@ -245,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SHORTLANDS</name>
-         <description>BROMLEY SOUTH GROUP - SHORTLANDS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -254,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - STREATHAM GROUP</name>
-         <description>CLAPHAM JUNCTION - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -263,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - CRYSTAL PALACE</name>
-         <description>STREATHAM GROUP - CRYSTAL PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -272,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>KEARSNEY (KENT) - SELLING</name>
-         <description>KEARSNEY (KENT) - SELLING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.27315041375844,51.1471487671387
@@ -281,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - SWANLEY</name>
-         <description>CHATHAM GROUP - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241
@@ -290,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>SELLING - FAVERSHAM</name>
-         <description>SELLING - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.942362575597316,51.2755146258354
@@ -299,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>DOVER PRIORY - KEARSNEY (KENT)</name>
-         <description>DOVER PRIORY - KEARSNEY (KENT)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.30580430019011,51.1237524751162
@@ -308,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN - SHORTLANDS</name>
-         <description>BECKENHAM JN - SHORTLANDS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0256253748578791,51.4091076803144
@@ -317,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - CHATHAM GROUP</name>
-         <description>SWANLEY - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -326,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - CLAPHAM JUNCTION</name>
-         <description>STREATHAM GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -335,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - RAMSGATE GROUP</name>
-         <description>FAVERSHAM - RAMSGATE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -344,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - LONDON GROUP</name>
-         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -353,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN - CRYSTAL PALACE</name>
-         <description>BECKENHAM JN - CRYSTAL PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0256253748578791,51.4091076803144
@@ -362,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - CLAPHAM JUNCTION</name>
-         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -371,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS - BROMLEY SOUTH GROUP</name>
-         <description>SHORTLANDS - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0043172178827097,51.4032060195165
@@ -380,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>RAMSGATE GROUP - FAVERSHAM</name>
-         <description>RAMSGATE GROUP - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.40741462464778,51.3384161699967
@@ -389,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - FAVERSHAM</name>
-         <description>CHATHAM GROUP - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241

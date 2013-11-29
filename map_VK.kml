@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -188,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>HUYTON - EARLESTOWN GROUP</name>
-         <description>HUYTON - EARLESTOWN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.84248348710437,53.4072163077818
@@ -197,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>HEBDEN BRIDGE - MANCHESTER GROUP</name>
-         <description>HEBDEN BRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.00758042613385,53.7346381410441
@@ -206,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
-         <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -215,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - AIGBURTH</name>
-         <description>HUNTS CROSS GROUP - AIGBURTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -224,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>AIGBURTH - HUNTS CROSS GROUP</name>
-         <description>AIGBURTH - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.92574506214727,53.3616604244271
@@ -233,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP - HUYTON</name>
-         <description>EARLESTOWN GROUP - HUYTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018
@@ -242,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP - STALYBRIDGE</name>
-         <description>HUDDERSFIELD GROUP - STALYBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.78365726682475,53.6454662384722
@@ -251,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP - WAKEFIELD GROUP</name>
-         <description>HUDDERSFIELD GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.78365726682475,53.6454662384722
@@ -260,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - HUYTON</name>
-         <description>LIVERPOOL GROUP - HUYTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -269,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP - BRADFORD GROUP</name>
-         <description>HALIFAX GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.85299957012169,53.7174718790283
@@ -278,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>STALYBRIDGE - MANCHESTER GROUP</name>
-         <description>STALYBRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.06329543897595,53.4811728690541
@@ -287,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - PONTEFRACT GROUP</name>
-         <description>WAKEFIELD GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -296,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - WARRINGTON GROUP</name>
-         <description>HUNTS CROSS GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -305,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - HALIFAX GROUP</name>
-         <description>BRADFORD GROUP - HALIFAX GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -314,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - LEEDS GROUP</name>
-         <description>BRADFORD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -323,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>HUYTON - LIVERPOOL GROUP</name>
-         <description>HUYTON - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.84248348710437,53.4072163077818
@@ -332,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - HUDDERSFIELD GROUP</name>
-         <description>LEEDS GROUP - HUDDERSFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -341,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP - LEEDS GROUP</name>
-         <description>HUDDERSFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.78365726682475,53.6454662384722
@@ -350,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP - HEBDEN BRIDGE</name>
-         <description>HALIFAX GROUP - HEBDEN BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.85299957012169,53.7174718790283
@@ -359,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - EARLESTOWN GROUP</name>
-         <description>MANCHESTER GROUP - EARLESTOWN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -368,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - WAKEFIELD GROUP</name>
-         <description>PONTEFRACT GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -377,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STALYBRIDGE</name>
-         <description>MANCHESTER GROUP - STALYBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -386,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - BRADFORD GROUP</name>
-         <description>LEEDS GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -395,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WARRINGTON GROUP</name>
-         <description>MANCHESTER GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -404,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -413,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>STALYBRIDGE - GUIDE BRIDGE</name>
-         <description>STALYBRIDGE - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.06329543897595,53.4811728690541
@@ -422,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP - MANCHESTER GROUP</name>
-         <description>EARLESTOWN GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018
@@ -431,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - MANCHESTER GROUP</name>
-         <description>WARRINGTON GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -440,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>HEBDEN BRIDGE - HALIFAX GROUP</name>
-         <description>HEBDEN BRIDGE - HALIFAX GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.00758042613385,53.7346381410441
@@ -449,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -458,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - HUNTS CROSS GROUP</name>
-         <description>LIVERPOOL GROUP - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -467,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - STALYBRIDGE</name>
-         <description>GUIDE BRIDGE - STALYBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -476,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - HEBDEN BRIDGE</name>
-         <description>MANCHESTER GROUP - HEBDEN BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -485,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>AIGBURTH - LIVERPOOL GROUP</name>
-         <description>AIGBURTH - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.92574506214727,53.3616604244271
@@ -494,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>HOOTON - LIVERPOOL GROUP</name>
-         <description>HOOTON - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.9752950896166,53.2938563998056
@@ -503,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - GUIDE BRIDGE</name>
-         <description>MANCHESTER GROUP - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -512,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP - HUDDERSFIELD GROUP</name>
-         <description>HALIFAX GROUP - HUDDERSFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.85299957012169,53.7174718790283
@@ -521,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - HOOTON</name>
-         <description>LIVERPOOL GROUP - HOOTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -530,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>STALYBRIDGE - HUDDERSFIELD GROUP</name>
-         <description>STALYBRIDGE - HUDDERSFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.06329543897595,53.4811728690541
@@ -539,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - LEEDS GROUP</name>
-         <description>PONTEFRACT GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -548,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP - HALIFAX GROUP</name>
-         <description>HUDDERSFIELD GROUP - HALIFAX GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.78365726682475,53.6454662384722
@@ -557,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - LIVERPOOL GROUP</name>
-         <description>HUNTS CROSS GROUP - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -566,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - AIGBURTH</name>
-         <description>LIVERPOOL GROUP - AIGBURTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -575,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - PONTEFRACT GROUP</name>
-         <description>LEEDS GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -584,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - HUDDERSFIELD GROUP</name>
-         <description>WAKEFIELD GROUP - HUDDERSFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -593,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - HUNTS CROSS GROUP</name>
-         <description>WARRINGTON GROUP - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108

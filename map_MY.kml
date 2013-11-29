@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -124,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP - YORK</name>
-         <description>SCARBOROUGH GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.404114952496297,54.2768123775554
@@ -133,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - BARNSLEY</name>
-         <description>WAKEFIELD GROUP - BARNSLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -142,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -151,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - WAKEFIELD GROUP</name>
-         <description>DONCASTER - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -160,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - LEEDS GROUP</name>
-         <description>YORK - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -169,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - PONTEFRACT GROUP</name>
-         <description>WAKEFIELD GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -178,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL - SHEFFIELD</name>
-         <description>MEADOWHALL - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.4101691283604,53.4141240779031
@@ -187,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL - BARNSLEY</name>
-         <description>MEADOWHALL - BARNSLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.4101691283604,53.4141240779031
@@ -196,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - LEEDS GROUP</name>
-         <description>PONTEFRACT GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -205,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY - MEADOWHALL</name>
-         <description>BARNSLEY - MEADOWHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.47619600186737,53.5510442770956
@@ -214,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - YORK</name>
-         <description>LEEDS GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -223,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SCARBOROUGH GROUP</name>
-         <description>YORK - SCARBOROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -232,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY - WAKEFIELD GROUP</name>
-         <description>BARNSLEY - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.47619600186737,53.5510442770956
@@ -241,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - WAKEFIELD GROUP</name>
-         <description>PONTEFRACT GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -250,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - PONTEFRACT GROUP</name>
-         <description>LEEDS GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -259,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - DONCASTER</name>
-         <description>WAKEFIELD GROUP - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -268,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -277,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD - MEADOWHALL</name>
-         <description>SHEFFIELD - MEADOWHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765

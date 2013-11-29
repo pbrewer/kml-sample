@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -132,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>DUMFRIES - KILMARNOCK</name>
-         <description>DUMFRIES - KILMARNOCK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.6037876629636,55.0695130371346
@@ -141,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK - TROON GROUP</name>
-         <description>KILMARNOCK - TROON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.49757948758596,55.6100734945976
@@ -150,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - MOUNT FLORIDA</name>
-         <description>GLASGOW GROUP - MOUNT FLORIDA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -159,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>TROON GROUP - KILMARNOCK</name>
-         <description>TROON GROUP - KILMARNOCK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.65327165048802,55.5402684571067
@@ -168,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>PAISLEY GIL ST - KILWINNING</name>
-         <description>PAISLEY GIL ST - KILWINNING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.42317845734824,55.8453202183079
@@ -177,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>PAISLEY GIL ST - PORT GLASGOW</name>
-         <description>PAISLEY GIL ST - PORT GLASGOW</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.42317845734824,55.8453202183079
@@ -186,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>TROON GROUP - KILWINNING</name>
-         <description>TROON GROUP - KILWINNING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.65327165048802,55.5402684571067
@@ -195,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>KILWINNING - TROON GROUP</name>
-         <description>KILWINNING - TROON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.70861104529443,55.653245391913
@@ -204,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK - DUMFRIES</name>
-         <description>KILMARNOCK - DUMFRIES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.49757948758596,55.6100734945976
@@ -213,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST - KILMARNOCK</name>
-         <description>POLLOKSHAWS WEST - KILMARNOCK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.30035427379742,55.8216069737407
@@ -222,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - DUMFRIES</name>
-         <description>CARLISLE - DUMFRIES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -231,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK - POLLOKSHAWS WEST</name>
-         <description>KILMARNOCK - POLLOKSHAWS WEST</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.49757948758596,55.6100734945976
@@ -240,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>MOUNT FLORIDA - GLASGOW GROUP</name>
-         <description>MOUNT FLORIDA - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.26058467436566,55.8241426007126
@@ -249,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>DUMFRIES - CARLISLE</name>
-         <description>DUMFRIES - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.6037876629636,55.0695130371346
@@ -258,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - POLLOKSHAWS WEST</name>
-         <description>GLASGOW GROUP - POLLOKSHAWS WEST</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -267,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>PORT GLASGOW - PAISLEY GIL ST</name>
-         <description>PORT GLASGOW - PAISLEY GIL ST</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.68797158009861,55.9315283640005
@@ -276,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>KILWINNING - PAISLEY GIL ST</name>
-         <description>KILWINNING - PAISLEY GIL ST</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.70861104529443,55.653245391913
@@ -285,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST - GLASGOW GROUP</name>
-         <description>POLLOKSHAWS WEST - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.30035427379742,55.8216069737407

@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -124,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - HELLIFIELD GROUP</name>
-         <description>BLACKBURN - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -133,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>HUYTON - EARLESTOWN GROUP</name>
-         <description>HUYTON - EARLESTOWN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.84248348710437,53.4072163077818
@@ -142,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - WARRINGTON GROUP</name>
-         <description>WIGAN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -151,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP - HUYTON</name>
-         <description>EARLESTOWN GROUP - HUYTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018
@@ -160,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - BLACKBURN</name>
-         <description>BOLTON - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -169,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - BLACKBURN</name>
-         <description>HELLIFIELD GROUP - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -178,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - BOLTON</name>
-         <description>BLACKBURN - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -187,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - WIGAN GROUP</name>
-         <description>WARRINGTON GROUP - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -196,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - WARRINGTON GROUP</name>
-         <description>HUNTS CROSS GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -205,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - BOLTON</name>
-         <description>WIGAN GROUP - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -214,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - EARLESTOWN GROUP</name>
-         <description>WARRINGTON GROUP - EARLESTOWN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -223,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - WIGAN GROUP</name>
-         <description>BOLTON - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -232,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP - WARRINGTON GROUP</name>
-         <description>EARLESTOWN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018
@@ -241,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - HUNTS CROSS GROUP</name>
-         <description>WARRINGTON GROUP - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108

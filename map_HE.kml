@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -108,7 +113,6 @@
       </Placemark>
       <Placemark>
          <name>HAVANT - GUILDFORD</name>
-         <description>HAVANT - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.981310197425111,50.8523808477861
@@ -117,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD - HAVANT</name>
-         <description>GUILDFORD - HAVANT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.578935314413253,51.2346642743648
@@ -126,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>EPSOM - SUTTON LONDON</name>
-         <description>EPSOM - SUTTON LONDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.26726318438557,51.3320338775324
@@ -135,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD - EFFINGHAM JN</name>
-         <description>GUILDFORD - EFFINGHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.578935314413253,51.2346642743648
@@ -144,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>HAVANT - PORTSMOUTH GROUP</name>
-         <description>HAVANT - PORTSMOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.981310197425111,50.8523808477861
@@ -153,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>EPSOM - LEATHERHEAD</name>
-         <description>EPSOM - LEATHERHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.26726318438557,51.3320338775324
@@ -162,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>SUTTON LONDON - EPSOM</name>
-         <description>SUTTON LONDON - EPSOM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.188720543001437,51.3578110208355
@@ -171,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>LEATHERHEAD - EPSOM</name>
-         <description>LEATHERHEAD - EPSOM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.331735826951668,51.296117664066
@@ -180,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>LEATHERHEAD - EFFINGHAM JN</name>
-         <description>LEATHERHEAD - EFFINGHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.331735826951668,51.296117664066
@@ -189,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>PORTSMOUTH GROUP - HAVANT</name>
-         <description>PORTSMOUTH GROUP - HAVANT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08897246877542,50.7957491893797
@@ -198,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>EFFINGHAM JN - LEATHERHEAD</name>
-         <description>EFFINGHAM JN - LEATHERHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.418044544892225,51.2892262107591
@@ -207,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>EFFINGHAM JN - GUILDFORD</name>
-         <description>EFFINGHAM JN - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.418044544892225,51.2892262107591

@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -156,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>RETFORD - DONCASTER</name>
-         <description>RETFORD - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
@@ -165,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - DARLINGTON</name>
-         <description>MIDDLESBROUGH GROUP - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -174,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP - GRANTHAM</name>
-         <description>NEWARK GROUP - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.798130010834015,53.0796689798256
@@ -183,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - NORTHALLERTON</name>
-         <description>YORK - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -192,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - LEEDS GROUP</name>
-         <description>YORK - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -201,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - YORK</name>
-         <description>DONCASTER - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -210,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - YORK</name>
-         <description>NORTHALLERTON - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -219,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - MIDDLESBROUGH GROUP</name>
-         <description>DARLINGTON - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -228,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - SELBY</name>
-         <description>DONCASTER - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -237,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP - RETFORD</name>
-         <description>NEWARK GROUP - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.798130010834015,53.0796689798256
@@ -246,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - NEWARK GROUP</name>
-         <description>LINCOLN - NEWARK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -255,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - RETFORD</name>
-         <description>LINCOLN - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -264,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>RETFORD - LINCOLN</name>
-         <description>RETFORD - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
@@ -273,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -282,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - DARLINGTON</name>
-         <description>NORTHALLERTON - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -291,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - YORK</name>
-         <description>SELBY - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -300,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -309,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - WAKEFIELD GROUP</name>
-         <description>DONCASTER - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -318,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SELBY</name>
-         <description>YORK - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -327,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - RETFORD</name>
-         <description>DONCASTER - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -336,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - DONCASTER</name>
-         <description>YORK - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -345,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP - LINCOLN</name>
-         <description>NEWARK GROUP - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.798130010834015,53.0796689798256
@@ -354,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - LINCOLN</name>
-         <description>DONCASTER - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -363,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - NORTHALLERTON</name>
-         <description>MIDDLESBROUGH GROUP - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -372,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>RETFORD - NEWARK GROUP</name>
-         <description>RETFORD - NEWARK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
@@ -381,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - DONCASTER</name>
-         <description>SELBY - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -390,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - YORK</name>
-         <description>LEEDS GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -399,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - MIDDLESBROUGH GROUP</name>
-         <description>NORTHALLERTON - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -408,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - NORTHALLERTON</name>
-         <description>DARLINGTON - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -417,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM - NEWARK GROUP</name>
-         <description>GRANTHAM - NEWARK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.64092361498438,52.9036052752164
@@ -426,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>SLEAFORD - LINCOLN</name>
-         <description>SLEAFORD - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408661580477448,52.9924033599123
@@ -435,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - DONCASTER</name>
-         <description>LINCOLN - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -444,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - DONCASTER</name>
-         <description>WAKEFIELD GROUP - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -453,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - SLEAFORD</name>
-         <description>LINCOLN - SLEAFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206

@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -92,7 +97,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - TOTTENHAM HALE</name>
-         <description>STRATFORD LONDON GP - TOTTENHAM HALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -101,7 +105,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPTON - TOTTENHAM HALE</name>
-         <description>CLAPTON - TOTTENHAM HALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.055180010443115,51.5597137219714
@@ -110,7 +113,6 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE - STRATFORD LONDON GP</name>
-         <description>TOTTENHAM HALE - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0583956949249829,51.5858343313731
@@ -119,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE - CLAPTON</name>
-         <description>TOTTENHAM HALE - CLAPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0583956949249829,51.5858343313731
@@ -128,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>HACKNEY DOWNS - CLAPTON</name>
-         <description>HACKNEY DOWNS - CLAPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0586375574298068,51.546287887249
@@ -137,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - STRATFORD LONDON GP</name>
-         <description>LONDON GROUP - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -146,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - LONDON GROUP</name>
-         <description>STRATFORD LONDON GP - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -155,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPTON - HACKNEY DOWNS</name>
-         <description>CLAPTON - HACKNEY DOWNS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.055180010443115,51.5597137219714
@@ -164,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - HACKNEY DOWNS</name>
-         <description>LONDON GROUP - HACKNEY DOWNS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -173,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>HACKNEY DOWNS - LONDON GROUP</name>
-         <description>HACKNEY DOWNS - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0586375574298068,51.546287887249

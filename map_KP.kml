@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -55,7 +60,7 @@
          <description>ALEXANDRA PALACE (AAP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
-            <coordinates>-0.11861881117201,51.5958040459942</coordinates>
+            <coordinates>-0.118620000779629,51.5957984924316</coordinates>
          </Point>
       </Placemark>
       <Placemark>
@@ -63,7 +68,7 @@
          <description>STEVENAGE (SVG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
-            <coordinates>-0.20492897787444,51.8964761088654</coordinates>
+            <coordinates>-0.20492897787444,51.8964805603027</coordinates>
          </Point>
       </Placemark>
       <Placemark>
@@ -164,34 +169,30 @@
       </Placemark>
       <Placemark>
          <name>ALEXANDRA PALACE - STEVENAGE</name>
-         <description>ALEXANDRA PALACE - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.11861881117201,51.5958040459942
--0.20492897787444,51.8964761088654</coordinates>
+            <coordinates>-0.118620000779629,51.5957984924316
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>HERTFORD NORTH - ALEXANDRA PALACE</name>
-         <description>HERTFORD NORTH - ALEXANDRA PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0914490397240044,51.7958137563165
--0.11861881117201,51.5958040459942</coordinates>
+-0.118620000779629,51.5957984924316</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>STEVENAGE - ALEXANDRA PALACE</name>
-         <description>STEVENAGE - ALEXANDRA PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
--0.11861881117201,51.5958040459942</coordinates>
+            <coordinates>-0.20492897787444,51.8964805603027
+-0.118620000779629,51.5957984924316</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK - HIGHBURY &amp; I UND</name>
-         <description>FINSBURY PARK - HIGHBURY &amp; I UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.104129330214378,51.5623127208072
@@ -200,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - GRANTHAM</name>
-         <description>PETERBOROUGH - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -209,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - FINSBURY PARK</name>
-         <description>LONDON GROUP - FINSBURY PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -218,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND - FINSBURY PARK</name>
-         <description>HIGHBURY &amp; I UND - FINSBURY PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.102030856310921,51.5434025567242
@@ -227,25 +225,22 @@
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK - ALEXANDRA PALACE</name>
-         <description>FINSBURY PARK - ALEXANDRA PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.104129330214378,51.5623127208072
--0.11861881117201,51.5958040459942</coordinates>
+-0.118620000779629,51.5957984924316</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>HERTFORD NORTH - STEVENAGE</name>
-         <description>HERTFORD NORTH - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0914490397240044,51.7958137563165
--0.20492897787444,51.8964761088654</coordinates>
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>OAKHAM - PETERBOROUGH</name>
-         <description>OAKHAM - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.732516998134623,52.6691285703924
@@ -254,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - PETERBOROUGH</name>
-         <description>ELY - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
@@ -263,16 +257,14 @@
       </Placemark>
       <Placemark>
          <name>ALEXANDRA PALACE - FINSBURY PARK</name>
-         <description>ALEXANDRA PALACE - FINSBURY PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.11861881117201,51.5958040459942
+            <coordinates>-0.118620000779629,51.5957984924316
 -0.104129330214378,51.5623127208072</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>ESSEX ROAD - LONDON GROUP</name>
-         <description>ESSEX ROAD - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0950491218531374,51.5378961668471
@@ -281,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM - PETERBOROUGH</name>
-         <description>GRANTHAM - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.64092361498438,52.9036052752164
@@ -290,16 +281,14 @@
       </Placemark>
       <Placemark>
          <name>ALEXANDRA PALACE - HERTFORD NORTH</name>
-         <description>ALEXANDRA PALACE - HERTFORD NORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.11861881117201,51.5958040459942
+            <coordinates>-0.118620000779629,51.5957984924316
 -0.0914490397240044,51.7958137563165</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>HITCHIN - PETERBOROUGH</name>
-         <description>HITCHIN - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.260991998042183,51.9503505578144
@@ -308,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - OAKHAM</name>
-         <description>PETERBOROUGH - OAKHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -317,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - ELY</name>
-         <description>PETERBOROUGH - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -326,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>NORWICH - ELY</name>
-         <description>NORWICH - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.30845643744413,52.6243046775948
@@ -335,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY - OAKHAM</name>
-         <description>MELTON MOWBRAY - OAKHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
@@ -344,16 +329,14 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE - HERTFORD NORTH</name>
-         <description>STEVENAGE - HERTFORD NORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
+            <coordinates>-0.20492897787444,51.8964805603027
 -0.0914490397240044,51.7958137563165</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - HITCHIN</name>
-         <description>PETERBOROUGH - HITCHIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -362,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - ESSEX ROAD</name>
-         <description>LONDON GROUP - ESSEX ROAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -371,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK - LONDON GROUP</name>
-         <description>FINSBURY PARK - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.104129330214378,51.5623127208072
@@ -380,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>OAKHAM - MELTON MOWBRAY</name>
-         <description>OAKHAM - MELTON MOWBRAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.732516998134623,52.6691285703924
@@ -389,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND - ESSEX ROAD</name>
-         <description>HIGHBURY &amp; I UND - ESSEX ROAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.102030856310921,51.5434025567242
@@ -398,25 +377,22 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE - HITCHIN</name>
-         <description>STEVENAGE - HITCHIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
+            <coordinates>-0.20492897787444,51.8964805603027
 -0.260991998042183,51.9503505578144</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>HITCHIN - STEVENAGE</name>
-         <description>HITCHIN - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.260991998042183,51.9503505578144
--0.20492897787444,51.8964761088654</coordinates>
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>ESSEX ROAD - HIGHBURY &amp; I UND</name>
-         <description>ESSEX ROAD - HIGHBURY &amp; I UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0950491218531374,51.5378961668471
@@ -425,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - NORWICH</name>
-         <description>ELY - NORWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547

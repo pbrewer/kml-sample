@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -124,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>HARROGATE - YORK</name>
-         <description>HARROGATE - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.5363046851771,53.9889901979466
@@ -133,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - HARROGATE</name>
-         <description>LEEDS GROUP - HARROGATE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -142,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - SELBY</name>
-         <description>LEEDS GROUP - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -151,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP - YORK</name>
-         <description>SCARBOROUGH GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.404114952496297,54.2768123775554
@@ -160,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>BRIDLINGTON - SCARBOROUGH GROUP</name>
-         <description>BRIDLINGTON - SCARBOROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.199098396001348,54.0815604492753
@@ -169,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>HARROGATE - LEEDS GROUP</name>
-         <description>HARROGATE - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.5363046851771,53.9889901979466
@@ -178,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - LEEDS GROUP</name>
-         <description>YORK - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -187,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - LEEDS GROUP</name>
-         <description>BRADFORD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -196,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP - BRIDLINGTON</name>
-         <description>SCARBOROUGH GROUP - BRIDLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.404114952496297,54.2768123775554
@@ -205,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - PONTEFRACT GROUP</name>
-         <description>YORK - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -214,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - LEEDS GROUP</name>
-         <description>PONTEFRACT GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -223,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>BRIDLINGTON - HULL</name>
-         <description>BRIDLINGTON - HULL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.199098396001348,54.0815604492753
@@ -232,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - YORK</name>
-         <description>LEEDS GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -241,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SCARBOROUGH GROUP</name>
-         <description>YORK - SCARBOROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -250,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - LEEDS GROUP</name>
-         <description>SELBY - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -259,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>HULL - BRIDLINGTON</name>
-         <description>HULL - BRIDLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.34565994560554,53.740296854028
@@ -268,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - PONTEFRACT GROUP</name>
-         <description>LEEDS GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -277,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - BRADFORD GROUP</name>
-         <description>LEEDS GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -286,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - YORK</name>
-         <description>PONTEFRACT GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -295,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - HARROGATE</name>
-         <description>YORK - HARROGATE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078

@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -364,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - APPLEBY</name>
-         <description>CARLISLE - APPLEBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -373,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - BARNSLEY</name>
-         <description>WAKEFIELD GROUP - BARNSLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -382,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS - MEADOWHALL</name>
-         <description>SWINTON  S YORKS - MEADOWHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30368986438219,53.4845538752677
@@ -391,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - NOTTINGHAM GROUP</name>
-         <description>LOUGHBORO LEICS - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -400,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>BARROW IN FURNSS - SELLAFIELD</name>
-         <description>BARROW IN FURNSS - SELLAFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.2255261855801,54.1157625711654
@@ -409,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>KETTERING - LEICESTER</name>
-         <description>KETTERING - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.730227350583821,52.3904721394009
@@ -418,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>APPLEBY - HELLIFIELD GROUP</name>
-         <description>APPLEBY - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.48427808979365,54.5775999596093
@@ -427,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - CHESTERFIELD</name>
-         <description>DERBY GROUP - CHESTERFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -436,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - SWINTON  S YORKS</name>
-         <description>WAKEFIELD GROUP - SWINTON  S YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -445,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>LUTON - WEST HAMPSTD TLK</name>
-         <description>LUTON - WEST HAMPSTD TLK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.413383840606806,51.8796972880439
@@ -454,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - LEEDS GROUP</name>
-         <description>BRADFORD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -463,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY - LEICESTER</name>
-         <description>MELTON MOWBRAY - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
@@ -472,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - CARSTAIRS</name>
-         <description>MOTHERWELL GROUP - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -481,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - LOUGHBORO LEICS</name>
-         <description>LEICESTER - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -490,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD - CHESTERFIELD</name>
-         <description>SHEFFIELD - CHESTERFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765
@@ -499,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL - SWINTON  S YORKS</name>
-         <description>MEADOWHALL - SWINTON  S YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.4101691283604,53.4141240779031
@@ -508,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - CHESTERFIELD</name>
-         <description>NOTTINGHAM GROUP - CHESTERFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -517,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - BRADFORD GROUP</name>
-         <description>SKIPTON - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -526,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY - LOUGHBORO LEICS</name>
-         <description>MELTON MOWBRAY - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
@@ -535,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>DUMFRIES - CARLISLE</name>
-         <description>DUMFRIES - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.6037876629636,55.0695130371346
@@ -544,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - BARNETBY</name>
-         <description>DONCASTER - BARNETBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -553,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -562,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - SKIPTON</name>
-         <description>LEEDS GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -571,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>WEST HAMPSTD TLK - LONDON GROUP</name>
-         <description>WEST HAMPSTD TLK - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.191364107030493,51.5457128284244
@@ -580,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD - MEADOWHALL</name>
-         <description>SHEFFIELD - MEADOWHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765
@@ -589,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - LEICESTER</name>
-         <description>LOUGHBORO LEICS - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -598,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS - WAKEFIELD GROUP</name>
-         <description>SWINTON  S YORKS - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30368986438219,53.4845538752677
@@ -607,7 +585,6 @@
       </Placemark>
       <Placemark>
          <name>DUMFRIES - KILMARNOCK</name>
-         <description>DUMFRIES - KILMARNOCK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.6037876629636,55.0695130371346
@@ -616,7 +593,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - WAKEFIELD GROUP</name>
-         <description>DONCASTER - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -625,7 +601,6 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY - OAKHAM</name>
-         <description>MELTON MOWBRAY - OAKHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
@@ -634,7 +609,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - BARROW IN FURNSS</name>
-         <description>LANCASTER GROUP - BARROW IN FURNSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -643,7 +617,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - LOUGHBORO LEICS</name>
-         <description>NOTTINGHAM GROUP - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -652,7 +625,6 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL - SHEFFIELD</name>
-         <description>MEADOWHALL - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.4101691283604,53.4141240779031
@@ -661,7 +633,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - SKIPTON</name>
-         <description>BRADFORD GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -670,7 +641,6 @@
       </Placemark>
       <Placemark>
          <name>KETTERING - OAKHAM</name>
-         <description>KETTERING - OAKHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.730227350583821,52.3904721394009
@@ -679,7 +649,6 @@
       </Placemark>
       <Placemark>
          <name>OAKHAM - MELTON MOWBRAY</name>
-         <description>OAKHAM - MELTON MOWBRAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.732516998134623,52.6691285703924
@@ -688,7 +657,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD - DERBY GROUP</name>
-         <description>CHESTERFIELD - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
@@ -697,7 +665,6 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP - MOTHERWELL GROUP</name>
-         <description>FALKIRK GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.7907706980682,55.9891919882658
@@ -706,7 +673,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - LEEDS GROUP</name>
-         <description>SKIPTON - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -715,7 +681,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - MELTON MOWBRAY</name>
-         <description>LEICESTER - MELTON MOWBRAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -724,7 +689,6 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY - WAKEFIELD GROUP</name>
-         <description>BARNSLEY - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.47619600186737,53.5510442770956
@@ -733,7 +697,6 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK - DUMFRIES</name>
-         <description>KILMARNOCK - DUMFRIES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.49757948758596,55.6100734945976
@@ -742,7 +705,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - NEWTON LANARK</name>
-         <description>MOTHERWELL GROUP - NEWTON LANARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -751,7 +713,6 @@
       </Placemark>
       <Placemark>
          <name>SELLAFIELD - CARLISLE</name>
-         <description>SELLAFIELD - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.51026434598241,54.413642492677
@@ -760,7 +721,6 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D - PENRITH</name>
-         <description>OXENHOLME LAKE D - PENRITH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.72079672561516,54.3022952619467
@@ -769,7 +729,6 @@
       </Placemark>
       <Placemark>
          <name>BEDFORD - KETTERING</name>
-         <description>BEDFORD - KETTERING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.477427294975053,52.1340143383127
@@ -778,7 +737,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - EDINBURGH GROUP</name>
-         <description>CARSTAIRS - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -787,7 +745,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - DONCASTER</name>
-         <description>WAKEFIELD GROUP - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -796,7 +753,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD - SHEFFIELD</name>
-         <description>CHESTERFIELD - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
@@ -805,7 +761,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - HELLIFIELD GROUP</name>
-         <description>CLAPHAM YORKS - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771
@@ -814,7 +769,6 @@
       </Placemark>
       <Placemark>
          <name>NOTTINGHAM GROUP - DERBY GROUP</name>
-         <description>NOTTINGHAM GROUP - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.14419550451195,52.9451470971285
@@ -823,7 +777,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - DERBY GROUP</name>
-         <description>LOUGHBORO LEICS - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -832,7 +785,6 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK - GLASGOW GROUP</name>
-         <description>NEWTON LANARK - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.13242975572459,55.8165428999123
@@ -841,7 +793,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - NEWTON LANARK</name>
-         <description>GLASGOW GROUP - NEWTON LANARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -850,7 +801,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - MOTHERWELL GROUP</name>
-         <description>GLASGOW GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -859,7 +809,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - GLASGOW GROUP</name>
-         <description>MOTHERWELL GROUP - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -868,7 +817,6 @@
       </Placemark>
       <Placemark>
          <name>BARNETBY - DONCASTER</name>
-         <description>BARNETBY - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408151827515758,53.5712589689525
@@ -877,7 +825,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - MELTON MOWBRAY</name>
-         <description>LOUGHBORO LEICS - MELTON MOWBRAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -886,7 +833,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - PENRITH</name>
-         <description>CARLISLE - PENRITH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -895,7 +841,6 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL - BARNSLEY</name>
-         <description>MEADOWHALL - BARNSLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.4101691283604,53.4141240779031
@@ -904,7 +849,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - MOTHERWELL GROUP</name>
-         <description>CARSTAIRS - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -913,7 +857,6 @@
       </Placemark>
       <Placemark>
          <name>PENRITH - CARLISLE</name>
-         <description>PENRITH - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.75655145110832,54.6588920507997
@@ -922,7 +865,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - CLAPHAM YORKS</name>
-         <description>HELLIFIELD GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -931,7 +873,6 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - LOUGHBORO LEICS</name>
-         <description>DERBY GROUP - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -940,7 +881,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - HELLIFIELD GROUP</name>
-         <description>SKIPTON - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -949,7 +889,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - DUMFRIES</name>
-         <description>CARLISLE - DUMFRIES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -958,7 +897,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - CARLISLE</name>
-         <description>CARSTAIRS - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -967,7 +905,6 @@
       </Placemark>
       <Placemark>
          <name>OAKHAM - KETTERING</name>
-         <description>OAKHAM - KETTERING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.732516998134623,52.6691285703924
@@ -976,7 +913,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - CLAPHAM YORKS</name>
-         <description>LANCASTER GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -985,7 +921,6 @@
       </Placemark>
       <Placemark>
          <name>BARROW IN FURNSS - LANCASTER GROUP</name>
-         <description>BARROW IN FURNSS - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.2255261855801,54.1157625711654
@@ -994,7 +929,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - BRADFORD GROUP</name>
-         <description>LEEDS GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -1003,7 +937,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - CARSTAIRS</name>
-         <description>EDINBURGH GROUP - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -1012,7 +945,6 @@
       </Placemark>
       <Placemark>
          <name>SELLAFIELD - BARROW IN FURNSS</name>
-         <description>SELLAFIELD - BARROW IN FURNSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.51026434598241,54.413642492677
@@ -1021,7 +953,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - CARSTAIRS</name>
-         <description>CARLISLE - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -1030,7 +961,6 @@
       </Placemark>
       <Placemark>
          <name>BEDFORD - LUTON</name>
-         <description>BEDFORD - LUTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.477427294975053,52.1340143383127
@@ -1039,7 +969,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -1048,7 +977,6 @@
       </Placemark>
       <Placemark>
          <name>LUTON - BEDFORD</name>
-         <description>LUTON - BEDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.413383840606806,51.8796972880439
@@ -1057,7 +985,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - SELLAFIELD</name>
-         <description>CARLISLE - SELLAFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -1066,7 +993,6 @@
       </Placemark>
       <Placemark>
          <name>APPLEBY - CARLISLE</name>
-         <description>APPLEBY - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.48427808979365,54.5775999596093
@@ -1075,7 +1001,6 @@
       </Placemark>
       <Placemark>
          <name>WEST HAMPSTD TLK - LUTON</name>
-         <description>WEST HAMPSTD TLK - LUTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.191364107030493,51.5457128284244
@@ -1084,7 +1009,6 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK - MOTHERWELL GROUP</name>
-         <description>NEWTON LANARK - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.13242975572459,55.8165428999123
@@ -1093,7 +1017,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - SKIPTON</name>
-         <description>HELLIFIELD GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -1102,7 +1025,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - APPLEBY</name>
-         <description>HELLIFIELD GROUP - APPLEBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -1111,7 +1033,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - FALKIRK GROUP</name>
-         <description>MOTHERWELL GROUP - FALKIRK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -1120,7 +1041,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD - NOTTINGHAM GROUP</name>
-         <description>CHESTERFIELD - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
@@ -1129,7 +1049,6 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - NOTTINGHAM GROUP</name>
-         <description>DERBY GROUP - NOTTINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -1138,7 +1057,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - OXENHOLME LAKE D</name>
-         <description>LANCASTER GROUP - OXENHOLME LAKE D</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -1147,7 +1065,6 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY - MEADOWHALL</name>
-         <description>BARNSLEY - MEADOWHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.47619600186737,53.5510442770956
@@ -1156,7 +1073,6 @@
       </Placemark>
       <Placemark>
          <name>KETTERING - BEDFORD</name>
-         <description>KETTERING - BEDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.730227350583821,52.3904721394009
@@ -1165,7 +1081,6 @@
       </Placemark>
       <Placemark>
          <name>PENRITH - OXENHOLME LAKE D</name>
-         <description>PENRITH - OXENHOLME LAKE D</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.75655145110832,54.6588920507997
@@ -1174,7 +1089,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - WEST HAMPSTD TLK</name>
-         <description>LONDON GROUP - WEST HAMPSTD TLK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -1183,7 +1097,6 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D - LANCASTER GROUP</name>
-         <description>OXENHOLME LAKE D - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.72079672561516,54.3022952619467
@@ -1192,7 +1105,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - KETTERING</name>
-         <description>LEICESTER - KETTERING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -1201,7 +1113,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - LANCASTER GROUP</name>
-         <description>CLAPHAM YORKS - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771

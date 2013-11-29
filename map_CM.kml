@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -212,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - BOLTON</name>
-         <description>SALFORD CRESCENT - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -221,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
-         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -230,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - WILMSLOW GROUP</name>
-         <description>CHEADLE HULME - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -239,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - CHEADLE HULME</name>
-         <description>STOCKPORT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -248,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
-         <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -257,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - SMETHWICK GROUP</name>
-         <description>WOLVERHAMPTON - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -266,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOCKPORT</name>
-         <description>CHEADLE HULME - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -275,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - HAZEL GROVE</name>
-         <description>STOCKPORT - HAZEL GROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -284,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
-         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -293,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
-         <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -302,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - WOLVERHAMPTON</name>
-         <description>WALSALL GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -311,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>STALYBRIDGE - MANCHESTER GROUP</name>
-         <description>STALYBRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.06329543897595,53.4811728690541
@@ -320,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - CREWE</name>
-         <description>STAFFORD GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -329,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - WOLVERHAMPTON</name>
-         <description>SMETHWICK GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -338,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - SALFORD CRESCENT</name>
-         <description>BOLTON - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -347,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STAFFORD GROUP</name>
-         <description>CREWE - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -356,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CHEADLE HULME</name>
-         <description>STOKE ON TRENT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -365,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - BARNT GREEN</name>
-         <description>BIRMINGHAM GROUP - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -374,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - EARLESTOWN GROUP</name>
-         <description>WARRINGTON GROUP - EARLESTOWN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -383,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STALYBRIDGE</name>
-         <description>MANCHESTER GROUP - STALYBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -392,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY - BIRMINGHAM GROUP</name>
-         <description>COVENTRY - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
@@ -401,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CHEADLE HULME</name>
-         <description>WILMSLOW GROUP - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -410,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STOKE ON TRENT</name>
-         <description>CREWE - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -419,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - STAFFORD GROUP</name>
-         <description>STOKE ON TRENT - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -428,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - STAFFORD GROUP</name>
-         <description>WOLVERHAMPTON - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -437,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - MANCHESTER GROUP</name>
-         <description>STOCKPORT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -446,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - MANCHESTER GROUP</name>
-         <description>WILMSLOW GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -455,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WARRINGTON GROUP</name>
-         <description>CREWE - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -464,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
-         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -473,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOKE ON TRENT</name>
-         <description>CHEADLE HULME - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -482,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STOCKPORT</name>
-         <description>MANCHESTER GROUP - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -491,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
-         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -500,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - WOLVERHAMPTON</name>
-         <description>STAFFORD GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -509,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BIRMINGHAM GROUP</name>
-         <description>BARNT GREEN - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -518,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WILMSLOW GROUP</name>
-         <description>CREWE - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -527,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - GUIDE BRIDGE</name>
-         <description>MANCHESTER GROUP - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -536,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
-         <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -545,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - COVENTRY</name>
-         <description>BIRMINGHAM GROUP - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -554,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WILMSLOW GROUP</name>
-         <description>MANCHESTER GROUP - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -563,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - STOKE ON TRENT</name>
-         <description>STAFFORD GROUP - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -572,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CREWE</name>
-         <description>WILMSLOW GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -581,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - CREWE</name>
-         <description>WARRINGTON GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -590,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>HAZEL GROVE - STOCKPORT</name>
-         <description>HAZEL GROVE - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12176621514136,53.3750745073095
@@ -599,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - WALSALL GROUP</name>
-         <description>WOLVERHAMPTON - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -608,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP - WARRINGTON GROUP</name>
-         <description>EARLESTOWN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018
@@ -617,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CREWE</name>
-         <description>STOKE ON TRENT - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396

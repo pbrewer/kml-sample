@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -276,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>FELTHAM - STAINES</name>
-         <description>FELTHAM - STAINES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408332053159965,51.4454913808552
@@ -285,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK - MOTSPUR PARK</name>
-         <description>RAYNES PARK - MOTSPUR PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.228481680875033,51.4069571028245
@@ -294,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>WIMBLEDON - CLAPHAM JUNCTION</name>
-         <description>WIMBLEDON - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.204994402252205,51.4191836093249
@@ -303,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>SURBITON - WEYBRIDGE GROUP</name>
-         <description>SURBITON - WEYBRIDGE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.302445681710373,51.3900751055431
@@ -312,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>BASINGSTOKE - SALISBURY</name>
-         <description>BASINGSTOKE - SALISBURY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08687709589478,51.2657940803547
@@ -321,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - READING GROUP</name>
-         <description>WOKINGHAM - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -330,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - WIMBLEDON</name>
-         <description>CLAPHAM JUNCTION - WIMBLEDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -339,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>VIRGINIA WATER - WEYBRIDGE GROUP</name>
-         <description>VIRGINIA WATER - WEYBRIDGE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.56091066988956,51.3989276264035
@@ -348,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>ASCOT (BERKS) - ASH VALE</name>
-         <description>ASCOT (BERKS) - ASH VALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.674347177116286,51.4038610449397
@@ -357,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>WOKING - ASH VALE</name>
-         <description>WOKING - ASH VALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.556326011480579,51.316179942942
@@ -366,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>EASTLEIGH - SOUTHAMPTON GROUP</name>
-         <description>EASTLEIGH - SOUTHAMPTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.34912462799446,50.9664588482129
@@ -375,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH MAIN - BASINGSTOKE</name>
-         <description>FARNBOROUGH MAIN - BASINGSTOKE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.754967281725865,51.2941926546325
@@ -384,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>WEYBRIDGE GROUP - VIRGINIA WATER</name>
-         <description>WEYBRIDGE GROUP - VIRGINIA WATER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
@@ -393,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>WIMBLEDON - RAYNES PARK</name>
-         <description>WIMBLEDON - RAYNES PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.204994402252205,51.4191836093249
@@ -402,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH MAIN - WOKING</name>
-         <description>FARNBOROUGH MAIN - WOKING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.754967281725865,51.2941926546325
@@ -411,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK - WIMBLEDON</name>
-         <description>RAYNES PARK - WIMBLEDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.228481680875033,51.4069571028245
@@ -420,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - ASCOT (BERKS)</name>
-         <description>WOKINGHAM - ASCOT (BERKS)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -429,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>ASH VALE - WOKING</name>
-         <description>ASH VALE - WOKING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.719767243767824,51.2704441615262
@@ -438,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>BASINGSTOKE - WINCHESTER</name>
-         <description>BASINGSTOKE - WINCHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08687709589478,51.2657940803547
@@ -447,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>PORTSMOUTH GROUP - EASTLEIGH</name>
-         <description>PORTSMOUTH GROUP - EASTLEIGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08897246877542,50.7957491893797
@@ -456,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>RICHMOND LONDON - TWICKENHAM</name>
-         <description>RICHMOND LONDON - TWICKENHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299846694619959,51.4601472544842
@@ -465,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>KINGSTON - NEW MALDEN</name>
-         <description>KINGSTON - NEW MALDEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.300276371034663,51.4098182145793
@@ -474,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>VIRGINIA WATER - STAINES</name>
-         <description>VIRGINIA WATER - STAINES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.56091066988956,51.3989276264035
@@ -483,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>SOUTHAMPTON GROUP - WEYMOUTH GROUP</name>
-         <description>SOUTHAMPTON GROUP - WEYMOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41255771562521,50.9056791131306
@@ -492,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD - ASH VALE</name>
-         <description>GUILDFORD - ASH VALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.578935314413253,51.2346642743648
@@ -501,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>NEW MALDEN - SURBITON</name>
-         <description>NEW MALDEN - SURBITON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.25459071852964,51.4010569843257
@@ -510,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>ASH VALE - ASCOT (BERKS)</name>
-         <description>ASH VALE - ASCOT (BERKS)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.719767243767824,51.2704441615262
@@ -519,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - LONDON GROUP</name>
-         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -528,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>WEYBRIDGE GROUP - SURBITON</name>
-         <description>WEYBRIDGE GROUP - SURBITON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
@@ -537,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - CLAPHAM JUNCTION</name>
-         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -546,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>ASH VALE - GUILDFORD</name>
-         <description>ASH VALE - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.719767243767824,51.2704441615262
@@ -555,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>EASTLEIGH - PORTSMOUTH GROUP</name>
-         <description>EASTLEIGH - PORTSMOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.34912462799446,50.9664588482129
@@ -564,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>WOKING - WEYBRIDGE GROUP</name>
-         <description>WOKING - WEYBRIDGE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.556326011480579,51.316179942942
@@ -573,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>NEW MALDEN - KINGSTON</name>
-         <description>NEW MALDEN - KINGSTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.25459071852964,51.4010569843257
@@ -582,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - WOKINGHAM</name>
-         <description>READING GROUP - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -591,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>WEYMOUTH GROUP - SOUTHAMPTON GROUP</name>
-         <description>WEYMOUTH GROUP - SOUTHAMPTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.45374638413658,50.6132794256376
@@ -600,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>MOTSPUR PARK - RAYNES PARK</name>
-         <description>MOTSPUR PARK - RAYNES PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.237657435454024,51.3927138624681
@@ -609,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>WINCHESTER - BASINGSTOKE</name>
-         <description>WINCHESTER - BASINGSTOKE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.31919597477252,51.0651527128949
@@ -618,7 +585,6 @@
       </Placemark>
       <Placemark>
          <name>TWICKENHAM - FELTHAM</name>
-         <description>TWICKENHAM - FELTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.327645982918459,51.4479633470328
@@ -627,7 +593,6 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK - NEW MALDEN</name>
-         <description>RAYNES PARK - NEW MALDEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.228481680875033,51.4069571028245
@@ -636,7 +601,6 @@
       </Placemark>
       <Placemark>
          <name>ASCOT (BERKS) - WOKINGHAM</name>
-         <description>ASCOT (BERKS) - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.674347177116286,51.4038610449397
@@ -645,7 +609,6 @@
       </Placemark>
       <Placemark>
          <name>BASINGSTOKE - FARNBOROUGH MAIN</name>
-         <description>BASINGSTOKE - FARNBOROUGH MAIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08687709589478,51.2657940803547
@@ -654,7 +617,6 @@
       </Placemark>
       <Placemark>
          <name>SURBITON - NEW MALDEN</name>
-         <description>SURBITON - NEW MALDEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.302445681710373,51.3900751055431
@@ -663,7 +625,6 @@
       </Placemark>
       <Placemark>
          <name>SOUTHAMPTON GROUP - EASTLEIGH</name>
-         <description>SOUTHAMPTON GROUP - EASTLEIGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41255771562521,50.9056791131306
@@ -672,7 +633,6 @@
       </Placemark>
       <Placemark>
          <name>EASTLEIGH - WINCHESTER</name>
-         <description>EASTLEIGH - WINCHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.34912462799446,50.9664588482129
@@ -681,7 +641,6 @@
       </Placemark>
       <Placemark>
          <name>NEW MALDEN - RAYNES PARK</name>
-         <description>NEW MALDEN - RAYNES PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.25459071852964,51.4010569843257
@@ -690,7 +649,6 @@
       </Placemark>
       <Placemark>
          <name>FELTHAM - TWICKENHAM</name>
-         <description>FELTHAM - TWICKENHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408332053159965,51.4454913808552
@@ -699,7 +657,6 @@
       </Placemark>
       <Placemark>
          <name>WEYBRIDGE GROUP - WOKING</name>
-         <description>WEYBRIDGE GROUP - WOKING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
@@ -708,7 +665,6 @@
       </Placemark>
       <Placemark>
          <name>SALISBURY - BASINGSTOKE</name>
-         <description>SALISBURY - BASINGSTOKE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.80445073638904,51.0687691626069
@@ -717,7 +673,6 @@
       </Placemark>
       <Placemark>
          <name>TWICKENHAM - RICHMOND LONDON</name>
-         <description>TWICKENHAM - RICHMOND LONDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.327645982918459,51.4479633470328
@@ -726,7 +681,6 @@
       </Placemark>
       <Placemark>
          <name>STAINES - FELTHAM</name>
-         <description>STAINES - FELTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.500930451797934,51.4305333094029
@@ -735,7 +689,6 @@
       </Placemark>
       <Placemark>
          <name>WINCHESTER - EASTLEIGH</name>
-         <description>WINCHESTER - EASTLEIGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.31919597477252,51.0651527128949
@@ -744,7 +697,6 @@
       </Placemark>
       <Placemark>
          <name>STAINES - VIRGINIA WATER</name>
-         <description>STAINES - VIRGINIA WATER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.500930451797934,51.4305333094029
@@ -753,7 +705,6 @@
       </Placemark>
       <Placemark>
          <name>WOKING - FARNBOROUGH MAIN</name>
-         <description>WOKING - FARNBOROUGH MAIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.556326011480579,51.316179942942

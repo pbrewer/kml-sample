@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -84,7 +89,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - PONTEFRACT GROUP</name>
-         <description>YORK - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -93,7 +97,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - LEEDS GROUP</name>
-         <description>PONTEFRACT GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -102,7 +105,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -111,7 +113,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - PONTEFRACT GROUP</name>
-         <description>LEEDS GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -120,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - YORK</name>
-         <description>PONTEFRACT GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -129,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631

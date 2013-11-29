@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -156,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - SELBY</name>
-         <description>LEEDS GROUP - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -165,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - BARNSLEY</name>
-         <description>WAKEFIELD GROUP - BARNSLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -174,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP - STALYBRIDGE</name>
-         <description>HUDDERSFIELD GROUP - STALYBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.78365726682475,53.6454662384722
@@ -183,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP - BRADFORD GROUP</name>
-         <description>HALIFAX GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.85299957012169,53.7174718790283
@@ -192,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - PONTEFRACT GROUP</name>
-         <description>WAKEFIELD GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -201,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - HALIFAX GROUP</name>
-         <description>BRADFORD GROUP - HALIFAX GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -210,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - LEEDS GROUP</name>
-         <description>BRADFORD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -219,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>GOOLE - PONTEFRACT GROUP</name>
-         <description>GOOLE - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.871383236956765,53.7014608402164
@@ -228,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - HUDDERSFIELD GROUP</name>
-         <description>LEEDS GROUP - HUDDERSFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -237,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP - LEEDS GROUP</name>
-         <description>HUDDERSFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.78365726682475,53.6454662384722
@@ -246,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - LEEDS GROUP</name>
-         <description>SELBY - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -255,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - WAKEFIELD GROUP</name>
-         <description>PONTEFRACT GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -264,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - HELLIFIELD GROUP</name>
-         <description>SKIPTON - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -273,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - BRADFORD GROUP</name>
-         <description>SKIPTON - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -282,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - BRADFORD GROUP</name>
-         <description>LEEDS GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -291,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -300,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - SKIPTON</name>
-         <description>LEEDS GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -309,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -318,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - GOOLE</name>
-         <description>PONTEFRACT GROUP - GOOLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -327,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - SKIPTON</name>
-         <description>BRADFORD GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -336,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - SKIPTON</name>
-         <description>HELLIFIELD GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -345,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>STALYBRIDGE - HUDDERSFIELD GROUP</name>
-         <description>STALYBRIDGE - HUDDERSFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.06329543897595,53.4811728690541
@@ -354,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - LEEDS GROUP</name>
-         <description>PONTEFRACT GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -363,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - LEEDS GROUP</name>
-         <description>SKIPTON - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -372,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY - WAKEFIELD GROUP</name>
-         <description>BARNSLEY - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.47619600186737,53.5510442770956
@@ -381,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - PONTEFRACT GROUP</name>
-         <description>LEEDS GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -390,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>HULL - SELBY</name>
-         <description>HULL - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.34565994560554,53.740296854028
@@ -399,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - HULL</name>
-         <description>SELBY - HULL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994

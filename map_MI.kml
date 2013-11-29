@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -124,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>LOUGHBORO LEICS - LEICESTER</name>
-         <description>LOUGHBORO LEICS - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.1934681395205,52.776521257258
@@ -133,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>BEDFORD - LUTON</name>
-         <description>BEDFORD - LUTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.477427294975053,52.1340143383127
@@ -142,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>LUTON - BEDFORD</name>
-         <description>LUTON - BEDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.413383840606806,51.8796972880439
@@ -151,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY - OAKHAM</name>
-         <description>MELTON MOWBRAY - OAKHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
@@ -160,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>KETTERING - LEICESTER</name>
-         <description>KETTERING - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.730227350583821,52.3904721394009
@@ -169,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>WEST HAMPSTD TLK - LUTON</name>
-         <description>WEST HAMPSTD TLK - LUTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.191364107030493,51.5457128284244
@@ -178,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>LUTON - WEST HAMPSTD TLK</name>
-         <description>LUTON - WEST HAMPSTD TLK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.413383840606806,51.8796972880439
@@ -187,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>OAKHAM - MELTON MOWBRAY</name>
-         <description>OAKHAM - MELTON MOWBRAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.732516998134623,52.6691285703924
@@ -196,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>MELTON MOWBRAY - LEICESTER</name>
-         <description>MELTON MOWBRAY - LEICESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.884074554222115,52.75783617255
@@ -205,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - LOUGHBORO LEICS</name>
-         <description>LEICESTER - LOUGHBORO LEICS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -214,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>KETTERING - BEDFORD</name>
-         <description>KETTERING - BEDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.730227350583821,52.3904721394009
@@ -223,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - MELTON MOWBRAY</name>
-         <description>LEICESTER - MELTON MOWBRAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -232,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - WEST HAMPSTD TLK</name>
-         <description>LONDON GROUP - WEST HAMPSTD TLK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -241,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>BEDFORD - KETTERING</name>
-         <description>BEDFORD - KETTERING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.477427294975053,52.1340143383127
@@ -250,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>LEICESTER - KETTERING</name>
-         <description>LEICESTER - KETTERING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.12378666494119,52.6286267444856
@@ -259,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>WEST HAMPSTD TLK - LONDON GROUP</name>
-         <description>WEST HAMPSTD TLK - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.191364107030493,51.5457128284244

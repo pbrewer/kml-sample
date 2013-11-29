@@ -1,0 +1,88 @@
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.min.js"></script>
+
+<script>
+  var map;
+  var pathUrl = 'https://iblocks-rg-publication.s3.amazonaws.com/';
+
+  function initialize() {    
+
+      var railStyle = [ {
+      	featureType : "water",
+     	 elementType : "labels",
+    	  stylers : [ {
+          visibility : "off"
+       		   } ]
+			  }, {
+       	    featureType : "transit.line",
+        stylers : [ {
+          visibility : "on"
+    	}, {
+          color : "#AAAAAA"
+      	}, {
+          weight : 4
+     	} ]
+			  }, {
+        featureType : "landscape",
+        elementType : "geometry",
+        stylers : [ {
+          visibility : "off"
+     	 } ]
+			  }, {
+      featureType : "poi",
+      elementType : "geometry",
+      stylers : [ {
+          visibility : "off"
+      } ]
+			 }, {
+      featureType : "road",
+      stylers : [ {
+          visibility : "off"
+      } ]
+			} ];
+
+    
+    	var styledMap = new google.maps.StyledMapType(railStyle,
+    		    {name: "Rail"});
+
+    	var point = new google.maps.LatLng(51.5958, -0.11862);
+    	var mapOptions = {
+    	  zoom: 11,
+    	  center: point,
+    	  mapTypeControlOptions: {
+    	      mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+	      }
+	    }
+       		
+	    var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+	    map.mapTypes.set('map_style', styledMap);
+	    map.setMapTypeId('map_style');
+			
+    	ctaLayer = new google.maps.KmlLayer();
+    	    
+		    ctaLayer.setMap(map);
+
+  		jQuery("#mapCodes").change(function(){ 
+     		ctaLayer.setUrl(pathUrl + jQuery("#mapCodes option:selected").val());	
+    	});   	
+  	}
+  	function setDefaultMap(kmlFile) {
+    	ctaLayer.setUrl(pathUrl + kmlFile);
+ 		}
+
+    	
+     	jQuery.getJSON( pathUrl + "map_meta_data.json", function(data) {
+    jQuery.each(data.maps, function(key, value) {
+  			  	 if (key == 0) {
+  			  		  setDefaultMap(value.kmlUrl);
+  				 }
+         jQuery("#mapCodes").append('<option value="' + value.kmlUrl + '">' + value.mapCode + ' - ' + value.mapName + '</option>');
+    });
+    	}); 
+     google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+<select id="mapCodes" style="width:600px"></select>
+<div style="width: 600px; height: 400px; margin-top: 20px;" id="map-canvas" />

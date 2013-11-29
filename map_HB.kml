@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -124,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE - WORCESTER GROUP</name>
-         <description>BROMSGROVE - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.04695288598449,52.3199895646342
@@ -133,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - SMETHWICK GROUP</name>
-         <description>WORCESTER GROUP - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -142,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
-         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -151,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BROMSGROVE</name>
-         <description>BARNT GREEN - BROMSGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -160,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
-         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -169,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE - BARNT GREEN</name>
-         <description>BROMSGROVE - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.04695288598449,52.3199895646342
@@ -178,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
-         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -187,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - SMETHWICK GROUP</name>
-         <description>WOLVERHAMPTON - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -196,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - WORCESTER GROUP</name>
-         <description>SMETHWICK GROUP - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -205,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BIRMINGHAM GROUP</name>
-         <description>BARNT GREEN - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -214,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - BROMSGROVE</name>
-         <description>WORCESTER GROUP - BROMSGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -223,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
-         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -232,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD - WORCESTER GROUP</name>
-         <description>HEREFORD - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.70746562548318,52.0581355218282
@@ -241,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - WOLVERHAMPTON</name>
-         <description>SMETHWICK GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -250,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - HEREFORD</name>
-         <description>WORCESTER GROUP - HEREFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -259,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - BARNT GREEN</name>
-         <description>BIRMINGHAM GROUP - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -268,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - TAMWORTH</name>
-         <description>BIRMINGHAM GROUP - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -277,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - BIRMINGHAM GROUP</name>
-         <description>TAMWORTH - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012

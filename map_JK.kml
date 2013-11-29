@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -140,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - ACCRINGTON</name>
-         <description>BLACKBURN - ACCRINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -149,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>WREXHAM GROUP - CHESTER</name>
-         <description>WREXHAM GROUP - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.00105187330833,53.0473735627572
@@ -158,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - KIRKHAM &amp; WESHAM</name>
-         <description>PRESTON LANCS - KIRKHAM &amp; WESHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -167,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - WARRINGTON GROUP</name>
-         <description>WIGAN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -176,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - WIGAN GROUP</name>
-         <description>PRESTON LANCS - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -185,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - WIGAN GROUP</name>
-         <description>WARRINGTON GROUP - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -194,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>HOOTON - CHESTER</name>
-         <description>HOOTON - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.9752950896166,53.2938563998056
@@ -203,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - WARRINGTON GROUP</name>
-         <description>CHESTER - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -212,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>ACCRINGTON - BLACKBURN</name>
-         <description>ACCRINGTON - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.36854603919095,53.7502494092412
@@ -221,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON - LLANDUDNO JN</name>
-         <description>SHOTTON - LLANDUDNO JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.03630325182179,53.2106526120998
@@ -230,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>KIRKHAM &amp; WESHAM - PRESTON LANCS</name>
-         <description>KIRKHAM &amp; WESHAM - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.88038065453008,53.7844331327434
@@ -239,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - WREXHAM GROUP</name>
-         <description>CHESTER - WREXHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -248,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>LLANDUDNO JN - SHOTTON</name>
-         <description>LLANDUDNO JN - SHOTTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.80754581249448,53.2805500537438
@@ -257,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - PRESTON LANCS</name>
-         <description>BLACKBURN - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -266,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - SHOTTON</name>
-         <description>CHESTER - SHOTTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -275,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON - CHESTER</name>
-         <description>SHOTTON - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.03630325182179,53.2106526120998
@@ -284,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - PRESTON LANCS</name>
-         <description>WIGAN GROUP - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -293,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - BLACKBURN</name>
-         <description>PRESTON LANCS - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -302,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - CHESTER</name>
-         <description>WARRINGTON GROUP - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -311,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - HOOTON</name>
-         <description>CHESTER - HOOTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654

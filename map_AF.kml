@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -148,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>HERNE HILL - BECKENHAM JN</name>
-         <description>HERNE HILL - BECKENHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.100117179014863,51.4507882179277
@@ -157,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>CRYSTAL PALACE - STREATHAM GROUP</name>
-         <description>CRYSTAL PALACE - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0713862141029046,51.4152630622009
@@ -166,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SWANLEY</name>
-         <description>BROMLEY SOUTH GROUP - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -175,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>HERNE HILL - BRIXTON</name>
-         <description>HERNE HILL - BRIXTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.100117179014863,51.4507882179277
@@ -184,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>CRYSTAL PALACE - BECKENHAM JN</name>
-         <description>CRYSTAL PALACE - BECKENHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0713862141029046,51.4152630622009
@@ -193,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - BROMLEY SOUTH GROUP</name>
-         <description>SWANLEY - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -202,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - MAIDSTONE GROUP</name>
-         <description>SWANLEY - MAIDSTONE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -211,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN - SHORTLANDS</name>
-         <description>BECKENHAM JN - SHORTLANDS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0256253748578791,51.4091076803144
@@ -220,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL - MAIDSTONE GROUP</name>
-         <description>ASHFORD INTL - MAIDSTONE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.875193701365457,51.1414352542849
@@ -229,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>MAIDSTONE GROUP - ASHFORD INTL</name>
-         <description>MAIDSTONE GROUP - ASHFORD INTL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.51490194350759,51.273797018873
@@ -238,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS - BECKENHAM JN</name>
-         <description>SHORTLANDS - BECKENHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0043172178827097,51.4032060195165
@@ -247,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SHORTLANDS</name>
-         <description>BROMLEY SOUTH GROUP - SHORTLANDS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -256,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - CLAPHAM JUNCTION</name>
-         <description>STREATHAM GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -265,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - STREATHAM GROUP</name>
-         <description>CLAPHAM JUNCTION - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -274,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - CRYSTAL PALACE</name>
-         <description>STREATHAM GROUP - CRYSTAL PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -283,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN - CRYSTAL PALACE</name>
-         <description>BECKENHAM JN - CRYSTAL PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0256253748578791,51.4091076803144
@@ -292,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - LONDON GROUP</name>
-         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -301,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>BRIXTON - HERNE HILL</name>
-         <description>BRIXTON - HERNE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.112655764191948,51.4608783058262
@@ -310,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - CLAPHAM JUNCTION</name>
-         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -319,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS - BROMLEY SOUTH GROUP</name>
-         <description>SHORTLANDS - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0043172178827097,51.4032060195165
@@ -328,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>BRIXTON - LONDON GROUP</name>
-         <description>BRIXTON - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.112655764191948,51.4608783058262
@@ -337,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN - HERNE HILL</name>
-         <description>BECKENHAM JN - HERNE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0256253748578791,51.4091076803144
@@ -346,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>MAIDSTONE GROUP - SWANLEY</name>
-         <description>MAIDSTONE GROUP - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.51490194350759,51.273797018873
@@ -355,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - BRIXTON</name>
-         <description>LONDON GROUP - BRIXTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492

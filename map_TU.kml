@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -108,7 +113,6 @@
       </Placemark>
       <Placemark>
          <name>TONBRIDGE - SEVENOAKS</name>
-         <description>TONBRIDGE - SEVENOAKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.271241048728237,51.1888888580524
@@ -117,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN - NEW CROSS</name>
-         <description>BECKENHAM JN - NEW CROSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0256253748578791,51.4091076803144
@@ -126,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS - BROMLEY SOUTH GROUP</name>
-         <description>SEVENOAKS - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183714070842441,51.2750523303078
@@ -135,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS - LONDON GROUP</name>
-         <description>NEW CROSS - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0314684684072144,51.4739249880263
@@ -144,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS - BECKENHAM JN</name>
-         <description>SHORTLANDS - BECKENHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0043172178827097,51.4032060195165
@@ -153,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SHORTLANDS</name>
-         <description>BROMLEY SOUTH GROUP - SHORTLANDS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -162,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS - TONBRIDGE</name>
-         <description>SEVENOAKS - TONBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183714070842441,51.2750523303078
@@ -171,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS - BECKENHAM JN</name>
-         <description>NEW CROSS - BECKENHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0314684684072144,51.4739249880263
@@ -180,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS - BROMLEY SOUTH GROUP</name>
-         <description>SHORTLANDS - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0043172178827097,51.4032060195165
@@ -189,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - NEW CROSS</name>
-         <description>LONDON GROUP - NEW CROSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -198,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SEVENOAKS</name>
-         <description>BROMLEY SOUTH GROUP - SEVENOAKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -207,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>BECKENHAM JN - SHORTLANDS</name>
-         <description>BECKENHAM JN - SHORTLANDS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0256253748578791,51.4091076803144

@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -116,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>TONBRIDGE - SEVENOAKS</name>
-         <description>TONBRIDGE - SEVENOAKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.271241048728237,51.1888888580524
@@ -125,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>BATTLE - TONBRIDGE</name>
-         <description>BATTLE - TONBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.496711913550688,50.911015510351
@@ -134,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS - BROMLEY SOUTH GROUP</name>
-         <description>SEVENOAKS - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183714070842441,51.2750523303078
@@ -143,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>BATTLE - HASTINGS GROUP</name>
-         <description>BATTLE - HASTINGS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.496711913550688,50.911015510351
@@ -152,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>TONBRIDGE - BATTLE</name>
-         <description>TONBRIDGE - BATTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.271241048728237,51.1888888580524
@@ -161,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>HASTINGS GROUP - BATTLE</name>
-         <description>HASTINGS GROUP - BATTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.577630945295527,50.8562183508005
@@ -170,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - CHATHAM GROUP</name>
-         <description>SWANLEY - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -179,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS - SWANLEY</name>
-         <description>SEVENOAKS - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183714070842441,51.2750523303078
@@ -188,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - SEVENOAKS</name>
-         <description>SWANLEY - SEVENOAKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -197,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SHORTLANDS</name>
-         <description>BROMLEY SOUTH GROUP - SHORTLANDS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -206,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS - TONBRIDGE</name>
-         <description>SEVENOAKS - TONBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183714070842441,51.2750523303078
@@ -215,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>SHORTLANDS - BROMLEY SOUTH GROUP</name>
-         <description>SHORTLANDS - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0043172178827097,51.4032060195165
@@ -224,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SEVENOAKS</name>
-         <description>BROMLEY SOUTH GROUP - SEVENOAKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -233,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - SWANLEY</name>
-         <description>CHATHAM GROUP - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241

@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -100,7 +105,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - WARRINGTON GROUP</name>
-         <description>WIGAN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -109,7 +113,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WARRINGTON GROUP</name>
-         <description>CREWE - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -118,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - WIGAN GROUP</name>
-         <description>WARRINGTON GROUP - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -127,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - EARLESTOWN GROUP</name>
-         <description>WARRINGTON GROUP - EARLESTOWN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -136,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - CREWE</name>
-         <description>WARRINGTON GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -145,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - CREWE</name>
-         <description>STAFFORD GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -154,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>EARLESTOWN GROUP - WARRINGTON GROUP</name>
-         <description>EARLESTOWN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63398486263039,53.448949903018
@@ -163,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STOKE ON TRENT</name>
-         <description>CREWE - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -172,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CREWE</name>
-         <description>STOKE ON TRENT - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -181,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STAFFORD GROUP</name>
-         <description>CREWE - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238

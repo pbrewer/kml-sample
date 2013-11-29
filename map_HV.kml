@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -188,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - AIGBURTH</name>
-         <description>HUNTS CROSS GROUP - AIGBURTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -197,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - MANCHESTER GROUP</name>
-         <description>GUIDE BRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -206,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS - MEADOWHALL</name>
-         <description>SWINTON  S YORKS - MEADOWHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30368986438219,53.4845538752677
@@ -215,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>AIGBURTH - HUNTS CROSS GROUP</name>
-         <description>AIGBURTH - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.92574506214727,53.3616604244271
@@ -224,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - SWINTON  S YORKS</name>
-         <description>WAKEFIELD GROUP - SWINTON  S YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -233,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - HAZEL GROVE</name>
-         <description>STOCKPORT - HAZEL GROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -242,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
-         <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -251,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>BARNETBY - DONCASTER</name>
-         <description>BARNETBY - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408151827515758,53.5712589689525
@@ -260,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - WARRINGTON GROUP</name>
-         <description>HUNTS CROSS GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -269,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>CHINLEY - HAZEL GROVE</name>
-         <description>CHINLEY - HAZEL GROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94292550574056,53.3373752706342
@@ -278,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD - CHESTERFIELD</name>
-         <description>SHEFFIELD - CHESTERFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765
@@ -287,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL - SWINTON  S YORKS</name>
-         <description>MEADOWHALL - SWINTON  S YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.4101691283604,53.4141240779031
@@ -296,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WARRINGTON GROUP</name>
-         <description>MANCHESTER GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -305,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - BARNETBY</name>
-         <description>DONCASTER - BARNETBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -314,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS - DONCASTER</name>
-         <description>SWINTON  S YORKS - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30368986438219,53.4845538752677
@@ -323,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD - MEADOWHALL</name>
-         <description>SHEFFIELD - MEADOWHALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765
@@ -332,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - SWINTON  S YORKS</name>
-         <description>DONCASTER - SWINTON  S YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -341,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - MANCHESTER GROUP</name>
-         <description>WARRINGTON GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -350,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - MANCHESTER GROUP</name>
-         <description>STOCKPORT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -359,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>GUIDE BRIDGE - CHINLEY</name>
-         <description>GUIDE BRIDGE - CHINLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11149453901127,53.4712513204513
@@ -368,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS - WAKEFIELD GROUP</name>
-         <description>SWINTON  S YORKS - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30368986438219,53.4845538752677
@@ -377,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STOCKPORT</name>
-         <description>MANCHESTER GROUP - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -386,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>HAZEL GROVE - CHINLEY</name>
-         <description>HAZEL GROVE - CHINLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12176621514136,53.3750745073095
@@ -395,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - HUNTS CROSS GROUP</name>
-         <description>LIVERPOOL GROUP - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -404,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>AIGBURTH - LIVERPOOL GROUP</name>
-         <description>AIGBURTH - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.92574506214727,53.3616604244271
@@ -413,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - GUIDE BRIDGE</name>
-         <description>MANCHESTER GROUP - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -422,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>MEADOWHALL - SHEFFIELD</name>
-         <description>MEADOWHALL - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.4101691283604,53.4141240779031
@@ -431,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
-         <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -440,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - LIVERPOOL GROUP</name>
-         <description>HUNTS CROSS GROUP - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -449,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - AIGBURTH</name>
-         <description>LIVERPOOL GROUP - AIGBURTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -458,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>CHINLEY - GUIDE BRIDGE</name>
-         <description>CHINLEY - GUIDE BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94292550574056,53.3373752706342
@@ -467,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>SHEFFIELD - CHINLEY</name>
-         <description>SHEFFIELD - CHINLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46181308663146,53.375721027765
@@ -476,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>HAZEL GROVE - STOCKPORT</name>
-         <description>HAZEL GROVE - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12176621514136,53.3750745073095
@@ -485,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTERFIELD - SHEFFIELD</name>
-         <description>CHESTERFIELD - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41862363259194,53.2353107270901
@@ -494,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>CHINLEY - SHEFFIELD</name>
-         <description>CHINLEY - SHEFFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94292550574056,53.3373752706342
@@ -503,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - HUNTS CROSS GROUP</name>
-         <description>WARRINGTON GROUP - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108

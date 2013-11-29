@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -116,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE - LONDON GROUP</name>
-         <description>ELEPHANT &amp; CSTLE - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
@@ -125,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE - DENMARK HILL</name>
-         <description>PECKHAM RYE - DENMARK HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0662739503044305,51.4682121762183
@@ -134,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM - NUNHEAD</name>
-         <description>LEWISHAM - NUNHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0131893738009627,51.4637289621017
@@ -143,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKHEATH - LEWISHAM</name>
-         <description>BLACKHEATH - LEWISHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.00983096142899503,51.463336513641
@@ -152,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>DENMARK HILL - LONDON GROUP</name>
-         <description>DENMARK HILL - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0879714524318652,51.4658714779636
@@ -161,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM - BLACKHEATH</name>
-         <description>LEWISHAM - BLACKHEATH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0131893738009627,51.4637289621017
@@ -170,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE - NUNHEAD</name>
-         <description>PECKHAM RYE - NUNHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0662739503044305,51.4682121762183
@@ -179,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKHEATH - CHARLTON</name>
-         <description>BLACKHEATH - CHARLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.00983096142899503,51.463336513641
@@ -188,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>DENMARK HILL - ELEPHANT &amp; CSTLE</name>
-         <description>DENMARK HILL - ELEPHANT &amp; CSTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0879714524318652,51.4658714779636
@@ -197,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>DENMARK HILL - PECKHAM RYE</name>
-         <description>DENMARK HILL - PECKHAM RYE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0879714524318652,51.4658714779636
@@ -206,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE - DENMARK HILL</name>
-         <description>ELEPHANT &amp; CSTLE - DENMARK HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
@@ -215,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - DENMARK HILL</name>
-         <description>LONDON GROUP - DENMARK HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -224,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>NUNHEAD - PECKHAM RYE</name>
-         <description>NUNHEAD - PECKHAM RYE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0520373598903545,51.4643809758347
@@ -233,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>NUNHEAD - LEWISHAM</name>
-         <description>NUNHEAD - LEWISHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0520373598903545,51.4643809758347
@@ -242,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>CHARLTON - BLACKHEATH</name>
-         <description>CHARLTON - BLACKHEATH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0323701197233562,51.4845210863542
@@ -251,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - ELEPHANT &amp; CSTLE</name>
-         <description>LONDON GROUP - ELEPHANT &amp; CSTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492

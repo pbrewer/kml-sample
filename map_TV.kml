@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -276,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - BOLTON</name>
-         <description>SALFORD CRESCENT - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -285,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>WILLESDEN JN - KENSNGTN OLYMPIA</name>
-         <description>WILLESDEN JN - KENSNGTN OLYMPIA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.242510759036517,51.5285132205761
@@ -294,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - WILMSLOW GROUP</name>
-         <description>CHEADLE HULME - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -303,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>KENSNGTN OLYMPIA - CLAPHAM JUNCTION</name>
-         <description>KENSNGTN OLYMPIA - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.207790989883325,51.4947301900618
@@ -312,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - CHEADLE HULME</name>
-         <description>STOCKPORT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -321,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - STOKE ON TRENT</name>
-         <description>RUGELEY TRNT VAL - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -330,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>WATFORD JUNCTION - WILLESDEN JN</name>
-         <description>WATFORD JUNCTION - WILLESDEN JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.395005816943682,51.6610302646915
@@ -339,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>MILTON KEYNES C - RUGBY</name>
-         <description>MILTON KEYNES C - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.773956414418963,52.0314112191844
@@ -348,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - KENSNGTN OLYMPIA</name>
-         <description>CLAPHAM JUNCTION - KENSNGTN OLYMPIA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -357,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - WILLESDEN JN</name>
-         <description>LONDON GROUP - WILLESDEN JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -366,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
-         <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -375,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>LONG BUCKBY - RUGBY</name>
-         <description>LONG BUCKBY - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.0850008276296,52.2912893998626
@@ -384,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>RUGBY - LONG BUCKBY</name>
-         <description>RUGBY - LONG BUCKBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24779788512554,52.3760244925185
@@ -393,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - SALFORD CRESCENT</name>
-         <description>BOLTON - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -402,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STAFFORD GROUP</name>
-         <description>CREWE - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -411,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>BLETCHLEY - BEDFORD</name>
-         <description>BLETCHLEY - BEDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.735694534570948,51.9923580710804
@@ -420,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>WILLESDEN JN - LONDON GROUP</name>
-         <description>WILLESDEN JN - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.242510759036517,51.5285132205761
@@ -429,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - NUNEATON</name>
-         <description>TAMWORTH - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -438,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>DERBY GROUP - TAMWORTH</name>
-         <description>DERBY GROUP - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46160821941454,52.913754524735
@@ -447,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CHEADLE HULME</name>
-         <description>WILMSLOW GROUP - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -456,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STOKE ON TRENT</name>
-         <description>CREWE - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -465,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>WATFORD JUNCTION - BLETCHLEY</name>
-         <description>WATFORD JUNCTION - BLETCHLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.395005816943682,51.6610302646915
@@ -474,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - MANCHESTER GROUP</name>
-         <description>WILMSLOW GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -483,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>MILTON KEYNES C - NORTHAMPTON</name>
-         <description>MILTON KEYNES C - NORTHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.773956414418963,52.0314112191844
@@ -492,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STOCKPORT</name>
-         <description>MANCHESTER GROUP - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -501,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - RUGBY</name>
-         <description>NUNEATON - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -510,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - LICHFIELD T V</name>
-         <description>TAMWORTH - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -519,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>BLETCHLEY - MILTON KEYNES C</name>
-         <description>BLETCHLEY - MILTON KEYNES C</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.735694534570948,51.9923580710804
@@ -528,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - COVENTRY</name>
-         <description>NUNEATON - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -537,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
-         <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -546,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WILMSLOW GROUP</name>
-         <description>MANCHESTER GROUP - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -555,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>RUGBY - MILTON KEYNES C</name>
-         <description>RUGBY - MILTON KEYNES C</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24779788512554,52.3760244925185
@@ -564,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHAMPTON - MILTON KEYNES C</name>
-         <description>NORTHAMPTON - MILTON KEYNES C</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.906045206063134,52.2340419154024
@@ -573,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CREWE</name>
-         <description>STOKE ON TRENT - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -582,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - RUGELEY TRNT VAL</name>
-         <description>STAFFORD GROUP - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -591,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - TAMWORTH</name>
-         <description>NUNEATON - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -600,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOCKPORT</name>
-         <description>CHEADLE HULME - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -609,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - RUGELEY TRNT VAL</name>
-         <description>STOKE ON TRENT - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -618,7 +585,6 @@
       </Placemark>
       <Placemark>
          <name>STALYBRIDGE - MANCHESTER GROUP</name>
-         <description>STALYBRIDGE - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.06329543897595,53.4811728690541
@@ -627,7 +593,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - CREWE</name>
-         <description>STAFFORD GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -636,7 +601,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - TAMWORTH</name>
-         <description>LICHFIELD T V - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -645,7 +609,6 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY - RUGBY</name>
-         <description>COVENTRY - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
@@ -654,7 +617,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - LICHFIELD T V</name>
-         <description>RUGELEY TRNT VAL - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -663,7 +625,6 @@
       </Placemark>
       <Placemark>
          <name>BEDFORD - BLETCHLEY</name>
-         <description>BEDFORD - BLETCHLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.477427294975053,52.1340143383127
@@ -672,7 +633,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CHEADLE HULME</name>
-         <description>STOKE ON TRENT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -681,7 +641,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STALYBRIDGE</name>
-         <description>MANCHESTER GROUP - STALYBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -690,7 +649,6 @@
       </Placemark>
       <Placemark>
          <name>MILTON KEYNES C - BLETCHLEY</name>
-         <description>MILTON KEYNES C - BLETCHLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.773956414418963,52.0314112191844
@@ -699,7 +657,6 @@
       </Placemark>
       <Placemark>
          <name>LONG BUCKBY - NORTHAMPTON</name>
-         <description>LONG BUCKBY - NORTHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.0850008276296,52.2912893998626
@@ -708,7 +665,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHAMPTON - LONG BUCKBY</name>
-         <description>NORTHAMPTON - LONG BUCKBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.906045206063134,52.2340419154024
@@ -717,7 +673,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - STAFFORD GROUP</name>
-         <description>STOKE ON TRENT - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -726,7 +681,6 @@
       </Placemark>
       <Placemark>
          <name>WILLESDEN JN - WATFORD JUNCTION</name>
-         <description>WILLESDEN JN - WATFORD JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.242510759036517,51.5285132205761
@@ -735,7 +689,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - MANCHESTER GROUP</name>
-         <description>STOCKPORT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -744,7 +697,6 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY - NUNEATON</name>
-         <description>COVENTRY - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
@@ -753,7 +705,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WARRINGTON GROUP</name>
-         <description>CREWE - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -762,7 +713,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOKE ON TRENT</name>
-         <description>CHEADLE HULME - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -771,7 +721,6 @@
       </Placemark>
       <Placemark>
          <name>KENSNGTN OLYMPIA - WILLESDEN JN</name>
-         <description>KENSNGTN OLYMPIA - WILLESDEN JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.207790989883325,51.4947301900618
@@ -780,7 +729,6 @@
       </Placemark>
       <Placemark>
          <name>RUGBY - COVENTRY</name>
-         <description>RUGBY - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24779788512554,52.3760244925185
@@ -789,7 +737,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WILMSLOW GROUP</name>
-         <description>CREWE - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -798,7 +745,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - RUGELEY TRNT VAL</name>
-         <description>LICHFIELD T V - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -807,7 +753,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - DERBY GROUP</name>
-         <description>TAMWORTH - DERBY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -816,7 +761,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - STAFFORD GROUP</name>
-         <description>RUGELEY TRNT VAL - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -825,7 +769,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - STOKE ON TRENT</name>
-         <description>STAFFORD GROUP - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -834,7 +777,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - CREWE</name>
-         <description>WARRINGTON GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -843,7 +785,6 @@
       </Placemark>
       <Placemark>
          <name>BLETCHLEY - WATFORD JUNCTION</name>
-         <description>BLETCHLEY - WATFORD JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.735694534570948,51.9923580710804
@@ -852,7 +793,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CREWE</name>
-         <description>WILMSLOW GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -861,7 +801,6 @@
       </Placemark>
       <Placemark>
          <name>RUGBY - NUNEATON</name>
-         <description>RUGBY - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24779788512554,52.3760244925185

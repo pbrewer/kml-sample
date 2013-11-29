@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -132,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - DARLINGTON</name>
-         <description>MIDDLESBROUGH GROUP - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -141,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP - YORK</name>
-         <description>SCARBOROUGH GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.404114952496297,54.2768123775554
@@ -150,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - NORTHALLERTON</name>
-         <description>YORK - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -159,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SELBY</name>
-         <description>YORK - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -168,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>DURHAM - DARLINGTON</name>
-         <description>DURHAM - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58020598133438,54.7764673142649
@@ -177,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - DURHAM</name>
-         <description>DARLINGTON - DURHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -186,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - NORTHALLERTON</name>
-         <description>MIDDLESBROUGH GROUP - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -195,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - YORK</name>
-         <description>NORTHALLERTON - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -204,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - PONTEFRACT GROUP</name>
-         <description>YORK - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -213,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - MIDDLESBROUGH GROUP</name>
-         <description>DARLINGTON - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -222,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SCARBOROUGH GROUP</name>
-         <description>YORK - SCARBOROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -231,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - MIDDLESBROUGH GROUP</name>
-         <description>NORTHALLERTON - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -240,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - NORTHALLERTON</name>
-         <description>DARLINGTON - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -249,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE - DURHAM</name>
-         <description>NEWCASTLE - DURHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.61572906780496,54.9653249022215
@@ -258,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>DURHAM - NEWCASTLE</name>
-         <description>DURHAM - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58020598133438,54.7764673142649
@@ -267,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - HULL</name>
-         <description>SELBY - HULL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -276,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - YORK</name>
-         <description>PONTEFRACT GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -285,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>HULL - SELBY</name>
-         <description>HULL - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.34565994560554,53.740296854028
@@ -294,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - DARLINGTON</name>
-         <description>NORTHALLERTON - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -303,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - YORK</name>
-         <description>SELBY - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994

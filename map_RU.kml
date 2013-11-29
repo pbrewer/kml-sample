@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -188,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK - MOTSPUR PARK</name>
-         <description>RAYNES PARK - MOTSPUR PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.228481680875033,51.4069571028245
@@ -197,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>WOKING - WEYBRIDGE GROUP</name>
-         <description>WOKING - WEYBRIDGE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.556326011480579,51.316179942942
@@ -206,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>SURBITON - WEYBRIDGE GROUP</name>
-         <description>SURBITON - WEYBRIDGE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.302445681710373,51.3900751055431
@@ -215,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - READING GROUP</name>
-         <description>WOKINGHAM - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -224,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - WOKINGHAM</name>
-         <description>READING GROUP - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -233,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE - NUNHEAD</name>
-         <description>PECKHAM RYE - NUNHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0662739503044305,51.4682121762183
@@ -242,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - TULSE HILL</name>
-         <description>STREATHAM GROUP - TULSE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -251,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE - TULSE HILL</name>
-         <description>PECKHAM RYE - TULSE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0662739503044305,51.4682121762183
@@ -260,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>NUNHEAD - PECKHAM RYE</name>
-         <description>NUNHEAD - PECKHAM RYE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0520373598903545,51.4643809758347
@@ -269,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - BASINGSTOKE</name>
-         <description>READING GROUP - BASINGSTOKE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -278,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>MOTSPUR PARK - RAYNES PARK</name>
-         <description>MOTSPUR PARK - RAYNES PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.237657435454024,51.3927138624681
@@ -287,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH MAIN - BASINGSTOKE</name>
-         <description>FARNBOROUGH MAIN - BASINGSTOKE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.754967281725865,51.2941926546325
@@ -296,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>HERNE HILL - TULSE HILL</name>
-         <description>HERNE HILL - TULSE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.100117179014863,51.4507882179277
@@ -305,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>WIMBLEDON - RAYNES PARK</name>
-         <description>WIMBLEDON - RAYNES PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.204994402252205,51.4191836093249
@@ -314,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK - WIMBLEDON</name>
-         <description>RAYNES PARK - WIMBLEDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.228481680875033,51.4069571028245
@@ -323,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH MAIN - WOKING</name>
-         <description>FARNBOROUGH MAIN - WOKING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.754967281725865,51.2941926546325
@@ -332,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>TULSE HILL - STREATHAM GROUP</name>
-         <description>TULSE HILL - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.103552472423464,51.4373608568023
@@ -341,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>RAYNES PARK - NEW MALDEN</name>
-         <description>RAYNES PARK - NEW MALDEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.228481680875033,51.4069571028245
@@ -350,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>TULSE HILL - HERNE HILL</name>
-         <description>TULSE HILL - HERNE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.103552472423464,51.4373608568023
@@ -359,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>SURBITON - NEW MALDEN</name>
-         <description>SURBITON - NEW MALDEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.302445681710373,51.3900751055431
@@ -368,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>BASINGSTOKE - FARNBOROUGH MAIN</name>
-         <description>BASINGSTOKE - FARNBOROUGH MAIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08687709589478,51.2657940803547
@@ -377,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - WIMBLEDON</name>
-         <description>STREATHAM GROUP - WIMBLEDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -386,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>NEW MALDEN - RAYNES PARK</name>
-         <description>NEW MALDEN - RAYNES PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.25459071852964,51.4010569843257
@@ -395,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>WIMBLEDON - STREATHAM GROUP</name>
-         <description>WIMBLEDON - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.204994402252205,51.4191836093249
@@ -404,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>WEYBRIDGE GROUP - WOKING</name>
-         <description>WEYBRIDGE GROUP - WOKING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
@@ -413,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>WOKINGHAM - FARNBOROUGH N</name>
-         <description>WOKINGHAM - FARNBOROUGH N</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.84100195902129,51.409222906424
@@ -422,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>FARNBOROUGH N - WOKINGHAM</name>
-         <description>FARNBOROUGH N - WOKINGHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.741913906017282,51.2994459413971
@@ -431,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>NEW MALDEN - SURBITON</name>
-         <description>NEW MALDEN - SURBITON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.25459071852964,51.4010569843257
@@ -440,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>BASINGSTOKE - READING GROUP</name>
-         <description>BASINGSTOKE - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08687709589478,51.2657940803547
@@ -449,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>TULSE HILL - PECKHAM RYE</name>
-         <description>TULSE HILL - PECKHAM RYE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.103552472423464,51.4373608568023
@@ -458,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>WEYBRIDGE GROUP - SURBITON</name>
-         <description>WEYBRIDGE GROUP - SURBITON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.455865275689889,51.3589408511936
@@ -467,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>WOKING - FARNBOROUGH MAIN</name>
-         <description>WOKING - FARNBOROUGH MAIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.556326011480579,51.316179942942

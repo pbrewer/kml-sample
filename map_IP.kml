@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -92,7 +97,6 @@
       </Placemark>
       <Placemark>
          <name>PERTH - DUNDEE</name>
-         <description>PERTH - DUNDEE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.43853486400658,56.3902039890477
@@ -101,7 +105,6 @@
       </Placemark>
       <Placemark>
          <name>ABERDEEN - INVERNESS</name>
-         <description>ABERDEEN - INVERNESS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.09584835709385,57.1408810902915
@@ -110,7 +113,6 @@
       </Placemark>
       <Placemark>
          <name>DINGWALL - INVERNESS</name>
-         <description>DINGWALL - INVERNESS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.42110081313562,57.592267576863
@@ -119,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>INVERNESS - DINGWALL</name>
-         <description>INVERNESS - DINGWALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22168553197048,57.4781575680485
@@ -128,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>DUNDEE - PERTH</name>
-         <description>DUNDEE - PERTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.98647708050388,56.4503497727745
@@ -137,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>DUNDEE - ABERDEEN</name>
-         <description>DUNDEE - ABERDEEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.98647708050388,56.4503497727745
@@ -146,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>INVERNESS - ABERDEEN</name>
-         <description>INVERNESS - ABERDEEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22168553197048,57.4781575680485
@@ -155,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>ABERDEEN - DUNDEE</name>
-         <description>ABERDEEN - DUNDEE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.09584835709385,57.1408810902915

@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -108,7 +113,6 @@
       </Placemark>
       <Placemark>
          <name>SELLING - FAVERSHAM</name>
-         <description>SELLING - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.942362575597316,51.2755146258354
@@ -117,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>HASTINGS GROUP - ASHFORD INTL</name>
-         <description>HASTINGS GROUP - ASHFORD INTL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.577630945295527,50.8562183508005
@@ -126,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL - HASTINGS GROUP</name>
-         <description>ASHFORD INTL - HASTINGS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.875193701365457,51.1414352542849
@@ -135,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - CHATHAM GROUP</name>
-         <description>FAVERSHAM - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -144,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>SELLING - KEARSNEY (KENT)</name>
-         <description>SELLING - KEARSNEY (KENT)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.942362575597316,51.2755146258354
@@ -153,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>DOVER PRIORY - KEARSNEY (KENT)</name>
-         <description>DOVER PRIORY - KEARSNEY (KENT)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.30580430019011,51.1237524751162
@@ -162,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>KEARSNEY (KENT) - DOVER PRIORY</name>
-         <description>KEARSNEY (KENT) - DOVER PRIORY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.27315041375844,51.1471487671387
@@ -171,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - SELLING</name>
-         <description>FAVERSHAM - SELLING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -180,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>DOVER PRIORY - ASHFORD INTL</name>
-         <description>DOVER PRIORY - ASHFORD INTL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.30580430019011,51.1237524751162
@@ -189,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>ASHFORD INTL - DOVER PRIORY</name>
-         <description>ASHFORD INTL - DOVER PRIORY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.875193701365457,51.1414352542849
@@ -198,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - FAVERSHAM</name>
-         <description>CHATHAM GROUP - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241
@@ -207,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>KEARSNEY (KENT) - SELLING</name>
-         <description>KEARSNEY (KENT) - SELLING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.27315041375844,51.1471487671387

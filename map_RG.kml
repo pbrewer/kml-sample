@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -124,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - EALING BROADWAY GROUP</name>
-         <description>LONDON GROUP - EALING BROADWAY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -133,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</name>
-         <description>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.417945334425063,51.5004503083908
@@ -142,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>SLOUGH - MAIDENHEAD</name>
-         <description>SLOUGH - MAIDENHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.590565992879139,51.5098424704067
@@ -151,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>HAYES &amp; HARLNGTN GP - SLOUGH</name>
-         <description>HAYES &amp; HARLNGTN GP - SLOUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.417945334425063,51.5004503083908
@@ -160,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>TWYFORD - READING GROUP</name>
-         <description>TWYFORD - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.862420368717771,51.4732471781296
@@ -169,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>TWYFORD - MAIDENHEAD</name>
-         <description>TWYFORD - MAIDENHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.862420368717771,51.4732471781296
@@ -178,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - TWYFORD</name>
-         <description>READING GROUP - TWYFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -187,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>EALING BROADWAY GROUP - LONDON GROUP</name>
-         <description>EALING BROADWAY GROUP - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299347829081659,51.5122730230576
@@ -196,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>SLOUGH - HAYES &amp; HARLNGTN GP</name>
-         <description>SLOUGH - HAYES &amp; HARLNGTN GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.590565992879139,51.5098424704067
@@ -205,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>MAIDENHEAD - SLOUGH</name>
-         <description>MAIDENHEAD - SLOUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.721546959650751,51.515837329819
@@ -214,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>MAIDENHEAD - TWYFORD</name>
-         <description>MAIDENHEAD - TWYFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.721546959650751,51.515837329819
@@ -223,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</name>
-         <description>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299347829081659,51.5122730230576
@@ -232,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>GREENFORD UND - EALING BROADWAY GROUP</name>
-         <description>GREENFORD UND - EALING BROADWAY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.343027394360147,51.5398635077165
@@ -241,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>EALING BROADWAY GROUP - GREENFORD UND</name>
-         <description>EALING BROADWAY GROUP - GREENFORD UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299347829081659,51.5122730230576

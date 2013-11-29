@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -124,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>HYNDLAND - WESTERTON</name>
-         <description>HYNDLAND - WESTERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.3132299509596,55.8771051673374
@@ -133,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK - GLASGOW GROUP</name>
-         <description>NEWTON LANARK - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.13242975572459,55.8165428999123
@@ -142,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - NEWTON LANARK</name>
-         <description>GLASGOW GROUP - NEWTON LANARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -151,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - MOTHERWELL GROUP</name>
-         <description>GLASGOW GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -160,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - GLASGOW GROUP</name>
-         <description>MOTHERWELL GROUP - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -169,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>PARTICK - HYNDLAND</name>
-         <description>PARTICK - HYNDLAND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.30944896259972,55.8672868799959
@@ -178,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK - MOTHERWELL GROUP</name>
-         <description>NEWTON LANARK - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.13242975572459,55.8165428999123
@@ -187,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - WESTERTON</name>
-         <description>GLASGOW GROUP - WESTERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -196,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>PARTICK - GLASGOW GROUP</name>
-         <description>PARTICK - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.30944896259972,55.8672868799959
@@ -205,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - MOTHERWELL GROUP</name>
-         <description>CARSTAIRS - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -214,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - CARSTAIRS</name>
-         <description>MOTHERWELL GROUP - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -223,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>HYNDLAND - PARTICK</name>
-         <description>HYNDLAND - PARTICK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.3132299509596,55.8771051673374
@@ -232,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>WESTERTON - GLASGOW GROUP</name>
-         <description>WESTERTON - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.33395911992698,55.9027857249334
@@ -241,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - NEWTON LANARK</name>
-         <description>MOTHERWELL GROUP - NEWTON LANARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -250,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST - KILMARNOCK</name>
-         <description>POLLOKSHAWS WEST - KILMARNOCK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.30035427379742,55.8216069737407
@@ -259,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK - POLLOKSHAWS WEST</name>
-         <description>KILMARNOCK - POLLOKSHAWS WEST</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.49757948758596,55.6100734945976
@@ -268,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>WESTERTON - HYNDLAND</name>
-         <description>WESTERTON - HYNDLAND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.33395911992698,55.9027857249334
@@ -277,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - POLLOKSHAWS WEST</name>
-         <description>GLASGOW GROUP - POLLOKSHAWS WEST</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -286,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - PARTICK</name>
-         <description>GLASGOW GROUP - PARTICK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -295,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST - GLASGOW GROUP</name>
-         <description>POLLOKSHAWS WEST - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.30035427379742,55.8216069737407

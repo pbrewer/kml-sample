@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -452,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - BOLTON</name>
-         <description>SALFORD CRESCENT - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -461,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - WILMSLOW GROUP</name>
-         <description>CHEADLE HULME - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -470,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - APPLEBY</name>
-         <description>CARLISLE - APPLEBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -479,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>WATFORD JUNCTION - WILLESDEN JN</name>
-         <description>WATFORD JUNCTION - WILLESDEN JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.395005816943682,51.6610302646915
@@ -488,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - SALFORD CRESCENT</name>
-         <description>WIGAN GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -497,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>MILTON KEYNES C - RUGBY</name>
-         <description>MILTON KEYNES C - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.773956414418963,52.0314112191844
@@ -506,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - KENSNGTN OLYMPIA</name>
-         <description>CLAPHAM JUNCTION - KENSNGTN OLYMPIA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -515,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - SALFORD CRESCENT</name>
-         <description>MANCHESTER GROUP - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -524,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - WOLVERHAMPTON</name>
-         <description>WALSALL GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -533,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>LONG BUCKBY - RUGBY</name>
-         <description>LONG BUCKBY - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.0850008276296,52.2912893998626
@@ -542,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>RUGBY - LONG BUCKBY</name>
-         <description>RUGBY - LONG BUCKBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24779788512554,52.3760244925185
@@ -551,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - SALFORD CRESCENT</name>
-         <description>BOLTON - SALFORD CRESCENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -560,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - WOLVERHAMPTON</name>
-         <description>SMETHWICK GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -569,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - WALSALL GROUP</name>
-         <description>RUGELEY TRNT VAL - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -578,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STAFFORD GROUP</name>
-         <description>CREWE - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -587,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - CARSTAIRS</name>
-         <description>MOTHERWELL GROUP - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -596,7 +585,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - NUNEATON</name>
-         <description>BIRMINGHAM GROUP - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -605,7 +593,6 @@
       </Placemark>
       <Placemark>
          <name>WILLESDEN JN - LONDON GROUP</name>
-         <description>WILLESDEN JN - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.242510759036517,51.5285132205761
@@ -614,7 +601,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - NUNEATON</name>
-         <description>TAMWORTH - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -623,7 +609,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WARRINGTON GROUP</name>
-         <description>MANCHESTER GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -632,7 +617,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - BLACKBURN</name>
-         <description>PRESTON LANCS - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -641,7 +625,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CHEADLE HULME</name>
-         <description>WILMSLOW GROUP - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -650,7 +633,6 @@
       </Placemark>
       <Placemark>
          <name>WATFORD JUNCTION - BLETCHLEY</name>
-         <description>WATFORD JUNCTION - BLETCHLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.395005816943682,51.6610302646915
@@ -659,7 +641,6 @@
       </Placemark>
       <Placemark>
          <name>MILTON KEYNES C - NORTHAMPTON</name>
-         <description>MILTON KEYNES C - NORTHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.773956414418963,52.0314112191844
@@ -668,7 +649,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - STOCKPORT</name>
-         <description>MANCHESTER GROUP - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -677,7 +657,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - RUGELEY TRNT VAL</name>
-         <description>WALSALL GROUP - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -686,7 +665,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - LICHFIELD T V</name>
-         <description>TAMWORTH - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -695,7 +673,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - PRESTON LANCS</name>
-         <description>BOLTON - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -704,7 +681,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - COVENTRY</name>
-         <description>NUNEATON - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -713,7 +689,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - BARROW IN FURNSS</name>
-         <description>LANCASTER GROUP - BARROW IN FURNSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -722,7 +697,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - MANCHESTER GROUP</name>
-         <description>SALFORD CRESCENT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -731,7 +705,6 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP - MOTHERWELL GROUP</name>
-         <description>FALKIRK GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.7907706980682,55.9891919882658
@@ -740,7 +713,6 @@
       </Placemark>
       <Placemark>
          <name>MANCHESTER GROUP - WILMSLOW GROUP</name>
-         <description>MANCHESTER GROUP - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22752279914098,53.4737830141426
@@ -749,7 +721,6 @@
       </Placemark>
       <Placemark>
          <name>RUGBY - MILTON KEYNES C</name>
-         <description>RUGBY - MILTON KEYNES C</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24779788512554,52.3760244925185
@@ -758,7 +729,6 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK - DUMFRIES</name>
-         <description>KILMARNOCK - DUMFRIES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.49757948758596,55.6100734945976
@@ -767,7 +737,6 @@
       </Placemark>
       <Placemark>
          <name>SELLAFIELD - CARLISLE</name>
-         <description>SELLAFIELD - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.51026434598241,54.413642492677
@@ -776,7 +745,6 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D - PENRITH</name>
-         <description>OXENHOLME LAKE D - PENRITH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.72079672561516,54.3022952619467
@@ -785,7 +753,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - EDINBURGH GROUP</name>
-         <description>CARSTAIRS - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -794,7 +761,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - LICHFIELD T V</name>
-         <description>BIRMINGHAM GROUP - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -803,7 +769,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - PRESTON LANCS</name>
-         <description>WIGAN GROUP - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -812,7 +777,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - HELLIFIELD GROUP</name>
-         <description>CLAPHAM YORKS - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771
@@ -821,7 +785,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CREWE</name>
-         <description>STOKE ON TRENT - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -830,7 +793,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - RUGELEY TRNT VAL</name>
-         <description>STAFFORD GROUP - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -839,7 +801,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - TAMWORTH</name>
-         <description>NUNEATON - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -848,7 +809,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - MOTHERWELL GROUP</name>
-         <description>GLASGOW GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -857,7 +817,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - RUGELEY TRNT VAL</name>
-         <description>STOKE ON TRENT - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -866,7 +825,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
-         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -875,7 +833,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - CREWE</name>
-         <description>STAFFORD GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -884,7 +841,6 @@
       </Placemark>
       <Placemark>
          <name>SALFORD CRESCENT - WIGAN GROUP</name>
-         <description>SALFORD CRESCENT - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.27428439903141,53.4817736575281
@@ -893,7 +849,6 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY - RUGBY</name>
-         <description>COVENTRY - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
@@ -902,7 +857,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - BIRMINGHAM GROUP</name>
-         <description>LICHFIELD T V - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -911,7 +865,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - LICHFIELD T V</name>
-         <description>RUGELEY TRNT VAL - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -920,7 +873,6 @@
       </Placemark>
       <Placemark>
          <name>RUGBY - NORTHAMPTON</name>
-         <description>RUGBY - NORTHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24779788512554,52.3760244925185
@@ -929,7 +881,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - DUMFRIES</name>
-         <description>CARLISLE - DUMFRIES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -938,7 +889,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - CARLISLE</name>
-         <description>CARSTAIRS - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -947,7 +897,6 @@
       </Placemark>
       <Placemark>
          <name>MILTON KEYNES C - BLETCHLEY</name>
-         <description>MILTON KEYNES C - BLETCHLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.773956414418963,52.0314112191844
@@ -956,7 +905,6 @@
       </Placemark>
       <Placemark>
          <name>BARROW IN FURNSS - LANCASTER GROUP</name>
-         <description>BARROW IN FURNSS - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.2255261855801,54.1157625711654
@@ -965,7 +913,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - CARSTAIRS</name>
-         <description>EDINBURGH GROUP - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -974,7 +921,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHAMPTON - LONG BUCKBY</name>
-         <description>NORTHAMPTON - LONG BUCKBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.906045206063134,52.2340419154024
@@ -983,7 +929,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - STAFFORD GROUP</name>
-         <description>STOKE ON TRENT - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -992,7 +937,6 @@
       </Placemark>
       <Placemark>
          <name>SELLAFIELD - BARROW IN FURNSS</name>
-         <description>SELLAFIELD - BARROW IN FURNSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.51026434598241,54.413642492677
@@ -1001,7 +945,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - CARSTAIRS</name>
-         <description>CARLISLE - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -1010,7 +953,6 @@
       </Placemark>
       <Placemark>
          <name>WILLESDEN JN - WATFORD JUNCTION</name>
-         <description>WILLESDEN JN - WATFORD JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.242510759036517,51.5285132205761
@@ -1019,7 +961,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - MANCHESTER GROUP</name>
-         <description>STOCKPORT - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -1028,7 +969,6 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY - NUNEATON</name>
-         <description>COVENTRY - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
@@ -1037,7 +977,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WARRINGTON GROUP</name>
-         <description>CREWE - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -1046,7 +985,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
-         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -1055,7 +993,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - BOLTON</name>
-         <description>BLACKBURN - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -1064,7 +1001,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - APPLEBY</name>
-         <description>HELLIFIELD GROUP - APPLEBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -1073,7 +1009,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - STAFFORD GROUP</name>
-         <description>RUGELEY TRNT VAL - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -1082,7 +1017,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - BOLTON</name>
-         <description>WIGAN GROUP - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -1091,7 +1025,6 @@
       </Placemark>
       <Placemark>
          <name>BLETCHLEY - WATFORD JUNCTION</name>
-         <description>BLETCHLEY - WATFORD JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.735694534570948,51.9923580710804
@@ -1100,7 +1033,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - CREWE</name>
-         <description>WARRINGTON GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -1109,7 +1041,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - WIGAN GROUP</name>
-         <description>BOLTON - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -1118,7 +1049,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - LANCASTER GROUP</name>
-         <description>PRESTON LANCS - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -1127,7 +1057,6 @@
       </Placemark>
       <Placemark>
          <name>RUGBY - NUNEATON</name>
-         <description>RUGBY - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24779788512554,52.3760244925185
@@ -1136,7 +1065,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - HELLIFIELD GROUP</name>
-         <description>BLACKBURN - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -1145,7 +1073,6 @@
       </Placemark>
       <Placemark>
          <name>WILLESDEN JN - KENSNGTN OLYMPIA</name>
-         <description>WILLESDEN JN - KENSNGTN OLYMPIA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.242510759036517,51.5285132205761
@@ -1154,7 +1081,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
-         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -1163,7 +1089,6 @@
       </Placemark>
       <Placemark>
          <name>KENSNGTN OLYMPIA - CLAPHAM JUNCTION</name>
-         <description>KENSNGTN OLYMPIA - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.207790989883325,51.4947301900618
@@ -1172,7 +1097,6 @@
       </Placemark>
       <Placemark>
          <name>STOCKPORT - CHEADLE HULME</name>
-         <description>STOCKPORT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.16095318791928,53.4019907710042
@@ -1181,7 +1105,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - STOKE ON TRENT</name>
-         <description>RUGELEY TRNT VAL - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -1190,7 +1113,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - WIGAN GROUP</name>
-         <description>PRESTON LANCS - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -1199,7 +1121,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - BLACKBURN</name>
-         <description>BOLTON - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -1208,7 +1129,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - BLACKBURN</name>
-         <description>HELLIFIELD GROUP - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -1217,7 +1137,6 @@
       </Placemark>
       <Placemark>
          <name>BARROW IN FURNSS - SELLAFIELD</name>
-         <description>BARROW IN FURNSS - SELLAFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.2255261855801,54.1157625711654
@@ -1226,7 +1145,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - WILLESDEN JN</name>
-         <description>LONDON GROUP - WILLESDEN JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -1235,7 +1153,6 @@
       </Placemark>
       <Placemark>
          <name>APPLEBY - HELLIFIELD GROUP</name>
-         <description>APPLEBY - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.48427808979365,54.5775999596093
@@ -1244,7 +1161,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - PRESTON LANCS</name>
-         <description>LANCASTER GROUP - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -1253,7 +1169,6 @@
       </Placemark>
       <Placemark>
          <name>BLETCHLEY - BEDFORD</name>
-         <description>BLETCHLEY - BEDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.735694534570948,51.9923580710804
@@ -1262,7 +1177,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHAMPTON - RUGBY</name>
-         <description>NORTHAMPTON - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.906045206063134,52.2340419154024
@@ -1271,7 +1185,6 @@
       </Placemark>
       <Placemark>
          <name>DUMFRIES - CARLISLE</name>
-         <description>DUMFRIES - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.6037876629636,55.0695130371346
@@ -1280,7 +1193,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STOKE ON TRENT</name>
-         <description>CREWE - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -1289,7 +1201,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - MANCHESTER GROUP</name>
-         <description>WILMSLOW GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -1298,7 +1209,6 @@
       </Placemark>
       <Placemark>
          <name>DUMFRIES - KILMARNOCK</name>
-         <description>DUMFRIES - KILMARNOCK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.6037876629636,55.0695130371346
@@ -1307,7 +1217,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - WARRINGTON GROUP</name>
-         <description>WIGAN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -1316,7 +1225,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - RUGBY</name>
-         <description>NUNEATON - RUGBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -1325,7 +1233,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
-         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -1334,7 +1241,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - WOLVERHAMPTON</name>
-         <description>STAFFORD GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -1343,7 +1249,6 @@
       </Placemark>
       <Placemark>
          <name>BLETCHLEY - MILTON KEYNES C</name>
-         <description>BLETCHLEY - MILTON KEYNES C</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.735694534570948,51.9923580710804
@@ -1352,7 +1257,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - NEWTON LANARK</name>
-         <description>MOTHERWELL GROUP - NEWTON LANARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -1361,7 +1265,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHAMPTON - MILTON KEYNES C</name>
-         <description>NORTHAMPTON - MILTON KEYNES C</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.906045206063134,52.2340419154024
@@ -1370,7 +1273,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - WALSALL GROUP</name>
-         <description>WOLVERHAMPTON - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -1379,7 +1281,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - BIRMINGHAM GROUP</name>
-         <description>TAMWORTH - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -1388,7 +1289,6 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK - GLASGOW GROUP</name>
-         <description>NEWTON LANARK - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.13242975572459,55.8165428999123
@@ -1397,7 +1297,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - SMETHWICK GROUP</name>
-         <description>WOLVERHAMPTON - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -1406,7 +1305,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - NEWTON LANARK</name>
-         <description>GLASGOW GROUP - NEWTON LANARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -1415,7 +1313,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOCKPORT</name>
-         <description>CHEADLE HULME - STOCKPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -1424,7 +1321,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - WIGAN GROUP</name>
-         <description>WARRINGTON GROUP - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -1433,7 +1329,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - GLASGOW GROUP</name>
-         <description>MOTHERWELL GROUP - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -1442,7 +1337,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - TAMWORTH</name>
-         <description>LICHFIELD T V - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -1451,7 +1345,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - PENRITH</name>
-         <description>CARLISLE - PENRITH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -1460,7 +1353,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - MOTHERWELL GROUP</name>
-         <description>CARSTAIRS - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -1469,7 +1361,6 @@
       </Placemark>
       <Placemark>
          <name>PENRITH - CARLISLE</name>
-         <description>PENRITH - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.75655145110832,54.6588920507997
@@ -1478,7 +1369,6 @@
       </Placemark>
       <Placemark>
          <name>BEDFORD - BLETCHLEY</name>
-         <description>BEDFORD - BLETCHLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.477427294975053,52.1340143383127
@@ -1487,7 +1377,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CHEADLE HULME</name>
-         <description>STOKE ON TRENT - CHEADLE HULME</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396
@@ -1496,7 +1385,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - CLAPHAM YORKS</name>
-         <description>HELLIFIELD GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -1505,7 +1393,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - BIRMINGHAM GROUP</name>
-         <description>NUNEATON - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -1514,7 +1401,6 @@
       </Placemark>
       <Placemark>
          <name>COVENTRY - BIRMINGHAM GROUP</name>
-         <description>COVENTRY - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.51200282653748,52.3980821347103
@@ -1523,7 +1409,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - CLAPHAM YORKS</name>
-         <description>LANCASTER GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -1532,7 +1417,6 @@
       </Placemark>
       <Placemark>
          <name>LONG BUCKBY - NORTHAMPTON</name>
-         <description>LONG BUCKBY - NORTHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.0850008276296,52.2912893998626
@@ -1541,7 +1425,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - MANCHESTER GROUP</name>
-         <description>WARRINGTON GROUP - MANCHESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -1550,7 +1433,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - STAFFORD GROUP</name>
-         <description>WOLVERHAMPTON - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -1559,7 +1441,6 @@
       </Placemark>
       <Placemark>
          <name>RUGBY - COVENTRY</name>
-         <description>RUGBY - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24779788512554,52.3760244925185
@@ -1568,7 +1449,6 @@
       </Placemark>
       <Placemark>
          <name>CHEADLE HULME - STOKE ON TRENT</name>
-         <description>CHEADLE HULME - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.18790259306218,53.3731912199484
@@ -1577,7 +1457,6 @@
       </Placemark>
       <Placemark>
          <name>KENSNGTN OLYMPIA - WILLESDEN JN</name>
-         <description>KENSNGTN OLYMPIA - WILLESDEN JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.207790989883325,51.4947301900618
@@ -1586,7 +1465,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - WILMSLOW GROUP</name>
-         <description>CREWE - WILMSLOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -1595,7 +1473,6 @@
       </Placemark>
       <Placemark>
          <name>APPLEBY - CARLISLE</name>
-         <description>APPLEBY - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.48427808979365,54.5775999596093
@@ -1604,7 +1481,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - SELLAFIELD</name>
-         <description>CARLISLE - SELLAFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -1613,7 +1489,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - RUGELEY TRNT VAL</name>
-         <description>LICHFIELD T V - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -1622,7 +1497,6 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK - MOTHERWELL GROUP</name>
-         <description>NEWTON LANARK - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.13242975572459,55.8165428999123
@@ -1631,7 +1505,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - FALKIRK GROUP</name>
-         <description>MOTHERWELL GROUP - FALKIRK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -1640,7 +1513,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - COVENTRY</name>
-         <description>BIRMINGHAM GROUP - COVENTRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -1649,7 +1521,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - OXENHOLME LAKE D</name>
-         <description>LANCASTER GROUP - OXENHOLME LAKE D</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -1658,7 +1529,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - BOLTON</name>
-         <description>PRESTON LANCS - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -1667,7 +1537,6 @@
       </Placemark>
       <Placemark>
          <name>PENRITH - OXENHOLME LAKE D</name>
-         <description>PENRITH - OXENHOLME LAKE D</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.75655145110832,54.6588920507997
@@ -1676,7 +1545,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - TAMWORTH</name>
-         <description>BIRMINGHAM GROUP - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -1685,7 +1553,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - STOKE ON TRENT</name>
-         <description>STAFFORD GROUP - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -1694,7 +1561,6 @@
       </Placemark>
       <Placemark>
          <name>WILMSLOW GROUP - CREWE</name>
-         <description>WILMSLOW GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22372067876089,53.3236978660225
@@ -1703,7 +1569,6 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D - LANCASTER GROUP</name>
-         <description>OXENHOLME LAKE D - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.72079672561516,54.3022952619467
@@ -1712,7 +1577,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - PRESTON LANCS</name>
-         <description>BLACKBURN - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -1721,7 +1585,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - LANCASTER GROUP</name>
-         <description>CLAPHAM YORKS - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771

@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -108,7 +113,6 @@
       </Placemark>
       <Placemark>
          <name>IPSWICH - MANNINGTREE</name>
-         <description>IPSWICH - MANNINGTREE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.14604543460463,52.0479119603784
@@ -117,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>DISS - STOWMARKET</name>
-         <description>DISS - STOWMARKET</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.12484126524517,52.3703521427135
@@ -126,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>STOWMARKET - IPSWICH</name>
-         <description>STOWMARKET - IPSWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.00223192854285,52.1874255247094
@@ -135,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>IPSWICH - STOWMARKET</name>
-         <description>IPSWICH - STOWMARKET</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.14604543460463,52.0479119603784
@@ -144,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - ELY</name>
-         <description>PETERBOROUGH - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -153,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>NORWICH - DISS</name>
-         <description>NORWICH - DISS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.30845643744413,52.6243046775948
@@ -162,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>MANNINGTREE - IPSWICH</name>
-         <description>MANNINGTREE - IPSWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.04721808895052,51.9462194112542
@@ -171,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>DISS - NORWICH</name>
-         <description>DISS - NORWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.12484126524517,52.3703521427135
@@ -180,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>STOWMARKET - DISS</name>
-         <description>STOWMARKET - DISS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.00223192854285,52.1874255247094
@@ -189,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>NORWICH - ELY</name>
-         <description>NORWICH - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.30845643744413,52.6243046775948
@@ -198,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - PETERBOROUGH</name>
-         <description>ELY - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
@@ -207,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - NORWICH</name>
-         <description>ELY - NORWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547

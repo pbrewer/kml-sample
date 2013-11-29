@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -164,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - HELLIFIELD GROUP</name>
-         <description>BLACKBURN - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -173,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>WREXHAM GROUP - CHESTER</name>
-         <description>WREXHAM GROUP - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.00105187330833,53.0473735627572
@@ -182,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - WIGAN GROUP</name>
-         <description>PRESTON LANCS - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -191,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - BLACKBURN</name>
-         <description>BOLTON - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -200,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - BLACKBURN</name>
-         <description>HELLIFIELD GROUP - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -209,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - WIGAN GROUP</name>
-         <description>WARRINGTON GROUP - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -218,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - WARRINGTON GROUP</name>
-         <description>CHESTER - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -227,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>HOOTON - CHESTER</name>
-         <description>HOOTON - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.9752950896166,53.2938563998056
@@ -236,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON - LLANDUDNO JN</name>
-         <description>SHOTTON - LLANDUDNO JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.03630325182179,53.2106526120998
@@ -245,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - PRESTON LANCS</name>
-         <description>LANCASTER GROUP - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -254,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - CLAPHAM YORKS</name>
-         <description>HELLIFIELD GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -263,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - CLAPHAM YORKS</name>
-         <description>LANCASTER GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -272,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - BLACKBURN</name>
-         <description>PRESTON LANCS - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -281,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>WARRINGTON GROUP - CHESTER</name>
-         <description>WARRINGTON GROUP - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.59098665939852,53.3889528478108
@@ -290,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - HOOTON</name>
-         <description>CHESTER - HOOTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -299,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - WARRINGTON GROUP</name>
-         <description>WIGAN GROUP - WARRINGTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -308,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - PRESTON LANCS</name>
-         <description>BOLTON - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -317,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - BOLTON</name>
-         <description>BLACKBURN - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -326,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - WREXHAM GROUP</name>
-         <description>CHESTER - WREXHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -335,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>LLANDUDNO JN - SHOTTON</name>
-         <description>LLANDUDNO JN - SHOTTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.80754581249448,53.2805500537438
@@ -344,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - OXENHOLME LAKE D</name>
-         <description>LANCASTER GROUP - OXENHOLME LAKE D</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -353,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - BOLTON</name>
-         <description>PRESTON LANCS - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -362,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - BOLTON</name>
-         <description>WIGAN GROUP - BOLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -371,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D - LANCASTER GROUP</name>
-         <description>OXENHOLME LAKE D - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.72079672561516,54.3022952619467
@@ -380,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - SHOTTON</name>
-         <description>CHESTER - SHOTTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -389,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - PRESTON LANCS</name>
-         <description>BLACKBURN - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -398,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON - CHESTER</name>
-         <description>SHOTTON - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.03630325182179,53.2106526120998
@@ -407,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>WIGAN GROUP - PRESTON LANCS</name>
-         <description>WIGAN GROUP - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.63082648852484,53.5406412185915
@@ -416,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>BOLTON - WIGAN GROUP</name>
-         <description>BOLTON - WIGAN GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.42437676789755,53.571211139824
@@ -425,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - LANCASTER GROUP</name>
-         <description>PRESTON LANCS - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -434,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - HELLIFIELD GROUP</name>
-         <description>CLAPHAM YORKS - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771
@@ -443,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - LANCASTER GROUP</name>
-         <description>CLAPHAM YORKS - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771

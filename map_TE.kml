@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -87,7 +92,7 @@
          <description>ALEXANDRA PALACE (AAP) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
-            <coordinates>-0.11861881117201,51.5958040459942</coordinates>
+            <coordinates>-0.118620000779629,51.5957984924316</coordinates>
          </Point>
       </Placemark>
       <Placemark>
@@ -287,12 +292,11 @@
          <description>STEVENAGE (SVG) - ROUTEING_POINT</description>
          <styleUrl>#routeingPointLocationStyle</styleUrl>
          <Point>
-            <coordinates>-0.20492897787444,51.8964761088654</coordinates>
+            <coordinates>-0.20492897787444,51.8964805603027</coordinates>
          </Point>
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP - GRANTHAM</name>
-         <description>NEWARK GROUP - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.798130010834015,53.0796689798256
@@ -301,16 +305,14 @@
       </Placemark>
       <Placemark>
          <name>HERTFORD NORTH - ALEXANDRA PALACE</name>
-         <description>HERTFORD NORTH - ALEXANDRA PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0914490397240044,51.7958137563165
--0.11861881117201,51.5958040459942</coordinates>
+-0.118620000779629,51.5957984924316</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK - HIGHBURY &amp; I UND</name>
-         <description>FINSBURY PARK - HIGHBURY &amp; I UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.104129330214378,51.5623127208072
@@ -319,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - LEEDS GROUP</name>
-         <description>YORK - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -328,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - GRANTHAM</name>
-         <description>PETERBOROUGH - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -337,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>SEVEN SISTRS UND - CHESHUNT</name>
-         <description>SEVEN SISTRS UND - CHESHUNT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0730126474042903,51.5815809260148
@@ -346,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - FINSBURY PARK</name>
-         <description>LONDON GROUP - FINSBURY PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -355,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - LINCOLN</name>
-         <description>PETERBOROUGH - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -364,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - YORK</name>
-         <description>DONCASTER - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -373,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - YORK</name>
-         <description>NORTHALLERTON - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -382,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - MIDDLESBROUGH GROUP</name>
-         <description>DARLINGTON - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -391,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>SLEAFORD - GRANTHAM</name>
-         <description>SLEAFORD - GRANTHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408661580477448,52.9924033599123
@@ -400,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - RETFORD</name>
-         <description>LINCOLN - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -409,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - ELY</name>
-         <description>CAMBRIDGE - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -418,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>RETFORD - LINCOLN</name>
-         <description>RETFORD - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
@@ -427,16 +417,14 @@
       </Placemark>
       <Placemark>
          <name>ALEXANDRA PALACE - FINSBURY PARK</name>
-         <description>ALEXANDRA PALACE - FINSBURY PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.11861881117201,51.5958040459942
+            <coordinates>-0.118620000779629,51.5957984924316
 -0.104129330214378,51.5623127208072</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>CHESHUNT - STANSTED GROUP</name>
-         <description>CHESHUNT - STANSTED GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0216581211012142,51.7002772853904
@@ -445,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -454,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>ESSEX ROAD - LONDON GROUP</name>
-         <description>ESSEX ROAD - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0950491218531374,51.5378961668471
@@ -463,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE - CHESHUNT</name>
-         <description>TOTTENHAM HALE - CHESHUNT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0583956949249829,51.5858343313731
@@ -472,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - YORK</name>
-         <description>SELBY - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -481,16 +465,14 @@
       </Placemark>
       <Placemark>
          <name>ALEXANDRA PALACE - HERTFORD NORTH</name>
-         <description>ALEXANDRA PALACE - HERTFORD NORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.11861881117201,51.5958040459942
+            <coordinates>-0.118620000779629,51.5957984924316
 -0.0914490397240044,51.7958137563165</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP - YORK</name>
-         <description>SCARBOROUGH GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.404114952496297,54.2768123775554
@@ -499,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>HITCHIN - PETERBOROUGH</name>
-         <description>HITCHIN - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.260991998042183,51.9503505578144
@@ -508,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - ELY</name>
-         <description>PETERBOROUGH - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -517,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - WAKEFIELD GROUP</name>
-         <description>DONCASTER - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -526,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>CHESHUNT - TOTTENHAM HALE</name>
-         <description>CHESHUNT - TOTTENHAM HALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0216581211012142,51.7002772853904
@@ -535,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - ESSEX ROAD</name>
-         <description>LONDON GROUP - ESSEX ROAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -544,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>HACKNEY DOWNS - SEVEN SISTRS UND</name>
-         <description>HACKNEY DOWNS - SEVEN SISTRS UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0586375574298068,51.546287887249
@@ -553,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - LINCOLN</name>
-         <description>DONCASTER - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -562,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>RETFORD - NEWARK GROUP</name>
-         <description>RETFORD - NEWARK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
@@ -571,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - CAMBRIDGE</name>
-         <description>ELY - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
@@ -580,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - DONCASTER</name>
-         <description>SELBY - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -589,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - YORK</name>
-         <description>LEEDS GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -598,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND - ESSEX ROAD</name>
-         <description>HIGHBURY &amp; I UND - ESSEX ROAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.102030856310921,51.5434025567242
@@ -607,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - STANSTED GROUP</name>
-         <description>CAMBRIDGE - STANSTED GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -616,7 +585,6 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM - NEWARK GROUP</name>
-         <description>GRANTHAM - NEWARK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.64092361498438,52.9036052752164
@@ -625,16 +593,14 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE - HITCHIN</name>
-         <description>STEVENAGE - HITCHIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
+            <coordinates>-0.20492897787444,51.8964805603027
 -0.260991998042183,51.9503505578144</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>SLEAFORD - LINCOLN</name>
-         <description>SLEAFORD - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408661580477448,52.9924033599123
@@ -643,16 +609,14 @@
       </Placemark>
       <Placemark>
          <name>HITCHIN - STEVENAGE</name>
-         <description>HITCHIN - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.260991998042183,51.9503505578144
--0.20492897787444,51.8964761088654</coordinates>
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>LINCOLN - DONCASTER</name>
-         <description>LINCOLN - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -661,7 +625,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - DONCASTER</name>
-         <description>WAKEFIELD GROUP - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -670,7 +633,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - HIGHBURY &amp; I UND</name>
-         <description>LONDON GROUP - HIGHBURY &amp; I UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -679,7 +641,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - SLEAFORD</name>
-         <description>LINCOLN - SLEAFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -688,7 +649,6 @@
       </Placemark>
       <Placemark>
          <name>RETFORD - DONCASTER</name>
-         <description>RETFORD - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.946208578834308,53.3129622458949
@@ -697,16 +657,14 @@
       </Placemark>
       <Placemark>
          <name>ALEXANDRA PALACE - STEVENAGE</name>
-         <description>ALEXANDRA PALACE - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.11861881117201,51.5958040459942
--0.20492897787444,51.8964761088654</coordinates>
+            <coordinates>-0.118620000779629,51.5957984924316
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - DARLINGTON</name>
-         <description>MIDDLESBROUGH GROUP - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -715,7 +673,6 @@
       </Placemark>
       <Placemark>
          <name>SLEAFORD - PETERBOROUGH</name>
-         <description>SLEAFORD - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.408661580477448,52.9924033599123
@@ -724,7 +681,6 @@
       </Placemark>
       <Placemark>
          <name>SEVEN SISTRS UND - HACKNEY DOWNS</name>
-         <description>SEVEN SISTRS UND - HACKNEY DOWNS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0730126474042903,51.5815809260148
@@ -733,7 +689,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - SLEAFORD</name>
-         <description>PETERBOROUGH - SLEAFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -742,16 +697,14 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE - ALEXANDRA PALACE</name>
-         <description>STEVENAGE - ALEXANDRA PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
--0.11861881117201,51.5958040459942</coordinates>
+            <coordinates>-0.20492897787444,51.8964805603027
+-0.118620000779629,51.5957984924316</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>YORK - NORTHALLERTON</name>
-         <description>YORK - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -760,7 +713,6 @@
       </Placemark>
       <Placemark>
          <name>CHESHUNT - SEVEN SISTRS UND</name>
-         <description>CHESHUNT - SEVEN SISTRS UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0216581211012142,51.7002772853904
@@ -769,7 +721,6 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND - FINSBURY PARK</name>
-         <description>HIGHBURY &amp; I UND - FINSBURY PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.102030856310921,51.5434025567242
@@ -778,7 +729,6 @@
       </Placemark>
       <Placemark>
          <name>DONCASTER - SELBY</name>
-         <description>DONCASTER - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -787,7 +737,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - NEWARK GROUP</name>
-         <description>LINCOLN - NEWARK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -796,7 +745,6 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP - RETFORD</name>
-         <description>NEWARK GROUP - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.798130010834015,53.0796689798256
@@ -805,7 +753,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SCARBOROUGH GROUP</name>
-         <description>YORK - SCARBOROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -814,25 +761,22 @@
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK - ALEXANDRA PALACE</name>
-         <description>FINSBURY PARK - ALEXANDRA PALACE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.104129330214378,51.5623127208072
--0.11861881117201,51.5958040459942</coordinates>
+-0.118620000779629,51.5957984924316</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>HERTFORD NORTH - STEVENAGE</name>
-         <description>HERTFORD NORTH - STEVENAGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0914490397240044,51.7958137563165
--0.20492897787444,51.8964761088654</coordinates>
+-0.20492897787444,51.8964805603027</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>ELY - PETERBOROUGH</name>
-         <description>ELY - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
@@ -841,7 +785,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - DARLINGTON</name>
-         <description>NORTHALLERTON - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -850,7 +793,6 @@
       </Placemark>
       <Placemark>
          <name>STANSTED GROUP - CAMBRIDGE</name>
-         <description>STANSTED GROUP - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.30340061061354,51.8876210475587
@@ -859,7 +801,6 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM - PETERBOROUGH</name>
-         <description>GRANTHAM - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.64092361498438,52.9036052752164
@@ -868,7 +809,6 @@
       </Placemark>
       <Placemark>
          <name>HACKNEY DOWNS - LONDON GROUP</name>
-         <description>HACKNEY DOWNS - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0586375574298068,51.546287887249
@@ -877,7 +817,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -886,7 +825,6 @@
       </Placemark>
       <Placemark>
          <name>HIGHBURY &amp; I UND - LONDON GROUP</name>
-         <description>HIGHBURY &amp; I UND - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.102030856310921,51.5434025567242
@@ -895,7 +833,6 @@
       </Placemark>
       <Placemark>
          <name>GRANTHAM - SLEAFORD</name>
-         <description>GRANTHAM - SLEAFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.64092361498438,52.9036052752164
@@ -904,7 +841,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SELBY</name>
-         <description>YORK - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -913,16 +849,14 @@
       </Placemark>
       <Placemark>
          <name>STEVENAGE - HERTFORD NORTH</name>
-         <description>STEVENAGE - HERTFORD NORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
-            <coordinates>-0.20492897787444,51.8964761088654
+            <coordinates>-0.20492897787444,51.8964805603027
 -0.0914490397240044,51.7958137563165</coordinates>
          </LineString>
       </Placemark>
       <Placemark>
          <name>DONCASTER - RETFORD</name>
-         <description>DONCASTER - RETFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.13871721870229,53.5185314624258
@@ -931,7 +865,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - DONCASTER</name>
-         <description>YORK - DONCASTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -940,7 +873,6 @@
       </Placemark>
       <Placemark>
          <name>LINCOLN - PETERBOROUGH</name>
-         <description>LINCOLN - PETERBOROUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.539408227391042,53.2241839046206
@@ -949,7 +881,6 @@
       </Placemark>
       <Placemark>
          <name>NEWARK GROUP - LINCOLN</name>
-         <description>NEWARK GROUP - LINCOLN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.798130010834015,53.0796689798256
@@ -958,7 +889,6 @@
       </Placemark>
       <Placemark>
          <name>PETERBOROUGH - HITCHIN</name>
-         <description>PETERBOROUGH - HITCHIN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.248295800076136,52.5721744409554
@@ -967,7 +897,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - HACKNEY DOWNS</name>
-         <description>LONDON GROUP - HACKNEY DOWNS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -976,7 +905,6 @@
       </Placemark>
       <Placemark>
          <name>FINSBURY PARK - LONDON GROUP</name>
-         <description>FINSBURY PARK - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.104129330214378,51.5623127208072
@@ -985,7 +913,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - NORTHALLERTON</name>
-         <description>MIDDLESBROUGH GROUP - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -994,7 +921,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - MIDDLESBROUGH GROUP</name>
-         <description>NORTHALLERTON - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -1003,7 +929,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - NORTHALLERTON</name>
-         <description>DARLINGTON - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -1012,7 +937,6 @@
       </Placemark>
       <Placemark>
          <name>STANSTED GROUP - CHESHUNT</name>
-         <description>STANSTED GROUP - CHESHUNT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.30340061061354,51.8876210475587
@@ -1021,7 +945,6 @@
       </Placemark>
       <Placemark>
          <name>ESSEX ROAD - HIGHBURY &amp; I UND</name>
-         <description>ESSEX ROAD - HIGHBURY &amp; I UND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0950491218531374,51.5378961668471

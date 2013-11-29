@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -116,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - AIGBURTH</name>
-         <description>HUNTS CROSS GROUP - AIGBURTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -125,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>AIGBURTH - HUNTS CROSS GROUP</name>
-         <description>AIGBURTH - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.92574506214727,53.3616604244271
@@ -134,7 +137,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - HUNTS CROSS GROUP</name>
-         <description>LIVERPOOL GROUP - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -143,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - HUYTON</name>
-         <description>LIVERPOOL GROUP - HUYTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -152,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>AIGBURTH - LIVERPOOL GROUP</name>
-         <description>AIGBURTH - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.92574506214727,53.3616604244271
@@ -161,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - CREWE</name>
-         <description>STAFFORD GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -170,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - RUNCORN</name>
-         <description>CREWE - RUNCORN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -179,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>HUYTON - LIVERPOOL GROUP</name>
-         <description>HUYTON - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.84248348710437,53.4072163077818
@@ -188,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STAFFORD GROUP</name>
-         <description>CREWE - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -197,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - RUNCORN</name>
-         <description>HUNTS CROSS GROUP - RUNCORN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -206,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>RUNCORN - CREWE</name>
-         <description>RUNCORN - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.73894655479018,53.3359997709182
@@ -215,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>HUNTS CROSS GROUP - LIVERPOOL GROUP</name>
-         <description>HUNTS CROSS GROUP - LIVERPOOL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.85352843794817,53.357704777171
@@ -224,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>LIVERPOOL GROUP - AIGBURTH</name>
-         <description>LIVERPOOL GROUP - AIGBURTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.97631716943623,53.4043995068628
@@ -233,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>RUNCORN - HUNTS CROSS GROUP</name>
-         <description>RUNCORN - HUNTS CROSS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.73894655479018,53.3359997709182
@@ -242,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STOKE ON TRENT</name>
-         <description>CREWE - STOKE ON TRENT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -251,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>STOKE ON TRENT - CREWE</name>
-         <description>STOKE ON TRENT - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.17885041744102,53.0056140476396

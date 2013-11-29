@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -204,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>IPSWICH - MANNINGTREE</name>
-         <description>IPSWICH - MANNINGTREE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.14604543460463,52.0479119603784
@@ -213,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>KENNETT - STOWMARKET</name>
-         <description>KENNETT - STOWMARKET</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.492032803678062,52.2748257389763
@@ -222,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - KENNETT</name>
-         <description>CAMBRIDGE - KENNETT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -231,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD - ROMFORD GROUP</name>
-         <description>SHENFIELD - ROMFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.332138657219138,51.628162442627
@@ -240,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>WICKFORD - SHENFIELD</name>
-         <description>WICKFORD - SHENFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.520589140537186,51.6125796135542
@@ -249,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>MANNINGTREE - COLCHESTER</name>
-         <description>MANNINGTREE - COLCHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.04721808895052,51.9462194112542
@@ -258,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD - WITHAM</name>
-         <description>SHENFIELD - WITHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.332138657219138,51.628162442627
@@ -267,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>TOTTENHAM HALE - STRATFORD LONDON GP</name>
-         <description>TOTTENHAM HALE - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0583956949249829,51.5858343313731
@@ -276,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>ELY - KENNETT</name>
-         <description>ELY - KENNETT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.267644038588302,52.3881214751547
@@ -285,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>DISS - NORWICH</name>
-         <description>DISS - NORWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.12484126524517,52.3703521427135
@@ -294,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - STRATFORD LONDON GP</name>
-         <description>LONDON GROUP - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -303,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>CHESHUNT - STANSTED GROUP</name>
-         <description>CHESHUNT - STANSTED GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0216581211012142,51.7002772853904
@@ -312,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>KENNETT - ELY</name>
-         <description>KENNETT - ELY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.492032803678062,52.2748257389763
@@ -321,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>ROMFORD GROUP - SHENFIELD</name>
-         <description>ROMFORD GROUP - SHENFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183514650133649,51.5725927113854
@@ -330,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>STANSTED GROUP - CAMBRIDGE</name>
-         <description>STANSTED GROUP - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.30340061061354,51.8876210475587
@@ -339,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>MARKS TEY - COLCHESTER</name>
-         <description>MARKS TEY - COLCHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.783921499610857,51.8781265497108
@@ -348,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - TOTTENHAM HALE</name>
-         <description>STRATFORD LONDON GP - TOTTENHAM HALE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -357,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>IPSWICH - STOWMARKET</name>
-         <description>IPSWICH - STOWMARKET</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.14604543460463,52.0479119603784
@@ -366,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>WITHAM - MARKS TEY</name>
-         <description>WITHAM - MARKS TEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.642921285136763,51.8031685484283
@@ -375,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>MANNINGTREE - IPSWICH</name>
-         <description>MANNINGTREE - IPSWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.04721808895052,51.9462194112542
@@ -384,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>STOWMARKET - DISS</name>
-         <description>STOWMARKET - DISS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.00223192854285,52.1874255247094
@@ -393,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>COLCHESTER - MARKS TEY</name>
-         <description>COLCHESTER - MARKS TEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.895642092724321,51.8979040219436
@@ -402,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - ROMFORD GROUP</name>
-         <description>STRATFORD LONDON GP - ROMFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -411,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>SHENFIELD - WICKFORD</name>
-         <description>SHENFIELD - WICKFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.332138657219138,51.628162442627
@@ -420,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>STOWMARKET - KENNETT</name>
-         <description>STOWMARKET - KENNETT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.00223192854285,52.1874255247094
@@ -429,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>DISS - STOWMARKET</name>
-         <description>DISS - STOWMARKET</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.12484126524517,52.3703521427135
@@ -438,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>KENNETT - CAMBRIDGE</name>
-         <description>KENNETT - CAMBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.492032803678062,52.2748257389763
@@ -447,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>STOWMARKET - IPSWICH</name>
-         <description>STOWMARKET - IPSWICH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.00223192854285,52.1874255247094
@@ -456,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>STANSTED GROUP - CHESHUNT</name>
-         <description>STANSTED GROUP - CHESHUNT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.30340061061354,51.8876210475587
@@ -465,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>CAMBRIDGE - STANSTED GROUP</name>
-         <description>CAMBRIDGE - STANSTED GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.139110387067273,52.1918581729905
@@ -474,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>NORWICH - DISS</name>
-         <description>NORWICH - DISS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.30845643744413,52.6243046775948
@@ -483,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>ROMFORD GROUP - STRATFORD LONDON GP</name>
-         <description>ROMFORD GROUP - STRATFORD LONDON GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183514650133649,51.5725927113854
@@ -492,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>MARKS TEY - WITHAM</name>
-         <description>MARKS TEY - WITHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.783921499610857,51.8781265497108
@@ -501,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>STRATFORD LONDON GP - LONDON GROUP</name>
-         <description>STRATFORD LONDON GP - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.00273806485052959,51.5381583521958
@@ -510,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>WITHAM - SHENFIELD</name>
-         <description>WITHAM - SHENFIELD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.642921285136763,51.8031685484283
@@ -519,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>COLCHESTER - MANNINGTREE</name>
-         <description>COLCHESTER - MANNINGTREE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.895642092724321,51.8979040219436

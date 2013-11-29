@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -164,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - HARROGATE</name>
-         <description>LEEDS GROUP - HARROGATE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -173,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - SELBY</name>
-         <description>LEEDS GROUP - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -182,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>HARROGATE - LEEDS GROUP</name>
-         <description>HARROGATE - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.5363046851771,53.9889901979466
@@ -191,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - LEEDS GROUP</name>
-         <description>YORK - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -200,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - SWINTON  S YORKS</name>
-         <description>WAKEFIELD GROUP - SWINTON  S YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -209,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - PONTEFRACT GROUP</name>
-         <description>WAKEFIELD GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -218,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - LEEDS GROUP</name>
-         <description>BRADFORD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -227,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SCARBOROUGH GROUP</name>
-         <description>YORK - SCARBOROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -236,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - LEEDS GROUP</name>
-         <description>SELBY - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -245,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - CLAPHAM YORKS</name>
-         <description>HELLIFIELD GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -254,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - WAKEFIELD GROUP</name>
-         <description>PONTEFRACT GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -263,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - HELLIFIELD GROUP</name>
-         <description>SKIPTON - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -272,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - BRADFORD GROUP</name>
-         <description>SKIPTON - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -281,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - BRADFORD GROUP</name>
-         <description>LEEDS GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -290,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - CLAPHAM YORKS</name>
-         <description>LANCASTER GROUP - CLAPHAM YORKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -299,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -308,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - SKIPTON</name>
-         <description>LEEDS GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -317,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>HARROGATE - YORK</name>
-         <description>HARROGATE - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.5363046851771,53.9889901979466
@@ -326,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>SWINTON  S YORKS - WAKEFIELD GROUP</name>
-         <description>SWINTON  S YORKS - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30368986438219,53.4845538752677
@@ -335,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP - YORK</name>
-         <description>SCARBOROUGH GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.404114952496297,54.2768123775554
@@ -344,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -353,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - SKIPTON</name>
-         <description>BRADFORD GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -362,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>HELLIFIELD GROUP - SKIPTON</name>
-         <description>HELLIFIELD GROUP - SKIPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.22585165157831,54.0085463384902
@@ -371,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - LEEDS GROUP</name>
-         <description>PONTEFRACT GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -380,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - YORK</name>
-         <description>LEEDS GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -389,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>LANCASTER GROUP - OXENHOLME LAKE D</name>
-         <description>LANCASTER GROUP - OXENHOLME LAKE D</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.80646520495794,54.0455998359243
@@ -398,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>SKIPTON - LEEDS GROUP</name>
-         <description>SKIPTON - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.02438550784808,53.9557294979361
@@ -407,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - PONTEFRACT GROUP</name>
-         <description>LEEDS GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -416,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>OXENHOLME LAKE D - LANCASTER GROUP</name>
-         <description>OXENHOLME LAKE D - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.72079672561516,54.3022952619467
@@ -425,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - HELLIFIELD GROUP</name>
-         <description>CLAPHAM YORKS - HELLIFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771
@@ -434,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - HARROGATE</name>
-         <description>YORK - HARROGATE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -443,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM YORKS - LANCASTER GROUP</name>
-         <description>CLAPHAM YORKS - LANCASTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.40836909508231,54.102434872771

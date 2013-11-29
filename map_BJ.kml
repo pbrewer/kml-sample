@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -188,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>WREXHAM GROUP - CHESTER</name>
-         <description>WREXHAM GROUP - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.00105187330833,53.0473735627572
@@ -197,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>NUNEATON - TAMWORTH</name>
-         <description>NUNEATON - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.46196766120402,52.5236920836025
@@ -206,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
-         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -215,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BROMSGROVE</name>
-         <description>BARNT GREEN - BROMSGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -224,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - SMETHWICK GROUP</name>
-         <description>WOLVERHAMPTON - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -233,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>HOOTON - CHESTER</name>
-         <description>HOOTON - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.9752950896166,53.2938563998056
@@ -242,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
-         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -251,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - WOLVERHAMPTON</name>
-         <description>WALSALL GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -260,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - CREWE</name>
-         <description>STAFFORD GROUP - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -269,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - TAMWORTH</name>
-         <description>LICHFIELD T V - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -278,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON - LLANDUDNO JN</name>
-         <description>SHOTTON - LLANDUDNO JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.03630325182179,53.2106526120998
@@ -287,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - WOLVERHAMPTON</name>
-         <description>SMETHWICK GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -296,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - WALSALL GROUP</name>
-         <description>RUGELEY TRNT VAL - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -305,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - STAFFORD GROUP</name>
-         <description>CREWE - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -314,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - BIRMINGHAM GROUP</name>
-         <description>LICHFIELD T V - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -323,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - LICHFIELD T V</name>
-         <description>RUGELEY TRNT VAL - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -332,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>CREWE - CHESTER</name>
-         <description>CREWE - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.4315419838315,53.0867528750238
@@ -341,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - BARNT GREEN</name>
-         <description>BIRMINGHAM GROUP - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -350,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - NUNEATON</name>
-         <description>TAMWORTH - NUNEATON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -359,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - HOOTON</name>
-         <description>CHESTER - HOOTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -368,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - STAFFORD GROUP</name>
-         <description>WOLVERHAMPTON - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -377,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE - BARNT GREEN</name>
-         <description>BROMSGROVE - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.04695288598449,52.3199895646342
@@ -386,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - RUGELEY TRNT VAL</name>
-         <description>WALSALL GROUP - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -395,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
-         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -404,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - LICHFIELD T V</name>
-         <description>TAMWORTH - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -413,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
-         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -422,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - WOLVERHAMPTON</name>
-         <description>STAFFORD GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545
@@ -431,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BIRMINGHAM GROUP</name>
-         <description>BARNT GREEN - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -440,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - RUGELEY TRNT VAL</name>
-         <description>LICHFIELD T V - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -449,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - WREXHAM GROUP</name>
-         <description>CHESTER - WREXHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -458,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>LLANDUDNO JN - SHOTTON</name>
-         <description>LLANDUDNO JN - SHOTTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.80754581249448,53.2805500537438
@@ -467,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - CREWE</name>
-         <description>CHESTER - CREWE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -476,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>RUGELEY TRNT VAL - STAFFORD GROUP</name>
-         <description>RUGELEY TRNT VAL - STAFFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.92885212810642,52.7666585179512
@@ -485,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - TAMWORTH</name>
-         <description>BIRMINGHAM GROUP - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -494,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>CHESTER - SHOTTON</name>
-         <description>CHESTER - SHOTTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.87871506267186,53.1939431401654
@@ -503,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>SHOTTON - CHESTER</name>
-         <description>SHOTTON - CHESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.03630325182179,53.2106526120998
@@ -512,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - LICHFIELD T V</name>
-         <description>BIRMINGHAM GROUP - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -521,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - WALSALL GROUP</name>
-         <description>WOLVERHAMPTON - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -530,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - BIRMINGHAM GROUP</name>
-         <description>TAMWORTH - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -539,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>STAFFORD GROUP - RUGELEY TRNT VAL</name>
-         <description>STAFFORD GROUP - RUGELEY TRNT VAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.12164188686284,52.801668937545

@@ -1,140 +1,128 @@
 <html>
 <head>
 <!-- May need jquery to ease development - e.g. loading json doc -->
-<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="http://data.atoc.org/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.min.js"></script>
 
 
-<script>
-      var map;
-      var pathUrl = 'https://raw.github.com/pbrewer/kml-sample/master/';
-      var ctaLayer;
+<script>    
+     google.maps.event.addDomListener(window, 'load', function() {
+         var map;
+         var pathUrl = 'https://iblocks-rg-publication.s3.amazonaws.com/';
+         var ctaLayer;
+                  
+         var setDefaultMap = function (kmlFile) {
+            	ctaLayer.setUrl(pathUrl + kmlFile);
+     	  }
+  		
+          var railStyle = [ {
+              	featureType : "water",
+             	 elementType : "labels",
+            	  stylers : [ {
+                              visibility : "off"
+           		   } ]
+			  }, {
+           	    featureType : "transit.line",
+                stylers : [ {
+                              visibility : "on"
+            	}, {
+                              color : "#AAAAAA"
+              	}, {
+                              weight : 4
+             	} ]
+			  }, {
+                featureType : "landscape",
+                elementType : "geometry",
+                stylers : [ {
+                              visibility : "off"
+             	 } ]
+			  }, {
+              featureType : "poi",
+              elementType : "geometry",
+              stylers : [ {
+                              visibility : "off"
+              } ]
+			 }, {
+              featureType : "road",
+              stylers : [ {
+                              visibility : "off"
+              } ]
+			} ];
 
-    
-      
-      function initialize() {
+            
+        	var styledMap = new google.maps.StyledMapType(railStyle,
+        		    {name: "Rail"});
+
         	var point = new google.maps.LatLng(51.5958, -0.11862);
         	var mapOptions = {
         	  zoom: 11,
-    	      center: point
+    	      center: point,
+    	      mapTypeControlOptions: {
+    	          mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+	          }
 	        }
-
+           		
 	        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
+	        map.mapTypes.set('map_style', styledMap);
+	        map.setMapTypeId('map_style');
+			
         	ctaLayer = new google.maps.KmlLayer();
     	    
 		    ctaLayer.setMap(map);
 
-      		$("#mapCodes").change(function(){
-             ctaLayer.setMap(null); 
-             ctaLayer.setUrl(pathUrl + $("#mapCodes option:selected").val());
-             ctaLayer.setMap(map); 		
-        	});
-        	
-      	}
+		    // Create the legend and display on the map
+		    var legendDiv = document.createElement('DIV');
+		    var legend = new Legend(legendDiv, map);
+		    legendDiv.index = 1;
+		    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(legendDiv);
 
-      	function setDefaultMap(kmlFile) {
-        	ctaLayer.setUrl(pathUrl + kmlFile);
- 		}
+      		$("#mapCodes").change(function(){ 
+             ctaLayer.setUrl(pathUrl + $("#mapCodes option:selected").val());	
+        	}); 
 
-    	
-     	$.getJSON( "ajax/map_meta_data.json", function(data) {
-            $.each(data.maps, function(key, value) {
-  			  	 if (key == 0) {
-  			  		  setDefaultMap(value.kmlUrl);
-  				 }
-                 $("#mapCodes").append('<option value="' + value.kmlUrl + '">' + value.mapCode + ' - ' + value.mapName + '</option>');
-            });
-    	}); 
+            $.getJSON( "ajax/map_meta_data.json?jsonp=?" );
 
-/*
-      function popup(_point) {
-          _point.popup = new InfoBox({
-              content:            _point.content,
-              pane:               'floatPane',
-              closeBoxURL:        '',
-              alignBottom:        1
-          });
+     });
 
-          _point.popup.open(_point.marker.map, _point.marker); */
+     function jsonp(data) {
+         $.each(data.maps, function(key, value) {
+              $("#mapCodes").append('<option value="' + value.mapUrl + '" ' + ((key == 0) ? 'selected="selected"' : '') + '>' + value.mapCode + ' - ' + value.mapName + '</option>');
+              if (key == 0) { 
+                  $("#mapCodes").change();
+              }
+         });     
+ 	 }
 
-     google.maps.event.addDomListener(window, 'load', initialize);
+     function Legend(controlDiv, map) {
+    	  // Set CSS styles for the DIV containing the control
+    	  // Setting padding to 5 px will offset the control
+    	  // from the edge of the map
+    	  controlDiv.style.padding = '5px';
 
-/*      google.maps.event.addListener(_point.popup, 'domready', function() {
-    	//Have to put this within the domready or else it can't find the div element (it's null until the InfoBox is opened)
+    	  // Set CSS for the control border
+    	  var controlUI = document.createElement('DIV');
+    	  controlUI.style.backgroundColor = 'white';
+    	  controlUI.style.borderStyle = 'solid';
+    	  controlUI.style.borderWidth = '1px';
+    	  controlUI.title = 'Rail Map Legend';
+    	  controlDiv.appendChild(controlUI);
 
-    	    $(_point.popup.div_).hover(
-    	        function() {
-    	            //This is called when the mouse enters the element
-    	        },
-    	        function() {
-    	            //This is called when the mouse leaves the element
-    	            _point.popup.close();
-    	        }
-    	    );
-    	}); */
-
-/*      function createMarker(point,html) {
-         var marker = new GMarker(point);
-         GEvent.addListener(marker, "click", function() {
-           marker.openInfoWindowHtml(html);
-         });
-
-         // The new marker "mouseover" listener        
-         google.maps.event.addListener(marker,"mouseover", function() {
-        	 infowindow.open(map, marker);
-         });        
-         
-         return marker;
-       } */
-	 
-  
-    </script>
-
-<!--  	<script type="text/javascript">
- 	
-  	$.ajaxSetup({
-    	contentType : 'application/json',
-    	processData : false
-  	});
-  	$.ajaxPrefilter( function( options, originalOptions, jqXHR ) {
-    	if (options.data && options.type != 'GET'){
-      		options.data=JSON.stringify(options.data);
-    	}
-  	});
-	</script>
-
-	<script type="text/javascript">
-	var url = "https://raw.github.com/pbrewer/kml-sample/master/ajax/map_meta_data.json" ;
-	var result = {success: false} ;
-	var request = {
-    	type: "GET",
-    	async: false,
-    	contentType: "application/json",
-    	dataType: "json",
-    	url: url,
-    	success: function(data, textStatus, jqXHR) {
-      	result.success = true ;
-      	result.message = textStatus ;
-      	result.data = data ;
-      	result.jqXHR = jqXHR ;
-    },
-    error: function(jqXHR, textStatus, errorThrown) {
-      	result.success = true ;
-      	result.message = errorThrown ;
-      	result.jqXHR = jqXHR ;
-      	result.data = data || {} ;
-    }
-	};
-	$.ajax(request);
-	if (result.success) {
-  		alert("Data loaded. TODO: populate a combo based on result.data");
-  		console.log(result.data) ;
-	}
-</script>  -->
-
-
+    	  // Set CSS for the control text
+    	  var controlText = document.createElement('DIV');
+    	  controlText.style.fontFamily = 'Arial,sans-serif';
+    	  controlText.style.fontSize = '12px';
+    	  controlText.style.paddingLeft = '4px';
+    	  controlText.style.paddingRight = '4px';
+    	  
+    	  // Add the text
+    	  controlText.innerHTML = '<b>Rail Map Legend</b><br />' +
+    	 		'<img src="routeing-group.gif" />  Routeing Group<br />' +
+    	        '<img src="routeing-point.gif" />  Routeing Point<br />' +
+    	        '<img src="interchange.gif" />  Interchange<br />';
+    	  controlUI.appendChild(controlText);
+     }
+     </script>
 </head>
 
 <body>
@@ -142,8 +130,14 @@
 	<select id="mapCodes" width = "300px">
 	</select>
 
-	<div style="width: 1500px; height: 800px; margin-top: 20px;"
+	<div style="width: 1200px; height: 800px; margin-top: 20px;"
 		id="map-canvas" />
+		
+	<div id="legend">
+  		<img src="interchange.gif">Interchange</img>
+  	</div>
+
+	<script></script>
 
 </body>
 </html>

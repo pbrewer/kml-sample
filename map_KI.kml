@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -196,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - DARLINGTON</name>
-         <description>MIDDLESBROUGH GROUP - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -205,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>HARTLEPOOL - NEWCASTLE</name>
-         <description>HARTLEPOOL - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.20575407723747,54.6838167251177
@@ -214,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK - PERTH</name>
-         <description>LADYBANK - PERTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.12075070040537,56.2712433727159
@@ -223,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>DINGWALL - INVERNESS</name>
-         <description>DINGWALL - INVERNESS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.42110081313562,57.592267576863
@@ -232,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - NEWCASTLE</name>
-         <description>CARLISLE - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -241,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK - GLENROTHES</name>
-         <description>LADYBANK - GLENROTHES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.12075070040537,56.2712433727159
@@ -250,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>DURHAM - DARLINGTON</name>
-         <description>DURHAM - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58020598133438,54.7764673142649
@@ -259,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - HARTLEPOOL</name>
-         <description>MIDDLESBROUGH GROUP - HARTLEPOOL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -268,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - MIDDLESBROUGH GROUP</name>
-         <description>DARLINGTON - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -277,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES - KIRKCALDY</name>
-         <description>GLENROTHES - KIRKCALDY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.14165226352735,56.1595983102409
@@ -286,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP - GLENROTHES</name>
-         <description>INVERKEITHING GROUP - GLENROTHES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.39468834148053,56.0320609246806
@@ -295,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE - CARLISLE</name>
-         <description>NEWCASTLE - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.61572906780496,54.9653249022215
@@ -304,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP - EDINBURGH GROUP</name>
-         <description>FALKIRK GROUP - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.7907706980682,55.9891919882658
@@ -313,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - CARLISLE</name>
-         <description>CARSTAIRS - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -322,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY - LADYBANK</name>
-         <description>KIRKCALDY - LADYBANK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.16591335708558,56.1099364212259
@@ -331,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>BERWICK ON TWEED - EDINBURGH GROUP</name>
-         <description>BERWICK ON TWEED - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.00956507175765,55.7721143202125
@@ -340,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY - INVERKEITHING GROUP</name>
-         <description>KIRKCALDY - INVERKEITHING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.16591335708558,56.1099364212259
@@ -349,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>AVIEMORE - PERTH</name>
-         <description>AVIEMORE - PERTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.82682091769454,57.1869447311107
@@ -358,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - CARSTAIRS</name>
-         <description>EDINBURGH GROUP - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -367,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE - HARTLEPOOL</name>
-         <description>NEWCASTLE - HARTLEPOOL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.61572906780496,54.9653249022215
@@ -376,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - CARSTAIRS</name>
-         <description>CARLISLE - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -385,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK - KIRKCALDY</name>
-         <description>LADYBANK - KIRKCALDY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.12075070040537,56.2712433727159
@@ -394,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>PERTH - LADYBANK</name>
-         <description>PERTH - LADYBANK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.43853486400658,56.3902039890477
@@ -403,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP - EDINBURGH GROUP</name>
-         <description>INVERKEITHING GROUP - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.39468834148053,56.0320609246806
@@ -412,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>PERTH - AVIEMORE</name>
-         <description>PERTH - AVIEMORE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.43853486400658,56.3902039890477
@@ -421,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>INVERNESS - DINGWALL</name>
-         <description>INVERNESS - DINGWALL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22168553197048,57.4781575680485
@@ -430,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>INVERNESS - AVIEMORE</name>
-         <description>INVERNESS - AVIEMORE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22168553197048,57.4781575680485
@@ -439,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>HARTLEPOOL - MIDDLESBROUGH GROUP</name>
-         <description>HARTLEPOOL - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.20575407723747,54.6838167251177
@@ -448,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - INVERKEITHING GROUP</name>
-         <description>EDINBURGH GROUP - INVERKEITHING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -457,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - DURHAM</name>
-         <description>DARLINGTON - DURHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -466,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>BERWICK ON TWEED - NEWCASTLE</name>
-         <description>BERWICK ON TWEED - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.00956507175765,55.7721143202125
@@ -475,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - BERWICK ON TWEED</name>
-         <description>EDINBURGH GROUP - BERWICK ON TWEED</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -484,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE - DURHAM</name>
-         <description>NEWCASTLE - DURHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.61572906780496,54.9653249022215
@@ -493,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY - GLENROTHES</name>
-         <description>KIRKCALDY - GLENROTHES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.16591335708558,56.1099364212259
@@ -502,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>AVIEMORE - INVERNESS</name>
-         <description>AVIEMORE - INVERNESS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.82682091769454,57.1869447311107
@@ -511,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP - KIRKCALDY</name>
-         <description>INVERKEITHING GROUP - KIRKCALDY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.39468834148053,56.0320609246806
@@ -520,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>DURHAM - NEWCASTLE</name>
-         <description>DURHAM - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58020598133438,54.7764673142649
@@ -529,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - FALKIRK GROUP</name>
-         <description>EDINBURGH GROUP - FALKIRK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -538,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE - BERWICK ON TWEED</name>
-         <description>NEWCASTLE - BERWICK ON TWEED</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.61572906780496,54.9653249022215
@@ -547,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - EDINBURGH GROUP</name>
-         <description>CARSTAIRS - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -556,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES - LADYBANK</name>
-         <description>GLENROTHES - LADYBANK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.14165226352735,56.1595983102409
@@ -565,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES - INVERKEITHING GROUP</name>
-         <description>GLENROTHES - INVERKEITHING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.14165226352735,56.1595983102409

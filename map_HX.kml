@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -148,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - DARLINGTON</name>
-         <description>MIDDLESBROUGH GROUP - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -157,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>HARTLEPOOL - NEWCASTLE</name>
-         <description>HARTLEPOOL - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.20575407723747,54.6838167251177
@@ -166,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - NORTHALLERTON</name>
-         <description>YORK - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -175,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - NEWCASTLE</name>
-         <description>CARLISLE - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -184,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>DURHAM - DARLINGTON</name>
-         <description>DURHAM - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58020598133438,54.7764673142649
@@ -193,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - HARTLEPOOL</name>
-         <description>MIDDLESBROUGH GROUP - HARTLEPOOL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -202,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - YORK</name>
-         <description>NORTHALLERTON - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -211,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - MIDDLESBROUGH GROUP</name>
-         <description>DARLINGTON - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -220,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - MOTHERWELL GROUP</name>
-         <description>CARSTAIRS - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -229,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - CARSTAIRS</name>
-         <description>MOTHERWELL GROUP - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -238,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SCARBOROUGH GROUP</name>
-         <description>YORK - SCARBOROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -247,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE - CARLISLE</name>
-         <description>NEWCASTLE - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.61572906780496,54.9653249022215
@@ -256,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - CARLISLE</name>
-         <description>CARSTAIRS - CARLISLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -265,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - DARLINGTON</name>
-         <description>NORTHALLERTON - DARLINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -274,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>CARLISLE - CARSTAIRS</name>
-         <description>CARLISLE - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.93233811859765,54.8877581794713
@@ -283,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE - HARTLEPOOL</name>
-         <description>NEWCASTLE - HARTLEPOOL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.61572906780496,54.9653249022215
@@ -292,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP - YORK</name>
-         <description>SCARBOROUGH GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.404114952496297,54.2768123775554
@@ -301,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>HARTLEPOOL - MIDDLESBROUGH GROUP</name>
-         <description>HARTLEPOOL - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.20575407723747,54.6838167251177
@@ -310,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - DURHAM</name>
-         <description>DARLINGTON - DURHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -319,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK - MOTHERWELL GROUP</name>
-         <description>NEWTON LANARK - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.13242975572459,55.8165428999123
@@ -328,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>MIDDLESBROUGH GROUP - NORTHALLERTON</name>
-         <description>MIDDLESBROUGH GROUP - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2310576583881,54.5761261486276
@@ -337,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>NORTHALLERTON - MIDDLESBROUGH GROUP</name>
-         <description>NORTHALLERTON - MIDDLESBROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.44020006264227,54.3301128769982
@@ -346,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>DARLINGTON - NORTHALLERTON</name>
-         <description>DARLINGTON - NORTHALLERTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54578731766567,54.5174993504893
@@ -355,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>NEWCASTLE - DURHAM</name>
-         <description>NEWCASTLE - DURHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.61572906780496,54.9653249022215
@@ -364,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>DURHAM - NEWCASTLE</name>
-         <description>DURHAM - NEWCASTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.58020598133438,54.7764673142649
@@ -373,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - NEWTON LANARK</name>
-         <description>MOTHERWELL GROUP - NEWTON LANARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234

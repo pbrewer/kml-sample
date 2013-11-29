@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -236,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP - SPRINGBURN</name>
-         <description>FALKIRK GROUP - SPRINGBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.7907706980682,55.9891919882658
@@ -245,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>DUNDEE - LADYBANK</name>
-         <description>DUNDEE - LADYBANK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.98647708050388,56.4503497727745
@@ -254,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK - GLENROTHES</name>
-         <description>LADYBANK - GLENROTHES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.12075070040537,56.2712433727159
@@ -263,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - BELLGROVE</name>
-         <description>EDINBURGH GROUP - BELLGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -272,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>STIRLING - FALKIRK GROUP</name>
-         <description>STIRLING - FALKIRK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.93342054431657,56.1164857646184
@@ -281,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>BELLGROVE - EDINBURGH GROUP</name>
-         <description>BELLGROVE - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22399420881111,55.8544770806507
@@ -290,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - CARSTAIRS</name>
-         <description>MOTHERWELL GROUP - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -299,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP - GLENROTHES</name>
-         <description>INVERKEITHING GROUP - GLENROTHES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.39468834148053,56.0320609246806
@@ -308,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES - KIRKCALDY</name>
-         <description>GLENROTHES - KIRKCALDY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.14165226352735,56.1595983102409
@@ -317,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - STIRLING</name>
-         <description>GLASGOW GROUP - STIRLING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -326,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>PAISLEY GIL ST - GLASGOW GROUP</name>
-         <description>PAISLEY GIL ST - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.42317845734824,55.8453202183079
@@ -335,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>SPRINGBURN - GLASGOW GROUP</name>
-         <description>SPRINGBURN - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22857550663581,55.8786674142388
@@ -344,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP - EDINBURGH GROUP</name>
-         <description>FALKIRK GROUP - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.7907706980682,55.9891919882658
@@ -353,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>KILMARNOCK - POLLOKSHAWS WEST</name>
-         <description>KILMARNOCK - POLLOKSHAWS WEST</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.49757948758596,55.6100734945976
@@ -362,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>MOUNT FLORIDA - GLASGOW GROUP</name>
-         <description>MOUNT FLORIDA - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.26058467436566,55.8241426007126
@@ -371,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY - INVERKEITHING GROUP</name>
-         <description>KIRKCALDY - INVERKEITHING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.16591335708558,56.1099364212259
@@ -380,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - FALKIRK GROUP</name>
-         <description>GLASGOW GROUP - FALKIRK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -389,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK - KIRKCALDY</name>
-         <description>LADYBANK - KIRKCALDY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.12075070040537,56.2712433727159
@@ -398,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>PERTH - LADYBANK</name>
-         <description>PERTH - LADYBANK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.43853486400658,56.3902039890477
@@ -407,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - MOUNT FLORIDA</name>
-         <description>GLASGOW GROUP - MOUNT FLORIDA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -416,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - EDINBURGH GROUP</name>
-         <description>MOTHERWELL GROUP - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -425,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - INVERKEITHING GROUP</name>
-         <description>EDINBURGH GROUP - INVERKEITHING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -434,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP - MOTHERWELL GROUP</name>
-         <description>FALKIRK GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.7907706980682,55.9891919882658
@@ -443,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP - GLASGOW GROUP</name>
-         <description>FALKIRK GROUP - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.7907706980682,55.9891919882658
@@ -452,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP - KIRKCALDY</name>
-         <description>INVERKEITHING GROUP - KIRKCALDY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.39468834148053,56.0320609246806
@@ -461,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - NEWTON LANARK</name>
-         <description>MOTHERWELL GROUP - NEWTON LANARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -470,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>SPRINGBURN - FALKIRK GROUP</name>
-         <description>SPRINGBURN - FALKIRK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22857550663581,55.8786674142388
@@ -479,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - EDINBURGH GROUP</name>
-         <description>CARSTAIRS - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -488,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES - INVERKEITHING GROUP</name>
-         <description>GLENROTHES - INVERKEITHING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.14165226352735,56.1595983102409
@@ -497,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - SPRINGBURN</name>
-         <description>GLASGOW GROUP - SPRINGBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -506,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - PARTICK</name>
-         <description>GLASGOW GROUP - PARTICK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -515,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK - GLASGOW GROUP</name>
-         <description>NEWTON LANARK - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.13242975572459,55.8165428999123
@@ -524,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK - PERTH</name>
-         <description>LADYBANK - PERTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.12075070040537,56.2712433727159
@@ -533,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - NEWTON LANARK</name>
-         <description>GLASGOW GROUP - NEWTON LANARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -542,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - MOTHERWELL GROUP</name>
-         <description>GLASGOW GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -551,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - MOTHERWELL GROUP</name>
-         <description>EDINBURGH GROUP - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -560,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - GLASGOW GROUP</name>
-         <description>MOTHERWELL GROUP - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -569,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>CARSTAIRS - MOTHERWELL GROUP</name>
-         <description>CARSTAIRS - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.66719660940652,55.6879970200404
@@ -578,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - BELLGROVE</name>
-         <description>GLASGOW GROUP - BELLGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -587,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>STIRLING - GLASGOW GROUP</name>
-         <description>STIRLING - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.93342054431657,56.1164857646184
@@ -596,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>BELLGROVE - GLASGOW GROUP</name>
-         <description>BELLGROVE - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22399420881111,55.8544770806507
@@ -605,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>DUNDEE - ABERDEEN</name>
-         <description>DUNDEE - ABERDEEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.98647708050388,56.4503497727745
@@ -614,7 +577,6 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY - LADYBANK</name>
-         <description>KIRKCALDY - LADYBANK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.16591335708558,56.1099364212259
@@ -623,7 +585,6 @@
       </Placemark>
       <Placemark>
          <name>LADYBANK - DUNDEE</name>
-         <description>LADYBANK - DUNDEE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.12075070040537,56.2712433727159
@@ -632,7 +593,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - POLLOKSHAWS WEST</name>
-         <description>GLASGOW GROUP - POLLOKSHAWS WEST</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -641,7 +601,6 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST - GLASGOW GROUP</name>
-         <description>POLLOKSHAWS WEST - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.30035427379742,55.8216069737407
@@ -650,7 +609,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - CARSTAIRS</name>
-         <description>EDINBURGH GROUP - CARSTAIRS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -659,7 +617,6 @@
       </Placemark>
       <Placemark>
          <name>GLASGOW GROUP - PAISLEY GIL ST</name>
-         <description>GLASGOW GROUP - PAISLEY GIL ST</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.25772518045981,55.8574586971832
@@ -668,7 +625,6 @@
       </Placemark>
       <Placemark>
          <name>FALKIRK GROUP - STIRLING</name>
-         <description>FALKIRK GROUP - STIRLING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.7907706980682,55.9891919882658
@@ -677,7 +633,6 @@
       </Placemark>
       <Placemark>
          <name>INVERKEITHING GROUP - EDINBURGH GROUP</name>
-         <description>INVERKEITHING GROUP - EDINBURGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.39468834148053,56.0320609246806
@@ -686,7 +641,6 @@
       </Placemark>
       <Placemark>
          <name>NEWTON LANARK - MOTHERWELL GROUP</name>
-         <description>NEWTON LANARK - MOTHERWELL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.13242975572459,55.8165428999123
@@ -695,7 +649,6 @@
       </Placemark>
       <Placemark>
          <name>ABERDEEN - DUNDEE</name>
-         <description>ABERDEEN - DUNDEE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.09584835709385,57.1408810902915
@@ -704,7 +657,6 @@
       </Placemark>
       <Placemark>
          <name>PARTICK - GLASGOW GROUP</name>
-         <description>PARTICK - GLASGOW GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.30944896259972,55.8672868799959
@@ -713,7 +665,6 @@
       </Placemark>
       <Placemark>
          <name>MOTHERWELL GROUP - FALKIRK GROUP</name>
-         <description>MOTHERWELL GROUP - FALKIRK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.99374336471782,55.7892042237234
@@ -722,7 +673,6 @@
       </Placemark>
       <Placemark>
          <name>KIRKCALDY - GLENROTHES</name>
-         <description>KIRKCALDY - GLENROTHES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.16591335708558,56.1099364212259
@@ -731,7 +681,6 @@
       </Placemark>
       <Placemark>
          <name>SPRINGBURN - BELLGROVE</name>
-         <description>SPRINGBURN - BELLGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22857550663581,55.8786674142388
@@ -740,7 +689,6 @@
       </Placemark>
       <Placemark>
          <name>BELLGROVE - SPRINGBURN</name>
-         <description>BELLGROVE - SPRINGBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.22399420881111,55.8544770806507
@@ -749,7 +697,6 @@
       </Placemark>
       <Placemark>
          <name>POLLOKSHAWS WEST - KILMARNOCK</name>
-         <description>POLLOKSHAWS WEST - KILMARNOCK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.30035427379742,55.8216069737407
@@ -758,7 +705,6 @@
       </Placemark>
       <Placemark>
          <name>EDINBURGH GROUP - FALKIRK GROUP</name>
-         <description>EDINBURGH GROUP - FALKIRK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.1867201601368,55.9497469450646
@@ -767,7 +713,6 @@
       </Placemark>
       <Placemark>
          <name>GLENROTHES - LADYBANK</name>
-         <description>GLENROTHES - LADYBANK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.14165226352735,56.1595983102409

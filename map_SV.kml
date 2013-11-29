@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -140,7 +145,6 @@
       </Placemark>
       <Placemark>
          <name>TONBRIDGE - SEVENOAKS</name>
-         <description>TONBRIDGE - SEVENOAKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.271241048728237,51.1888888580524
@@ -149,7 +153,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SWANLEY</name>
-         <description>BROMLEY SOUTH GROUP - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -158,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS - BROMLEY SOUTH GROUP</name>
-         <description>SEVENOAKS - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183714070842441,51.2750523303078
@@ -167,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>DARTFORD - HITHER GREEN</name>
-         <description>DARTFORD - HITHER GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.219169461743888,51.4451774699764
@@ -176,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - BROMLEY SOUTH GROUP</name>
-         <description>SWANLEY - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -185,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - GROVE PARK</name>
-         <description>BROMLEY SOUTH GROUP - GROVE PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -194,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - NEW CROSS</name>
-         <description>LONDON GROUP - NEW CROSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -203,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>SLADE GREEN - HITHER GREEN</name>
-         <description>SLADE GREEN - HITHER GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.191312481797045,51.464578656539
@@ -212,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>GROVE PARK - BROMLEY SOUTH GROUP</name>
-         <description>GROVE PARK - BROMLEY SOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0241072147460091,51.4280344664602
@@ -221,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS - HITHER GREEN</name>
-         <description>NEW CROSS - HITHER GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0314684684072144,51.4739249880263
@@ -230,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS - SWANLEY</name>
-         <description>SEVENOAKS - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183714070842441,51.2750523303078
@@ -239,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - SEVENOAKS</name>
-         <description>SWANLEY - SEVENOAKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -248,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>HITHER GREEN - SLADE GREEN</name>
-         <description>HITHER GREEN - SLADE GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>6.09091577011303E-4,51.450011083454
@@ -257,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>HITHER GREEN - GROVE PARK</name>
-         <description>HITHER GREEN - GROVE PARK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>6.09091577011303E-4,51.450011083454
@@ -266,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM - NEW CROSS</name>
-         <description>LEWISHAM - NEW CROSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0131893738009627,51.4637289621017
@@ -275,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>HITHER GREEN - LEWISHAM</name>
-         <description>HITHER GREEN - LEWISHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>6.09091577011303E-4,51.450011083454
@@ -284,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>GROVE PARK - HITHER GREEN</name>
-         <description>GROVE PARK - HITHER GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0241072147460091,51.4280344664602
@@ -293,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>DARTFORD - SLADE GREEN</name>
-         <description>DARTFORD - SLADE GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.219169461743888,51.4451774699764
@@ -302,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS - LEWISHAM</name>
-         <description>NEW CROSS - LEWISHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0314684684072144,51.4739249880263
@@ -311,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>SLADE GREEN - DARTFORD</name>
-         <description>SLADE GREEN - DARTFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.191312481797045,51.464578656539
@@ -320,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS - LONDON GROUP</name>
-         <description>NEW CROSS - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0314684684072144,51.4739249880263
@@ -329,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM - HITHER GREEN</name>
-         <description>LEWISHAM - HITHER GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0131893738009627,51.4637289621017
@@ -338,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>SEVENOAKS - TONBRIDGE</name>
-         <description>SEVENOAKS - TONBRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.183714070842441,51.2750523303078
@@ -347,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>HITHER GREEN - NEW CROSS</name>
-         <description>HITHER GREEN - NEW CROSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>6.09091577011303E-4,51.450011083454
@@ -356,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>BROMLEY SOUTH GROUP - SEVENOAKS</name>
-         <description>BROMLEY SOUTH GROUP - SEVENOAKS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0198851972353429,51.3975453727848
@@ -365,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>HITHER GREEN - DARTFORD</name>
-         <description>HITHER GREEN - DARTFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>6.09091577011303E-4,51.450011083454

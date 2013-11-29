@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -204,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - ACCRINGTON</name>
-         <description>BLACKBURN - ACCRINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -213,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - KIRKHAM &amp; WESHAM</name>
-         <description>PRESTON LANCS - KIRKHAM &amp; WESHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -222,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - HARROGATE</name>
-         <description>LEEDS GROUP - HARROGATE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -231,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - SELBY</name>
-         <description>LEEDS GROUP - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -240,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - BARNSLEY</name>
-         <description>WAKEFIELD GROUP - BARNSLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -249,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>HARROGATE - LEEDS GROUP</name>
-         <description>HARROGATE - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.5363046851771,53.9889901979466
@@ -258,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - LEEDS GROUP</name>
-         <description>YORK - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -267,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>ACCRINGTON - BLACKBURN</name>
-         <description>ACCRINGTON - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.36854603919095,53.7502494092412
@@ -276,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP - BRADFORD GROUP</name>
-         <description>HALIFAX GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.85299957012169,53.7174718790283
@@ -285,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - PONTEFRACT GROUP</name>
-         <description>WAKEFIELD GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -294,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - HALIFAX GROUP</name>
-         <description>BRADFORD GROUP - HALIFAX GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -303,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>KIRKHAM &amp; WESHAM - PRESTON LANCS</name>
-         <description>KIRKHAM &amp; WESHAM - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.88038065453008,53.7844331327434
@@ -312,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>BRADFORD GROUP - LEEDS GROUP</name>
-         <description>BRADFORD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.74801394804718,53.7874001473732
@@ -321,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - HUDDERSFIELD GROUP</name>
-         <description>LEEDS GROUP - HUDDERSFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -330,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>HUDDERSFIELD GROUP - LEEDS GROUP</name>
-         <description>HUDDERSFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.78365726682475,53.6454662384722
@@ -339,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - SCARBOROUGH GROUP</name>
-         <description>YORK - SCARBOROUGH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078
@@ -348,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>HEBDEN BRIDGE - BURNLEY MANCR RD</name>
-         <description>HEBDEN BRIDGE - BURNLEY MANCR RD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.00758042613385,53.7346381410441
@@ -357,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>HALIFAX GROUP - HEBDEN BRIDGE</name>
-         <description>HALIFAX GROUP - HEBDEN BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.85299957012169,53.7174718790283
@@ -366,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - LEEDS GROUP</name>
-         <description>SELBY - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -375,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>BURNLEY MANCR RD - ACCRINGTON</name>
-         <description>BURNLEY MANCR RD - ACCRINGTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.24740041011128,53.7820171534155
@@ -384,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - WAKEFIELD GROUP</name>
-         <description>PONTEFRACT GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -393,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - BRADFORD GROUP</name>
-         <description>LEEDS GROUP - BRADFORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -402,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>PRESTON LANCS - BLACKBURN</name>
-         <description>PRESTON LANCS - BLACKBURN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.7067978635424,53.7523272523068
@@ -411,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - WAKEFIELD GROUP</name>
-         <description>LEEDS GROUP - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -420,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>HARROGATE - YORK</name>
-         <description>HARROGATE - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.5363046851771,53.9889901979466
@@ -429,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>HEBDEN BRIDGE - HALIFAX GROUP</name>
-         <description>HEBDEN BRIDGE - HALIFAX GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.00758042613385,53.7346381410441
@@ -438,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>SCARBOROUGH GROUP - YORK</name>
-         <description>SCARBOROUGH GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.404114952496297,54.2768123775554
@@ -447,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>WAKEFIELD GROUP - LEEDS GROUP</name>
-         <description>WAKEFIELD GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.48675885897802,53.6760184399997
@@ -456,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>ACCRINGTON - BURNLEY MANCR RD</name>
-         <description>ACCRINGTON - BURNLEY MANCR RD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.36854603919095,53.7502494092412
@@ -465,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>BURNLEY MANCR RD - HEBDEN BRIDGE</name>
-         <description>BURNLEY MANCR RD - HEBDEN BRIDGE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.24740041011128,53.7820171534155
@@ -474,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>PONTEFRACT GROUP - LEEDS GROUP</name>
-         <description>PONTEFRACT GROUP - LEEDS GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.30184277248278,53.6885648869916
@@ -483,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - YORK</name>
-         <description>LEEDS GROUP - YORK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -492,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>BARNSLEY - WAKEFIELD GROUP</name>
-         <description>BARNSLEY - WAKEFIELD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.47619600186737,53.5510442770956
@@ -501,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>LEEDS GROUP - PONTEFRACT GROUP</name>
-         <description>LEEDS GROUP - PONTEFRACT GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.54758683544322,53.7922040754631
@@ -510,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKBURN - PRESTON LANCS</name>
-         <description>BLACKBURN - PRESTON LANCS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.47766980365798,53.7435728816802
@@ -519,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>SELBY - HULL</name>
-         <description>SELBY - HULL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.06202765621019,53.7804012865994
@@ -528,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>HULL - SELBY</name>
-         <description>HULL - SELBY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.34565994560554,53.740296854028
@@ -537,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>YORK - HARROGATE</name>
-         <description>YORK - HARROGATE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.09164414482499,53.9549944344078

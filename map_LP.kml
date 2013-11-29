@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -156,7 +161,6 @@
       </Placemark>
       <Placemark>
          <name>CROYDON GROUP - REDHILL GROUP</name>
-         <description>CROYDON GROUP - REDHILL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0918292948916154,51.3733510137007
@@ -165,7 +169,6 @@
       </Placemark>
       <Placemark>
          <name>FORD GROUP - HORSHAM</name>
-         <description>FORD GROUP - HORSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.577134842260158,50.8274799070745
@@ -174,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>SOUTHAMPTON GROUP - PORTSMOUTH GROUP</name>
-         <description>SOUTHAMPTON GROUP - PORTSMOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.41255771562521,50.9056791131306
@@ -183,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM - FORD GROUP</name>
-         <description>HORSHAM - FORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.317257080155847,51.0640099999086
@@ -192,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>BARNHAM - FORD GROUP</name>
-         <description>BARNHAM - FORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.638150941438077,50.8291068980316
@@ -201,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - STREATHAM GROUP</name>
-         <description>CLAPHAM JUNCTION - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -210,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP - GATWICK AIRPORT</name>
-         <description>REDHILL GROUP - GATWICK AIRPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594
@@ -219,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>PORTSMOUTH GROUP - SOUTHAMPTON GROUP</name>
-         <description>PORTSMOUTH GROUP - SOUTHAMPTON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08897246877542,50.7957491893797
@@ -228,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>HAVANT - PORTSMOUTH GROUP</name>
-         <description>HAVANT - PORTSMOUTH GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.981310197425111,50.8523808477861
@@ -237,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES - GATWICK AIRPORT</name>
-         <description>THREE BRIDGES - GATWICK AIRPORT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
@@ -246,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT - THREE BRIDGES</name>
-         <description>GATWICK AIRPORT - THREE BRIDGES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.15952165755819,51.1542142067235
@@ -255,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>REDHILL GROUP - CROYDON GROUP</name>
-         <description>REDHILL GROUP - CROYDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.163348351898478,51.2378679252594
@@ -264,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>CROYDON GROUP - STREATHAM GROUP</name>
-         <description>CROYDON GROUP - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0918292948916154,51.3733510137007
@@ -273,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>GATWICK AIRPORT - REDHILL GROUP</name>
-         <description>GATWICK AIRPORT - REDHILL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.15952165755819,51.1542142067235
@@ -282,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - CLAPHAM JUNCTION</name>
-         <description>STREATHAM GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -291,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>HAVANT - BARNHAM</name>
-         <description>HAVANT - BARNHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.981310197425111,50.8523808477861
@@ -300,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - LONDON GROUP</name>
-         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -309,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM - THREE BRIDGES</name>
-         <description>HORSHAM - THREE BRIDGES</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.317257080155847,51.0640099999086
@@ -318,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - CLAPHAM JUNCTION</name>
-         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -327,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>PORTSMOUTH GROUP - HAVANT</name>
-         <description>PORTSMOUTH GROUP - HAVANT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.08897246877542,50.7957491893797
@@ -336,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>BARNHAM - HAVANT</name>
-         <description>BARNHAM - HAVANT</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.638150941438077,50.8291068980316
@@ -345,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>THREE BRIDGES - HORSHAM</name>
-         <description>THREE BRIDGES - HORSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.159664743659514,51.1146668456172
@@ -354,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - CROYDON GROUP</name>
-         <description>STREATHAM GROUP - CROYDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -363,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>FORD GROUP - BARNHAM</name>
-         <description>FORD GROUP - BARNHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.577134842260158,50.8274799070745

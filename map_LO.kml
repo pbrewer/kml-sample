@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -84,7 +89,6 @@
       </Placemark>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE - LONDON GROUP</name>
-         <description>ELEPHANT &amp; CSTLE - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
@@ -93,7 +97,6 @@
       </Placemark>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE - HERNE HILL</name>
-         <description>ELEPHANT &amp; CSTLE - HERNE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
@@ -102,7 +105,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - WEST HAMPSTD TLK</name>
-         <description>LONDON GROUP - WEST HAMPSTD TLK</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -111,7 +113,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - ELEPHANT &amp; CSTLE</name>
-         <description>LONDON GROUP - ELEPHANT &amp; CSTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -120,7 +121,6 @@
       </Placemark>
       <Placemark>
          <name>WEST HAMPSTD TLK - LONDON GROUP</name>
-         <description>WEST HAMPSTD TLK - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.191364107030493,51.5457128284244
@@ -129,7 +129,6 @@
       </Placemark>
       <Placemark>
          <name>HERNE HILL - ELEPHANT &amp; CSTLE</name>
-         <description>HERNE HILL - ELEPHANT &amp; CSTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.100117179014863,51.4507882179277

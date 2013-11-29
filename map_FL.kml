@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -204,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE - LONDON GROUP</name>
-         <description>ELEPHANT &amp; CSTLE - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
@@ -213,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>CHARLTON - LONDON GROUP</name>
-         <description>CHARLTON - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0323701197233562,51.4845210863542
@@ -222,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM - NUNHEAD</name>
-         <description>LEWISHAM - NUNHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0131893738009627,51.4637289621017
@@ -231,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM - BLACKHEATH</name>
-         <description>LEWISHAM - BLACKHEATH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0131893738009627,51.4637289621017
@@ -240,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - CHATHAM GROUP</name>
-         <description>FAVERSHAM - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -249,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKHEATH - CHARLTON</name>
-         <description>BLACKHEATH - CHARLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.00983096142899503,51.463336513641
@@ -258,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>DENMARK HILL - PECKHAM RYE</name>
-         <description>DENMARK HILL - PECKHAM RYE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0879714524318652,51.4658714779636
@@ -267,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - DENMARK HILL</name>
-         <description>LONDON GROUP - DENMARK HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -276,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>NUNHEAD - PECKHAM RYE</name>
-         <description>NUNHEAD - PECKHAM RYE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0520373598903545,51.4643809758347
@@ -285,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKHEATH - SLADE GREEN</name>
-         <description>BLACKHEATH - SLADE GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.00983096142899503,51.463336513641
@@ -294,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>CHARLTON - BLACKHEATH</name>
-         <description>CHARLTON - BLACKHEATH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0323701197233562,51.4845210863542
@@ -303,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>KEARSNEY (KENT) - SELLING</name>
-         <description>KEARSNEY (KENT) - SELLING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.27315041375844,51.1471487671387
@@ -312,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - SWANLEY</name>
-         <description>CHATHAM GROUP - SWANLEY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241
@@ -321,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>DARTFORD - GRAVESEND</name>
-         <description>DARTFORD - GRAVESEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.219169461743888,51.4451774699764
@@ -330,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>SELLING - FAVERSHAM</name>
-         <description>SELLING - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.942362575597316,51.2755146258354
@@ -339,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>GRAVESEND - DARTFORD</name>
-         <description>GRAVESEND - DARTFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.368522021932612,51.4386582154852
@@ -348,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>DENMARK HILL - ELEPHANT &amp; CSTLE</name>
-         <description>DENMARK HILL - ELEPHANT &amp; CSTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0879714524318652,51.4658714779636
@@ -357,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>CHARLTON - SLADE GREEN</name>
-         <description>CHARLTON - SLADE GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.0323701197233562,51.4845210863542
@@ -366,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>DOVER PRIORY - KEARSNEY (KENT)</name>
-         <description>DOVER PRIORY - KEARSNEY (KENT)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.30580430019011,51.1237524751162
@@ -375,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE - DENMARK HILL</name>
-         <description>ELEPHANT &amp; CSTLE - DENMARK HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
@@ -384,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS - LEWISHAM</name>
-         <description>NEW CROSS - LEWISHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0314684684072144,51.4739249880263
@@ -393,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKHEATH - DARTFORD</name>
-         <description>BLACKHEATH - DARTFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.00983096142899503,51.463336513641
@@ -402,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>SWANLEY - CHATHAM GROUP</name>
-         <description>SWANLEY - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.169076202588924,51.3903835321094
@@ -411,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>SLADE GREEN - DARTFORD</name>
-         <description>SLADE GREEN - DARTFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.191312481797045,51.464578656539
@@ -420,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - GRAVESEND</name>
-         <description>CHATHAM GROUP - GRAVESEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241
@@ -429,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>NUNHEAD - LEWISHAM</name>
-         <description>NUNHEAD - LEWISHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0520373598903545,51.4643809758347
@@ -438,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - CHARLTON</name>
-         <description>LONDON GROUP - CHARLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -447,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>RAMSGATE GROUP - FAVERSHAM</name>
-         <description>RAMSGATE GROUP - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.40741462464778,51.3384161699967
@@ -456,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>BLACKHEATH - LEWISHAM</name>
-         <description>BLACKHEATH - LEWISHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.00983096142899503,51.463336513641
@@ -465,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>DENMARK HILL - LONDON GROUP</name>
-         <description>DENMARK HILL - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0879714524318652,51.4658714779636
@@ -474,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>DARTFORD - BLACKHEATH</name>
-         <description>DARTFORD - BLACKHEATH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.219169461743888,51.4451774699764
@@ -483,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE - NUNHEAD</name>
-         <description>PECKHAM RYE - NUNHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0662739503044305,51.4682121762183
@@ -492,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>SELLING - KEARSNEY (KENT)</name>
-         <description>SELLING - KEARSNEY (KENT)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.942362575597316,51.2755146258354
@@ -501,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - NEW CROSS</name>
-         <description>LONDON GROUP - NEW CROSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -510,7 +481,6 @@
       </Placemark>
       <Placemark>
          <name>KEARSNEY (KENT) - DOVER PRIORY</name>
-         <description>KEARSNEY (KENT) - DOVER PRIORY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>1.27315041375844,51.1471487671387
@@ -519,7 +489,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - SELLING</name>
-         <description>FAVERSHAM - SELLING</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -528,7 +497,6 @@
       </Placemark>
       <Placemark>
          <name>SLADE GREEN - BLACKHEATH</name>
-         <description>SLADE GREEN - BLACKHEATH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.191312481797045,51.464578656539
@@ -537,7 +505,6 @@
       </Placemark>
       <Placemark>
          <name>LEWISHAM - NEW CROSS</name>
-         <description>LEWISHAM - NEW CROSS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0131893738009627,51.4637289621017
@@ -546,7 +513,6 @@
       </Placemark>
       <Placemark>
          <name>PECKHAM RYE - DENMARK HILL</name>
-         <description>PECKHAM RYE - DENMARK HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0662739503044305,51.4682121762183
@@ -555,7 +521,6 @@
       </Placemark>
       <Placemark>
          <name>DARTFORD - SLADE GREEN</name>
-         <description>DARTFORD - SLADE GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.219169461743888,51.4451774699764
@@ -564,7 +529,6 @@
       </Placemark>
       <Placemark>
          <name>SLADE GREEN - CHARLTON</name>
-         <description>SLADE GREEN - CHARLTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.191312481797045,51.464578656539
@@ -573,7 +537,6 @@
       </Placemark>
       <Placemark>
          <name>NEW CROSS - LONDON GROUP</name>
-         <description>NEW CROSS - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.0314684684072144,51.4739249880263
@@ -582,7 +545,6 @@
       </Placemark>
       <Placemark>
          <name>FAVERSHAM - RAMSGATE GROUP</name>
-         <description>FAVERSHAM - RAMSGATE GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.892844957991794,51.3091138912366
@@ -591,7 +553,6 @@
       </Placemark>
       <Placemark>
          <name>GRAVESEND - CHATHAM GROUP</name>
-         <description>GRAVESEND - CHATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.368522021932612,51.4386582154852
@@ -600,7 +561,6 @@
       </Placemark>
       <Placemark>
          <name>CHATHAM GROUP - FAVERSHAM</name>
-         <description>CHATHAM GROUP - FAVERSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>0.522093821820727,51.3788192504241
@@ -609,7 +569,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - ELEPHANT &amp; CSTLE</name>
-         <description>LONDON GROUP - ELEPHANT &amp; CSTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492

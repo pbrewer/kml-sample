@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -172,7 +177,6 @@
       </Placemark>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE - LONDON GROUP</name>
-         <description>ELEPHANT &amp; CSTLE - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
@@ -181,7 +185,6 @@
       </Placemark>
       <Placemark>
          <name>FORD GROUP - HORSHAM</name>
-         <description>FORD GROUP - HORSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.577134842260158,50.8274799070745
@@ -190,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>SUTTON LONDON - MITCHAM JUNCTION</name>
-         <description>SUTTON LONDON - MITCHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.188720543001437,51.3578110208355
@@ -199,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>EPSOM - LEATHERHEAD</name>
-         <description>EPSOM - LEATHERHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.26726318438557,51.3320338775324
@@ -208,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>SUTTON LONDON - EPSOM</name>
-         <description>SUTTON LONDON - EPSOM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.188720543001437,51.3578110208355
@@ -217,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>MITCHAM JUNCTION - STREATHAM GROUP</name>
-         <description>MITCHAM JUNCTION - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.155802159436525,51.3905551171452
@@ -226,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - TULSE HILL</name>
-         <description>STREATHAM GROUP - TULSE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -235,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM - FORD GROUP</name>
-         <description>HORSHAM - FORD GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.317257080155847,51.0640099999086
@@ -244,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>MITCHAM JUNCTION - CLAPHAM JUNCTION</name>
-         <description>MITCHAM JUNCTION - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.155802159436525,51.3905551171452
@@ -253,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>EPSOM - SUTTON LONDON</name>
-         <description>EPSOM - SUTTON LONDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.26726318438557,51.3320338775324
@@ -262,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - STREATHAM GROUP</name>
-         <description>CLAPHAM JUNCTION - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -271,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>GUILDFORD - EFFINGHAM JN</name>
-         <description>GUILDFORD - EFFINGHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.578935314413253,51.2346642743648
@@ -280,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>DORKING GROUP - HORSHAM</name>
-         <description>DORKING GROUP - HORSHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.32232810917038,51.2393563350226
@@ -289,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>HERNE HILL - TULSE HILL</name>
-         <description>HERNE HILL - TULSE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.100117179014863,51.4507882179277
@@ -298,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>LEATHERHEAD - EPSOM</name>
-         <description>LEATHERHEAD - EPSOM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.331735826951668,51.296117664066
@@ -307,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>TULSE HILL - STREATHAM GROUP</name>
-         <description>TULSE HILL - STREATHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.103552472423464,51.4373608568023
@@ -316,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - MITCHAM JUNCTION</name>
-         <description>STREATHAM GROUP - MITCHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -325,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>EFFINGHAM JN - GUILDFORD</name>
-         <description>EFFINGHAM JN - GUILDFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.418044544892225,51.2892262107591
@@ -334,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>TULSE HILL - HERNE HILL</name>
-         <description>TULSE HILL - HERNE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.103552472423464,51.4373608568023
@@ -343,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>ELEPHANT &amp; CSTLE - HERNE HILL</name>
-         <description>ELEPHANT &amp; CSTLE - HERNE HILL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.096959749551758,51.4920849012898
@@ -352,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - MITCHAM JUNCTION</name>
-         <description>CLAPHAM JUNCTION - MITCHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -361,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>DORKING GROUP - LEATHERHEAD</name>
-         <description>DORKING GROUP - LEATHERHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.32232810917038,51.2393563350226
@@ -370,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>STREATHAM GROUP - CLAPHAM JUNCTION</name>
-         <description>STREATHAM GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.130024439539019,51.4234044157532
@@ -379,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>CLAPHAM JUNCTION - LONDON GROUP</name>
-         <description>CLAPHAM JUNCTION - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.168769712349235,51.4617683410367
@@ -388,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - CLAPHAM JUNCTION</name>
-         <description>LONDON GROUP - CLAPHAM JUNCTION</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -397,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>LEATHERHEAD - EFFINGHAM JN</name>
-         <description>LEATHERHEAD - EFFINGHAM JN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.331735826951668,51.296117664066
@@ -406,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>EFFINGHAM JN - LEATHERHEAD</name>
-         <description>EFFINGHAM JN - LEATHERHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.418044544892225,51.2892262107591
@@ -415,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>MITCHAM JUNCTION - SUTTON LONDON</name>
-         <description>MITCHAM JUNCTION - SUTTON LONDON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.155802159436525,51.3905551171452
@@ -424,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>LEATHERHEAD - DORKING GROUP</name>
-         <description>LEATHERHEAD - DORKING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.331735826951668,51.296117664066
@@ -433,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - ELEPHANT &amp; CSTLE</name>
-         <description>LONDON GROUP - ELEPHANT &amp; CSTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -442,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>HORSHAM - DORKING GROUP</name>
-         <description>HORSHAM - DORKING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.317257080155847,51.0640099999086
@@ -451,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>HERNE HILL - ELEPHANT &amp; CSTLE</name>
-         <description>HERNE HILL - ELEPHANT &amp; CSTLE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.100117179014863,51.4507882179277

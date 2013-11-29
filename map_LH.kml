@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -196,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>OXFORD - DIDCOT PARKWAY</name>
-         <description>OXFORD - DIDCOT PARKWAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2698223826342,51.7506169249712
@@ -205,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BROMSGROVE</name>
-         <description>BARNT GREEN - BROMSGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -214,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - DIDCOT PARKWAY</name>
-         <description>READING GROUP - DIDCOT PARKWAY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -223,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</name>
-         <description>HAYES &amp; HARLNGTN GP - EALING BROADWAY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.417945334425063,51.5004503083908
@@ -232,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>EVESHAM - WORCESTER GROUP</name>
-         <description>EVESHAM - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94598280675679,52.0961966655734
@@ -241,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>SLOUGH - MAIDENHEAD</name>
-         <description>SLOUGH - MAIDENHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.590565992879139,51.5098424704067
@@ -250,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>TWYFORD - READING GROUP</name>
-         <description>TWYFORD - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.862420368717771,51.4732471781296
@@ -259,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>CHELTENHAM SPA - WORCESTER GROUP</name>
-         <description>CHELTENHAM SPA - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.09882854165799,51.8939477964377
@@ -268,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD - WORCESTER GROUP</name>
-         <description>HEREFORD - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.70746562548318,52.0581355218282
@@ -277,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>GLOUCESTER - CHELTENHAM SPA</name>
-         <description>GLOUCESTER - CHELTENHAM SPA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.23673166427208,51.8622947301681
@@ -286,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD - CRAVEN ARMS</name>
-         <description>HEREFORD - CRAVEN ARMS</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.70746562548318,52.0581355218282
@@ -295,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>READING GROUP - TWYFORD</name>
-         <description>READING GROUP - TWYFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.972242308326233,51.4562854116841
@@ -304,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>EALING BROADWAY GROUP - LONDON GROUP</name>
-         <description>EALING BROADWAY GROUP - LONDON GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299347829081659,51.5122730230576
@@ -313,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>DIDCOT PARKWAY - OXFORD</name>
-         <description>DIDCOT PARKWAY - OXFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24177639605164,51.6084332295774
@@ -322,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>CRAVEN ARMS - HEREFORD</name>
-         <description>CRAVEN ARMS - HEREFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.83567015766998,52.4392771446456
@@ -331,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - CHELTENHAM SPA</name>
-         <description>WORCESTER GROUP - CHELTENHAM SPA</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -340,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>DIDCOT PARKWAY - READING GROUP</name>
-         <description>DIDCOT PARKWAY - READING GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.24177639605164,51.6084332295774
@@ -349,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>BANBURY GROUP - OXFORD</name>
-         <description>BANBURY GROUP - OXFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.32608171738474,52.0583321271333
@@ -358,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>MAIDENHEAD - SLOUGH</name>
-         <description>MAIDENHEAD - SLOUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.721546959650751,51.515837329819
@@ -367,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - HEREFORD</name>
-         <description>WORCESTER GROUP - HEREFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -376,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>OXFORD - BANBURY GROUP</name>
-         <description>OXFORD - BANBURY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2698223826342,51.7506169249712
@@ -385,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</name>
-         <description>EALING BROADWAY GROUP - HAYES &amp; HARLNGTN GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.299347829081659,51.5122730230576
@@ -394,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE - WORCESTER GROUP</name>
-         <description>BROMSGROVE - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.04695288598449,52.3199895646342
@@ -403,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>LONDON GROUP - EALING BROADWAY GROUP</name>
-         <description>LONDON GROUP - EALING BROADWAY GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.133035511350118,51.5259228426492
@@ -412,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE - BARNT GREEN</name>
-         <description>BROMSGROVE - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.04695288598449,52.3199895646342
@@ -421,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>HAYES &amp; HARLNGTN GP - SLOUGH</name>
-         <description>HAYES &amp; HARLNGTN GP - SLOUGH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.417945334425063,51.5004503083908
@@ -430,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - BROMSGROVE</name>
-         <description>WORCESTER GROUP - BROMSGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -439,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>CHELTENHAM SPA - GLOUCESTER</name>
-         <description>CHELTENHAM SPA - GLOUCESTER</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.09882854165799,51.8939477964377
@@ -448,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - EVESHAM</name>
-         <description>WORCESTER GROUP - EVESHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -457,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>TWYFORD - MAIDENHEAD</name>
-         <description>TWYFORD - MAIDENHEAD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.862420368717771,51.4732471781296
@@ -466,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>SLOUGH - HAYES &amp; HARLNGTN GP</name>
-         <description>SLOUGH - HAYES &amp; HARLNGTN GP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.590565992879139,51.5098424704067
@@ -475,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>OXFORD - EVESHAM</name>
-         <description>OXFORD - EVESHAM</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.2698223826342,51.7506169249712
@@ -484,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>MAIDENHEAD - TWYFORD</name>
-         <description>MAIDENHEAD - TWYFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-0.721546959650751,51.515837329819
@@ -493,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>EVESHAM - OXFORD</name>
-         <description>EVESHAM - OXFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.94598280675679,52.0961966655734

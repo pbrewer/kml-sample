@@ -26,6 +26,11 @@
             <textColor>fffffff</textColor>
             <text> $[name] &lt;HR&gt; $[description] &lt;BR&gt;</text>
          </BalloonStyle>
+         <LabelStyle>
+            <scale>1</scale>
+            <color>ffffffff</color>
+            <colorMode>normal</colorMode>
+         </LabelStyle>
       </Style>
       <Style id="routingGroupLocationStyle">
          <IconStyle>
@@ -47,7 +52,7 @@
          <BalloonStyle>
             <bgColor>00664422</bgColor>
             <textColor>ffe11901</textColor>
-            <text> $[name] &lt;BR&gt; $[description] &lt;BR&gt;</text>
+            <text> $[name] &lt;BR&gt;</text>
          </BalloonStyle>
       </Style>
       <Placemark>
@@ -188,7 +193,6 @@
       </Placemark>
       <Placemark>
          <name>WHITLAND - SWANSEA GROUP</name>
-         <description>WHITLAND - SWANSEA GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-4.61316923131634,51.8155206244219
@@ -197,7 +201,6 @@
       </Placemark>
       <Placemark>
          <name>WALSALL GROUP - BIRMINGHAM GROUP</name>
-         <description>WALSALL GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.98376405346226,52.5815353235725
@@ -206,7 +209,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BROMSGROVE</name>
-         <description>BARNT GREEN - BROMSGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -215,7 +217,6 @@
       </Placemark>
       <Placemark>
          <name>BRIDGEND - SWANSEA GROUP</name>
-         <description>BRIDGEND - SWANSEA GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.57497724700083,51.5041409019868
@@ -224,7 +225,6 @@
       </Placemark>
       <Placemark>
          <name>SWANSEA GROUP - WHITLAND</name>
-         <description>SWANSEA GROUP - WHITLAND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.94028860334008,51.6227099416963
@@ -233,7 +233,6 @@
       </Placemark>
       <Placemark>
          <name>WOLVERHAMPTON - SMETHWICK GROUP</name>
-         <description>WOLVERHAMPTON - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.11808913837316,52.5850725822153
@@ -242,7 +241,6 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL - NEWPORT (S.WALES)</name>
-         <description>CARDIFF CENTRAL - NEWPORT (S.WALES)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.17645026760644,51.4728636340219
@@ -251,7 +249,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - WALSALL GROUP</name>
-         <description>BIRMINGHAM GROUP - WALSALL GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -260,7 +257,6 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD - WORCESTER GROUP</name>
-         <description>HEREFORD - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.70746562548318,52.0581355218282
@@ -269,7 +265,6 @@
       </Placemark>
       <Placemark>
          <name>BRIDGEND - BARRY</name>
-         <description>BRIDGEND - BARRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.57497724700083,51.5041409019868
@@ -278,7 +273,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - WOLVERHAMPTON</name>
-         <description>SMETHWICK GROUP - WOLVERHAMPTON</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -287,7 +281,6 @@
       </Placemark>
       <Placemark>
          <name>LICHFIELD T V - BIRMINGHAM GROUP</name>
-         <description>LICHFIELD T V - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.79879175484465,52.6847224457417
@@ -296,7 +289,6 @@
       </Placemark>
       <Placemark>
          <name>BARRY - BRIDGEND</name>
-         <description>BARRY - BRIDGEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.28369127248002,51.3944413471767
@@ -305,7 +297,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - HEREFORD</name>
-         <description>WORCESTER GROUP - HEREFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -314,7 +305,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - BARNT GREEN</name>
-         <description>BIRMINGHAM GROUP - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -323,7 +313,6 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL - BARRY</name>
-         <description>CARDIFF CENTRAL - BARRY</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.17645026760644,51.4728636340219
@@ -332,7 +321,6 @@
       </Placemark>
       <Placemark>
          <name>NEWPORT (S.WALES) - CARDIFF CENTRAL</name>
-         <description>NEWPORT (S.WALES) - CARDIFF CENTRAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.99751869673671,51.5877692937142
@@ -341,7 +329,6 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE - WORCESTER GROUP</name>
-         <description>BROMSGROVE - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.04695288598449,52.3199895646342
@@ -350,7 +337,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - SMETHWICK GROUP</name>
-         <description>WORCESTER GROUP - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -359,7 +345,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - BIRMINGHAM GROUP</name>
-         <description>SMETHWICK GROUP - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -368,7 +353,6 @@
       </Placemark>
       <Placemark>
          <name>BROMSGROVE - BARNT GREEN</name>
-         <description>BROMSGROVE - BARNT GREEN</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.04695288598449,52.3199895646342
@@ -377,7 +361,6 @@
       </Placemark>
       <Placemark>
          <name>HEREFORD - NEWPORT (S.WALES)</name>
-         <description>HEREFORD - NEWPORT (S.WALES)</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.70746562548318,52.0581355218282
@@ -386,7 +369,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - SMETHWICK GROUP</name>
-         <description>BIRMINGHAM GROUP - SMETHWICK GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -395,7 +377,6 @@
       </Placemark>
       <Placemark>
          <name>SMETHWICK GROUP - WORCESTER GROUP</name>
-         <description>SMETHWICK GROUP - WORCESTER GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.97790163064984,52.4988489648427
@@ -404,7 +385,6 @@
       </Placemark>
       <Placemark>
          <name>BARNT GREEN - BIRMINGHAM GROUP</name>
-         <description>BARNT GREEN - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.9926572118682,52.3586451076832
@@ -413,7 +393,6 @@
       </Placemark>
       <Placemark>
          <name>WORCESTER GROUP - BROMSGROVE</name>
-         <description>WORCESTER GROUP - BROMSGROVE</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.21946001815119,52.1921716892404
@@ -422,7 +401,6 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL - PONTYPRIDD</name>
-         <description>CARDIFF CENTRAL - PONTYPRIDD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.17645026760644,51.4728636340219
@@ -431,7 +409,6 @@
       </Placemark>
       <Placemark>
          <name>CARDIFF CENTRAL - BRIDGEND</name>
-         <description>CARDIFF CENTRAL - BRIDGEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.17645026760644,51.4728636340219
@@ -440,7 +417,6 @@
       </Placemark>
       <Placemark>
          <name>BRIDGEND - CARDIFF CENTRAL</name>
-         <description>BRIDGEND - CARDIFF CENTRAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.57497724700083,51.5041409019868
@@ -449,7 +425,6 @@
       </Placemark>
       <Placemark>
          <name>NEWPORT (S.WALES) - HEREFORD</name>
-         <description>NEWPORT (S.WALES) - HEREFORD</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-2.99751869673671,51.5877692937142
@@ -458,7 +433,6 @@
       </Placemark>
       <Placemark>
          <name>PONTYPRIDD - CARDIFF CENTRAL</name>
-         <description>PONTYPRIDD - CARDIFF CENTRAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.34137458537276,51.596926467657
@@ -467,7 +441,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - TAMWORTH</name>
-         <description>BIRMINGHAM GROUP - TAMWORTH</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -476,7 +449,6 @@
       </Placemark>
       <Placemark>
          <name>BIRMINGHAM GROUP - LICHFIELD T V</name>
-         <description>BIRMINGHAM GROUP - LICHFIELD T V</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.89692899917132,52.4754385160511
@@ -485,7 +457,6 @@
       </Placemark>
       <Placemark>
          <name>BARRY - CARDIFF CENTRAL</name>
-         <description>BARRY - CARDIFF CENTRAL</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.28369127248002,51.3944413471767
@@ -494,7 +465,6 @@
       </Placemark>
       <Placemark>
          <name>TAMWORTH - BIRMINGHAM GROUP</name>
-         <description>TAMWORTH - BIRMINGHAM GROUP</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-1.68523565193305,52.6341448712012
@@ -503,7 +473,6 @@
       </Placemark>
       <Placemark>
          <name>SWANSEA GROUP - BRIDGEND</name>
-         <description>SWANSEA GROUP - BRIDGEND</description>
          <styleUrl>#linkStyle</styleUrl>
          <LineString>
             <coordinates>-3.94028860334008,51.6227099416963
