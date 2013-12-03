@@ -4,12 +4,16 @@
 <script type="text/javascript" src="http://data.atoc.org/misc/jquery.js?v=1.4.4"></script>
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 
+<style type="text/css">
+	#map-canvas div.gm-style-cc span
+	{display:none;}
+</style>
 
 <script>    
      google.maps.event.addDomListener(window, 'load', function() {
          var map;
-         /* var pathUrl = 'https://iblocks-rg-publication.s3.amazonaws.com/'; */
-         var pathUrl = 'https://raw.github.com/pbrewer/kml-sample/master/';
+         var pathUrl = 'https://iblocks-rg-publication.s3.amazonaws.com/'; 
+       /*  var pathUrl = 'https://raw.github.com/pbrewer/kml-sample/master/'; */
          var ctaLayer;
                   
          var setDefaultMap = function (kmlFile) {
@@ -65,13 +69,14 @@
            		
 	        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
+
 	        map.mapTypes.set('map_style', styledMap);
 	        map.setMapTypeId('map_style');
 			
         	ctaLayer = new google.maps.KmlLayer();
-    	    
+ 	    
 		    ctaLayer.setMap(map);
- 		    document.getElementById('legend').index=1;
+		    /* document.getElementById('legend').index=1; */
 		    map.controls[google.maps.ControlPosition.RIGHT_BOTTOM].push(document.getElementById('legend')); 
 
 
@@ -81,8 +86,17 @@
 
             $.getJSON( "ajax/map_meta_data.json?jsonp=?" );
 
+            google.maps.event.addListenerOnce(map, 'idle', function(){
+                var mapCanvas = $("#map-canvas");
+            	var copyRight = $("#map-canvas div.gm-style-cc span").text();
+                $('<div style="font-size:10px;font-family:arial;text-align:right;width: '+ mapCanvas.width() +';">' + copyRight + '</div>').insertAfter(mapCanvas); 
+            });
+            				
+              		
      });
 
+
+  	
      function jsonp(data) {
          $.each(data.maps, function(key, value) {
               $("#mapCodes").append('<option value="' + value.mapUrl + '" ' + ((key == 0) ? 'selected="selected"' : '') + '>' + value.mapCode + ' - ' + value.mapName + '</option>');
@@ -111,6 +125,7 @@
 	
 	<div style="width: 1200px; height: 800px; margin-top: 20px;"
 		id="map-canvas" />
+	
 	
 </body>
 </html>
